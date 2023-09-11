@@ -1,0 +1,19 @@
+.card {
+  width: 413px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.submit_btn {
+  background: #d84e0f;
+  color: #fff;
+  width: 120px;
+  height: 40px;
+  border: none;
+}
+.submit_btn:hover {
+  background-color: black;
+  color: #fff;
+}
+.input-group span i {
+  color: #d84e0f;
+}

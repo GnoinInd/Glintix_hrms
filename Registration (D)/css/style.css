@@ -1,0 +1,53 @@
+:root {
+  --primary: #d84e0f;
+  --white: #fff;
+}
+html,
+body {
+  background-image: url("../imagebg.jpeg");
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.container {
+  height: 100%;
+}
+
+.card {
+  width: 413px;
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.card-header > h3 {
+  color: var(--white);
+}
+.input-group > span {
+  background-color: var(--primary);
+  border: 0;
+  color: var(--white);
+}
+input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+.signup_btn {
+  background-color: var(--primary);
+  color: var(--white);
+}
+.signup_btn:hover {
+  background-color: var(--white);
+  color: black;
+}
+.singup > a {
+  color: var(--primary);
+}
+.signin_btn {
+  background-color: var(--primary);
+  color: var(--white);
+}
+.signin_btn:hover {
+  background-color: var(--white);
+  color: black;
+}
+.container1 {
+  background-image: url("https://i.postimg.cc/Hssc3f4D/pexels-rostislav-uzunov-5011647.jpg");
+}

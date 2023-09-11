@@ -1,0 +1,42 @@
+  
+  #sliderImgtext {
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 6rem;
+  }
+  
+  #sliderImgtext .text-block {
+    margin-bottom: 6rem;
+  }
+  
+  #sliderImgtext  .text-block:not(:last-child) {
+    height: 100vh;
+  }
+  
+  #sliderImgtext .title {
+    font-size: 2.4rem;
+    margin-bottom: 1.2rem;
+  }
+  
+  #image-container {
+    position: relative;
+    height: 100%;
+  }
+  
+  #image-display {
+    position: sticky;
+    top: 2.4rem;
+  }
+  
+  #image-container img {
+    position: absolute;
+    top: 0;
+    border-radius: 2.4rem;
+  }
+  
+  #image-container img:not(:first-child) {
+    opacity: 0;
+  }
+  
+ 
