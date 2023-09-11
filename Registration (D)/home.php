@@ -224,6 +224,52 @@ $phone_num = $_SESSION['phone_num'];
         transform: translateY(0);
       }
     }
+
+    /* Style for the notification container */
+    .notification {
+      background-color: #0d838d;
+      /* Make the background transparent */
+      color: white;
+      /* Set text color to white */
+
+      box-shadow: 6px 5px whitesmoke;
+      /* Add a white border */
+      padding: 20px;
+      /* Add some padding for spacing */
+      border-radius: 50px;
+      /* Add rounded corners */
+    }
+
+    /* Style for the notification header */
+    .notification-header {
+      margin-bottom: 10px;
+      /* Add some space between header and content */
+    }
+
+    /* Style for the notification title */
+    .notification-title {
+      font-size: 24px;
+      /* Increase the font size for the title */
+      margin: 0;
+      /* Remove default margin */
+    }
+
+    /* Style for the notification content */
+    /* .notification-content {
+      display: flex;
+      align-items: center;
+    } */
+
+    /* Style for the notification text */
+    /* .notification-text {
+      margin: 0;
+    } */
+
+    /* Style for the notification media (icon) */
+    .notification-media {
+      margin-right: 10px;
+      /* Add some space between icon and text */
+    }
   </style>
 
 </head>
@@ -235,16 +281,11 @@ $phone_num = $_SESSION['phone_num'];
 
   <div class="notification">
     <div class="notification-header">
-      <h3 class="notification-title">New notification</h3>
+      <h2 class="text-center">Notification</h2>
 
     </div>
     <div class="notification-container">
-      <div class="notification-media">
-        <!-- <img
-          src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
-          alt="" class="notification-user-avatar"> -->
-        <i class="fa fa-thumbs-up notification-reaction"></i>
-      </div>
+
       <div class="notification-content">
         <p class="notification-text">
           <strong>
@@ -252,29 +293,27 @@ $phone_num = $_SESSION['phone_num'];
           </strong>, <strong>
             Welcome
           </strong>
-        <h2>Notification</h2>
-
-        <?php
-        include "connection1.php";
-
-        // Assuming you have started the session before this point
-        $user_id = $_SESSION['user_id'];
 
 
-        // Using prepared statement to prevent SQL injection
-        $sql = "SELECT * FROM notification_data WHERE user_id = ?";
-        $stmt = $con->prepare($sql);
-        $stmt->bind_param("s", $user_id);
-        $stmt->execute();
-        $result = $stmt->get_result();
+          <?php
+          include "connection1.php";
+
+          // Assuming you have started the session before this point
+          $user_id = $_SESSION['user_id'];
 
 
-        $count = 1;
-        if ($result->num_rows > 0) {
-          while ($row = $result->fetch_assoc()) {
-            ?>
+          // Using prepared statement to prevent SQL injection
+          $sql = "SELECT * FROM notification_data WHERE user_id = ?";
+          $stmt = $con->prepare($sql);
+          $stmt->bind_param("s", $user_id);
+          $stmt->execute();
+          $result = $stmt->get_result();
 
 
+          $count = 1;
+          if ($result->num_rows > 0) {
+            while ($row = $result->fetch_assoc()) {
+              ?>
 
 
 
@@ -283,30 +322,32 @@ $phone_num = $_SESSION['phone_num'];
 
 
 
-            <tr>
-              <td>
-                <?= $count ?><br>
-              </td>
-              <td>
-                <?= $row["user_id"] ?>
-              </td>
-              <td>
-                <?= $row["description"] ?>
-              </td>
-
-              <td>
-                <?= $row["status"] ?>
-              </td>
 
 
-            </tr>
-            <?php
-            $count = $count + 1;
+              <tr>
+                <td>
+                  <?= $count ?><br>
+                </td>
+                <td>
+                  <?= $row["user_id"] ?>
+                </td>
+                <td>
+                  <?= $row["description"] ?>
+                </td>
 
+                <td>
+                  <?= $row["status"] ?>
+                </td>
+
+
+              </tr>
+              <?php
+              $count = $count + 1;
+
+            }
           }
-        }
-        ?>
-        </table>
+          ?>
+          </table>
 
 
         </p>
