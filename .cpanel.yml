@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/xxb4wbjt6tqn/public_html/glintix/
+    - export DEPLOYPATH=/home/xxb4wbjt6tqn/public_html/
      -/bin/cp -R * $DEPLOYPATH
 
