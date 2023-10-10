@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/xxb4wbjt6tqn/public_html/stars.gnoin.com
+    - export DEPLOYPATH=/home/xxb4wbjt6tqn/public_html/stars.gnoin.com/Glintix_hrms
      -/bin/cp -R * $DEPLOYPATH
 
