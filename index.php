@@ -12,10 +12,16 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+   <!-- International Telephone Input CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+
+<!-- International Telephone Input JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 
 
-  <link rel="stylesheet" href="css/style1.css">
+  <link rel="stylesheet" href="css/style11.css">
+  <link rel="stylesheet" href="css/style.css">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
@@ -138,8 +144,8 @@
                 About <span class="logo-text-nav">Glintix</span>
               </a>
               <ul class="dropdown-menu dropdown_menu_show" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="/ourStory.html">Our Story</a></li>
-                <li><a class="dropdown-item" href="/leadership.html">Leadership</a></li>
+                <li><a class="dropdown-item" href="./menu/ourStory.html">Our Story</a></li>
+                <li><a class="dropdown-item" href="./menu/leadership.html">Leadership</a></li>
                 <li><a class="dropdown-item" href="/newsroom.html">Newsroom</a></li>
                 <li><a class="dropdown-item" href="/partners.html">Partners</a></li>
 
@@ -232,75 +238,16 @@
 
 
         </div>
+       
 
         <form class="d-flex">
-
-
-          <button class="btn btn-outline-success m-1 text-white fw-700" type="submit"><a
+          <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit"><a
               href="http://localhost/Glintix_hrms/Registration%20(D)/signin.php" class="text-white">Login</a></button>
-          <button class="btn btn-outline-success m-1 text-white fw-700" type="submit m-1">Contact</button>
+          <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit m-1">Contact</button>
         </form>
       </div>
     </nav>
-
-
-
-
-
   </div>
-  <!-- <div class="container-fluid p-0 " id="particles-js">
-    <section class="banner-section ">
-      <div class="container-fluid position-relative ">
-        <div class="row position-absolute   HomePageAnim ">
-
-          <div class="col-md-5 ">
-            <h1 class="p-2 text-white fw-bold">Designed to Simplify
-              HR Workday</h1>
-            <h4 class="p-2 text-white">With a smart inbox to guide your day, and intelligent automations to make work
-              happen faster, Glintix
-              HRMS
-              saves more time for your people</h4>
-
-            <div class="d-flex justify-content-center justify-content-md-start align-items-center fw-700 ">
-              <a href="#" class="btn btn-success text-white mt-5 " data-bs-toggle="modal" data-bs-target="#contactModal"
-                rel="noopener noreferrer">BOOK A CALL</a>
-              <a href="#videoModal_home" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                class="btn btn-success embedurl_home-play  mt-5 ms-3" rel="noopener noreferrer"> WATCH DEMO <img
-                  src="play-back.png" alt="Play" class="slideshow__video--icon ml-6 img-fluid" title="play back">
-              </a>
-              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-          aria-labelledby="staticBackdropLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body modal-video">
-                <iframe class="img-fluid" id="" width="100%" height="100%"
-                  src="https://www.youtube.com/embed/V5he1JXiQbg" frameborder="0" allowfullscreen>
-                </iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-            </div>
-          </div>
-          <div class="col-md-7 ">
-            <div class="banner-media text-end pt-4 ">
-
-              <video poster="placeholder.png" autoplay="" class="hmvideo-animation rounded-lg img-fluid" muted=""
-                alt="Video showing photo editor features" loop="">
-                <source class="img-fluid" src="hm-video.mp4" type="video/mp4">
-              </video>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-  </div> -->
   <div class="container-fluid p-0">
     <section class="banner-section" id="particles-js">
       <div class="container">
@@ -312,10 +259,10 @@
               happen faster, Glintix HRMS saves more time for your people</h4>
 
             <div class="d-flex justify-content-center justify-content-md-start align-items-center fw-700">
-              <a href="#" class="btn btn-success text-white mt-5" data-bs-toggle="modal" data-bs-target="#contactModal"
+              <a href="#" class="btn btn-success btn-custom mt-5" data-bs-toggle="modal" data-bs-target="#contactModal"
                 rel="noopener noreferrer">BOOK A CALL</a>
               <a href="#videoModal_home" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                class="btn btn-success embedurl_home-play  mt-5 ms-3" rel="noopener noreferrer"> WATCH DEMO <img
+                class="btn btn-success btn-custom  mt-5 ms-3" rel="noopener noreferrer"> WATCH DEMO <img
                   src="play-back.png" alt="Play" class="slideshow__video--icon ml-6 img-fluid" title="play back"></a>
               <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
                 tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -348,10 +295,6 @@
       </div>
     </section>
   </div>
-
-
-
-
   <div class="container-fluid p-0 mt-5">
     <div class="row">
       <div class="col text-center">
@@ -419,8 +362,8 @@
       </div>
 
       <div class="col-md-12 text-center mb-5">
-        <a href="#" class="btn btn-success text-white mt-5 " data-bs-toggle="modal" data-bs-target="#contactModal"
-          rel="noopener noreferrer">BOOK A FREE DEMO NOW</a>
+        <a href="#" class="btn btn-success btn-custom mt-5 " data-bs-toggle="modal" data-bs-target="#contactModal"
+          rel="">BOOK A FREE DEMO NOW</a>
 
       </div>
     </div>
@@ -471,7 +414,7 @@
                   Efficiency across the organisation and not just HR is likely to see a boost of 9x, HR- 5x,
                   employee-2x,
                   employer-2x<br>
-                  <button type="button" class="btn btn-primary mt-5">Know more</button>
+                  <button type="button" class="btn btn-success btn-custom mt-5">Know more</button>
                 </div>
               </div>
               <div class="col-md-2">
@@ -491,7 +434,7 @@
 
                   To say the least, you will become 3x more agile and would be able to take strategic decisions right in
                   time.<br>
-                  <button type="button" class="btn btn-primary mt-5">Know more</button>
+                  <button type="button" class="btn btn-success btn-custom mt-5">Know more</button>
                 </div>
               </div>
               <div class="col-md-2">
@@ -516,7 +459,7 @@
 
                   You scale, we scale! Our core engine offers immense flexibility to support your future expansion plans
                   with easy configurations.<br>
-                  <button type="button" class="btn btn-primary mt-5">Know more</button>
+                  <button type="button" class="btn btn-success btn-custom mt-5">Know more</button>
                 </div>
               </div>
               <div class="col-md-2">
@@ -542,7 +485,7 @@
                   The increase in appreciation and recognition levels makes your employees 7x more motivated for every
                   task
                   they do!<br>
-                  <button type="button" class="btn btn-primary mt-5">Know more</button>
+                  <button type="button" class="btn btn-success btn-custom mt-5">Know more</button>
                 </div>
               </div>
               <div class="col-md-2">
@@ -559,13 +502,13 @@
 
 
   <div class="container mt-5">
-    <div class="row  align-items-center bg">
+    <div class="row d-flex justify-content-center  align-items-center ">
       <div class="col-md-8">
-        <p>Learn how we <span class="custom-color">make your HR more efficient </span>compared to any other HR
+        <p class="p-0 m-0">Learn how we <span class="custom-color">make your HR more efficient </span>compared to any other HR
           automation tool out there!</p>
       </div>
       <div class="col-md-4">
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <button type="button" class="btn btn-success btn-custom" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
           Watch Now
         </button>
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
@@ -734,8 +677,6 @@
     </div>
   </section>
 
-
-
   <section class="pricingSection mt-5">
     <div class="container ">
       <div class="row">
@@ -747,19 +688,19 @@
         </div>
       </div>
       <div class="row ">
-        <div class="col ">
+        <div class="col text-center ">
           <img src="logo-times-jobs.png" alt="">
         </div>
-        <div class="col">
+        <div class="col text-center">
           <img src="logo-times-jobs.png" alt="">
         </div>
-        <div class="col">
+        <div class="col text-center">
           <img src="logo-times-jobs.png" alt="">
         </div>
-        <div class="col">
+        <div class="col text-center">
           <img src="logo-times-jobs.png" alt="">
         </div>
-        <div class="col">
+        <div class="col text-center">
           <img src="logo-times-jobs.png" alt="">
         </div>
         <div class="col text-center">
@@ -913,7 +854,7 @@
           <button class="nav-link m-2 border" id="v-pills-settings-tab" data-bs-toggle="pill"
             data-bs-target="#v-pills-d" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
             <img src="icons8-attendance-48.png" alt="" class="img-fluid"> <span
-              class="pill-btn-text ms-3">attendance</span>
+              class="pill-btn-text ms-3">Attendance</span>
           </button>
           <button class="nav-link m-2 border" id="v-pills-settings-tab" data-bs-toggle="pill"
             data-bs-target="#v-pills-e" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">
@@ -942,7 +883,7 @@
     </div>
     <div class="row justify-content-center mt-3">
       <div class="col-lg-3 col-md-4 col-12">
-        <a href="#" class="btn btn-block btn-success" data-bs-toggle="modal" data-bs-target="#contactModal"
+        <a href="#" class="btn btn-success btn-custom" data-bs-toggle="modal" data-bs-target="#contactModal"
           rel="noopener noreferrer">Get Free Demo</a>
       </div>
       <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
@@ -953,33 +894,26 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-
-              <!-- form -->
-              <form id="demoform" action="" method="post">
-                <div id="error-message" class=" text-danger"></div>
-                <div id="success-message" class="text-success"></div>
-
+              <form action="action.php">
                 <div class="row mb-4">
                   <div class="col-md-6 col-sm-12">
-                    <input type="text" class="form-control" id="fname" placeholder="First Name*" name="fname" value="">
-
-
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First Name*"
+                      required>
                   </div>
                   <div class="col-md-6 col-sm-12">
-                    <input type="text" class="form-control" id="lname" placeholder="Last Name*" name="lname" value="">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Last Name*"
+                      required>
                   </div>
                 </div>
                 <div class="row mb-4">
                   <div class="col-md-6 col-sm-12">
-                    <input type="email" class="form-control" id="email" placeholder="Work Email*" name="email" value="">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Work Email*"
+                      required>
                   </div>
                   <div class="col-md-6 col-sm-12">
                     <div class="row">
                       <div class="col-md-12 col-sm-12 ">
-                        <input type="text" maxlength="10" minlength='10' id="number" name="number"
-                          class="form-control w-100"
-                          onkeyup="if(/\D/g.test(this.value))this.value=this.value.replace(/\D/g,'')"
-                          placeholder="(+91)Enter Mobile Number">
+                        <input type="tel" id="phone" class="form-control w-100" required>
                       </div>
                       <!-- <div class="col-md-8 col-sm-12 ps-0">
                         <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="+91">
@@ -989,8 +923,8 @@
                 </div>
                 <div class="row mb-4">
                   <div class="col-md-6 col-sm-12">
-                    <select class="form-select" aria-label="Default select example" name="no_of_emp" id="employees">
-                      <option value="" selected>No. of Employees*</option>
+                    <select class="form-select" aria-label="Default select example" required>
+                      <option selected>No. of Employees*</option>
                       <option value="1">1-50</option>
                       <option value="2">51-100</option>
                       <option value="3">101-200</option>
@@ -1000,8 +934,7 @@
                     </select>
                   </div>
                   <div class="col-md-6 col-sm-12">
-                    <select class="form-select" aria-label="Default select example" name="state" id="state">
-                      <option value="" selected>select of state*</option>
+                    <select class="form-select" aria-label="Default select example" required>
                       <option value="Andhra Pradesh">Andhra Pradesh</option>
                       <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
                       <option value="Arunachal Pradesh">Arunachal Pradesh</option>
@@ -1043,45 +976,38 @@
                 </div>
                 <div class="row mb-4">
                   <div class="col-md-6 col-sm-12">
-                    <select class="form-select" aria-label="Default select example" name="designation" value=""
-                      id="seniority">
-                      <option value="" selected>Seniority*</option>
-                      <option value="Owner">Owner</option>
+                    <select class="form-select" aria-label="Default select example" required>
+                      <option selected>Seniority*</option>
+                      <option value="1">Owner</option>
                       <option value="2">Partner</option>
                       <option value="3">CXO</option>
                       <option value="3">VP</option>
-                      <option value="Director">Director</option>
-                      <option value="Head">Head</option>
-                      <option value="Manager">Manager</option>
+                      <option value="3">Director</option>
+                      <option value="3">Head</option>
+                      <option value="3">Manager</option>
                       <option value="3">Senior</option>
                       <option value="3">Entry</option>
                     </select>
                   </div>
                   <div class="col-md-6 col-sm-12">
-                    <select class="form-select" aria-label="Default select example" name="function" value=""
-                      id="function">
-                      <option value="" selected>Function*</option>
-                      <option value="Owner/Founder">Owner/Founder</option>
-                      <option value="HR">HR</option>
-                      <option value="HR Business Partner">HR Business Partner</option>
-                      <option value="HR Talent Management">HR Talent Management</option>
-                      <option value="HR Talent Acquisition">HR Talent Acquisition</option>
-                      <option value="HR Compensation & Benefits">HR Compensation & Benefits</option>
-                      <option value="Administation">Administation</option>
-                      <option value="Finanace">Finanace</option>
-                      <option value="IT">IT</option>
+                    <select class="form-select" aria-label="Default select example" required>
+                      <option selected>Function*</option>
+                      <option value="1">Owner/Founder</option>
+                      <option value="2">HR</option>
+                      <option value="3">HR Business Partner</option>
+                      <option value="3">HR Talent Management</option>
+                      <option value="3">HR Talent Acquisition</option>
+                      <option value="3">HR Compensation & Benefits</option>
+                      <option value="2">Administation</option>
+                      <option value="2">Finanace</option>
+                      <option value="2">IT</option>
                     </select>
                   </div>
                 </div>
                 <div class="modal-footer justify-content-center">
-                  <input type="submit" class="btn btn-primary" name="submit" value="book" id="submitbtn">
-
+                  <button type=" submit btn btn-primary " class="btn btn-success btn-custom ">Book a Demo</button>
                 </div>
               </form>
-
-
-              <!-- form close -->
-
             </div>
 
           </div>
@@ -1291,7 +1217,7 @@
                   <div class="card ">
                     <div class="row g-0">
                       <div class="col-md-5">
-                        <img src="images/popmodalimg.jpg" class="img-fluid rounded-start" alt="...">
+                        <img src="images/popmodalimg.jpg" class="img-fluid rounded-start h-100 " alt="...">
                       </div>
 
                       <div class="col-md-7">
@@ -1317,7 +1243,7 @@
                                   <input type="text" maxlength="10" id="number1" name="number"
                                     class="form-control w-100"
                                     onkeyup="if(/\D/g.test(this.value))this.value=this.value.replace(/\D/g,'')"
-                                    placeholder="(+91)Enter Mobile Number">
+                                    placeholder="Enter Mobile">
                                 </div>
 
                               </div>
@@ -1418,7 +1344,7 @@
                     </div>
                   </div>
                   <div class="modal-footer justify-content-center bg-aliceblue">
-                    <input type="submit" class="btn btn-primary" name="submit" value="book" id="submitpop">
+                    <input type="submit" class="btn btn-success btn-custom1  m-1 text-white fw-700" name="submit" value="Book" id="submitpop">
                   </div>
 
 
@@ -1470,6 +1396,13 @@
         "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
     });
   </script>
+   <script>
+    const phoneInputField1 = document.querySelector("#number1");
+    const phoneInput1 = window.intlTelInput(phoneInputField1, {
+      utilsScript:
+        "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+    });
+  </script>
 
   <script src="js/particles.js"></script>
   <script src="js/app.js"></script>
@@ -1492,18 +1425,11 @@
     };
     requestAnimationFrame(update);
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-  <script src="script.js"></script>
-  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+ 
+  
+ 
 
-  <!-- <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script> -->
-  <!-- 
-//JQUARY WITH AJAX CODE -OPEN -->
-  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
 
   <script>
     $(document).ready(function () {
@@ -1548,75 +1474,11 @@
       });
     });
   </script>
-  <!-- < !-- <script src="https://code.jquery.com/jquery-3.6.0.min.js">
-    </script>
-    <script>$(document).ready(function () {
-        $('#popupform').submit(function (e) {
-          e.preventDefault(); // Prevent form submission
 
-          // Clear any previous error messages
-          $('.invalid-feedback').text('');
-          $('#error-message_1').text('');
+ 
 
-          // Reset success message and remove success alert
-          $('#success-message_1').text('').removeClass('alert alert-success').hide();
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-          // Validate the form
-          if (!validateForm()) {
-            return; // Stop execution if the form is not valid
-          }
-
-          // Collect form data
-          var formData = $(this).serialize();
-
-          // Send AJAX request
-          $.ajax({
-
-            type: 'POST',
-            url: 'php/popprocess.php',
-            data: formData,
-            dataType: 'json',
-            success: function (response) {
-              if (response.status === 'success') {
-                $('#success-message_1').text(response.message);
-
-                // Show success alert
-                $('#success-message_1').addClass('alert alert-success').show();
-
-                // Hide success alert after 5 seconds
-                setTimeout(function () {
-                  $('#success-message_1').hide();
-                }
-
-                  , 5000);
-
-                $('#popupform')[0].reset(); // Reset the form
-              }
-
-              else if (response.status === 'error') {
-                $('#error-message_1').text(response.message.join(' '));
-
-                $.each(response.message, function (index, value) {
-                  $('[name="' + value.toLowerCase().replace(/\s+/g, '') + '"]').siblings('.invalid-feedback').text(value);
-                });
-              }
-            }
-          });
-        });
-      });
-
-      function validateForm() {
-
-
-        // Add your form validation logic here
-
-
-        // Return true if the form is valid, otherwise return false
-        return true;
-      }
-
-    </script>JQUARY WITH AJAX CODE - CLOSE --> -->
-  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
 
   <script>
     $(document).ready(function () {
@@ -1662,33 +1524,13 @@
     });
 
 
-    // $(document).ready(function () {
-    //   $('#submitpop').click(function (e) {
-    //     e.preventDefault();
-    //     var formData = $('#popupform').serialize();
-    //     console.log(formData)// Prevent form submission
-
-
-    //     // Collect form data
-
-
-    //     // Send AJAX request
-    //     $.ajax({
-    //       type: 'POST',
-    //       url: 'http://localhost/Glintix_hrms/insert_data.php',
-    //       data: $('#popupform').serialize(),
-    //       cache: false,
-
-    //       success: function (data) {
-    //         console.log(data)
-
-
-
-    //       }
-    //     })
-    //   });
-    // });
+   
   </script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+   <script src="script.js"></script>
+
 </body>
 
 </html>
