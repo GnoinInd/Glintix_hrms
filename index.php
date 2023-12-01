@@ -127,9 +127,9 @@
 
 
   <div class="container-fluid p-0 m-0 sticky-top">
-    <nav class="navbar  navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-scrolled">
       <div class="container-fluid">
-        <a class="navbar-brand " href="/index.html"><img src="glintix_logo.png" alt="" class="img-fluid"></a>
+        <a class="navbar-brand " href="./index.php"><img src="./images/glintix_logo.png" alt="" class="img-fluid"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
           aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -263,7 +263,7 @@
                 rel="noopener noreferrer">BOOK A CALL</a>
               <a href="#videoModal_home" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
                 class="btn btn-success btn-custom  mt-5 ms-3" rel="noopener noreferrer"> WATCH DEMO <img
-                  src="play-back.png" alt="Play" class="slideshow__video--icon ml-6 img-fluid" title="play back"></a>
+                  src="./images/play-back.png" alt="Play" class="slideshow__video--icon ml-6 img-fluid" title="play back"></a>
               <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
                 tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
@@ -286,7 +286,7 @@
               <video style="width: 100%; height: auto;" poster="placeholder.png" autoplay=""
                 class="hmvideo-animation rounded-lg img-fluid" muted="" alt="Video showing photo editor features"
                 loop="">
-                <source class="img-fluid" src="hm-video.mp4" type="video/mp4">
+                <source class="img-fluid" src="./images/hm-video.mp4" type="video/mp4">
               </video>
             </div>
           </div>
@@ -304,28 +304,28 @@
     </div>
 
     <div class="row justify-content-center banner_img_grp ">
-      <div class="col-md-3 col-sm-6 text-center   border-bottom "> <img src="kyocera.png" alt=""> </div>
-      <div class="col-md-3 col-sm-6 text-center  border border-top-0"><img src="logo-bikaner.jpg" alt=""></div>
-      <div class="col-md-3 col-sm-6 text-center  border border-top-0"><img src="logo-haier.jpg" alt=""></div>
-      <div class="col-md-3 col-sm-6 text-center  border-bottom"><img src="logo-harvest.jpg" alt=""></div>
+      <div class="col-md-3 col-sm-6 text-center   border-bottom "> <img src="./images/kyocera.png" alt=""> </div>
+      <div class="col-md-3 col-sm-6 text-center  border border-top-0"><img src="./images/logo-bikaner.jpg" alt=""></div>
+      <div class="col-md-3 col-sm-6 text-center  border border-top-0"><img src="./images/logo-haier.jpg" alt=""></div>
+      <div class="col-md-3 col-sm-6 text-center  border-bottom"><img src="./images/logo-harvest.jpg" alt=""></div>
     </div>
     <div class="row justify-content-center banner_img_grp ">
-      <div class="col-md-3 col-sm-6 text-center  border border-start-0"> <img src="kyocera.png" alt=""> </div>
-      <div class="col-md-3 col-sm-6 text-center  border"><img src="logo-bikaner.jpg" alt=""></div>
-      <div class="col-md-3 col-sm-6 text-center  border"><img src="logo-haier.jpg" alt=""></div>
-      <div class="col-md-3 col-sm-6 text-center  border border-end-0"><img src="logo-harvest.jpg" alt=""></div>
+      <div class="col-md-3 col-sm-6 text-center  border border-start-0"> <img src="./images/kyocera.png" alt=""> </div>
+      <div class="col-md-3 col-sm-6 text-center  border"><img src="./images/logo-bikaner.jpg" alt=""></div>
+      <div class="col-md-3 col-sm-6 text-center  border"><img src="./images/logo-haier.jpg" alt=""></div>
+      <div class="col-md-3 col-sm-6 text-center  border border-end-0"><img src="./images/logo-harvest.jpg" alt=""></div>
     </div>
     <div class="row justify-content-center banner_img_grp ">
-      <div class="col-md-3 col-sm-6 text-center  border border-start-0"> <img src="kyocera.png" alt=""> </div>
-      <div class="col-md-3 col-sm-6 text-center  border"><img src="logo-bikaner.jpg" alt=""></div>
-      <div class="col-md-3 col-sm-6 text-center  border"><img src="logo-haier.jpg" alt=""></div>
-      <div class="col-md-3 col-sm-6 text-center  border border-end-0"><img src="logo-harvest.jpg" alt=""></div>
+      <div class="col-md-3 col-sm-6 text-center  border border-start-0"> <img src="./images/kyocera.png" alt=""> </div>
+      <div class="col-md-3 col-sm-6 text-center  border"><img src="./images/logo-bikaner.jpg" alt=""></div>
+      <div class="col-md-3 col-sm-6 text-center  border"><img src="./images/logo-haier.jpg" alt=""></div>
+      <div class="col-md-3 col-sm-6 text-center  border border-end-0"><img src="./images/logo-harvest.jpg" alt=""></div>
     </div>
     <div class="row justify-content-center banner_img_grp mb-5">
-      <div class="col-md-3 col-sm-6 text-center  border-top"> <img src="kyocera.png" alt=""> </div>
-      <div class="col-md-3 col-sm-6 text-center  border border-bottom-0"><img src="logo-bikaner.jpg" alt=""></div>
+      <div class="col-md-3 col-sm-6 text-center  border-top"> <img src="./images/kyocera.png" alt=""> </div>
+      <div class="col-md-3 col-sm-6 text-center  border border-bottom-0"><img src="./images/logo-bikaner.jpg" alt=""></div>
       <div class="col-md-3 col-sm-6 text-center  border border-bottom-0"><img src="logo-haier.jpg" alt=""></div>
-      <div class="col-md-3 col-sm-6 text-center  border-top"><img src="logo-harvest.jpg" alt=""></div>
+      <div class="col-md-3 col-sm-6 text-center  border-top"><img src="./images/logo-harvest.jpg" alt=""></div>
     </div>
 
     <div class="row mb-5 clients_custom ">
@@ -339,13 +339,6 @@
         <h4>Industries served</h4>
       </div>
     </div>
-
-
-
-
-
-
-
   </div>
 
   <div class="container-fluid " style="background-color: #FFF1ED;">
@@ -354,11 +347,11 @@
         <h2>An Award-Winning HRMS Suite</h2>
       </div>
       <div class="col-md-12 text-center mb-5">
-        <img src="g2-batch.svg" class="img-fluid" alt="">
+        <img src="./images/g2-batch.svg" class="img-fluid" alt="">
       </div>
 
       <div class="col-md-12 text-center mb-3">
-        <img src="g2-feedback.svg" class="img-fluid" alt="">
+        <img src="./images/g2-feedback.svg" class="img-fluid" alt="">
       </div>
 
       <div class="col-md-12 text-center mb-5">
@@ -418,7 +411,7 @@
                 </div>
               </div>
               <div class="col-md-2">
-                <img src="efficiency.png" alt="">
+                <img src="./images/efficiency.png" alt="">
               </div>
             </div>
           </div>
@@ -438,7 +431,7 @@
                 </div>
               </div>
               <div class="col-md-2">
-                <img src="analytics.png" alt="">
+                <img src="./images/analytics.png" alt="">
               </div>
             </div>
           </div>
@@ -463,7 +456,7 @@
                 </div>
               </div>
               <div class="col-md-2">
-                <img src="strong-core.png" alt="">
+                <img src="./images/strong-core.png" alt="">
               </div>
             </div>
 
@@ -489,7 +482,7 @@
                 </div>
               </div>
               <div class="col-md-2">
-                <img src="experience.png" alt="">
+                <img src="./images/experience.png" alt="">
               </div>
             </div>
 
@@ -503,11 +496,11 @@
 
   <div class="container mt-5">
     <div class="row d-flex justify-content-center  align-items-center ">
-      <div class="col-md-8">
+      <div class="col-md-8 text-center">
         <p class="p-0 m-0">Learn how we <span class="custom-color">make your HR more efficient </span>compared to any other HR
           automation tool out there!</p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 text-center">
         <button type="button" class="btn btn-success btn-custom" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
           Watch Now
         </button>
@@ -546,7 +539,7 @@
                 <div class="container">
                   <div class="row">
                     <div class="col text-center">
-                      <img src="ANNAPURNA-Finance.png" alt="">
+                      <img src="./images/ANNAPURNA-Finance.png" alt="">
                       <h5 class="text-dark mt-5">“We wanted a solution that could collaborate data, functions and HR
                         processes at 700+ locations flawlessly. The experience with Glintix had been amazing and one
                         that
@@ -560,7 +553,7 @@
                 <div class="container">
                   <div class="row">
                     <div class="col text-center">
-                      <img src="ANNAPURNA-Finance.png" alt="">
+                      <img src="./images/ANNAPURNA-Finance.png" alt="">
                       <h5 class="text-dark mt-5">“We wanted a solution that could collaborate data, functions and HR
                         processes at 700+ locations flawlessly. The experience with Glintix had been amazing and one
                         that
@@ -574,7 +567,7 @@
                 <div class="container">
                   <div class="row">
                     <div class="col text-center">
-                      <img src="ANNAPURNA-Finance.png" alt="">
+                      <img src="./images/ANNAPURNA-Finance.png" alt="">
                       <h5 class="text-dark mt-5">“We wanted a solution that could collaborate data, functions and HR
                         processes at 700+ locations flawlessly. The experience with Glintix had been amazing and one
                         that
@@ -588,7 +581,7 @@
                 <div class="container">
                   <div class="row">
                     <div class="col text-center">
-                      <img src="ANNAPURNA-Finance.png" alt="">
+                      <img src="./images/ANNAPURNA-Finance.png" alt="">
                       <h5 class="text-dark mt-5">“We wanted a solution that could collaborate data, functions and HR
                         processes at 700+ locations flawlessly. The experience with Glintix had been amazing and one
                         that
@@ -602,7 +595,7 @@
                 <div class="container">
                   <div class="row">
                     <div class="col text-center">
-                      <img src="ANNAPURNA-Finance.png" alt="">
+                      <img src="./images/ANNAPURNA-Finance.png" alt="">
                       <h5 class="text-dark mt-5">“We wanted a solution that could collaborate data, functions and HR
                         processes at 700+ locations flawlessly. The experience with Glintix had been amazing and one
                         that
@@ -616,7 +609,7 @@
                 <div class="container">
                   <div class="row">
                     <div class="col text-center">
-                      <img src="ANNAPURNA-Finance.png" alt="">
+                      <img src="./images/ANNAPURNA-Finance.png" alt="">
                       <h5 class="text-dark mt-5">“We wanted a solution that could collaborate data, functions and HR
                         processes at 700+ locations flawlessly. The experience with Glintix had been amazing and one
                         that
@@ -630,7 +623,7 @@
                 <div class="container">
                   <div class="row">
                     <div class="col text-center">
-                      <img src="ANNAPURNA-Finance.png" alt="">
+                      <img src="./images/ANNAPURNA-Finance.png" alt="">
                       <h5 class="text-dark mt-5">“We wanted a solution that could collaborate data, functions and HR
                         processes at 700+ locations flawlessly. The experience with Glintix had been amazing and one
                         that
@@ -644,7 +637,7 @@
                 <div class="container">
                   <div class="row">
                     <div class="col text-center">
-                      <img src="ANNAPURNA-Finance.png" alt="">
+                      <img src="./images/ANNAPURNA-Finance.png" alt="">
                       <h5 class="text-dark mt-5">“We wanted a solution that could collaborate data, functions and HR
                         processes at 700+ locations flawlessly. The experience with Glintix had been amazing and one
                         that
@@ -659,7 +652,7 @@
                 <div class="container">
                   <div class="row">
                     <div class="col text-center">
-                      <img src="ANNAPURNA-Finance.png" alt="">
+                      <img src="./images/ANNAPURNA-Finance.png" alt="">
                       <h5 class="text-dark mt-5">“We wanted a solution that could collaborate data, functions and HR
                         processes at 700+ locations flawlessly. The experience with Glintix had been amazing and one
                         that
@@ -689,31 +682,31 @@
       </div>
       <div class="row ">
         <div class="col text-center ">
-          <img src="logo-times-jobs.png" alt="">
+          <img src="./images/logo-times-jobs.png" alt="">
         </div>
         <div class="col text-center">
-          <img src="logo-times-jobs.png" alt="">
+          <img src="./images/logo-times-jobs.png" alt="">
         </div>
         <div class="col text-center">
-          <img src="logo-times-jobs.png" alt="">
+          <img src="./images/logo-times-jobs.png" alt="">
         </div>
         <div class="col text-center">
-          <img src="logo-times-jobs.png" alt="">
+          <img src="./images/logo-times-jobs.png" alt="">
         </div>
         <div class="col text-center">
-          <img src="logo-times-jobs.png" alt="">
+          <img src="./images/logo-times-jobs.png" alt="">
         </div>
         <div class="col text-center">
-          <img src="logo-times-jobs.png" alt="">
+          <img src="./images/logo-times-jobs.png" alt="">
         </div>
         <div class="col text-center">
-          <img src="logo-times-jobs.png" alt="">
+          <img src="./images/logo-times-jobs.png" alt="">
         </div>
         <div class="col text-center">
-          <img src="logo-times-jobs.png" alt="">
+          <img src="./images/logo-times-jobs.png" alt="">
         </div>
         <div class="col text-center">
-          <img src="logo-times-jobs.png" alt="">
+          <img src="./images/logo-times-jobs.png" alt="">
         </div>
       </div>
     </div>
@@ -721,7 +714,7 @@
   <div class="container">
     <div class="row mt-5">
       <div class="col-md-5 col-sm-12">
-        <img src="mobile.png" alt="" class="img-fluid">
+        <img src="./images/mobile.png" alt="" class="img-fluid">
       </div>
       <div class="col-md-7 col-sm-12">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -803,13 +796,13 @@
         </div>
         <div class="row mt-5">
           <div class="col-md-4">
-            <img src="appstore.svg" alt="">
+            <img src="./images/appstore.svg" alt="">
           </div>
           <div class="col-md-4">
-            <img src="playstore.svg" alt="">
+            <img src="./images/playstore.svg" alt="">
           </div>
           <div class="col-md-4">
-            <img src="playstore.svg" alt="">
+            <img src="./images/playstore.svg" alt="">
           </div>
         </div>
       </div>
@@ -817,18 +810,18 @@
   </div>
   <div class="container mt-5">
     <div class="row">
-      <div class="col-md-8 mt-5">
+      <div class="col-md-8 mt-5 d-flex justify-content-center align-items-center">
         <div class="tab-content" id="v-pills-tabContent">
           <div class="tab-pane fade show active" id="v-pills-a" role="tabpanel" aria-labelledby="v-pills-home-tab"><img
-              src="images/corehr_index.png" alt="" class="img-fluid"></div>
+              src="./images/corehr_index.png" alt="" class="img-fluid"></div>
           <div class="tab-pane fade" id="v-pills-b" role="tabpanel" aria-labelledby="v-pills-profile-tab"><img
-              src="images/workforce_index.png" alt="" class="img-fluid"></div>
+              src="./images/workforce_index.png" alt="" class="img-fluid"></div>
           <div class="tab-pane fade" id="v-pills-c" role="tabpanel" aria-labelledby="v-pills-messages-tab"><img
-              src="images/payroll_index.png" alt="" class="img-fluid"></div>
+              src="./images/payroll_index.png" alt="" class="img-fluid"></div>
           <div class="tab-pane fade" id="v-pills-d" role="tabpanel" aria-labelledby="v-pills-settings-tab"><img
-              src="images/attendance_index.png" alt="" class="img-fluid"></div>
+              src="./images/attendance_index.png" alt="" class="img-fluid"></div>
           <div class="tab-pane fade" id="v-pills-e" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-            <img src="images/performance_index.png" alt="" class="img-fluid">
+            <img src="./images/performance_index.png" alt="" class="img-fluid">
           </div>
           <div class="tab-pane fade" id="v-pills-f" role="tabpanel" aria-labelledby="v-pills-settings-tab">
             <img src="images/engagement_index.png" alt="" class="img-fluid">
@@ -882,7 +875,7 @@
       </div>
     </div>
     <div class="row justify-content-center mt-3">
-      <div class="col-lg-3 col-md-4 col-12">
+      <div class="col-lg-3 col-md-4 col-12 text-center">
         <a href="#" class="btn btn-success btn-custom" data-bs-toggle="modal" data-bs-target="#contactModal"
           rel="noopener noreferrer">Get Free Demo</a>
       </div>
@@ -1022,14 +1015,14 @@
       <div class="row  mt-5">
         <div class="col">
           <div class="logoFoot">
-            <img src="glintix_logo.png" alt="" class="img-fluid">
+            <img src="./images/glintix_logo.png" alt="" class="img-fluid">
           </div>
           <div class="foottext mt-3">
             An intelligent enterprise-ready HCM suite that automates HR processes, simplifies human interactions and
             deliver actionable insights to build better workplaces.
           </div>
           <div class="footcerti mt-3">
-            <img src="dmca_protected_sml_120af.png" alt="" class="img-fluid">
+            <img src="./images/dmca_protected_sml_120af.png" alt="" class="img-fluid">
           </div>
         </div>
         <div class="col">
@@ -1134,40 +1127,40 @@
       </div>
       <div class="row mt-5">
         <div class="col-md-4 ">
-          <a href="#" target="_blank" rel="noopener"><img src="playstore.svg" class="appstore__link"
+          <a href="#" target="_blank" rel="noopener"><img src="./images/playstore.svg" class="appstore__link"
               alt=" Glintix Inbox App on Google Play Store"></a>
-          <a href="#" target="_blank" rel="noopener"><img src="appstore.svg" class="appstore__link"
+          <a href="#" target="_blank" rel="noopener"><img src="./images/appstore.svg" class="appstore__link"
               alt="Glintix Inbox App on Apple App Store"></a>
-          <p class="mb-0 mt-2"><a href="#" target="_blank" class="social__link" rel="noopener"><img src="facebook.svg"
+          <p class="mb-0 mt-2"><a href="#" target="_blank" class="social__link" rel="noopener"><img src="./images/facebook.svg"
                 alt="Glintix Facebook" class="social__icon"></a>
-            <a href="#" target="_blank" class="social__link" rel="noopener"><img src="linkedin.svg"
+            <a href="#" target="_blank" class="social__link" rel="noopener"><img src="./images/linkedin.svg"
                 alt="Glintix Linkedin" class="social__icon"></a>
-            <a href="#" target="_blank" class="social__link" rel="noopener"><img src="twitter.svg" alt="Glintix Twitter"
+            <a href="#" target="_blank" class="social__link" rel="noopener"><img src="./images/twitter.svg" alt="Glintix Twitter"
                 class="social__icon"></a>
           </p>
         </div>
         <div class="col-md-8">
           <div class="row">
-            <div class="col">
-              <div class="footer_img"><img src="best-value-software-2022.png" alt=""
+            <div class="col text-center">
+              <div class="footer_img"><img src="./images/best-value-software-2022.png" alt=""
                   class="img-fluid footer__awards--img"></div>
             </div>
-            <div class="col">
-              <div class="footer_img"></div><img src="G2-badge.png" alt="" class="img-fluid footer__awards--img">
+            <div class="col text-center">
+              <div class="footer_img"></div><img src="./images/G2-badge.png" alt="" class="img-fluid footer__awards--img">
             </div>
-            <div class="col">
-              <div class="footer_img"></div><img src="footer-supreme-software.png" alt=""
+            <div class="col text-center">
+              <div class="footer_img"></div><img src="./images/footer-supreme-software.png" alt=""
                 class="img-fluid footer__awards--img">
             </div>
-            <div class="col">
-              <div class="footer_img"></div><img src="footer-customer-choice.png" alt=""
+            <div class="col text-center">
+              <div class="footer_img"></div><img src="./images/footer-customer-choice.png" alt=""
                 class="img-fluid footer__awards--img">
             </div>
-            <div class="col">
-              <div class="footer_img"></div><img src="footer-leader.png" alt="" class="img-fluid footer__awards--img">
+            <div class="col text-center">
+              <div class="footer_img"></div><img src="./images/footer-leader.png" alt="" class="img-fluid footer__awards--img">
             </div>
-            <div class="col">
-              <div class="footer_img"></div><img src="footer-techjockey.png" alt=""
+            <div class="col text-center">
+              <div class="footer_img"></div><img src="./images/footer-techjockey.png" alt=""
                 class="img-fluid footer__awards--img">
             </div>
           </div>
@@ -1180,8 +1173,8 @@
     <div class="container">
       <div class="row justify-content-between">
         <div class="col-md-4">
-          <p>Copyright © 2023. Uneecops Workplace Solutions Pvt. Ltd. All Rights Reserved.</p>
-          <p><span class="text-success">Uneecops</span> Group Company</p>
+          <p>Copyright © 2023. Gnoin  Pvt. Ltd. All Rights Reserved.</p>
+          <p><span class="text-success">Gnoin Pvt. Ltd.</span> </p>
         </div>
         <div class="col-md-4">
           <div class="row">
@@ -1217,7 +1210,7 @@
                   <div class="card ">
                     <div class="row g-0">
                       <div class="col-md-5">
-                        <img src="images/popmodalimg.jpg" class="img-fluid rounded-start h-100 " alt="...">
+                        <img src="./images/popmodalimg.jpg" class="img-fluid rounded-start h-100 " alt="...">
                       </div>
 
                       <div class="col-md-7">

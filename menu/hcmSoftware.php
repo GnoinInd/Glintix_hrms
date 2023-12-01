@@ -9,8 +9,8 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/style1.css">
+        <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style11.css">
 
     <title>Hcm SOftware</title>
 </head>
@@ -20,7 +20,7 @@
     <div class="container-fluid p-0 m-0">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <div class="container-fluid">
-            <a class="navbar-brand " href="/index.html"><img src="glintix_logo.png" alt="" class="img-fluid"></a>
+            <a class="navbar-brand " href="../index.php"><img src="../images/glintix_logo.png" alt="" class="img-fluid"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
               aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -35,82 +35,101 @@
                     About <span class="logo-text-nav">Glintix</span>
                   </a>
                   <ul class="dropdown-menu dropdown_menu_show" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="/ourStory.html">Our Story</a></li>
-                    <li><a class="dropdown-item" href="/leadership.html">Leadership</a></li>
-                    <li><a class="dropdown-item" href="/newsroom.html">Newsroom</a></li>
-                    <li><a class="dropdown-item" href="/partners.html">Partners</a></li>
-    
-                  </ul>
+                                <li><a class="dropdown-item" href="../menu/ourStory.html">Our Story</a></li>
+                            <li><a class="dropdown-item" href="../menu/leadership.html">Leadership</a></li>
+                            <li><a class="dropdown-item" href="../menu/newsroom.html">Newsroom</a></li>
+                            <li><a class="dropdown-item" href="../menu/partners.html">Partners</a></li>
+
+
+                            </ul>
                 </li>
                 <li class="nav-item dropdown ">
-                  <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown"> Product </a>
-                  <ul class="dropdown-menu dropdown_menu_show ">
-                    <li><a class="dropdown-item" href="#"> HR Software &raquo; </a>
-                      <ul class="submenu dropdown-menu product_menu ">
-                        <div class="container">
-                          <div class="row">
-                            <div class="col-md-12 p-0 text-center">
-                              <li><a class="dropdown-item" href="/hr-software.html">HR Software</a></li>
-                            </div>
-                            <div class="col-md-6">
-                              <li><a class="dropdown-item" href="/hcmSoftware.html"> <img src="images/corehricon.png" alt=""> Core HR</a></li>
-                              <li><a class="dropdown-item" href="/workforce.html"> <img src="images/workforceicon.png" alt=""> WorkForce</a></li>
-                              <li><a class="dropdown-item" href="/attendance-management-system.html"> <img src="images/attendanceicon.png" alt=""> Attendance</a></li>
-                              <li><a class="dropdown-item" href="/helpdesk.html"> <img src="images/helpdeskicon.png" alt=""> Helpdesk</a></li>
-                              <li><a class="dropdown-item" href="/recruitment.html"> <img src="images/recruitmnticon.png" alt=""> Recruitment</a></li>
-                            </div>
-                            <div class="col-md-6">
-                              <li><a class="dropdown-item" href="/payroll.html"> <img src="images/payrollicon.png" alt=""> Payroll</a></li>
-                              <li><a class="dropdown-item" href="/performance.html"> <img src="images/performanceicon.png" alt=""> Performance</a></li>
-                              <li><a class="dropdown-item" href="/engagement.html"> <img src="images/engagementicon.png" alt=""> Engagement</a></li>
-                              <li><a class="dropdown-item" href="/expense.html"> <img src="images/expenseicon.png" alt=""> Expense</a></li>
-                              <li><a class="dropdown-item" href="/asset.html"> <img src="images/asseticon.png" alt=""> Asset</a></li>
-                            </div>
-                          </div>
-                        </div>
+                            <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown"> Product </a>
+                            <ul class="dropdown-menu dropdown_menu_show ">
+                                <li><a class="dropdown-item" href="#"> HR Software &raquo; </a>
+                                    <ul class="submenu dropdown-menu product_menu ">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-12 p-0 text-center">
+                                                    <li><a class="dropdown-item" href="../menu/hr-software.php">HR
+                                                            Software</a></li>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <li><a class="dropdown-item" href="../menu/hcmSoftware.php"> <img
+                                                                src="../images/corehricon.png" alt=""> Core HR</a></li>
+                                                    <li><a class="dropdown-item" href="../menu/workforce.php"> <img
+                                                                src="../images/workforceicon.png" alt=""> WorkForce</a>
+                                                    </li>
+                                                    <li><a class="dropdown-item"
+                                                            href="../menu/attendance-management-system.php"> <img
+                                                                src="../images/attendanceicon.png" alt=""> Attendance</a>
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="../menu/helpdesk.php"> <img
+                                                                src="../images/helpdeskicon.png" alt=""> Helpdesk</a></li>
+                                                    <li><a class="dropdown-item" href="../menu/recruitment.php"> <img
+                                                                src="../images/recruitmnticon.png" alt=""> Recruitment</a>
+                                                    </li>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <li><a class="dropdown-item" href="../menu/payroll.php"> <img
+                                                                src="../images/payrollicon.png" alt=""> Payroll</a></li>
+                                                    <li><a class="dropdown-item" href="../menu/performance.php"> <img
+                                                                src="../images/performanceicon.png" alt=""> Performance</a>
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="../menu/engagement.php"> <img
+                                                                src="../images/engagementicon.png" alt=""> Engagement</a>
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="../menu/expense.php"> <img
+                                                                src="../images/expenseicon.png" alt=""> Expense</a></li>
+                                                    <li><a class="dropdown-item" href="../menu/asset.php"> <img
+                                                                src="../images/asseticon.png" alt=""> Asset</a></li>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Solutions &raquo; </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="../menu/hr-professionals.php">HR Professionals</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="../menu/employees.php">Employees</a></li>
+                                        <li><a class="dropdown-item" href="../menu/teamManagers.php">Team Managers</a></li>
+                                        <li><a class="dropdown-item" href="../menu/cxo.php">CXO</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="../menu/mobile-app.php"> Mobile App </a>
+
+                                </li>
+                                <li><a class="dropdown-item" href="../menu/projectone.php"> ProjectOne</a>
+
+                                </li>
+                            </ul>
+                        </li>
     
-                      </ul>
-                    </li>
-                    <li><a class="dropdown-item" href="#">Solutions &raquo; </a>
-                      <ul class="submenu dropdown-menu">
-                        <li><a class="dropdown-item" href="hr-professionals.html">HR Professionals</a></li>
-                        <li><a class="dropdown-item" href="employees.html">Employees</a></li>
-                        <li><a class="dropdown-item" href="teamManagers.html">Team Managers</a></li>
-                        <li><a class="dropdown-item" href="cxo.html">CXO</a></li>
-                      </ul>
-                    </li>
-                    <li><a class="dropdown-item" href="/mobile-app.html"> Mobile App </a>
-    
-                    </li>
-                    <li><a class="dropdown-item" href="/projectone.html"> ProjectOne</a>
-    
-                    </li>
-                  </ul>
-                </li>
     
     
-    
-                <li class="nav-item"><a class="nav-link" href="/Pricing.html"> Pricing </a></li>
-                <li class="nav-item"><a class="nav-link" href="/clients.html"> Clients </a></li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> HR Resources </a>
-                  <ul class="dropdown-menu dropdown_menu_show">
-                    <li><a class="dropdown-item" href="/blog.html"> Blog </a></li>
-                    <li><a class="dropdown-item" href="/hr-commune.html"> HR Commune </a></li>
-                    <li><a class="dropdown-item" href="/guides.html"> Guides </a></li>
-                    <li><a class="dropdown-item" href="hrResources.html"> HR Resources </a></li>
-                    <li><a class="dropdown-item" href="/Template.html"> Template </a></li>
-                    <li><a class="dropdown-item" href="/policy.html"> Policy </a></li>
-                    <li><a class="dropdown-item" href="/checklist.html"> Checklist </a></li>
-                    <li><a class="dropdown-item" href="/glossary.html"> Glossary </a></li>
-                    <li><a class="dropdown-item" href="/faq.html"> FAQ </a></li>
-                    <li><a class="dropdown-item" href="/tips.html"> Tips </a></li>
-                    
-                   
-                    
-                    
-                  </ul>
-                </li>
+                <li class="nav-item"><a class="nav-link" href="../menu/Pricing.html"> Pricing </a></li>
+                        <li class="nav-item"><a class="nav-link" href="../menu/clients.html"> Clients </a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> HR Resources </a>
+                            <ul class="dropdown-menu dropdown_menu_show">
+                                <li><a class="dropdown-item" href="../menu/blog.php"> Blog </a></li>
+                                <li><a class="dropdown-item" href="../menu/hr-commune.html"> HR Commune </a></li>
+                                <li><a class="dropdown-item" href="../menu/guides.html"> Guides </a></li>
+                                <li><a class="dropdown-item" href="../menu/hrResources.html"> HR Resources </a></li>
+                                <li><a class="dropdown-item" href="../menu/Template.html"> Template </a></li>
+                                <li><a class="dropdown-item" href="../menu/policy.html"> Policy </a></li>
+                                <li><a class="dropdown-item" href="../menu/checklist.html"> Checklist </a></li>
+                                <li><a class="dropdown-item" href="../menu/glossary.html"> Glossary </a></li>
+                                <li><a class="dropdown-item" href="../menu/faq.html"> FAQ </a></li>
+                                <li><a class="dropdown-item" href="../menu/tips.html"> Tips </a></li>
+
+
+
+
+                            </ul>
+                        </li>
               </ul>
     
     
@@ -118,9 +137,10 @@
             </div>
             
             <form class="d-flex">
-                <button class="btn btn-outline-success m-1 text-white fw-700" type="submit"><a href="/login.html" class="text-white">Login</a></button>
-              <button class="btn btn-outline-success m-1 text-white fw-700" type="submit m-1">Contact</button>
-            </form>
+          <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit"><a
+              href="http://localhost/Glintix_hrms/Registration%20(D)/signin.php" class="text-white">Login</a></button>
+          <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit m-1">Contact</button>
+        </form>
           </div> 
         </nav>
     
@@ -129,18 +149,23 @@
     
     
       </div>
-    <div class="container mt-5">
+    
+    
+    
+    
+    
+      <div class="container mt-5">
         <div class="row">
             <div class="col-md-6 col-sm-12">
                 <h6 class="mb-4">Core HR</h6>
                 <h2 class="mb-4">HRIS Software that let’s you define policies as per your organizational structure.</h2>
                 <p class="mb-4">The HCM Software configured for your business, operations and people, just the way you
                     run it.</p>
-                <button class="btn btn-success mb-5">REQUEST A DEMO</button>
+                <button class="btn btn-success btn-custom mb-5">REQUEST A DEMO</button>
             </div>
             <div class="col-md-6 col-sm-12">
                 <div class="hcmImg">
-                    <img src="images/core_hr_product.png" alt="" class="img-fluid">
+                    <img src="../images/core_hr_product.png" alt="" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -159,27 +184,27 @@
         <div class="row mt-4  ">
             <div class="col text-center">
                 <div class="hcmIconImg">
-                    <img src="org-structure.svg" alt="">
+                    <img src="../images/org-structure.svg" alt="">
                 </div>
             </div>
             <div class="col text-center">
                 <div class="hcmIconImg">
-                    <img src="employee-database.svg" alt="">
+                    <img src="../images/employee-database.svg" alt="">
                 </div>
             </div>
             <div class="col text-center">
                 <div class="hcmIconImg">
-                    <img src="access-rights.svg" alt="">
+                    <img src="../images/access-rights.svg" alt="">
                 </div>
             </div>
             <div class="col text-center">
                 <div class="hcmIconImg">
-                    <img src="roles.svg" alt="">
+                    <img src="../images/roles.svg" alt="">
                 </div>
             </div>
             <div class="col text-center">
                 <div class="hcmIconImg">
-                    <img src="audit-trial.svg" alt="">
+                    <img src="../images/audit-trial.svg" alt="">
                 </div>
             </div>
         </div>
@@ -187,23 +212,23 @@
         <div class="row mt-4 ">
             <div class="col text-center">
                 <div class="hcmIconImg">
-                    <img src="joy.svg" alt="">
+                    <img src="../images/joy.svg" alt="">
                 </div>
             </div>
             <div class="col text-center">
                 <div class="hcmIconImg">
-                    <img src="hr-communications.svg" alt="">
+                    <img src="../images/hr-communications.svg" alt="">
                 </div>
             </div>
             <div class="col text-center">
                 <div class="hcmIconImg">
-                    <img src="notifications.svg" alt="">
+                    <img src="../images/notifications.svg" alt="">
                 </div>
             </div>
 
             <div class="col text-center">
                 <div class="hcmIconImg">
-                    <img src="know-your-employees.svg" alt="">
+                    <img src="../images/know-your-employees.svg" alt="">
                 </div>
             </div>
 
@@ -220,7 +245,7 @@
                 <div class="row">
                     <div class="col-md-1 col-sm-12">
                         <div class="hcmEmImg">
-                            <img src="tanay.png" alt="">
+                            <img src="../images/tanay.png" alt="">
                         </div>
                     </div>
                     <div class="col-md-11 col-sm-12">
@@ -245,11 +270,11 @@
                             automation.
 
                         </p>
-                        <button class="btn btn-success mt-4">REQUEST A DEMO</button>
+                        <button class="btn btn-success btn-custom mt-4">REQUEST A DEMO</button>
                     </div>
                     <div class="col-md-6">
                         <div class="hr-soft-img">
-                            <img src="images/orgstructure_product.png" alt="" class="img-fluid">
+                            <img src="../images/orgstructure_product.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -268,11 +293,11 @@
                             automation.
 
                         </p>
-                        <button class="btn btn-success mt-4">REQUEST A DEMO</button>
+                        <button class="btn btn-success btn-custom  mt-4">REQUEST A DEMO</button>
                     </div>
                     <div class="col-md-6">
                         <div class="hr-soft-img">
-                            <img src="images/database_product.png" alt="" class="img-fluid">
+                            <img src="../images/database_product.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -290,11 +315,11 @@
                             automation.
 
                         </p>
-                        <button class="btn btn-success mt-4">REQUEST A DEMO</button>
+                        <button class="btn btn-success btn-custom  mt-4">REQUEST A DEMO</button>
                     </div>
                     <div class="col-md-6">
                         <div class="hr-soft-img">
-                            <img src="images/access_rights_product.png" alt="" class="img-fluid">
+                            <img src="../images/access_rights_product.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -312,11 +337,11 @@
                             automation.
 
                         </p>
-                        <button class="btn btn-success mt-4">REQUEST A DEMO</button>
+                        <button class="btn btn-success btn-custom  mt-4">REQUEST A DEMO</button>
                     </div>
                     <div class="col-md-6">
                         <div class="hr-soft-img">
-                            <img src="images/roles_product.png" alt="" class="img-fluid">
+                            <img src="../images/roles_product.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -334,11 +359,11 @@
                             automation.
 
                         </p>
-                        <button class="btn btn-success mt-4">REQUEST A DEMO</button>
+                        <button class="btn btn-success btn-custom  mt-4">REQUEST A DEMO</button>
                     </div>
                     <div class="col-md-6">
                         <div class="hr-soft-img">
-                            <img src="images/audit_product.png" alt="" class="img-fluid">
+                            <img src="../images/audit_product.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -356,11 +381,11 @@
                             automation.
 
                         </p>
-                        <button class="btn btn-success mt-4">REQUEST A DEMO</button>
+                        <button class="btn btn-success btn-custom  mt-4">REQUEST A DEMO</button>
                     </div>
                     <div class="col-md-6">
                         <div class="hr-soft-img">
-                            <img src="images/joy_product.png" alt="" class="img-fluid">
+                            <img src="../images/joy_product.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -378,11 +403,11 @@
                             automation.
 
                         </p>
-                        <button class="btn btn-success mt-4">REQUEST A DEMO</button>
+                        <button class="btn btn-success btn-custom mt-4">REQUEST A DEMO</button>
                     </div>
                     <div class="col-md-6">
                         <div class="hr-soft-img">
-                            <img src="images/hrcommunication_product.png" alt="" class="img-fluid">
+                            <img src="../images/hrcommunication_product.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -400,11 +425,11 @@
                             automation.
 
                         </p>
-                        <button class="btn btn-success mt-4">REQUEST A DEMO</button>
+                        <button class="btn btn-success btn-custom mt-4">REQUEST A DEMO</button>
                     </div>
                     <div class="col-md-6">
                         <div class="hr-soft-img">
-                            <img src="images/notification_product.png" alt="" class="img-fluid">
+                            <img src="../images/notification_product.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -422,11 +447,11 @@
                             automation.
 
                         </p>
-                        <button class="btn btn-success mt-4">REQUEST A DEMO</button>
+                        <button class="btn btn-success btn-custom mt-4">REQUEST A DEMO</button>
                     </div>
                     <div class="col-md-6">
                         <div class="hr-soft-img">
-                            <img src="images/reachout_product.png" alt="" class="img-fluid">
+                            <img src="../images/reachout_product.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -635,7 +660,7 @@
             <div class="row  mt-5">
                 <div class="col">
                     <div class="logoFoot">
-                        <img src="glintix_logo.png" alt="" class="img-fluid">
+                        <img src="../images/glintix_logo.png" alt="" class="img-fluid">
                     </div>
                     <div class="foottext mt-3">
                         An intelligent enterprise-ready HCM suite that automates HR processes, simplifies human
@@ -643,7 +668,7 @@
                         deliver actionable insights to build better workplaces.
                     </div>
                     <div class="footcerti mt-3">
-                        <img src="dmca_protected_sml_120af.png" alt="" class="img-fluid">
+                        <img src="../images/dmca_protected_sml_120af.png" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col">
@@ -748,42 +773,42 @@
             </div>
             <div class="row mt-5">
                 <div class="col-md-4 ">
-                    <a href="#" target="_blank" rel="noopener"><img src="playstore.svg" class="appstore__link"
+                    <a href="#" target="_blank" rel="noopener"><img src="../images/playstore.svg" class="appstore__link"
                             alt=" Glintix Inbox App on Google Play Store"></a>
-                    <a href="#" target="_blank" rel="noopener"><img src="appstore.svg" class="appstore__link"
+                    <a href="#" target="_blank" rel="noopener"><img src="../images/appstore.svg" class="appstore__link"
                             alt="Glintix Inbox App on Apple App Store"></a>
                     <p class="mb-0 mt-2"><a href="#" target="_blank" class="social__link" rel="noopener"><img
-                                src="facebook.svg" alt="Glintix Facebook" class="social__icon"></a>
-                        <a href="#" target="_blank" class="social__link" rel="noopener"><img src="linkedin.svg"
+                                src="../images/facebook.svg" alt="Glintix Facebook" class="social__icon"></a>
+                        <a href="#" target="_blank" class="social__link" rel="noopener"><img src="../images/linkedin.svg"
                                 alt="Glintix Linkedin" class="social__icon"></a>
-                        <a href="#" target="_blank" class="social__link" rel="noopener"><img src="twitter.svg"
+                        <a href="#" target="_blank" class="social__link" rel="noopener"><img src="../images/twitter.svg"
                                 alt="Glintix Twitter" class="social__icon"></a>
                     </p>
                 </div>
                 <div class="col-md-8">
                     <div class="row">
                         <div class="col">
-                            <div class="footer_img"><img src="best-value-software-2022.png" alt=""
+                            <div class="footer_img"><img src="../images/best-value-software-2022.png" alt=""
                                     class="img-fluid footer__awards--img"></div>
                         </div>
                         <div class="col">
-                            <div class="footer_img"></div><img src="G2-badge.png" alt=""
+                            <div class="footer_img"></div><img src="../images/G2-badge.png" alt=""
                                 class="img-fluid footer__awards--img">
                         </div>
                         <div class="col">
-                            <div class="footer_img"></div><img src="footer-supreme-software.png" alt=""
+                            <div class="footer_img"></div><img src="../images/footer-supreme-software.png" alt=""
                                 class="img-fluid footer__awards--img">
                         </div>
                         <div class="col">
-                            <div class="footer_img"></div><img src="footer-customer-choice.png" alt=""
+                            <div class="footer_img"></div><img src="../images/footer-customer-choice.png" alt=""
                                 class="img-fluid footer__awards--img">
                         </div>
                         <div class="col">
-                            <div class="footer_img"></div><img src="footer-leader.png" alt=""
+                            <div class="footer_img"></div><img src="../images/footer-leader.png" alt=""
                                 class="img-fluid footer__awards--img">
                         </div>
                         <div class="col">
-                            <div class="footer_img"></div><img src="footer-techjockey.png" alt=""
+                            <div class="footer_img"></div><img src="../images/footer-techjockey.png" alt=""
                                 class="img-fluid footer__awards--img">
                         </div>
                     </div>
@@ -796,8 +821,8 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-md-4">
-                    <p>Copyright © 2023. Uneecops Workplace Solutions Pvt. Ltd. All Rights Reserved.</p>
-                    <p><span class="text-success">Uneecops</span> Group Company</p>
+                    <p>Copyright © 2023. Gnoin Pvt. Ltd. All Rights Reserved.</p>
+                    <p><span class="text-success">Gnoin Pvt Ltd</span> </p>
                 </div>
                 <div class="col-md-4">
                     <div class="row">

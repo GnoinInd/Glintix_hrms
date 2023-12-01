@@ -9,8 +9,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style11.css">
 
     <title>WorkForce</title>
 </head>
@@ -18,116 +18,141 @@
 <body>
     <div class="container-fluid p-0 m-0">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand " href="/index.html"><img src="glintix_logo.png" alt="" class="img-fluid"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
-              aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="main_nav">
-    
-    
-              <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    About <span class="logo-text-nav">Glintix</span>
-                  </a>
-                  <ul class="dropdown-menu dropdown_menu_show" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="/ourStory.html">Our Story</a></li>
-                    <li><a class="dropdown-item" href="/leadership.html">Leadership</a></li>
-                    <li><a class="dropdown-item" href="/newsroom.html">Newsroom</a></li>
-                    <li><a class="dropdown-item" href="/partners.html">Partners</a></li>
-    
-                  </ul>
-                </li>
-                <li class="nav-item dropdown ">
-                  <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown"> Product </a>
-                  <ul class="dropdown-menu dropdown_menu_show ">
-                    <li><a class="dropdown-item" href="#"> HR Software &raquo; </a>
-                      <ul class="submenu dropdown-menu product_menu ">
-                        <div class="container">
-                          <div class="row">
-                            <div class="col-md-12 p-0 text-center">
-                              <li><a class="dropdown-item" href="/hr-software.html">HR Software</a></li>
-                            </div>
-                            <div class="col-md-6">
-                              <li><a class="dropdown-item" href="/hcmSoftware.html"> <img src="images/corehricon.png" alt=""> Core HR</a></li>
-                              <li><a class="dropdown-item" href="/workforce.html"> <img src="images/workforceicon.png" alt=""> WorkForce</a></li>
-                              <li><a class="dropdown-item" href="/attendance-management-system.html"> <img src="images/attendanceicon.png" alt=""> Attendance</a></li>
-                              <li><a class="dropdown-item" href="/helpdesk.html"> <img src="images/helpdeskicon.png" alt=""> Helpdesk</a></li>
-                              <li><a class="dropdown-item" href="/recruitment.html"> <img src="images/recruitmnticon.png" alt=""> Recruitment</a></li>
-                            </div>
-                            <div class="col-md-6">
-                              <li><a class="dropdown-item" href="/payroll.html"> <img src="images/payrollicon.png" alt=""> Payroll</a></li>
-                              <li><a class="dropdown-item" href="/performance.html"> <img src="images/performanceicon.png" alt=""> Performance</a></li>
-                              <li><a class="dropdown-item" href="/engagement.html"> <img src="images/engagementicon.png" alt=""> Engagement</a></li>
-                              <li><a class="dropdown-item" href="/expense.html"> <img src="images/expenseicon.png" alt=""> Expense</a></li>
-                              <li><a class="dropdown-item" href="/asset.html"> <img src="images/asseticon.png" alt=""> Asset</a></li>
-                            </div>
-                          </div>
-                        </div>
-    
-                      </ul>
-                    </li>
-                    <li><a class="dropdown-item" href="#">Solutions &raquo; </a>
-                      <ul class="submenu dropdown-menu">
-                        <li><a class="dropdown-item" href="hr-professionals.html">HR Professionals</a></li>
-                        <li><a class="dropdown-item" href="employees.html">Employees</a></li>
-                        <li><a class="dropdown-item" href="teamManagers.html">Team Managers</a></li>
-                        <li><a class="dropdown-item" href="cxo.html">CXO</a></li>
-                      </ul>
-                    </li>
-                    <li><a class="dropdown-item" href="/mobile-app.html"> Mobile App </a>
-    
-                    </li>
-                    <li><a class="dropdown-item" href="/projectone.html"> ProjectOne</a>
-    
-                    </li>
-                  </ul>
-                </li>
-    
-    
-    
-                <li class="nav-item"><a class="nav-link" href="/Pricing.html"> Pricing </a></li>
-                <li class="nav-item"><a class="nav-link" href="/clients.html"> Clients </a></li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> HR Resources </a>
-                  <ul class="dropdown-menu dropdown_menu_show">
-                    <li><a class="dropdown-item" href="/blog.html"> Blog </a></li>
-                    <li><a class="dropdown-item" href="/hr-commune.html"> HR Commune </a></li>
-                    <li><a class="dropdown-item" href="/guides.html"> Guides </a></li>
-                    <li><a class="dropdown-item" href="hrResources.html"> HR Resources </a></li>
-                    <li><a class="dropdown-item" href="/Template.html"> Template </a></li>
-                    <li><a class="dropdown-item" href="/policy.html"> Policy </a></li>
-                    <li><a class="dropdown-item" href="/checklist.html"> Checklist </a></li>
-                    <li><a class="dropdown-item" href="/glossary.html"> Glossary </a></li>
-                    <li><a class="dropdown-item" href="/faq.html"> FAQ </a></li>
-                    <li><a class="dropdown-item" href="/tips.html"> Tips </a></li>
-                    
-                   
-                    
-                    
-                  </ul>
-                </li>
-              </ul>
-    
-    
-    
+            <div class="container-fluid">
+                <a class="navbar-brand " href="../index.php"><img src="../images/glintix_logo.png" alt=""
+                        class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main_nav">
+
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                About <span class="logo-text-nav">Glintix</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown_menu_show" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="../menu/ourStory.html">Our Story</a></li>
+                                <li><a class="dropdown-item" href="../menu/leadership.html">Leadership</a></li>
+                                <li><a class="dropdown-item" href="../menu/newsroom.html">Newsroom</a></li>
+                                <li><a class="dropdown-item" href="../menu/partners.html">Partners</a></li>
+
+
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown"> Product </a>
+                            <ul class="dropdown-menu dropdown_menu_show ">
+                                <li><a class="dropdown-item" href="#"> HR Software &raquo; </a>
+                                    <ul class="submenu dropdown-menu product_menu ">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-12 p-0 text-center">
+                                                    <li><a class="dropdown-item" href="../menu/hr-software.php">HR
+                                                            Software</a></li>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <li><a class="dropdown-item" href="../menu/hcmSoftware.php"> <img
+                                                                src="../images/corehricon.png" alt=""> Core HR</a></li>
+                                                    <li><a class="dropdown-item" href="../menu/workforce.php"> <img
+                                                                src="../images/workforceicon.png" alt=""> WorkForce</a>
+                                                    </li>
+                                                    <li><a class="dropdown-item"
+                                                            href="../menu/attendance-management-system.php"> <img
+                                                                src="../images/attendanceicon.png" alt="">
+                                                            Attendance</a>
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="../menu/helpdesk.php"> <img
+                                                                src="../images/helpdeskicon.png" alt=""> Helpdesk</a>
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="../menu/recruitment.php"> <img
+                                                                src="../images/recruitmnticon.png" alt="">
+                                                            Recruitment</a>
+                                                    </li>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <li><a class="dropdown-item" href="../menu/payroll.php"> <img
+                                                                src="../images/payrollicon.png" alt=""> Payroll</a></li>
+                                                    <li><a class="dropdown-item" href="../menu/performance.php"> <img
+                                                                src="../images/performanceicon.png" alt="">
+                                                            Performance</a>
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="../menu/engagement.php"> <img
+                                                                src="../images/engagementicon.png" alt="">
+                                                            Engagement</a>
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="../menu/expense.php"> <img
+                                                                src="../images/expenseicon.png" alt=""> Expense</a></li>
+                                                    <li><a class="dropdown-item" href="../menu/asset.php"> <img
+                                                                src="../images/asseticon.png" alt=""> Asset</a></li>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Solutions &raquo; </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="../menu/hr-professionals.php">HR
+                                                Professionals</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="../menu/employees.php">Employees</a></li>
+                                        <li><a class="dropdown-item" href="../menu/teamManagers.php">Team Managers</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="../menu/cxo.php">CXO</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="../menu/mobile-app.php"> Mobile App </a>
+
+                                </li>
+                                <li><a class="dropdown-item" href="../menu/projectone.php"> ProjectOne</a>
+
+                                </li>
+                            </ul>
+                        </li>
+
+
+
+                        <li class="nav-item"><a class="nav-link" href="../menu/Pricing.html"> Pricing </a></li>
+                        <li class="nav-item"><a class="nav-link" href="../menu/clients.html"> Clients </a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> HR Resources </a>
+                            <ul class="dropdown-menu dropdown_menu_show">
+                                <li><a class="dropdown-item" href="../menu/blog.php"> Blog </a></li>
+                                <li><a class="dropdown-item" href="../menu/hr-commune.html"> HR Commune </a></li>
+                                <li><a class="dropdown-item" href="../menu/guides.html"> Guides </a></li>
+                                <li><a class="dropdown-item" href="../menu/hrResources.html"> HR Resources </a></li>
+                                <li><a class="dropdown-item" href="../menu/Template.html"> Template </a></li>
+                                <li><a class="dropdown-item" href="../menu/policy.html"> Policy </a></li>
+                                <li><a class="dropdown-item" href="../menu/checklist.html"> Checklist </a></li>
+                                <li><a class="dropdown-item" href="../menu/glossary.html"> Glossary </a></li>
+                                <li><a class="dropdown-item" href="../menu/faq.html"> FAQ </a></li>
+                                <li><a class="dropdown-item" href="../menu/tips.html"> Tips </a></li>
+
+
+
+
+                            </ul>
+                        </li>
+                    </ul>
+
+
+
+                </div>
+
+                <form class="d-flex">
+          <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit"><a
+              href="http://localhost/Glintix_hrms/Registration%20(D)/signin.php" class="text-white">Login</a></button>
+          <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit m-1">Contact</button>
+        </form>
             </div>
-            
-            <form class="d-flex">
-                <button class="btn btn-outline-success m-1 text-white fw-700" type="submit"><a href="/login.html" class="text-white">Login</a></button>
-              <button class="btn btn-outline-success m-1 text-white fw-700" type="submit m-1">Contact</button>
-            </form>
-          </div> 
         </nav>
-    
-      
-    
-    
-    
-      </div>
+    </div>
+
+
 
     <div class="container mt-5">
         <div class="row">
@@ -136,11 +161,11 @@
                 <h2 class="mb-4">HRIS Software that let’s you define policies as per your organizational structure.</h2>
                 <p class="mb-4">The HCM Software configured for your business, operations and people, just the way you
                     run it.</p>
-                <button class="btn btn-success mb-5">REQUEST A DEMO</button>
+                <button class="btn btn-success btn-custom mb-5">REQUEST A DEMO</button>
             </div>
             <div class="col-md-6 col-sm-12">
                 <div class="hcmImg">
-                    <img src="corehr-banner.jpg" alt="" class="img-fluid">
+                    <img src="../images/corehr-banner.jpg" alt="" class="img-fluid">
                 </div>
             </div>
 
@@ -159,25 +184,25 @@
                         <div class="row">
                             <div class="col">
                                 <div class="workforcelogocont">
-                                    <img src="" alt="">
+                                    <img src="../images/corehr-banner.jpg" alt="" class="img-fluid">
                                     Confirmation
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="workforcelogocont">
-                                    <img src="" alt="">
+                                    <img src="../images/corehr-banner.jpg" alt="" class="img-fluid">
                                     Separation
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="workforcelogocont">
-                                    <img src="" alt="">
+                                    <img src="../images/corehr-banner.jpg" alt="" class="img-fluid">
                                     Exit
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="workforcelogocont">
-                                    <img src="" alt="">
+                                    <img src="../images/corehr-banner.jpg" alt="" class="img-fluid">
                                     Insights
                                 </div>
                             </div>
@@ -197,11 +222,11 @@
                         <p class="mb-4">The HCM Software configured for your business, operations and people, just the
                             way you
                             run it.</p>
-                        <button class="btn btn-success mb-5">REQUEST A DEMO</button>
+                        <button class="btn btn-success btn-custom mb-5">REQUEST A DEMO</button>
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="hcmImg">
-                            <img src="corehr-banner.jpg" alt="" class="img-fluid">
+                            <img src="../images/corehr-banner.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -212,7 +237,7 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
                         <div class="hcmImg">
-                            <img src="corehr-banner.jpg" alt="" class="img-fluid">
+                            <img src="../images/corehr-banner.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12">
@@ -222,50 +247,9 @@
                         <p class="mb-4">The HCM Software configured for your business, operations and people, just the
                             way you
                             run it.</p>
-                        <button class="btn btn-success mb-5">REQUEST A DEMO</button>
+                        <button class="btn btn-success btn-custom mb-5">REQUEST A DEMO</button>
                     </div>
-                   
-                </div>
 
-            </div>
-            <div class="col-md-12 mt-4">
-
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <h6 class="mb-4">Core HR</h6>
-                        <h2 class="mb-4">HRIS Software that let’s you define policies as per your organizational
-                            structure.</h2>
-                        <p class="mb-4">The HCM Software configured for your business, operations and people, just the
-                            way you
-                            run it.</p>
-                        <button class="btn btn-success mb-5">REQUEST A DEMO</button>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="hcmImg">
-                            <img src="corehr-banner.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="col-md-12 mt-4">
-
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <div class="hcmImg">
-                            <img src="corehr-banner.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <h6 class="mb-4">Core HR</h6>
-                        <h2 class="mb-4">HRIS Software that let’s you define policies as per your organizational
-                            structure.</h2>
-                        <p class="mb-4">The HCM Software configured for your business, operations and people, just the
-                            way you
-                            run it.</p>
-                        <button class="btn btn-success mb-5">REQUEST A DEMO</button>
-                    </div>
-                   
                 </div>
 
             </div>
@@ -279,203 +263,202 @@
                         <p class="mb-4">The HCM Software configured for your business, operations and people, just the
                             way you
                             run it.</p>
-                        <button class="btn btn-success mb-5">REQUEST A DEMO</button>
+                        <button class="btn btn-success btn-custom mb-5">REQUEST A DEMO</button>
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="hcmImg">
-                            <img src="corehr-banner.jpg" alt="" class="img-fluid">
+                            <img src="../images/corehr-banner.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-12 mt-4">
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="hcmImg">
+                            <img src="../images/corehr-banner.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <h6 class="mb-4">Core HR</h6>
+                        <h2 class="mb-4">HRIS Software that let’s you define policies as per your organizational
+                            structure.</h2>
+                        <p class="mb-4">The HCM Software configured for your business, operations and people, just the
+                            way you
+                            run it.</p>
+                        <button class="btn btn-success btn-custom mb-5">REQUEST A DEMO</button>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-12 mt-4">
+
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <h6 class="mb-4">Core HR</h6>
+                        <h2 class="mb-4">HRIS Software that let’s you define policies as per your organizational
+                            structure.</h2>
+                        <p class="mb-4">The HCM Software configured for your business, operations and people, just the
+                            way you
+                            run it.</p>
+                        <button class="btn btn-success btn-custom mb-5">REQUEST A DEMO</button>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="hcmImg">
+                            <img src="../images/corehr-banner.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
 
             </div>
 
-            <div class="col-md-12 mt-4">
-
-
+            <div class="col-md-12 mt-5">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
-                            type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                            type="button" role="tab" aria-controls="home" aria-selected="true">
+                            Home
+                        </button>
                     </li>
                     <li class="nav-item" role="presentation">
                         <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
-                            type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+                            type="button" role="tab" aria-controls="profile" aria-selected="false">
+                            Profile
+                        </button>
                     </li>
-
                 </ul>
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                        <div class="accordion accordion-flush" id="accordionExample">
+                        <div class="accordion accordion-flush" id="accordionHome">
                             <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingOne">
+                                <h2 class="accordion-header" id="headingOneHome">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Accordion Item #1
+                                        data-bs-target="#collapseOneHome" aria-expanded="true"
+                                        aria-controls="collapseOneHome">
+                                        Company
                                     </button>
                                 </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show"
-                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div id="collapseOneHome" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOneHome" data-bs-parent="#accordionHome">
                                     <div class="accordion-body">
-                                        <strong>This is the first item's accordion body.</strong> It is shown by
-                                        default,
-                                        until the
-                                        collapse plugin adds the appropriate classes that we use to style each element.
-                                        These
-                                        classes control the overall appearance, as well as the showing and hiding via
-                                        CSS
-                                        transitions. You can modify any of this with custom CSS or overriding our
-                                        default
-                                        variables.
-                                        It's also worth noting that just about any HTML can go within the
-                                        <code>.accordion-body</code>, though the transition does limit overflow.
+                                        <strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+                                            consequatur ut nesciunt voluptatum vero fugit nostrum nihil odio possimus
+                                            iste? Itaque fuga ipsam voluptate quisquam eius incidunt id velit, iste
+                                            impedit facere amet doloribus omnis quidem assumenda dolorum eligendi?
+                                            Dolorum incidunt distinctio deleniti perspiciatis dolore eligendi nobis id,
+                                            libero quod!
+                                        </strong>
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwo">
+                                <h2 class="accordion-header" id="headingTwoHome">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Accordion Item #2
+                                        data-bs-target="#collapseTwoHome" aria-expanded="false"
+                                        aria-controls="collapseTwoHome">
+                                        About
                                     </button>
                                 </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapseTwoHome" class="accordion-collapse collapse"
+                                    aria-labelledby="headingTwoHome" data-bs-parent="#accordionHome">
                                     <div class="accordion-body">
-                                        <strong>This is the second item's accordion body.</strong> It is hidden by
-                                        default,
-                                        until
-                                        the collapse plugin adds the appropriate classes that we use to style each
-                                        element.
-                                        These
-                                        classes control the overall appearance, as well as the showing and hiding via
-                                        CSS
-                                        transitions. You can modify any of this with custom CSS or overriding our
-                                        default
-                                        variables.
-                                        It's also worth noting that just about any HTML can go within the
-                                        <code>.accordion-body</code>, though the transition does limit overflow.
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam temporibus velit
+                                        eligendi quidem labore, voluptatibus quisquam corrupti vitae consequuntur
+                                        laudantium beatae eveniet dolores vel repellendus sint ducimus quod fugiat
+                                        numquam itaque? Consequatur aut molestiae necessitatibus quibusdam esse
+                                        perspiciatis, cupiditate minima excepturi, distinctio pariatur atque optio
+                                        eligendi. Voluptatibus accusamus cupiditate deleniti!
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
+                                <h2 class="accordion-header" id="headingThreeHome">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        Accordion Item #3
+                                        data-bs-target="#collapseThreeHome" aria-expanded="false"
+                                        aria-controls="collapseThreeHome">
+                                        Partner
                                     </button>
                                 </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div id="collapseThreeHome" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThreeHome" data-bs-parent="#accordionHome">
                                     <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by
-                                        default,
-                                        until the
-                                        collapse plugin adds the appropriate classes that we use to style each element.
-                                        These
-                                        classes control the overall appearance, as well as the showing and hiding via
-                                        CSS
-                                        transitions. You can modify any of this with custom CSS or overriding our
-                                        default
-                                        variables.
-                                        It's also worth noting that just about any HTML can go within the
-                                        <code>.accordion-body</code>, though the transition does limit overflow.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur expedita
+                                        quasi autem quos cumque! Iure dolorem tenetur consequuntur aut quidem officiis
+                                        consectetur perferendis placeat, blanditiis quis, rerum quaerat? Veniam, iure
+                                        pariatur non temporibus voluptas illo iusto consequatur quam atque similique.
+                                        Dolores doloremque, soluta labore animi est natus recusandae velit odit!
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                        <div class="accordion accordion-flush" id="accordionExample">
+                        <div class="accordion accordion-flush" id="accordionProfile">
                             <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingfour">
+                                <h2 class="accordion-header" id="headingFourProfile">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapsefour" aria-expanded="true"
-                                        aria-controls="collapsefour">
-                                        Accordion Item #4
+                                        data-bs-target="#collapseFourProfile" aria-expanded="true"
+                                        aria-controls="collapseFourProfile">
+                                        Business
                                     </button>
                                 </h2>
-                                <div id="collapsefour" class="accordion-collapse collapse show"
-                                    aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                                <div id="collapseFourProfile" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingFourProfile" data-bs-parent="#accordionProfile">
                                     <div class="accordion-body">
-                                        <strong>This is the first item's accordion body.</strong> It is shown by
-                                        default,
-                                        until the
-                                        collapse plugin adds the appropriate classes that we use to style each element.
-                                        These
-                                        classes control the overall appearance, as well as the showing and hiding via
-                                        CSS
-                                        transitions. You can modify any of this with custom CSS or overriding our
-                                        default
-                                        variables.
-                                        It's also worth noting that just about any HTML can go within the
-                                        <code>.accordion-body</code>, though the transition does limit overflow.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident non officiis
+                                        cumque consequuntur error atque, saepe voluptas quae sed odio nesciunt sit fugit
+                                        dolore dolores, voluptatum accusamus nisi voluptate, accusantium possimus natus?
+                                        Molestias, debitis nam beatae tempore laboriosam aut pariatur, maiores
+                                        necessitatibus vel excepturi commodi quos laborum ullam iusto! Saepe!
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingfive">
+                                <h2 class="accordion-header" id="headingFiveProfile">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapsefive" aria-expanded="false"
-                                        aria-controls="collapsefive">
-                                        Accordion Item #5
+                                        data-bs-target="#collapseFiveProfile" aria-expanded="false"
+                                        aria-controls="collapseFiveProfile">
+                                        Workflow
                                     </button>
                                 </h2>
-                                <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapseFiveProfile" class="accordion-collapse collapse"
+                                    aria-labelledby="headingFiveProfile" data-bs-parent="#accordionProfile">
                                     <div class="accordion-body">
-                                        <strong>This is the second item's accordion body.</strong> It is hidden by
-                                        default,
-                                        until
-                                        the collapse plugin adds the appropriate classes that we use to style each
-                                        element.
-                                        These
-                                        classes control the overall appearance, as well as the showing and hiding via
-                                        CSS
-                                        transitions. You can modify any of this with custom CSS or overriding our
-                                        default
-                                        variables.
-                                        It's also worth noting that just about any HTML can go within the
-                                        <code>.accordion-body</code>, though the transition does limit overflow.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolorem fugiat
+                                        laboriosam saepe dicta, dolores in neque aliquid hic blanditiis praesentium,
+                                        alias vero repudiandae recusandae doloribus. Inventore culpa, accusantium, ab
+                                        commodi reiciendis in est harum quia adipisci eveniet eligendi modi? Aspernatur
+                                        perspiciatis veniam in? Odio doloribus voluptatum veniam incidunt ducimus.
                                     </div>
                                 </div>
                             </div>
                             <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingsix">
+                                <h2 class="accordion-header" id="headingSixProfile">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
-                                        Accordion Item #3
+                                        data-bs-target="#collapseSixProfile" aria-expanded="false"
+                                        aria-controls="collapseSixProfile">
+                                        Heading
                                     </button>
                                 </h2>
-                                <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix"
-                                    data-bs-parent="#accordionExample">
+                                <div id="collapseSixProfile" class="accordion-collapse collapse"
+                                    aria-labelledby="headingSixProfile" data-bs-parent="#accordionProfile">
                                     <div class="accordion-body">
-                                        <strong>This is the third item's accordion body.</strong> It is hidden by
-                                        default,
-                                        until the
-                                        collapse plugin adds the appropriate classes that we use to style each element.
-                                        These
-                                        classes control the overall appearance, as well as the showing and hiding via
-                                        CSS
-                                        transitions. You can modify any of this with custom CSS or overriding our
-                                        default
-                                        variables.
-                                        It's also worth noting that just about any HTML can go within the
-                                        <code>.accordion-body</code>, though the transition does limit overflow.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dignissimos
+                                        eligendi mollitia fugit porro, quasi officia quisquam rerum! At, minima
+                                        consequatur libero magni voluptatem, vel enim a temporibus aliquam veniam quae?
+                                        Saepe esse perferendis quidem totam. Facilis itaque magni fugit nostrum officia
+                                        inventore quam vero qui? Ipsa quos doloremque suscipit!
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
-
-
-
-
-
             </div>
+
 
 
             <div class="col-md-12 mt-5">
@@ -487,70 +470,94 @@
                         </h3>
                     </div>
                     <div class="col-md-4">
-                        <h4 class="text-success">Heading</h4>
-                        <p>Create employee profiles with a click of button, upload documents safely. Use our global
-                            search tool as simple as Google search to view any profile.</p>
+                        <div class="bg-grey p-4 my-2 border border-2">
+                            <h4 class="text-success">Heading</h4>
+                            <p>Create employee profiles with a click of button, upload documents safely. Use our global
+                                search tool as simple as Google search to view any profile.</p>
+                        </div>
                     </div>
                     <div class="col-md-4">
-                        <h4 class="text-success">Heading</h4>
-                        <p>Create employee profiles with a click of button, upload documents safely. Use our global
-                            search tool as simple as Google search to view any profile.</p>
+                        <div class="bg-grey p-4 my-2 border border-2">
+                            <h4 class="text-success">Heading</h4>
+                            <p>Create employee profiles with a click of button, upload documents safely. Use our global
+                                search tool as simple as Google search to view any profile.</p>
+                        </div>
                     </div>
                     <div class="col-md-4">
-                        <h4 class="text-success">Heading</h4>
-                        <p>Create employee profiles with a click of button, upload documents safely. Use our global
-                            search tool as simple as Google search to view any profile.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <h4 class="text-success">Heading</h4>
-                        <p>Create employee profiles with a click of button, upload documents safely. Use our global
-                            search tool as simple as Google search to view any profile.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h4 class="text-success">Heading</h4>
-                        <p>Create employee profiles with a click of button, upload documents safely. Use our global
-                            search tool as simple as Google search to view any profile.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h4 class="text-success">Heading</h4>
-                        <p>Create employee profiles with a click of button, upload documents safely. Use our global
-                            search tool as simple as Google search to view any profile.</p>
+                        <div class="bg-grey p-4 my-2 border border-2">
+                            <h4 class="text-success">Heading</h4>
+                            <p>Create employee profiles with a click of button, upload documents safely. Use our global
+                                search tool as simple as Google search to view any profile.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <h4 class="text-success">Heading</h4>
-                        <p>Create employee profiles with a click of button, upload documents safely. Use our global
-                            search tool as simple as Google search to view any profile.</p>
+                        <div class="bg-grey p-4 my-2 border border-2">
+                            <h4 class="text-success">Heading</h4>
+                            <p>Create employee profiles with a click of button, upload documents safely. Use our global
+                                search tool as simple as Google search to view any profile.</p>
+                        </div>
                     </div>
                     <div class="col-md-4">
-                        <h4 class="text-success">Heading</h4>
-                        <p>Create employee profiles with a click of button, upload documents safely. Use our global
-                            search tool as simple as Google search to view any profile.</p>
+                        <div class="bg-grey p-4 my-2 border border-2">
+                            <h4 class="text-success">Heading</h4>
+                            <p>Create employee profiles with a click of button, upload documents safely. Use our global
+                                search tool as simple as Google search to view any profile.</p>
+                        </div>
                     </div>
                     <div class="col-md-4">
-                        <h4 class="text-success">Heading</h4>
-                        <p>Create employee profiles with a click of button, upload documents safely. Use our global
-                            search tool as simple as Google search to view any profile.</p>
+                        <div class="bg-grey p-4 my-2 border border-2">
+                            <h4 class="text-success">Heading</h4>
+                            <p>Create employee profiles with a click of button, upload documents safely. Use our global
+                                search tool as simple as Google search to view any profile.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <h4 class="text-success">Heading</h4>
-                        <p>Create employee profiles with a click of button, upload documents safely. Use our global
-                            search tool as simple as Google search to view any profile.</p>
+                        <div class="bg-grey p-4 my-2 border border-2">
+                            <h4 class="text-success">Heading</h4>
+                            <p>Create employee profiles with a click of button, upload documents safely. Use our global
+                                search tool as simple as Google search to view any profile.</p>
+                        </div>
                     </div>
                     <div class="col-md-4">
-                        <h4 class="text-success">Heading</h4>
-                        <p>Create employee profiles with a click of button, upload documents safely. Use our global
-                            search tool as simple as Google search to view any profile.</p>
+                        <div class="bg-grey p-4 my-2 border border-2">
+                            <h4 class="text-success">Heading</h4>
+                            <p>Create employee profiles with a click of button, upload documents safely. Use our global
+                                search tool as simple as Google search to view any profile.</p>
+                        </div>
                     </div>
                     <div class="col-md-4">
-                        <h4 class="text-success">Heading</h4>
-                        <p>Create employee profiles with a click of button, upload documents safely. Use our global
-                            search tool as simple as Google search to view any profile.</p>
+                        <div class="bg-grey p-4 my-2 border border-2">
+                            <h4 class="text-success">Heading</h4>
+                            <p>Create employee profiles with a click of button, upload documents safely. Use our global
+                                search tool as simple as Google search to view any profile.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="bg-grey p-4 my-2 border border-2">
+                            <h4 class="text-success">Heading</h4>
+                            <p>Create employee profiles with a click of button, upload documents safely. Use our global
+                                search tool as simple as Google search to view any profile.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="bg-grey p-4 my-2 border border-2">
+                            <h4 class="text-success">Heading</h4>
+                            <p>Create employee profiles with a click of button, upload documents safely. Use our global
+                                search tool as simple as Google search to view any profile.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="bg-grey p-4 my-2 border border-2">
+                            <h4 class="text-success">Heading</h4>
+                            <p>Create employee profiles with a click of button, upload documents safely. Use our global
+                                search tool as simple as Google search to view any profile.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -562,7 +569,7 @@
             <div class="row  mt-5">
                 <div class="col">
                     <div class="logoFoot">
-                        <img src="glintix_logo.png" alt="" class="img-fluid">
+                        <img src="../images/glintix_logo.png" alt="" class="img-fluid">
                     </div>
                     <div class="foottext mt-3">
                         An intelligent enterprise-ready HCM suite that automates HR processes, simplifies human
@@ -570,7 +577,7 @@
                         deliver actionable insights to build better workplaces.
                     </div>
                     <div class="footcerti mt-3">
-                        <img src="dmca_protected_sml_120af.png" alt="" class="img-fluid">
+                        <img src="../images/dmca_protected_sml_120af.png" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col">
@@ -675,42 +682,42 @@
             </div>
             <div class="row mt-5">
                 <div class="col-md-4 ">
-                    <a href="#" target="_blank" rel="noopener"><img src="playstore.svg" class="appstore__link"
+                    <a href="#" target="_blank" rel="noopener"><img src="../images/playstore.svg" class="appstore__link"
                             alt=" Glintix Inbox App on Google Play Store"></a>
-                    <a href="#" target="_blank" rel="noopener"><img src="appstore.svg" class="appstore__link"
+                    <a href="#" target="_blank" rel="noopener"><img src="../images/appstore.svg" class="appstore__link"
                             alt="Glintix Inbox App on Apple App Store"></a>
                     <p class="mb-0 mt-2"><a href="#" target="_blank" class="social__link" rel="noopener"><img
-                                src="facebook.svg" alt="Glintix Facebook" class="social__icon"></a>
-                        <a href="#" target="_blank" class="social__link" rel="noopener"><img src="linkedin.svg"
+                                src="../images/facebook.svg" alt="Glintix Facebook" class="social__icon"></a>
+                        <a href="#" target="_blank" class="social__link" rel="noopener"><img src="../images/linkedin.svg"
                                 alt="Glintix Linkedin" class="social__icon"></a>
-                        <a href="#" target="_blank" class="social__link" rel="noopener"><img src="twitter.svg"
+                        <a href="#" target="_blank" class="social__link" rel="noopener"><img src="../images/twitter.svg"
                                 alt="Glintix Twitter" class="social__icon"></a>
                     </p>
                 </div>
                 <div class="col-md-8">
-                    <div class="row ">
-                        <div class="col text-center">
-                            <div class="footer_img "><img src="best-value-software-2022.png" alt=""
+                    <div class="row">
+                        <div class="col">
+                            <div class="footer_img"><img src="../images/best-value-software-2022.png" alt=""
                                     class="img-fluid footer__awards--img"></div>
                         </div>
-                        <div class="col text-center">
-                            <div class="footer_img "></div><img src="G2-badge.png" alt=""
+                        <div class="col">
+                            <div class="footer_img"></div><img src="../images/G2-badge.png" alt=""
                                 class="img-fluid footer__awards--img">
                         </div>
-                        <div class="col text-center">
-                            <div class="footer_img "></div><img src="footer-supreme-software.png" alt=""
+                        <div class="col">
+                            <div class="footer_img"></div><img src="../images/footer-supreme-software.png" alt=""
                                 class="img-fluid footer__awards--img">
                         </div>
-                        <div class="col text-center">
-                            <div class="footer_img "></div><img src="footer-customer-choice.png" alt=""
+                        <div class="col">
+                            <div class="footer_img"></div><img src="../images/footer-customer-choice.png" alt=""
                                 class="img-fluid footer__awards--img">
                         </div>
-                        <div class="col text-center">
-                            <div class="footer_img "></div><img src="footer-leader.png" alt=""
-                                class="img-fluid footer__awards--img ">
+                        <div class="col">
+                            <div class="footer_img"></div><img src="../images/footer-leader.png" alt=""
+                                class="img-fluid footer__awards--img">
                         </div>
-                        <div class="col text-center">
-                            <div class="footer_img "></div><img src="footer-techjockey.png" alt=""
+                        <div class="col">
+                            <div class="footer_img"></div><img src="../images/footer-techjockey.png" alt=""
                                 class="img-fluid footer__awards--img">
                         </div>
                     </div>
@@ -723,8 +730,8 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-md-4">
-                    <p>Copyright © 2023. Uneecops Workplace Solutions Pvt. Ltd. All Rights Reserved.</p>
-                    <p><span class="text-success">Uneecops</span> Group Company</p>
+                    <p>Copyright © 2023. Gnoin Pvt. Ltd. All Rights Reserved.</p>
+                    <p><span class="text-success">Gnoin Pvt Ltd</span> </p>
                 </div>
                 <div class="col-md-4">
                     <div class="row">
@@ -743,8 +750,8 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 
 </body>
 

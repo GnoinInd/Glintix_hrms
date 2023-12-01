@@ -7,38 +7,39 @@
 
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style11.css">
 
     <title>Engagement</title>
   </head>
   <body>
-    <div class="container-fluid p-0 m-0">
+  <div class="container-fluid p-0 m-0 sticky-top">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand " href="/index.html"><img src="glintix_logo.png" alt="" class="img-fluid"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="main_nav">
+          <div class="container-fluid">
+            <a class="navbar-brand " href="../index.php"><img src="../images/glintix_logo.png" alt="" class="img-fluid"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main_nav">
+    
+    
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    About <span class="logo-text-nav">Glintix</span>
+                  </a>
+                  <ul class="dropdown-menu dropdown_menu_show" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="../menu/ourStory.html">Our Story</a></li>
+                            <li><a class="dropdown-item" href="../menu/leadership.html">Leadership</a></li>
+                            <li><a class="dropdown-item" href="../menu/newsroom.html">Newsroom</a></li>
+                            <li><a class="dropdown-item" href="../menu/partners.html">Partners</a></li>
 
-
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                About <span class="logo-text-nav">Glintix</span>
-                            </a>
-                            <ul class="dropdown-menu dropdown_menu_show" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="/ourStory.html">Our Story</a></li>
-                                <li><a class="dropdown-item" href="/leadership.html">Leadership</a></li>
-                                <li><a class="dropdown-item" href="/newsroom.html">Newsroom</a></li>
-                                <li><a class="dropdown-item" href="/partners.html">Partners</a></li>
 
                             </ul>
-                        </li>
-                        <li class="nav-item dropdown ">
+                </li>
+                <li class="nav-item dropdown ">
                             <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown"> Product </a>
                             <ul class="dropdown-menu dropdown_menu_show ">
                                 <li><a class="dropdown-item" href="#"> HR Software &raquo; </a>
@@ -46,38 +47,38 @@
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-12 p-0 text-center">
-                                                    <li><a class="dropdown-item" href="/hr-software.html">HR
+                                                    <li><a class="dropdown-item" href="../menu/hr-software.php">HR
                                                             Software</a></li>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <li><a class="dropdown-item" href="/hcmSoftware.html"> <img
-                                                                src="images/corehricon.png" alt=""> Core HR</a></li>
-                                                    <li><a class="dropdown-item" href="/workforce.html"> <img
-                                                                src="images/workforceicon.png" alt=""> WorkForce</a>
+                                                    <li><a class="dropdown-item" href="../menu/hcmSoftware.php"> <img
+                                                                src="../images/corehricon.png" alt=""> Core HR</a></li>
+                                                    <li><a class="dropdown-item" href="../menu/workforce.php"> <img
+                                                                src="../images/workforceicon.png" alt=""> WorkForce</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                            href="/attendance-management-system.html"> <img
-                                                                src="images/attendanceicon.png" alt=""> Attendance</a>
+                                                            href="../menu/attendance-management-system.php"> <img
+                                                                src="../images/attendanceicon.png" alt=""> Attendance</a>
                                                     </li>
-                                                    <li><a class="dropdown-item" href="/helpdesk.html"> <img
-                                                                src="images/helpdeskicon.png" alt=""> Helpdesk</a></li>
-                                                    <li><a class="dropdown-item" href="/recruitment.html"> <img
-                                                                src="images/recruitmnticon.png" alt=""> Recruitment</a>
+                                                    <li><a class="dropdown-item" href="../menu/helpdesk.php"> <img
+                                                                src="../images/helpdeskicon.png" alt=""> Helpdesk</a></li>
+                                                    <li><a class="dropdown-item" href="../menu/recruitment.php"> <img
+                                                                src="../images/recruitmnticon.png" alt=""> Recruitment</a>
                                                     </li>
                                                 </div>
                                                 <div class="col-md-6">
-                                                    <li><a class="dropdown-item" href="/payroll.html"> <img
-                                                                src="images/payrollicon.png" alt=""> Payroll</a></li>
-                                                    <li><a class="dropdown-item" href="/performance.html"> <img
-                                                                src="images/performanceicon.png" alt=""> Performance</a>
+                                                    <li><a class="dropdown-item" href="../menu/payroll.php"> <img
+                                                                src="../images/payrollicon.png" alt=""> Payroll</a></li>
+                                                    <li><a class="dropdown-item" href="../menu/performance.php"> <img
+                                                                src="../images/performanceicon.png" alt=""> Performance</a>
                                                     </li>
-                                                    <li><a class="dropdown-item" href="/engagement.html"> <img
-                                                                src="images/engagementicon.png" alt=""> Engagement</a>
+                                                    <li><a class="dropdown-item" href="../menu/engagement.php"> <img
+                                                                src="../images/engagementicon.png" alt=""> Engagement</a>
                                                     </li>
-                                                    <li><a class="dropdown-item" href="/expense.html"> <img
-                                                                src="images/expenseicon.png" alt=""> Expense</a></li>
-                                                    <li><a class="dropdown-item" href="/asset.html"> <img
-                                                                src="images/asseticon.png" alt=""> Asset</a></li>
+                                                    <li><a class="dropdown-item" href="../menu/expense.php"> <img
+                                                                src="../images/expenseicon.png" alt=""> Expense</a></li>
+                                                    <li><a class="dropdown-item" href="../menu/asset.php"> <img
+                                                                src="../images/asseticon.png" alt=""> Asset</a></li>
                                                 </div>
                                             </div>
                                         </div>
@@ -86,62 +87,83 @@
                                 </li>
                                 <li><a class="dropdown-item" href="#">Solutions &raquo; </a>
                                     <ul class="submenu dropdown-menu">
-                                        <li><a class="dropdown-item" href="hr-professionals.html">HR Professionals</a>
+                                        <li><a class="dropdown-item" href="../menu/hr-professionals.php">HR Professionals</a>
                                         </li>
-                                        <li><a class="dropdown-item" href="employees.html">Employees</a></li>
-                                        <li><a class="dropdown-item" href="teamManagers.html">Team Managers</a></li>
-                                        <li><a class="dropdown-item" href="cxo.html">CXO</a></li>
+                                        <li><a class="dropdown-item" href="../menu/employees.php">Employees</a></li>
+                                        <li><a class="dropdown-item" href="../menu/teamManagers.php">Team Managers</a></li>
+                                        <li><a class="dropdown-item" href="../menu/cxo.php">CXO</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="dropdown-item" href="/mobile-app.html"> Mobile App </a>
+                                <li><a class="dropdown-item" href="../menu/mobile-app.php"> Mobile App </a>
 
                                 </li>
-                                <li><a class="dropdown-item" href="/projectone.html"> ProjectOne</a>
+                                <li><a class="dropdown-item" href="../menu/projectone.php"> ProjectOne</a>
 
                                 </li>
                             </ul>
                         </li>
-
-
-
-                        <li class="nav-item"><a class="nav-link" href="/Pricing.html"> Pricing </a></li>
-                        <li class="nav-item"><a class="nav-link" href="/clients.html"> Clients </a></li>
+    
+    
+    
+                <li class="nav-item"><a class="nav-link" href="../menu/Pricing.html"> Pricing </a></li>
+                        <li class="nav-item"><a class="nav-link" href="../menu/clients.html"> Clients </a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> HR Resources </a>
                             <ul class="dropdown-menu dropdown_menu_show">
-                                <li><a class="dropdown-item" href="/blog.html"> Blog </a></li>
-                                <li><a class="dropdown-item" href="/hr-commune.html"> HR Commune </a></li>
-                                <li><a class="dropdown-item" href="/guides.html"> Guides </a></li>
-                                <li><a class="dropdown-item" href="hrResources.html"> HR Resources </a></li>
-                                <li><a class="dropdown-item" href="/Template.html"> Template </a></li>
-                                <li><a class="dropdown-item" href="/policy.html"> Policy </a></li>
-                                <li><a class="dropdown-item" href="/checklist.html"> Checklist </a></li>
-                                <li><a class="dropdown-item" href="/glossary.html"> Glossary </a></li>
-                                <li><a class="dropdown-item" href="/faq.html"> FAQ </a></li>
-                                <li><a class="dropdown-item" href="/tips.html"> Tips </a></li>
+                                <li><a class="dropdown-item" href="../menu/blog.php"> Blog </a></li>
+                                <li><a class="dropdown-item" href="../menu/hr-commune.html"> HR Commune </a></li>
+                                <li><a class="dropdown-item" href="../menu/guides.html"> Guides </a></li>
+                                <li><a class="dropdown-item" href="../menu/hrResources.html"> HR Resources </a></li>
+                                <li><a class="dropdown-item" href="../menu/Template.html"> Template </a></li>
+                                <li><a class="dropdown-item" href="../menu/policy.html"> Policy </a></li>
+                                <li><a class="dropdown-item" href="../menu/checklist.html"> Checklist </a></li>
+                                <li><a class="dropdown-item" href="../menu/glossary.html"> Glossary </a></li>
+                                <li><a class="dropdown-item" href="../menu/faq.html"> FAQ </a></li>
+                                <li><a class="dropdown-item" href="../menu/tips.html"> Tips </a></li>
 
 
 
 
                             </ul>
                         </li>
-                    </ul>
-
-
-
-                </div>
-
-                <form class="d-flex">
-                    <button class="btn btn-outline-success m-1 text-white fw-700" type="submit"><a href="/login.html" class="text-white">Login</a></button>
-                    <button class="btn btn-outline-success m-1 text-white fw-700" type="submit m-1">Contact</button>
-                </form>
+              </ul>
+    
+    
+    
             </div>
+            
+            <form class="d-flex">
+                <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit"><a href="/login.html" class="text-white">Login</a></button>
+              <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit m-1">Contact</button>
+            </form>
+          </div> 
         </nav>
-
-
-
-
-
+    
+      
+    
+    
+    
+      </div>
+    
+    
+    
+    
+    
+      <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <h6 class="mb-4">Core HR</h6>
+                <h2 class="mb-4">HRIS Software that let’s you define policies as per your organizational structure.</h2>
+                <p class="mb-4">The HCM Software configured for your business, operations and people, just the way you
+                    run it.</p>
+                <button class="btn btn-success btn-custom mb-5">REQUEST A DEMO</button>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <div class="hcmImg">
+                    <img src="../images/core_hr_product.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
     </div>
 
 
@@ -160,11 +182,11 @@
                             automation.
 
                         </p>
-                        <button class="btn btn-success mt-4">REQUEST A DEMO</button>
+                        <button class="btn btn-success btn-custom mt-4">REQUEST A DEMO</button>
                     </div>
                     <div class="col-md-6">
                         <div class="hr-soft-img">
-                            <img src="hr-software.jpg" alt="" class="img-fluid">
+                            <img src="../images/../images/hr-software.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -192,38 +214,38 @@
                     <div class="col">
 
 
-                        <a href="#"><img src="core-hr.png" alt=""> Core HR</a>
+                        <a href="#"><img src="../images/core-hr.png" alt=""> Core HR</a>
                     </div>
                     <div class="col">
-                        <a href="#"><img src="workforce.png" alt=""> Workforce</a>
+                        <a href="#"><img src="../images/workforce.png" alt=""> Workforce</a>
                     </div>
                     <div class="col">
-                        <a href="#"><img src="payroll.png" alt=""> Payroll</a>
+                        <a href="#"><img src="../images/payroll.png" alt=""> Payroll</a>
                     </div>
                     <div class="col">
-                        <a href="#"><img src="time-office.png" alt=""> Time office</a>
+                        <a href="#"><img src="../images/time-office.png" alt=""> Time office</a>
                     </div>
                     <div class="col">
-                        <a href="#"><img src="performance.png" alt=""> Performance</a>
+                        <a href="#"><img src="../images/performance.png" alt=""> Performance</a>
                     </div>
                 </div>
                 <div class="row mt-5">
                     <div class="col">
 
 
-                        <a href="#"><img src="helpdesk.png" alt=""> Helpdesk</a>
+                        <a href="#"><img src="../images/helpdesk.png" alt=""> Helpdesk</a>
                     </div>
                     <div class="col">
-                        <a href="#"><img src="expense.png" alt="">Expense</a>
+                        <a href="#"><img src="../images/expense.png" alt="">Expense</a>
                     </div>
                     <div class="col">
-                        <a href="#"><img src="recruitment.png" alt=""> Recruitment</a>
+                        <a href="#"><img src="../images/recruitment.png" alt=""> Recruitment</a>
                     </div>
                     <div class="col">
-                        <a href="#"><img src="asset.png" alt=""> Asset</a>
+                        <a href="#"><img src="../images/asset.png" alt=""> Asset</a>
                     </div>
                     <div class="col">
-                        <a href="#"><img src="engagement.png" alt=""> Engagement</a>
+                        <a href="#"><img src="../images/engagement.png" alt=""> Engagement</a>
                     </div>
                 </div>
 
@@ -232,7 +254,7 @@
             <div class="col-md-12 mt-5">
                 <div class="row mt-4">
                     <div class="col-md-6 col-sm-12">
-                        <a href="#"><img src="core-hr.png" alt=""> Core HR</a>
+                        <a href="#"><img src="../images/core-hr.png" alt=""> Core HR</a>
 
                         <h3 class="mt-3">Get the freedom to configure the software like your own.</h3>
                         <p class="lh-md mt-2">GLintix, India’s best HRMS software gives you complete control of the
@@ -269,7 +291,7 @@
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="hr-soft-img">
-                            <img src="core-hr-min.png" alt="" class="img-fluid">
+                            <img src="../images/../images/core-hr-min.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -277,7 +299,7 @@
             <div class="col-md-12">
                 <div class="row mt-4">
                     <div class="col-md-6 col-sm-12">
-                        <a href="#"><img src="workforce.png" alt=""> Workforce</a>
+                        <a href="#"><img src="../images/workforce.png" alt=""> Workforce</a>
 
                         <h3 class="mt-3">Manage employee life cycle from onboarding to exit.</h3>
                         <p class="lh-md mt-2">Get your task like employee confirmation, clearance, letter generation &
@@ -289,12 +311,12 @@
 
 
                         <div class="row">
-                            <div class="col"> <a href="#"><img src="imports.svg" alt=""> 10+ imports</a></div>
-                            <div class="col"><a href="#"><img src="reports.svg" alt=""> 15+ reports</a></div>
-                            <div class="col"><a href="#"><img src="dashboard.svg" style="width: 25%;" alt="">
+                            <div class="col"> <a href="#"><img src="../images/imports.svg" alt=""> 10+ imports</a></div>
+                            <div class="col"><a href="#"><img src="../images/reports.svg" alt=""> 15+ reports</a></div>
+                            <div class="col"><a href="#"><img src="../images/dashboard.svg" style="width: 25%;" alt="">
                                     Dashboards</a>
                             </div>
-                            <div class="col"><a href="#"><img src="processes.svg" style="width: 25%;" alt=""> 12+
+                            <div class="col"><a href="#"><img src="../images/processes.svg" style="width: 25%;" alt=""> 12+
                                     Processes</a>
                             </div>
                             <div class="col-md-6 col-sm-12 text-center text-start">
@@ -317,7 +339,7 @@
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="hr-soft-img">
-                            <img src="workforce-min.png" alt="" class="img-fluid">
+                            <img src="../images/workforce-min.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -326,7 +348,7 @@
             <div class="col-md-12">
                 <div class="row mt-4">
                     <div class="col-md-6 col-sm-12">
-                        <a href="#"><img src="payroll.png" alt=""> Payroll</a>
+                        <a href="#"><img src="../images/payroll.png" alt=""> Payroll</a>
 
                         <h3 class="mt-3">Manage employee life cycle from onboarding to exit.</h3>
                         <p class="lh-md mt-2">Get your task like employee confirmation, clearance, letter generation &
@@ -338,12 +360,12 @@
 
 
                         <div class="row">
-                            <div class="col"> <a href="#"><img src="imports.svg" alt=""> 10+ imports</a></div>
-                            <div class="col"><a href="#"><img src="reports.svg" alt=""> 15+ reports</a></div>
-                            <div class="col"><a href="#"><img src="dashboard.svg" style="width: 25%;" alt="">
+                            <div class="col"> <a href="#"><img src="../images/imports.svg" alt=""> 10+ imports</a></div>
+                            <div class="col"><a href="#"><img src="../images/reports.svg" alt=""> 15+ reports</a></div>
+                            <div class="col"><a href="#"><img src="../images/dashboard.svg" style="width: 25%;" alt="">
                                     Dashboards</a>
                             </div>
-                            <div class="col"><a href="#"><img src="processes.svg" style="width: 25%;" alt=""> 12+
+                            <div class="col"><a href="#"><img src="../images/processes.svg" style="width: 25%;" alt=""> 12+
                                     Processes</a>
                             </div>
                             <div class="col-md-6 col-sm-12 text-center text-start">
@@ -369,7 +391,7 @@
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="hr-soft-img">
-                            <img src="payroll-min.png" alt="" class="img-fluid">
+                            <img src="../images/payroll-min.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -378,7 +400,7 @@
             <div class="col-md-12">
                 <div class="row mt-4">
                     <div class="col-md-6 col-sm-12">
-                        <a href="#"><img src="time-office.png" alt=""> Attendance</a>
+                        <a href="#"><img src="../images/time-office.png" alt=""> Attendance</a>
 
                         <h3 class="mt-3">Real-time attendance & 100% policy adherence made possible.</h3>
                         <p class="lh-md mt-2">
@@ -390,12 +412,12 @@
 
 
                         <div class="row">
-                            <div class="col"> <a href="#"><img src="imports.svg" alt=""> 10+ imports</a></div>
-                            <div class="col"><a href="#"><img src="reports.svg" alt=""> 15+ reports</a></div>
-                            <div class="col"><a href="#"><img src="dashboard.svg" style="width: 25%;" alt="">
+                            <div class="col"> <a href="#"><img src="../images/imports.svg" alt=""> 10+ imports</a></div>
+                            <div class="col"><a href="#"><img src="../images/reports.svg" alt=""> 15+ reports</a></div>
+                            <div class="col"><a href="#"><img src="../images/dashboard.svg" style="width: 25%;" alt="">
                                     Dashboards</a>
                             </div>
-                            <div class="col"><a href="#"><img src="processes.svg" style="width: 25%;" alt=""> 12+
+                            <div class="col"><a href="#"><img src="../images/processes.svg" style="width: 25%;" alt=""> 12+
                                     Processes</a>
                             </div>
                             <div class="col-md-6 col-sm-12 text-center text-start">
@@ -421,7 +443,7 @@
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="hr-soft-img">
-                            <img src="attendance-min.png" alt="" class="img-fluid">
+                            <img src="../images/attendance-min.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -430,7 +452,7 @@
             <div class="col-md-12">
                 <div class="row mt-4">
                     <div class="col-md-6 col-sm-12">
-                        <a href="#"><img src="performance.png" alt=""> Performance</a>
+                        <a href="#"><img src="../images/performance.png" alt=""> Performance</a>
 
                         <h3 class="mt-3">Achieve organizational goals with real-time feedback</h3>
                         <p class="lh-md mt-2">
@@ -444,12 +466,12 @@
 
 
                         <div class="row">
-                            <div class="col"> <a href="#"><img src="imports.svg" alt=""> 10+ imports</a></div>
-                            <div class="col"><a href="#"><img src="reports.svg" alt=""> 15+ reports</a></div>
-                            <div class="col"><a href="#"><img src="dashboard.svg" style="width: 25%;" alt="">
+                            <div class="col"> <a href="#"><img src="../images/imports.svg" alt=""> 10+ imports</a></div>
+                            <div class="col"><a href="#"><img src="../images/reports.svg" alt=""> 15+ reports</a></div>
+                            <div class="col"><a href="#"><img src="../images/dashboard.svg" style="width: 25%;" alt="">
                                     Dashboards</a>
                             </div>
-                            <div class="col"><a href="#"><img src="processes.svg" style="width: 25%;" alt=""> 12+
+                            <div class="col"><a href="#"><img src="../images/processes.svg" style="width: 25%;" alt=""> 12+
                                     Processes</a>
                             </div>
                             <div class="col-md-6 col-sm-12 text-center text-start">
@@ -475,7 +497,7 @@
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <div class="hr-soft-img">
-                            <img src="attendance-min.png" alt="" class="img-fluid">
+                            <img src="../images/attendance-min.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -483,7 +505,7 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
                         <div class="hr-soft-img1 text-center">
-                            <img src="mobile-app-convenience-min.png" alt="" class="img-fluid">
+                            <img src="../images/mobile-app-convenience-min.png" alt="" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12">
@@ -526,7 +548,7 @@
                     </div>
                     <div class="col">
                         <div class="hr-soft-img">
-                            <img src="hr-software-integrations-min.png" alt="" class="img-fluid">
+                            <img src="../images/hr-software-integrations-min.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -548,7 +570,7 @@
             <div class="row  mt-5">
                 <div class="col">
                     <div class="logoFoot">
-                        <img src="glintix_logo.png" alt="" class="img-fluid">
+                        <img src="../images/glintix_logo.png" alt="" class="img-fluid">
                     </div>
                     <div class="foottext mt-3">
                         An intelligent enterprise-ready HCM suite that automates HR processes, simplifies human
@@ -556,7 +578,7 @@
                         deliver actionable insights to build better workplaces.
                     </div>
                     <div class="footcerti mt-3">
-                        <img src="dmca_protected_sml_120af.png" alt="" class="img-fluid">
+                        <img src="../images/dmca_protected_sml_120af.png" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="col">
@@ -661,42 +683,42 @@
             </div>
             <div class="row mt-5">
                 <div class="col-md-4 ">
-                    <a href="#" target="_blank" rel="noopener"><img src="playstore.svg" class="appstore__link"
+                    <a href="#" target="_blank" rel="noopener"><img src="../images/playstore.svg" class="appstore__link"
                             alt=" Glintix Inbox App on Google Play Store"></a>
-                    <a href="#" target="_blank" rel="noopener"><img src="appstore.svg" class="appstore__link"
+                    <a href="#" target="_blank" rel="noopener"><img src="../images/appstore.svg" class="appstore__link"
                             alt="Glintix Inbox App on Apple App Store"></a>
                     <p class="mb-0 mt-2"><a href="#" target="_blank" class="social__link" rel="noopener"><img
-                                src="facebook.svg" alt="Glintix Facebook" class="social__icon"></a>
-                        <a href="#" target="_blank" class="social__link" rel="noopener"><img src="linkedin.svg"
+                                src="../images/facebook.svg" alt="Glintix Facebook" class="social__icon"></a>
+                        <a href="#" target="_blank" class="social__link" rel="noopener"><img src="../images/linkedin.svg"
                                 alt="Glintix Linkedin" class="social__icon"></a>
-                        <a href="#" target="_blank" class="social__link" rel="noopener"><img src="twitter.svg"
+                        <a href="#" target="_blank" class="social__link" rel="noopener"><img src="../images/twitter.svg"
                                 alt="Glintix Twitter" class="social__icon"></a>
                     </p>
                 </div>
                 <div class="col-md-8">
                     <div class="row">
                         <div class="col">
-                            <div class="footer_img"><img src="best-value-software-2022.png" alt=""
+                            <div class="footer_img"><img src="../images/best-value-software-2022.png" alt=""
                                     class="img-fluid footer__awards--img"></div>
                         </div>
                         <div class="col">
-                            <div class="footer_img"></div><img src="G2-badge.png" alt=""
+                            <div class="footer_img"></div><img src="../images/G2-badge.png" alt=""
                                 class="img-fluid footer__awards--img">
                         </div>
                         <div class="col">
-                            <div class="footer_img"></div><img src="footer-supreme-software.png" alt=""
+                            <div class="footer_img"></div><img src="../images/footer-supreme-software.png" alt=""
                                 class="img-fluid footer__awards--img">
                         </div>
                         <div class="col">
-                            <div class="footer_img"></div><img src="footer-customer-choice.png" alt=""
+                            <div class="footer_img"></div><img src="../images/footer-customer-choice.png" alt=""
                                 class="img-fluid footer__awards--img">
                         </div>
                         <div class="col">
-                            <div class="footer_img"></div><img src="footer-leader.png" alt=""
+                            <div class="footer_img"></div><img src="../images/footer-leader.png" alt=""
                                 class="img-fluid footer__awards--img">
                         </div>
                         <div class="col">
-                            <div class="footer_img"></div><img src="footer-techjockey.png" alt=""
+                            <div class="footer_img"></div><img src="../images/footer-techjockey.png" alt=""
                                 class="img-fluid footer__awards--img">
                         </div>
                     </div>
@@ -709,8 +731,8 @@
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-md-4">
-                    <p>Copyright © 2023. Uneecops Workplace Solutions Pvt. Ltd. All Rights Reserved.</p>
-                    <p><span class="text-success">Uneecops</span> Group Company</p>
+                    <p>Copyright © 2023. Gnoin Pvt. Ltd. All Rights Reserved.</p>
+                    <p><span class="text-success">Gnoin Pvt Ltd</span> </p>
                 </div>
                 <div class="col-md-4">
                     <div class="row">

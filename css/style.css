@@ -823,9 +823,31 @@ border-radius: 10px !important;
   background: #34a5a5 !important;
 }
 
-#popModal .iti__country-list{
-  white-space: wrap;
+ .iti__country-list{
+  white-space: nowrap;
+  position: relative !important;
 }
-#popModal .iti__country-name{
-  font-size: 11px !important;
+
+.bgk-color {
+  background-image: url(../images/newsroom_btmbanner.png);
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.navbar-expand-lg {
+  background: #4b9f9f !important;
+}
+.navbar-scrolled {
+  background-color: #34a5a5 !important;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.bg-anim-container{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.bg-anim-contents {
+  position: relative;
+  z-index: 2; /* Set a higher z-index to position it in front of the particle animation */
 }

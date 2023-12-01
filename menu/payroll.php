@@ -11,26 +11,26 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,400italic,300italic' rel='stylesheet'
         type='text/css'>
-    <link rel="stylesheet" href="assets/css/docs.theme.min.css">
+    <link rel="stylesheet" href="../assets/css/docs.theme.min.css">
 
 
-    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
-    <script src="assets/vendors/jquery.min.js"></script>
-    <script src="assets/owlcarousel/owl.carousel.js"></script>
+    <link rel="stylesheet" href="../assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/owlcarousel/assets/owl.theme.default.min.css">
+    <script src="../assets/vendors/jquery.min.js"></script>
+    <script src="../assets/owlcarousel/owl.carousel.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style11.css">
 
     <title>Payroll</title>
 </head>
 
 <body>
-    <div class="container-fluid p-0 m-0">
+<div class="container-fluid p-0 m-0 sticky-top">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <div class="container-fluid">
-            <a class="navbar-brand " href="/index.html"><img src="glintix_logo.png" alt="" class="img-fluid"></a>
+            <a class="navbar-brand " href="../index.php"><img src="../images/glintix_logo.png" alt="" class="img-fluid"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
               aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -45,82 +45,101 @@
                     About <span class="logo-text-nav">Glintix</span>
                   </a>
                   <ul class="dropdown-menu dropdown_menu_show" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="/ourStory.html">Our Story</a></li>
-                    <li><a class="dropdown-item" href="/leadership.html">Leadership</a></li>
-                    <li><a class="dropdown-item" href="/newsroom.html">Newsroom</a></li>
-                    <li><a class="dropdown-item" href="/partners.html">Partners</a></li>
-    
-                  </ul>
+                                <li><a class="dropdown-item" href="../menu/ourStory.html">Our Story</a></li>
+                            <li><a class="dropdown-item" href="../menu/leadership.html">Leadership</a></li>
+                            <li><a class="dropdown-item" href="../menu/newsroom.html">Newsroom</a></li>
+                            <li><a class="dropdown-item" href="../menu/partners.html">Partners</a></li>
+
+
+                            </ul>
                 </li>
                 <li class="nav-item dropdown ">
-                  <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown"> Product </a>
-                  <ul class="dropdown-menu dropdown_menu_show ">
-                    <li><a class="dropdown-item" href="#"> HR Software &raquo; </a>
-                      <ul class="submenu dropdown-menu product_menu ">
-                        <div class="container">
-                          <div class="row">
-                            <div class="col-md-12 p-0 text-center">
-                              <li><a class="dropdown-item" href="/hr-software.html">HR Software</a></li>
-                            </div>
-                            <div class="col-md-6">
-                              <li><a class="dropdown-item" href="/hcmSoftware.html"> <img src="images/corehricon.png" alt=""> Core HR</a></li>
-                              <li><a class="dropdown-item" href="/workforce.html"> <img src="images/workforceicon.png" alt=""> WorkForce</a></li>
-                              <li><a class="dropdown-item" href="/attendance-management-system.html"> <img src="images/attendanceicon.png" alt=""> Attendance</a></li>
-                              <li><a class="dropdown-item" href="/helpdesk.html"> <img src="images/helpdeskicon.png" alt=""> Helpdesk</a></li>
-                              <li><a class="dropdown-item" href="/recruitment.html"> <img src="images/recruitmnticon.png" alt=""> Recruitment</a></li>
-                            </div>
-                            <div class="col-md-6">
-                              <li><a class="dropdown-item" href="/payroll.html"> <img src="images/payrollicon.png" alt=""> Payroll</a></li>
-                              <li><a class="dropdown-item" href="/performance.html"> <img src="images/performanceicon.png" alt=""> Performance</a></li>
-                              <li><a class="dropdown-item" href="/engagement.html"> <img src="images/engagementicon.png" alt=""> Engagement</a></li>
-                              <li><a class="dropdown-item" href="/expense.html"> <img src="images/expenseicon.png" alt=""> Expense</a></li>
-                              <li><a class="dropdown-item" href="/asset.html"> <img src="images/asseticon.png" alt=""> Asset</a></li>
-                            </div>
-                          </div>
-                        </div>
+                            <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown"> Product </a>
+                            <ul class="dropdown-menu dropdown_menu_show ">
+                                <li><a class="dropdown-item" href="#"> HR Software &raquo; </a>
+                                    <ul class="submenu dropdown-menu product_menu ">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-12 p-0 text-center">
+                                                    <li><a class="dropdown-item" href="../menu/hr-software.php">HR
+                                                            Software</a></li>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <li><a class="dropdown-item" href="../menu/hcmSoftware.php"> <img
+                                                                src="../images/corehricon.png" alt=""> Core HR</a></li>
+                                                    <li><a class="dropdown-item" href="../menu/workforce.php"> <img
+                                                                src="../images/workforceicon.png" alt=""> WorkForce</a>
+                                                    </li>
+                                                    <li><a class="dropdown-item"
+                                                            href="../menu/attendance-management-system.php"> <img
+                                                                src="../images/attendanceicon.png" alt=""> Attendance</a>
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="../menu/helpdesk.php"> <img
+                                                                src="../images/helpdeskicon.png" alt=""> Helpdesk</a></li>
+                                                    <li><a class="dropdown-item" href="../menu/recruitment.php"> <img
+                                                                src="../images/recruitmnticon.png" alt=""> Recruitment</a>
+                                                    </li>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <li><a class="dropdown-item" href="../menu/payroll.php"> <img
+                                                                src="../images/payrollicon.png" alt=""> Payroll</a></li>
+                                                    <li><a class="dropdown-item" href="../menu/performance.php"> <img
+                                                                src="../images/performanceicon.png" alt=""> Performance</a>
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="../menu/engagement.php"> <img
+                                                                src="../images/engagementicon.png" alt=""> Engagement</a>
+                                                    </li>
+                                                    <li><a class="dropdown-item" href="../menu/expense.php"> <img
+                                                                src="../images/expenseicon.png" alt=""> Expense</a></li>
+                                                    <li><a class="dropdown-item" href="../menu/asset.php"> <img
+                                                                src="../images/asseticon.png" alt=""> Asset</a></li>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Solutions &raquo; </a>
+                                    <ul class="submenu dropdown-menu">
+                                        <li><a class="dropdown-item" href="../menu/hr-professionals.php">HR Professionals</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="../menu/employees.php">Employees</a></li>
+                                        <li><a class="dropdown-item" href="../menu/teamManagers.php">Team Managers</a></li>
+                                        <li><a class="dropdown-item" href="../menu/cxo.php">CXO</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="../menu/mobile-app.php"> Mobile App </a>
+
+                                </li>
+                                <li><a class="dropdown-item" href="../menu/projectone.php"> ProjectOne</a>
+
+                                </li>
+                            </ul>
+                        </li>
     
-                      </ul>
-                    </li>
-                    <li><a class="dropdown-item" href="#">Solutions &raquo; </a>
-                      <ul class="submenu dropdown-menu">
-                        <li><a class="dropdown-item" href="hr-professionals.html">HR Professionals</a></li>
-                        <li><a class="dropdown-item" href="employees.html">Employees</a></li>
-                        <li><a class="dropdown-item" href="teamManagers.html">Team Managers</a></li>
-                        <li><a class="dropdown-item" href="cxo.html">CXO</a></li>
-                      </ul>
-                    </li>
-                    <li><a class="dropdown-item" href="/mobile-app.html"> Mobile App </a>
-    
-                    </li>
-                    <li><a class="dropdown-item" href="/projectone.html"> ProjectOne</a>
-    
-                    </li>
-                  </ul>
-                </li>
     
     
-    
-                <li class="nav-item"><a class="nav-link" href="/Pricing.html"> Pricing </a></li>
-                <li class="nav-item"><a class="nav-link" href="/clients.html"> Clients </a></li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> HR Resources </a>
-                  <ul class="dropdown-menu dropdown_menu_show">
-                    <li><a class="dropdown-item" href="/blog.html"> Blog </a></li>
-                    <li><a class="dropdown-item" href="/hr-commune.html"> HR Commune </a></li>
-                    <li><a class="dropdown-item" href="/guides.html"> Guides </a></li>
-                    <li><a class="dropdown-item" href="hrResources.html"> HR Resources </a></li>
-                    <li><a class="dropdown-item" href="/Template.html"> Template </a></li>
-                    <li><a class="dropdown-item" href="/policy.html"> Policy </a></li>
-                    <li><a class="dropdown-item" href="/checklist.html"> Checklist </a></li>
-                    <li><a class="dropdown-item" href="/glossary.html"> Glossary </a></li>
-                    <li><a class="dropdown-item" href="/faq.html"> FAQ </a></li>
-                    <li><a class="dropdown-item" href="/tips.html"> Tips </a></li>
-                    
-                   
-                    
-                    
-                  </ul>
-                </li>
+                <li class="nav-item"><a class="nav-link" href="../menu/Pricing.html"> Pricing </a></li>
+                        <li class="nav-item"><a class="nav-link" href="../menu/clients.html"> Clients </a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> HR Resources </a>
+                            <ul class="dropdown-menu dropdown_menu_show">
+                                <li><a class="dropdown-item" href="../menu/blog.php"> Blog </a></li>
+                                <li><a class="dropdown-item" href="../menu/hr-commune.html"> HR Commune </a></li>
+                                <li><a class="dropdown-item" href="../menu/guides.html"> Guides </a></li>
+                                <li><a class="dropdown-item" href="../menu/hrResources.html"> HR Resources </a></li>
+                                <li><a class="dropdown-item" href="../menu/Template.html"> Template </a></li>
+                                <li><a class="dropdown-item" href="../menu/policy.html"> Policy </a></li>
+                                <li><a class="dropdown-item" href="../menu/checklist.html"> Checklist </a></li>
+                                <li><a class="dropdown-item" href="../menu/glossary.html"> Glossary </a></li>
+                                <li><a class="dropdown-item" href="../menu/faq.html"> FAQ </a></li>
+                                <li><a class="dropdown-item" href="../menu/tips.html"> Tips </a></li>
+
+
+
+
+                            </ul>
+                        </li>
               </ul>
     
     
@@ -128,8 +147,8 @@
             </div>
             
             <form class="d-flex">
-              <button class="btn btn-outline-success m-1 text-white fw-700" type="submit">Login</button>
-              <button class="btn btn-outline-success m-1 text-white fw-700" type="submit m-1">Contact</button>
+                <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit"><a href="/login.html" class="text-white">Login</a></button>
+              <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit m-1">Contact</button>
             </form>
           </div> 
         </nav>
@@ -139,27 +158,33 @@
     
     
       </div>
-
-    <div class="container mt-4">
+    
+    
+    
+    
+    
+      <div class="container mt-4">
         <div class="row">
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-6">
-                        <h5>HR software</h5>
-                        <h2 class="lh-sm mt-3 fw-bold">Best Cloud-based HR Software in India for Enterprises</h2>
-                        <p class="lh-lg mt-4">GLintix is the best HR software that automates all your HR operations
-                            intelligently.
-                            and simplifies your workday. In other words, our cloud HR systems work on a smart 1:7 work
-                            ratio
-                            implying that it does all your routine tasks in an average of 1 hour per day through
-                            automation.
-
-                        </p>
-                        <button class="btn btn-success mt-4">REQUEST A DEMO</button>
+                        <div class="bg-grey ps-5 p-3">
+                            <h5>HR software</h5>
+                            <h2 class="lh-sm mt-3 fw-bold">Best Cloud-based HR Software in India for Enterprises</h2>
+                            <p class="lh-lg mt-4">GLintix is the best HR software that automates all your HR operations
+                                intelligently.
+                                and simplifies your workday. In other words, our cloud HR systems work on a smart 1:7 work
+                                ratio
+                                implying that it does all your routine tasks in an average of 1 hour per day through
+                                automation.
+    
+                            </p>
+                            <button class="btn btn-success btn-custom mt-4">REQUEST A DEMO</button>
+                        </div>
                     </div>
                     <div class="col-md-6">
                         <div class="hr-soft-img">
-                            <img src="hr-software.jpg" alt="" class="img-fluid">
+                            <img src="../images/payroll1.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -169,10 +194,10 @@
             <div class="col-md-12 mt-5">
                 <div class="row">
 
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-12 col-sm-12">
                         <h2 class="text-center fs-28 mb-30">Why GLintix HRMS Suite is the Best?</h2>
                     </div>
-                    <div class="col-md-6 col-sm-12 mx-auto embed-responsive">
+                    <div class="col-md-12 col-sm-12 mx-auto embed-responsive">
                         <iframe loading="lazy" width="100%" height="411"
                             src="https://www.youtube.com/embed/G5B4Ybfd1gY?enablejsapi=1&amp;origin=https%3A%2F%2FGLintix.cloud"
                             title="Why GLintix HRMS Suite is the Best?" frameborder="0"
@@ -188,19 +213,33 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="row">
-                            <div class="col"> <h5>Salary Structure</h5> </div>
-                            <div class="col"> <h5>Salary Structure</h5> </div>
-                            <div class="col"> <h5>Salary Structure</h5> </div>
-                            <div class="col"> <h5>Salary Structure</h5> </div>
-                            <div class="col"> <h5>Salary Structure</h5> </div>
+                            <div class="col">
+                                <h5>Salary Structure</h5>
+                            </div>
+                            <div class="col">
+                                <h5>Salary Structure</h5>
+                            </div>
+                            <div class="col">
+                                <h5>Salary Structure</h5>
+                            </div>
+                            <div class="col">
+                                <h5>Salary Structure</h5>
+                            </div>
+                            <div class="col">
+                                <h5>Salary Structure</h5>
+                            </div>
                         </div>
                     </div>
 
                     <div class="col-md-12 mt-5 text-center">
                         <div class="row ">
-                            <div class="col"> <h5>Salary Structure</h5> </div>
-                            <div class="col"> <h5>Salary Structure</h5> </div>
-                           
+                            <div class="col">
+                                <h5>Salary Structure</h5>
+                            </div>
+                            <div class="col">
+                                <h5>Salary Structure</h5>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -210,15 +249,154 @@
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
                         <h3 class="text-success fw-bolder">What is Payroll Software?</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat suscipit ea corrupti error sunt illum, accusantium vero amet veniam ipsam doloribus quisquam, pariatur nam autem temporibus voluptatum minima. Minus labore eius odit necessitatibus commodi eum aperiam itaque quae culpa ipsam.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat suscipit ea corrupti error
+                            sunt illum, accusantium vero amet veniam ipsam doloribus quisquam, pariatur nam autem
+                            temporibus voluptatum minima. Minus labore eius odit necessitatibus commodi eum aperiam
+                            itaque quae culpa ipsam.</p>
                     </div>
                     <div class="col-md-6 col-sm-6">
                         <h3 class="text-success fw-bolder">What is Payroll Software?</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat suscipit ea corrupti error sunt illum, accusantium vero amet veniam ipsam doloribus quisquam, pariatur nam autem temporibus voluptatum minima. Minus labore eius odit necessitatibus commodi eum aperiam itaque quae culpa ipsam.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat suscipit ea corrupti error
+                            sunt illum, accusantium vero amet veniam ipsam doloribus quisquam, pariatur nam autem
+                            temporibus voluptatum minima. Minus labore eius odit necessitatibus commodi eum aperiam
+                            itaque quae culpa ipsam.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-12 mt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>HR software</h5>
+                        <h2 class="lh-sm mt-3 fw-bold">Best Cloud-based HR Software in India for Enterprises</h2>
+                        <p class="lh-lg mt-4">GLintix is the best HR software that automates all your HR operations
+                            intelligently.
+                            and simplifies your workday. In other words, our cloud HR systems work on a smart 1:7 work
+                            ratio
+                            implying that it does all your routine tasks in an average of 1 hour per day through
+                            automation.
+
+                        </p>
+                        <button class="btn btn-success btn-custom mt-4">REQUEST A DEMO</button>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="hr-soft-img">
+                            <img src="../images/payroll2.png" alt="" class="img-fluid">
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-12 mt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>HR software</h5>
+                        <h2 class="lh-sm mt-3 fw-bold">Best Cloud-based HR Software in India for Enterprises</h2>
+                        <p class="lh-lg mt-4">GLintix is the best HR software that automates all your HR operations
+                            intelligently.
+                            and simplifies your workday. In other words, our cloud HR systems work on a smart 1:7 work
+                            ratio
+                            implying that it does all your routine tasks in an average of 1 hour per day through
+                            automation.
+
+                        </p>
+                        <button class="btn btn-success btn-custom mt-4">REQUEST A DEMO</button>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="hr-soft-img">
+                            <img src="../images/payroll3.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 mt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>HR software</h5>
+                        <h2 class="lh-sm mt-3 fw-bold">Best Cloud-based HR Software in India for Enterprises</h2>
+                        <p class="lh-lg mt-4">GLintix is the best HR software that automates all your HR operations
+                            intelligently.
+                            and simplifies your workday. In other words, our cloud HR systems work on a smart 1:7 work
+                            ratio
+                            implying that it does all your routine tasks in an average of 1 hour per day through
+                            automation.
+
+                        </p>
+                        <button class="btn btn-success btn-custom mt-4">REQUEST A DEMO</button>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="hr-soft-img">
+                            <img src="../images/payroll4.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 mt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>HR software</h5>
+                        <h2 class="lh-sm mt-3 fw-bold">Best Cloud-based HR Software in India for Enterprises</h2>
+                        <p class="lh-lg mt-4">GLintix is the best HR software that automates all your HR operations
+                            intelligently.
+                            and simplifies your workday. In other words, our cloud HR systems work on a smart 1:7 work
+                            ratio
+                            implying that it does all your routine tasks in an average of 1 hour per day through
+                            automation.
+
+                        </p>
+                        <button class="btn btn-success btn-custom mt-4">REQUEST A DEMO</button>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="hr-soft-img">
+                            <img src="../images/payroll5.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 mt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>HR software</h5>
+                        <h2 class="lh-sm mt-3 fw-bold">Best Cloud-based HR Software in India for Enterprises</h2>
+                        <p class="lh-lg mt-4">GLintix is the best HR software that automates all your HR operations
+                            intelligently.
+                            and simplifies your workday. In other words, our cloud HR systems work on a smart 1:7 work
+                            ratio
+                            implying that it does all your routine tasks in an average of 1 hour per day through
+                            automation.
+
+                        </p>
+                        <button class="btn btn-success btn-custom mt-4">REQUEST A DEMO</button>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="hr-soft-img">
+                            <img src="../images/payroll6.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 mt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>HR software</h5>
+                        <h2 class="lh-sm mt-3 fw-bold">Best Cloud-based HR Software in India for Enterprises</h2>
+                        <p class="lh-lg mt-4">GLintix is the best HR software that automates all your HR operations
+                            intelligently.
+                            and simplifies your workday. In other words, our cloud HR systems work on a smart 1:7 work
+                            ratio
+                            implying that it does all your routine tasks in an average of 1 hour per day through
+                            automation.
+
+                        </p>
+                        <button class="btn btn-success btn-custom mt-4">REQUEST A DEMO</button>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="hr-soft-img">
+                            <img src="../images/payroll7.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-md-12 mt-5">
                 <div class="row">
                     <div class="col-md-6">
                         <h5>HR software</h5>
@@ -239,164 +417,458 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-12 mt-5">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h5>HR software</h5>
-                        <h2 class="lh-sm mt-3 fw-bold">Best Cloud-based HR Software in India for Enterprises</h2>
-                        <p class="lh-lg mt-4">GLintix is the best HR software that automates all your HR operations
-                            intelligently.
-                            and simplifies your workday. In other words, our cloud HR systems work on a smart 1:7 work
-                            ratio
-                            implying that it does all your routine tasks in an average of 1 hour per day through
-                            automation.
-
-                        </p>
-                        <button class="btn btn-success mt-4">REQUEST A DEMO</button>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="hr-soft-img">
-                            <img src="hr-software.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 mt-5">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h5>HR software</h5>
-                        <h2 class="lh-sm mt-3 fw-bold">Best Cloud-based HR Software in India for Enterprises</h2>
-                        <p class="lh-lg mt-4">GLintix is the best HR software that automates all your HR operations
-                            intelligently.
-                            and simplifies your workday. In other words, our cloud HR systems work on a smart 1:7 work
-                            ratio
-                            implying that it does all your routine tasks in an average of 1 hour per day through
-                            automation.
-
-                        </p>
-                        <button class="btn btn-success mt-4">REQUEST A DEMO</button>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="hr-soft-img">
-                            <img src="hr-software.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 mt-5">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h5>HR software</h5>
-                        <h2 class="lh-sm mt-3 fw-bold">Best Cloud-based HR Software in India for Enterprises</h2>
-                        <p class="lh-lg mt-4">GLintix is the best HR software that automates all your HR operations
-                            intelligently.
-                            and simplifies your workday. In other words, our cloud HR systems work on a smart 1:7 work
-                            ratio
-                            implying that it does all your routine tasks in an average of 1 hour per day through
-                            automation.
-
-                        </p>
-                        <button class="btn btn-success mt-4">REQUEST A DEMO</button>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="hr-soft-img">
-                            <img src="hr-software.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 mt-5">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h5>HR software</h5>
-                        <h2 class="lh-sm mt-3 fw-bold">Best Cloud-based HR Software in India for Enterprises</h2>
-                        <p class="lh-lg mt-4">GLintix is the best HR software that automates all your HR operations
-                            intelligently.
-                            and simplifies your workday. In other words, our cloud HR systems work on a smart 1:7 work
-                            ratio
-                            implying that it does all your routine tasks in an average of 1 hour per day through
-                            automation.
-
-                        </p>
-                        <button class="btn btn-success mt-4">REQUEST A DEMO</button>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="hr-soft-img">
-                            <img src="hr-software.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 mt-5">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h5>HR software</h5>
-                        <h2 class="lh-sm mt-3 fw-bold">Best Cloud-based HR Software in India for Enterprises</h2>
-                        <p class="lh-lg mt-4">GLintix is the best HR software that automates all your HR operations
-                            intelligently.
-                            and simplifies your workday. In other words, our cloud HR systems work on a smart 1:7 work
-                            ratio
-                            implying that it does all your routine tasks in an average of 1 hour per day through
-                            automation.
-
-                        </p>
-                        <button class="btn btn-success mt-4">REQUEST A DEMO</button>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="hr-soft-img">
-                            <img src="hr-software.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 mt-5">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h5>HR software</h5>
-                        <h2 class="lh-sm mt-3 fw-bold">Best Cloud-based HR Software in India for Enterprises</h2>
-                        <p class="lh-lg mt-4">GLintix is the best HR software that automates all your HR operations
-                            intelligently.
-                            and simplifies your workday. In other words, our cloud HR systems work on a smart 1:7 work
-                            ratio
-                            implying that it does all your routine tasks in an average of 1 hour per day through
-                            automation.
-
-                        </p>
-                        <button class="btn btn-success mt-4">REQUEST A DEMO</button>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="hr-soft-img">
-                            <img src="hr-software.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 mt-5">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h5>HR software</h5>
-                        <h2 class="lh-sm mt-3 fw-bold">Best Cloud-based HR Software in India for Enterprises</h2>
-                        <p class="lh-lg mt-4">GLintix is the best HR software that automates all your HR operations
-                            intelligently.
-                            and simplifies your workday. In other words, our cloud HR systems work on a smart 1:7 work
-                            ratio
-                            implying that it does all your routine tasks in an average of 1 hour per day through
-                            automation.
-
-                        </p>
-                        <button class="btn btn-success mt-4">REQUEST A DEMO</button>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="hr-soft-img">
-                            <img src="hr-software.jpg" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </div> -->
 
         </div>
     </div>
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <div class="home-demo">
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <h3 class="text-center">How does an integrated HR and Payroll software- Glintix work?</h3>
+                            <div class="owl-carousel mt-4">
+                                <div class="item">
+                                    <div class="card" style="width: 100%;">
+                                        <div class="card-body">
+                                            <h5 class="card-title mt-0">Attendance Management</h5>
+                                            <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                            <p class="card-text">1If time &amp; attendance data is not recorded and sent
+                                                properly to the payroll system, salary for extra days (the whole month)
+                                                may be credited to employees at times. Further, if the employee wage
+                                                report is generated late, the entire salary processing would get
+                                                delayed. With the integrated system, the attendance-related data is
+                                                automatically provided in the form of paydays for salary calculation.
+                                            </p>
+                                            <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">Know more</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="item">
+                                    <div class="card" style="width: 100%;">
+                                        <div class="card-body">
+                                            <h5 class="card-title mt-0">Attendance Management</h5>
+                                            <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                            <p class="card-text">1If time &amp; attendance data is not recorded and sent
+                                                properly to the payroll system, salary for extra days (the whole month)
+                                                may be credited to employees at times. Further, if the employee wage
+                                                report is generated late, the entire salary processing would get
+                                                delayed. With the integrated system, the attendance-related data is
+                                                automatically provided in the form of paydays for salary calculation.
+                                            </p>
+                                            <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">Know more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card" style="width: 100%;">
+                                        <div class="card-body">
+                                            <h5 class="card-title mt-0">Attendance Management</h5>
+                                            <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                            <p class="card-text">1If time &amp; attendance data is not recorded and sent
+                                                properly to the payroll system, salary for extra days (the whole month)
+                                                may be credited to employees at times. Further, if the employee wage
+                                                report is generated late, the entire salary processing would get
+                                                delayed. With the integrated system, the attendance-related data is
+                                                automatically provided in the form of paydays for salary calculation.
+                                            </p>
+                                            <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">Know more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card" style="width: 100%;">
+                                        <div class="card-body">
+                                            <h5 class="card-title mt-0">Attendance Management</h5>
+                                            <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                            <p class="card-text">1If time &amp; attendance data is not recorded and sent
+                                                properly to the payroll system, salary for extra days (the whole month)
+                                                may be credited to employees at times. Further, if the employee wage
+                                                report is generated late, the entire salary processing would get
+                                                delayed. With the integrated system, the attendance-related data is
+                                                automatically provided in the form of paydays for salary calculation.
+                                            </p>
+                                            <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">Know more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card" style="width: 100%;">
+                                        <div class="card-body">
+                                            <h5 class="card-title mt-0">Attendance Management</h5>
+                                            <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                            <p class="card-text">1If time &amp; attendance data is not recorded and sent
+                                                properly to the payroll system, salary for extra days (the whole month)
+                                                may be credited to employees at times. Further, if the employee wage
+                                                report is generated late, the entire salary processing would get
+                                                delayed. With the integrated system, the attendance-related data is
+                                                automatically provided in the form of paydays for salary calculation.
+                                            </p>
+                                            <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">Know more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card" style="width: 100%;">
+                                        <div class="card-body">
+                                            <h5 class="card-title mt-0">Attendance Management</h5>
+                                            <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                            <p class="card-text">1If time &amp; attendance data is not recorded and sent
+                                                properly to the payroll system, salary for extra days (the whole month)
+                                                may be credited to employees at times. Further, if the employee wage
+                                                report is generated late, the entire salary processing would get
+                                                delayed. With the integrated system, the attendance-related data is
+                                                automatically provided in the form of paydays for salary calculation.
+                                            </p>
+                                            <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">Know more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card" style="width: 100%;">
+                                        <div class="card-body">
+                                            <h5 class="card-title mt-0">Attendance Management</h5>
+                                            <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                            <p class="card-text">1If time &amp; attendance data is not recorded and sent
+                                                properly to the payroll system, salary for extra days (the whole month)
+                                                may be credited to employees at times. Further, if the employee wage
+                                                report is generated late, the entire salary processing would get
+                                                delayed. With the integrated system, the attendance-related data is
+                                                automatically provided in the form of paydays for salary calculation.
+                                            </p>
+                                            <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">Know more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card" style="width: 100%;">
+                                        <div class="card-body">
+                                            <h5 class="card-title mt-0">Attendance Management</h5>
+                                            <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                            <p class="card-text">1If time &amp; attendance data is not recorded and sent
+                                                properly to the payroll system, salary for extra days (the whole month)
+                                                may be credited to employees at times. Further, if the employee wage
+                                                report is generated late, the entire salary processing would get
+                                                delayed. With the integrated system, the attendance-related data is
+                                                automatically provided in the form of paydays for salary calculation.
+                                            </p>
+                                            <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">Know more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card" style="width: 100%;">
+                                        <div class="card-body">
+                                            <h5 class="card-title mt-0">Attendance Management</h5>
+                                            <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                            <p class="card-text">1If time &amp; attendance data is not recorded and sent
+                                                properly to the payroll system, salary for extra days (the whole month)
+                                                may be credited to employees at times. Further, if the employee wage
+                                                report is generated late, the entire salary processing would get
+                                                delayed. With the integrated system, the attendance-related data is
+                                                automatically provided in the form of paydays for salary calculation.
+                                            </p>
+                                            <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">Know more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card" style="width: 100%;">
+                                        <div class="card-body">
+                                            <h5 class="card-title mt-0">Attendance Management</h5>
+                                            <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                            <p class="card-text">1If time &amp; attendance data is not recorded and sent
+                                                properly to the payroll system, salary for extra days (the whole month)
+                                                may be credited to employees at times. Further, if the employee wage
+                                                report is generated late, the entire salary processing would get
+                                                delayed. With the integrated system, the attendance-related data is
+                                                automatically provided in the form of paydays for salary calculation.
+                                            </p>
+                                            <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">Know more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="card" style="width: 100%;">
+                                        <div class="card-body">
+                                            <h5 class="card-title mt-0">Attendance Management</h5>
+                                            <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                            <p class="card-text">1If time &amp; attendance data is not recorded and sent
+                                                properly to the payroll system, salary for extra days (the whole month)
+                                                may be credited to employees at times. Further, if the employee wage
+                                                report is generated late, the entire salary processing would get
+                                                delayed. With the integrated system, the attendance-related data is
+                                                automatically provided in the form of paydays for salary calculation.
+                                            </p>
+                                            <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">Know more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid" style="background: aliceblue;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="home-demo">
+                        <div class="row">
+                            <div class="large-12 columns">
+                                <h3 class="text-center p-4">The Top 6 benefits of the
+                                    Payroll Software</h3>
+                                <div class="owl-carousel">
+                                    <div class="item">
+                                        <div class="card card_shadows" style="width: 100%;">
+                                            <div class="card-body">
+                                                <h5 class="card-title mt-0">Attendance Management</h5>
+                                                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                                <p class="card-text">1If time &amp; attendance data is not recorded and
+                                                    sent
+                                                    properly to the payroll system, salary for extra days (the whole
+                                                    month)
+                                                    may be credited to employees at times. Further, if the employee wage
+                                                    report is generated late, the entire salary processing would get
+                                                    delayed. With the integrated system, the attendance-related data is
+                                                    automatically provided in the form of paydays for salary
+                                                    calculation.
+                                                </p>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know more</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="item">
+                                        <div class="card card_shadows" style="width: 100%;">
+                                            <div class="card-body">
+                                                <h5 class="card-title mt-0">Attendance Management</h5>
+                                                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                                <p class="card-text">1If time &amp; attendance data is not recorded and
+                                                    sent
+                                                    properly to the payroll system, salary for extra days (the whole
+                                                    month)
+                                                    may be credited to employees at times. Further, if the employee wage
+                                                    report is generated late, the entire salary processing would get
+                                                    delayed. With the integrated system, the attendance-related data is
+                                                    automatically provided in the form of paydays for salary
+                                                    calculation.
+                                                </p>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card card_shadows" style="width: 100%;">
+                                            <div class="card-body">
+                                                <h5 class="card-title mt-0">Attendance Management</h5>
+                                                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                                <p class="card-text">1If time &amp; attendance data is not recorded and
+                                                    sent
+                                                    properly to the payroll system, salary for extra days (the whole
+                                                    month)
+                                                    may be credited to employees at times. Further, if the employee wage
+                                                    report is generated late, the entire salary processing would get
+                                                    delayed. With the integrated system, the attendance-related data is
+                                                    automatically provided in the form of paydays for salary
+                                                    calculation.
+                                                </p>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card card_shadows" style="width: 100%;">
+                                            <div class="card-body">
+                                                <h5 class="card-title mt-0">Attendance Management</h5>
+                                                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                                <p class="card-text">1If time &amp; attendance data is not recorded and
+                                                    sent
+                                                    properly to the payroll system, salary for extra days (the whole
+                                                    month)
+                                                    may be credited to employees at times. Further, if the employee wage
+                                                    report is generated late, the entire salary processing would get
+                                                    delayed. With the integrated system, the attendance-related data is
+                                                    automatically provided in the form of paydays for salary
+                                                    calculation.
+                                                </p>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card card_shadows" style="width: 100%;">
+                                            <div class="card-body">
+                                                <h5 class="card-title mt-0">Attendance Management</h5>
+                                                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                                <p class="card-text">1If time &amp; attendance data is not recorded and
+                                                    sent
+                                                    properly to the payroll system, salary for extra days (the whole
+                                                    month)
+                                                    may be credited to employees at times. Further, if the employee wage
+                                                    report is generated late, the entire salary processing would get
+                                                    delayed. With the integrated system, the attendance-related data is
+                                                    automatically provided in the form of paydays for salary
+                                                    calculation.
+                                                </p>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card card_shadows" style="width: 100%;">
+                                            <div class="card-body">
+                                                <h5 class="card-title mt-0">Attendance Management</h5>
+                                                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                                <p class="card-text">1If time &amp; attendance data is not recorded and
+                                                    sent
+                                                    properly to the payroll system, salary for extra days (the whole
+                                                    month)
+                                                    may be credited to employees at times. Further, if the employee wage
+                                                    report is generated late, the entire salary processing would get
+                                                    delayed. With the integrated system, the attendance-related data is
+                                                    automatically provided in the form of paydays for salary
+                                                    calculation.
+                                                </p>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card card_shadows" style="width: 100%;">
+                                            <div class="card-body">
+                                                <h5 class="card-title mt-0">Attendance Management</h5>
+                                                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                                <p class="card-text">1If time &amp; attendance data is not recorded and
+                                                    sent
+                                                    properly to the payroll system, salary for extra days (the whole
+                                                    month)
+                                                    may be credited to employees at times. Further, if the employee wage
+                                                    report is generated late, the entire salary processing would get
+                                                    delayed. With the integrated system, the attendance-related data is
+                                                    automatically provided in the form of paydays for salary
+                                                    calculation.
+                                                </p>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card card_shadows" style="width: 100%;">
+                                            <div class="card-body">
+                                                <h5 class="card-title mt-0">Attendance Management</h5>
+                                                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                                <p class="card-text">1If time &amp; attendance data is not recorded and
+                                                    sent
+                                                    properly to the payroll system, salary for extra days (the whole
+                                                    month)
+                                                    may be credited to employees at times. Further, if the employee wage
+                                                    report is generated late, the entire salary processing would get
+                                                    delayed. With the integrated system, the attendance-related data is
+                                                    automatically provided in the form of paydays for salary
+                                                    calculation.
+                                                </p>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card card_shadows" style="width: 100%;">
+                                            <div class="card-body">
+                                                <h5 class="card-title mt-0">Attendance Management</h5>
+                                                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                                <p class="card-text">1If time &amp; attendance data is not recorded and
+                                                    sent
+                                                    properly to the payroll system, salary for extra days (the whole
+                                                    month)
+                                                    may be credited to employees at times. Further, if the employee wage
+                                                    report is generated late, the entire salary processing would get
+                                                    delayed. With the integrated system, the attendance-related data is
+                                                    automatically provided in the form of paydays for salary
+                                                    calculation.
+                                                </p>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card card_shadows" style="width: 100%;">
+                                            <div class="card-body">
+                                                <h5 class="card-title mt-0">Attendance Management</h5>
+                                                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                                <p class="card-text">1If time &amp; attendance data is not recorded and
+                                                    sent
+                                                    properly to the payroll system, salary for extra days (the whole
+                                                    month)
+                                                    may be credited to employees at times. Further, if the employee wage
+                                                    report is generated late, the entire salary processing would get
+                                                    delayed. With the integrated system, the attendance-related data is
+                                                    automatically provided in the form of paydays for salary
+                                                    calculation.
+                                                </p>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card card_shadows" style="width: 100%;">
+                                            <div class="card-body">
+                                                <h5 class="card-title mt-0">Attendance Management</h5>
+                                                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                                <p class="card-text">1If time &amp; attendance data is not recorded and
+                                                    sent
+                                                    properly to the payroll system, salary for extra days (the whole
+                                                    month)
+                                                    may be credited to employees at times. Further, if the employee wage
+                                                    report is generated late, the entire salary processing would get
+                                                    delayed. With the integrated system, the attendance-related data is
+                                                    automatically provided in the form of paydays for salary
+                                                    calculation.
+                                                </p>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know more</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
 
     <div class="container mt-4">
         <div class="row">
@@ -418,8 +890,8 @@
                                                 delayed. With the integrated system, the attendance-related data is
                                                 automatically provided in the form of paydays for salary calculation.
                                             </p>
-                                            <a href="#" class="card-link">Card link</a>
-                                            <a href="#" class="card-link">Another link</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                         </div>
                                     </div>
 
@@ -436,8 +908,8 @@
                                                 delayed. With the integrated system, the attendance-related data is
                                                 automatically provided in the form of paydays for salary calculation.
                                             </p>
-                                            <a href="#" class="card-link">Card link</a>
-                                            <a href="#" class="card-link">Another link</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -453,8 +925,8 @@
                                                 delayed. With the integrated system, the attendance-related data is
                                                 automatically provided in the form of paydays for salary calculation.
                                             </p>
-                                            <a href="#" class="card-link">Card link</a>
-                                            <a href="#" class="card-link">Another link</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -470,8 +942,8 @@
                                                 delayed. With the integrated system, the attendance-related data is
                                                 automatically provided in the form of paydays for salary calculation.
                                             </p>
-                                            <a href="#" class="card-link">Card link</a>
-                                            <a href="#" class="card-link">Another link</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -487,8 +959,8 @@
                                                 delayed. With the integrated system, the attendance-related data is
                                                 automatically provided in the form of paydays for salary calculation.
                                             </p>
-                                            <a href="#" class="card-link">Card link</a>
-                                            <a href="#" class="card-link">Another link</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -504,8 +976,8 @@
                                                 delayed. With the integrated system, the attendance-related data is
                                                 automatically provided in the form of paydays for salary calculation.
                                             </p>
-                                            <a href="#" class="card-link">Card link</a>
-                                            <a href="#" class="card-link">Another link</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -521,8 +993,8 @@
                                                 delayed. With the integrated system, the attendance-related data is
                                                 automatically provided in the form of paydays for salary calculation.
                                             </p>
-                                            <a href="#" class="card-link">Card link</a>
-                                            <a href="#" class="card-link">Another link</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -538,8 +1010,8 @@
                                                 delayed. With the integrated system, the attendance-related data is
                                                 automatically provided in the form of paydays for salary calculation.
                                             </p>
-                                            <a href="#" class="card-link">Card link</a>
-                                            <a href="#" class="card-link">Another link</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -555,8 +1027,8 @@
                                                 delayed. With the integrated system, the attendance-related data is
                                                 automatically provided in the form of paydays for salary calculation.
                                             </p>
-                                            <a href="#" class="card-link">Card link</a>
-                                            <a href="#" class="card-link">Another link</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -572,8 +1044,8 @@
                                                 delayed. With the integrated system, the attendance-related data is
                                                 automatically provided in the form of paydays for salary calculation.
                                             </p>
-                                            <a href="#" class="card-link">Card link</a>
-                                            <a href="#" class="card-link">Another link</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -589,8 +1061,8 @@
                                                 delayed. With the integrated system, the attendance-related data is
                                                 automatically provided in the form of paydays for salary calculation.
                                             </p>
-                                            <a href="#" class="card-link">Card link</a>
-                                            <a href="#" class="card-link">Another link</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                            <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -627,8 +1099,8 @@
                                                     delayed. With the integrated system, the attendance-related data is
                                                     automatically provided in the form of paydays for salary calculation.
                                                 </p>
-                                                <a href="#" class="card-link">Card link</a>
-                                                <a href="#" class="card-link">Another link</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                             </div>
                                         </div>
     
@@ -645,8 +1117,8 @@
                                                     delayed. With the integrated system, the attendance-related data is
                                                     automatically provided in the form of paydays for salary calculation.
                                                 </p>
-                                                <a href="#" class="card-link">Card link</a>
-                                                <a href="#" class="card-link">Another link</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -662,8 +1134,8 @@
                                                     delayed. With the integrated system, the attendance-related data is
                                                     automatically provided in the form of paydays for salary calculation.
                                                 </p>
-                                                <a href="#" class="card-link">Card link</a>
-                                                <a href="#" class="card-link">Another link</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -679,8 +1151,8 @@
                                                     delayed. With the integrated system, the attendance-related data is
                                                     automatically provided in the form of paydays for salary calculation.
                                                 </p>
-                                                <a href="#" class="card-link">Card link</a>
-                                                <a href="#" class="card-link">Another link</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -696,8 +1168,8 @@
                                                     delayed. With the integrated system, the attendance-related data is
                                                     automatically provided in the form of paydays for salary calculation.
                                                 </p>
-                                                <a href="#" class="card-link">Card link</a>
-                                                <a href="#" class="card-link">Another link</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -713,8 +1185,8 @@
                                                     delayed. With the integrated system, the attendance-related data is
                                                     automatically provided in the form of paydays for salary calculation.
                                                 </p>
-                                                <a href="#" class="card-link">Card link</a>
-                                                <a href="#" class="card-link">Another link</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -730,8 +1202,8 @@
                                                     delayed. With the integrated system, the attendance-related data is
                                                     automatically provided in the form of paydays for salary calculation.
                                                 </p>
-                                                <a href="#" class="card-link">Card link</a>
-                                                <a href="#" class="card-link">Another link</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -747,8 +1219,8 @@
                                                     delayed. With the integrated system, the attendance-related data is
                                                     automatically provided in the form of paydays for salary calculation.
                                                 </p>
-                                                <a href="#" class="card-link">Card link</a>
-                                                <a href="#" class="card-link">Another link</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -764,8 +1236,8 @@
                                                     delayed. With the integrated system, the attendance-related data is
                                                     automatically provided in the form of paydays for salary calculation.
                                                 </p>
-                                                <a href="#" class="card-link">Card link</a>
-                                                <a href="#" class="card-link">Another link</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -781,8 +1253,8 @@
                                                     delayed. With the integrated system, the attendance-related data is
                                                     automatically provided in the form of paydays for salary calculation.
                                                 </p>
-                                                <a href="#" class="card-link">Card link</a>
-                                                <a href="#" class="card-link">Another link</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -798,8 +1270,8 @@
                                                     delayed. With the integrated system, the attendance-related data is
                                                     automatically provided in the form of paydays for salary calculation.
                                                 </p>
-                                                <a href="#" class="card-link">Card link</a>
-                                                <a href="#" class="card-link">Another link</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -826,22 +1298,22 @@
                 </div>
         
                 <div class="row justify-content-center ">
-                    <div class="col-md-3 col-sm-6 text-center   border-bottom "> <img src="kyocera.png" alt=""> </div>
-                    <div class="col-md-3 col-sm-6 text-center  border border-top-0"><img src="logo-bikaner.jpg" alt=""></div>
-                    <div class="col-md-3 col-sm-6 text-center  border border-top-0"><img src="logo-haier.jpg" alt=""></div>
-                    <div class="col-md-3 col-sm-6 text-center  border-bottom"><img src="logo-harvest.jpg" alt=""></div>
+                    <div class="col-md-3 col-sm-6 text-center   border-bottom "> <img src="../images/kyocera.png" alt=""> </div>
+                    <div class="col-md-3 col-sm-6 text-center  border border-top-0"><img src="../images/logo-bikaner.jpg" alt=""></div>
+                    <div class="col-md-3 col-sm-6 text-center  border border-top-0"><img src="../images/logo-haier.jpg" alt=""></div>
+                    <div class="col-md-3 col-sm-6 text-center  border-bottom"><img src="../images/logo-harvest.jpg" alt=""></div>
                 </div>
                 <div class="row justify-content-center ">
-                    <div class="col-md-3 col-sm-6 text-center  border border-start-0"> <img src="kyocera.png" alt=""> </div>
-                    <div class="col-md-3 col-sm-6 text-center  border"><img src="logo-bikaner.jpg" alt=""></div>
-                    <div class="col-md-3 col-sm-6 text-center  border"><img src="logo-haier.jpg" alt=""></div>
-                    <div class="col-md-3 col-sm-6 text-center  border border-end-0"><img src="logo-harvest.jpg" alt=""></div>
+                    <div class="col-md-3 col-sm-6 text-center  border border-start-0"> <img src="../images/kyocera.png" alt=""> </div>
+                    <div class="col-md-3 col-sm-6 text-center  border"><img src="../images/logo-bikaner.jpg" alt=""></div>
+                    <div class="col-md-3 col-sm-6 text-center  border"><img src="../images/logo-haier.jpg" alt=""></div>
+                    <div class="col-md-3 col-sm-6 text-center  border border-end-0"><img src="../images/logo-harvest.jpg" alt=""></div>
                 </div>
                 <div class="row justify-content-center ">
-                    <div class="col-md-3 col-sm-6 text-center  border border-start-0"> <img src="kyocera.png" alt=""> </div>
-                    <div class="col-md-3 col-sm-6 text-center  border"><img src="logo-bikaner.jpg" alt=""></div>
-                    <div class="col-md-3 col-sm-6 text-center  border"><img src="logo-haier.jpg" alt=""></div>
-                    <div class="col-md-3 col-sm-6 text-center  border border-end-0"><img src="logo-harvest.jpg" alt=""></div>
+                    <div class="col-md-3 col-sm-6 text-center  border border-start-0"> <img src="../images/kyocera.png" alt=""> </div>
+                    <div class="col-md-3 col-sm-6 text-center  border"><img src="../images/logo-bikaner.jpg" alt=""></div>
+                    <div class="col-md-3 col-sm-6 text-center  border"><img src="../images/logo-haier.jpg" alt=""></div>
+                    <div class="col-md-3 col-sm-6 text-center  border border-end-0"><img src="../images/logo-harvest.jpg" alt=""></div>
                 </div>
             </div>
 
@@ -1166,8 +1638,8 @@
                                     Eveniet
                                     ex
                                     nisi sequi ipsum.</p>
-                                <a href="#" class="card-link">Card link</a>
-                                <a href="#" class="card-link">Another link</a>
+                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                             </div>
                         </div>
 
@@ -1184,8 +1656,8 @@
                                     Eveniet
                                     ex
                                     nisi sequi ipsum.</p>
-                                <a href="#" class="card-link">Card link</a>
-                                <a href="#" class="card-link">Another link</a>
+                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                             </div>
                         </div>
 
@@ -1202,8 +1674,8 @@
                                     Eveniet
                                     ex
                                     nisi sequi ipsum.</p>
-                                <a href="#" class="card-link">Card link</a>
-                                <a href="#" class="card-link">Another link</a>
+                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                             </div>
                         </div>
 
@@ -1224,8 +1696,8 @@
                                         expedita!
                                         Eveniet ex
                                         nisi sequi ipsum</p>
-                                    <a href="#" class="card-link">Card link</a>
-                                    <a href="#" class="card-link">Another link</a>
+                                    <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                    <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                 </div>
                             </div>
 
@@ -1242,8 +1714,8 @@
                                         expedita!
                                         Eveniet ex
                                         nisi sequi ipsum.</p>
-                                    <a href="#" class="card-link">Card link</a>
-                                    <a href="#" class="card-link">Another link</a>
+                                    <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                    <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                 </div>
                             </div>
 
@@ -1260,8 +1732,8 @@
                                         expedita!
                                         Eveniet ex
                                         nisi sequi ipsum.</p>
-                                    <a href="#" class="card-link">Card link</a>
-                                    <a href="#" class="card-link">Another link</a>
+                                    <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                    <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                 </div>
                             </div>
 
@@ -1282,8 +1754,8 @@
                                             expedita!
                                             Eveniet ex
                                             nisi sequi ipsum..</p>
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link">Another link</a>
+                                        <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                        <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                     </div>
                                 </div>
 
@@ -1301,8 +1773,8 @@
                                             expedita!
                                             Eveniet ex
                                             nisi sequi ipsum..</p>
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link">Another link</a>
+                                        <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                        <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                     </div>
                                 </div>
 
@@ -1320,8 +1792,8 @@
                                             expedita!
                                             Eveniet ex
                                             nisi sequi ipsum..</p>
-                                        <a href="#" class="card-link">Card link</a>
-                                        <a href="#" class="card-link">Another link</a>
+                                        <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                        <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                     </div>
                                 </div>
 
@@ -1345,8 +1817,8 @@
                                                     enim
                                                     expedita! Eveniet ex
                                                     nisi sequi ipsum.</p>
-                                                <a href="#" class="card-link">Card link</a>
-                                                <a href="#" class="card-link">Another link</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                             </div>
                                         </div>
 
@@ -1365,8 +1837,8 @@
                                                     enim
                                                     expedita! Eveniet ex
                                                     nisi sequi ipsum.</p>
-                                                <a href="#" class="card-link">Card link</a>
-                                                <a href="#" class="card-link">Another link</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                             </div>
                                         </div>
 
@@ -1385,8 +1857,8 @@
                                                     enim
                                                     expedita! Eveniet ex
                                                     nisi sequi ipsum..</p>
-                                                <a href="#" class="card-link">Card link</a>
-                                                <a href="#" class="card-link">Another link</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                             </div>
                                         </div>
 
@@ -1412,8 +1884,8 @@
                                                         enim
                                                         expedita! Eveniet ex
                                                         nisi sequi ipsum..</p>
-                                                    <a href="#" class="card-link">Card link</a>
-                                                    <a href="#" class="card-link">Another link</a>
+                                                    <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                    <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                                 </div>
                                             </div>
 
@@ -1434,8 +1906,8 @@
                                                         enim
                                                         expedita! Eveniet ex
                                                         nisi sequi ipsum..</p>
-                                                    <a href="#" class="card-link">Card link</a>
-                                                    <a href="#" class="card-link">Another link</a>
+                                                    <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                    <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                                 </div>
                                             </div>
 
@@ -1456,8 +1928,8 @@
                                                         enim
                                                         expedita! Eveniet ex
                                                         nisi sequi ipsum..</p>
-                                                    <a href="#" class="card-link">Card link</a>
-                                                    <a href="#" class="card-link">Another link</a>
+                                                    <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                    <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                                 </div>
                                             </div>
 
@@ -1485,11 +1957,11 @@
                             automation.
 
                         </p>
-                        <button class="btn btn-success mt-4">REQUEST A DEMO</button>
+                        <button class="btn btn-success btn-custom mt-4">REQUEST A DEMO</button>
                     </div>
                     <div class="col-md-6">
                         <div class="hr-soft-img">
-                            <img src="hr-software.jpg" alt="" class="img-fluid">
+                            <img src="../images/hr-software.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -1624,183 +2096,186 @@
 
     <footer>
         <div class="container">
-          <div class="row  mt-5">
-            <div class="col">
-              <div class="logoFoot">
-                <img src="glintix_logo.png" alt="" class="img-fluid">
-              </div>
-              <div class="foottext mt-3">
-                An intelligent enterprise-ready HCM suite that automates HR processes, simplifies human interactions and
-                deliver actionable insights to build better workplaces.
-              </div>
-              <div class="footcerti mt-3">
-                <img src="dmca_protected_sml_120af.png" alt="" class="img-fluid">
-              </div>
-            </div>
-            <div class="col">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item p-0 ">
-                  <h6 class="text-success">Product</h6>
-                </li>
-                <li class="list-group-item p-0 "> <a href="">HR Software</a> </li>
-                <li class="list-group-item p-0 "> <a href="">Payroll Software</a> </li>
-                <li class="list-group-item p-0 "><a href="">Performance</a></li>
-                <li class="list-group-item p-0 "><a href="">Attendance</a></li>
-                <li class="list-group-item p-0 "><a href="">Workforce</a></li>
-                <li class="list-group-item p-0 "><a href="">Core HR</a></li>
-                <li class="list-group-item p-0 "><a href="">Engagement</a></li>
-                <li class="list-group-item p-0 "><a href="">Helpdesk</a></li>
-                <li class="list-group-item p-0 "><a href="">Expense</a></li>
-                <li class="list-group-item p-0 "><a href="">Recruitment</a></li>
-                <li class="list-group-item p-0 "><a href="">Asset</a></li>
-                <li class="list-group-item p-0 "><a href="">Mobile App</a></li>
-                <li class="list-group-item p-0 "><a href="">Inbox for HR</a></li>
-                <li class="list-group-item p-0 "><a href="">Leave</a></li>
-                <li class="list-group-item p-0 "><a href="">Time Tracking</a></li>
-                <li class="list-group-item p-0 "><a href="">ProjectOne</a></li>
-                <li class="list-group-item p-0 "><a href="">Partners</a></li>
-              </ul>
-            </div>
-            <div class="col">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item p-0 ">
-                  <h6 class="text-success">Solution By Role</h6>
-                </li>
-                <li class="list-group-item p-0 "> <a href="">HR Professionals</a> </li>
-                <li class="list-group-item p-0 "> <a href="">Managers</a> </li>
-                <li class="list-group-item p-0 "><a href="">Employees</a></li>
-                <li class="list-group-item p-0 "><a href="">CXO</a></li>
-              </ul>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item p-0 ">
-                  <h6 class="text-success">Solution By Cities</h6>
-                </li>
-                <li class="list-group-item p-0 "> <a href="">HR Software Mumbai</a> </li>
-                <li class="list-group-item p-0 "> <a href="">HR Software Bangalore</a> </li>
-                <li class="list-group-item p-0 "><a href="">HR Software Delhi</a></li>
-                <li class="list-group-item p-0 "><a href="">HR Software Chennai</a></li>
-                <li class="list-group-item p-0 "><a href="">HR Software Hyderabad</a></li>
-                <li class="list-group-item p-0 "><a href="">Payroll Delhi</a></li>
-                <li class="list-group-item p-0 "><a href="">Payroll Chennai</a></li>
-                <li class="list-group-item p-0 "><a href="">Payroll Hyderabad</a></li>
-                <li class="list-group-item p-0 "><a href="">Payroll Bangalore</a></li>
-                <li class="list-group-item p-0 "><a href="">Payroll Mumbai</a></li>
-              </ul>
-            </div>
-            <div class="col">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item p-0 ">
-                  <h6 class="text-success">Resources</h6>
-                </li>
-                <li class="list-group-item p-0 "> <a href="">Blog</a> </li>
-                <li class="list-group-item p-0 "> <a href="">HR Commune</a> </li>
-                <li class="list-group-item p-0 "><a href="">Guides</a></li>
-                <li class="list-group-item p-0 "><a href="">HR Resources</a></li>
-                <li class="list-group-item p-0 "><a href="">Template</a></li>
-                <li class="list-group-item p-0 "><a href="">Policy</a></li>
-                <li class="list-group-item p-0 "><a href="">Checklist</a></li>
-                <li class="list-group-item p-0 "><a href="">Glossary</a></li>
-                <li class="list-group-item p-0 "><a href="">FAQ</a></li>
-                <li class="list-group-item p-0 "><a href="">Tips</a></li>
-              </ul>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item p-0 ">
-                  <h6 class="text-success">More</h6>
-                </li>
-                <li class="list-group-item p-0 "> <a href="">Payroll Solutions</a> </li>
-                <li class="list-group-item p-0 "> <a href="">HR Solutions</a> </li>
-              </ul>
-            </div>
-            <div class="col">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item p-0 ">
-                  <h6 class="text-success">Company</h6>
-                </li>
-                <li class="list-group-item p-0 "> <a href="">Why Glintix</a> </li>
-                <li class="list-group-item p-0 "> <a href="">Pricing</a> </li>
-                <li class="list-group-item p-0 "><a href="">Clients</a></li>
-                <li class="list-group-item p-0 "><a href="">Contact</a></li>
-              </ul>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item p-0 ">
-                  <h6 class="text-success">Guide</h6>
-                </li>
-                <li class="list-group-item p-0 "> <a href="">The Continuous Listening Guide</a> </li>
-                <li class="list-group-item p-0 "> <a href="">HRMS Guide</a> </li>
-                <li class="list-group-item p-0 "><a href="">Payroll Guide</a></li>
-                <li class="list-group-item p-0 "><a href="">Recruitment Guide</a></li>
-                <li class="list-group-item p-0 "><a href="">Performance Management Guide</a></li>
-                <li class="list-group-item p-0 "><a href="">Appraisal Guide</a></li>
-                <li class="list-group-item p-0 "><a href="">Engagement Guide</a></li>
-                <li class="list-group-item p-0 "><a href="">Leave Management Guide</a></li>
-                <li class="list-group-item p-0 "><a href="">Expense Guide</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="row mt-5">
-            <div class="col-md-4 ">
-              <a href="#" target="_blank" rel="noopener"><img src="playstore.svg" class="appstore__link"
-                  alt=" Glintix Inbox App on Google Play Store"></a>
-              <a href="#" target="_blank" rel="noopener"><img src="appstore.svg" class="appstore__link"
-                  alt="Glintix Inbox App on Apple App Store"></a>
-              <p class="mb-0 mt-2"><a href="#" target="_blank" class="social__link" rel="noopener"><img src="facebook.svg"
-                    alt="Glintix Facebook" class="social__icon"></a>
-                <a href="#" target="_blank" class="social__link" rel="noopener"><img src="linkedin.svg"
-                    alt="Glintix Linkedin" class="social__icon"></a>
-                <a href="#" target="_blank" class="social__link" rel="noopener"><img src="twitter.svg" alt="Glintix Twitter"
-                    class="social__icon"></a>
-              </p>
-            </div>
-            <div class="col-md-8">
-              <div class="row">
+            <div class="row  mt-5">
                 <div class="col">
-                  <div class="footer_img"><img src="best-value-software-2022.png" alt=""
-                      class="img-fluid footer__awards--img"></div>
+                    <div class="logoFoot">
+                        <img src="../images/glintix_logo.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="foottext mt-3">
+                        An intelligent enterprise-ready HCM suite that automates HR processes, simplifies human
+                        interactions and
+                        deliver actionable insights to build better workplaces.
+                    </div>
+                    <div class="footcerti mt-3">
+                        <img src="../images/dmca_protected_sml_120af.png" alt="" class="img-fluid">
+                    </div>
                 </div>
                 <div class="col">
-                  <div class="footer_img"></div><img src="G2-badge.png" alt="" class="img-fluid footer__awards--img">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item p-0 ">
+                            <h6 class="text-success">Product</h6>
+                        </li>
+                        <li class="list-group-item p-0 "> <a href="">HR Software</a> </li>
+                        <li class="list-group-item p-0 "> <a href="">Payroll Software</a> </li>
+                        <li class="list-group-item p-0 "><a href="">Performance</a></li>
+                        <li class="list-group-item p-0 "><a href="">Attendance</a></li>
+                        <li class="list-group-item p-0 "><a href="">Workforce</a></li>
+                        <li class="list-group-item p-0 "><a href="">Core HR</a></li>
+                        <li class="list-group-item p-0 "><a href="">Engagement</a></li>
+                        <li class="list-group-item p-0 "><a href="">Helpdesk</a></li>
+                        <li class="list-group-item p-0 "><a href="">Expense</a></li>
+                        <li class="list-group-item p-0 "><a href="">Recruitment</a></li>
+                        <li class="list-group-item p-0 "><a href="">Asset</a></li>
+                        <li class="list-group-item p-0 "><a href="">Mobile App</a></li>
+                        <li class="list-group-item p-0 "><a href="">Inbox for HR</a></li>
+                        <li class="list-group-item p-0 "><a href="">Leave</a></li>
+                        <li class="list-group-item p-0 "><a href="">Time Tracking</a></li>
+                        <li class="list-group-item p-0 "><a href="">ProjectOne</a></li>
+                        <li class="list-group-item p-0 "><a href="">Partners</a></li>
+                    </ul>
                 </div>
                 <div class="col">
-                  <div class="footer_img"></div><img src="footer-supreme-software.png" alt=""
-                    class="img-fluid footer__awards--img">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item p-0 ">
+                            <h6 class="text-success">Solution By Role</h6>
+                        </li>
+                        <li class="list-group-item p-0 "> <a href="">HR Professionals</a> </li>
+                        <li class="list-group-item p-0 "> <a href="">Managers</a> </li>
+                        <li class="list-group-item p-0 "><a href="">Employees</a></li>
+                        <li class="list-group-item p-0 "><a href="">CXO</a></li>
+                    </ul>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item p-0 ">
+                            <h6 class="text-success">Solution By Cities</h6>
+                        </li>
+                        <li class="list-group-item p-0 "> <a href="">HR Software Mumbai</a> </li>
+                        <li class="list-group-item p-0 "> <a href="">HR Software Bangalore</a> </li>
+                        <li class="list-group-item p-0 "><a href="">HR Software Delhi</a></li>
+                        <li class="list-group-item p-0 "><a href="">HR Software Chennai</a></li>
+                        <li class="list-group-item p-0 "><a href="">HR Software Hyderabad</a></li>
+                        <li class="list-group-item p-0 "><a href="">Payroll Delhi</a></li>
+                        <li class="list-group-item p-0 "><a href="">Payroll Chennai</a></li>
+                        <li class="list-group-item p-0 "><a href="">Payroll Hyderabad</a></li>
+                        <li class="list-group-item p-0 "><a href="">Payroll Bangalore</a></li>
+                        <li class="list-group-item p-0 "><a href="">Payroll Mumbai</a></li>
+                    </ul>
                 </div>
                 <div class="col">
-                  <div class="footer_img"></div><img src="footer-customer-choice.png" alt=""
-                    class="img-fluid footer__awards--img">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item p-0 ">
+                            <h6 class="text-success">Resources</h6>
+                        </li>
+                        <li class="list-group-item p-0 "> <a href="">Blog</a> </li>
+                        <li class="list-group-item p-0 "> <a href="">HR Commune</a> </li>
+                        <li class="list-group-item p-0 "><a href="">Guides</a></li>
+                        <li class="list-group-item p-0 "><a href="">HR Resources</a></li>
+                        <li class="list-group-item p-0 "><a href="">Template</a></li>
+                        <li class="list-group-item p-0 "><a href="">Policy</a></li>
+                        <li class="list-group-item p-0 "><a href="">Checklist</a></li>
+                        <li class="list-group-item p-0 "><a href="">Glossary</a></li>
+                        <li class="list-group-item p-0 "><a href="">FAQ</a></li>
+                        <li class="list-group-item p-0 "><a href="">Tips</a></li>
+                    </ul>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item p-0 ">
+                            <h6 class="text-success">More</h6>
+                        </li>
+                        <li class="list-group-item p-0 "> <a href="">Payroll Solutions</a> </li>
+                        <li class="list-group-item p-0 "> <a href="">HR Solutions</a> </li>
+                    </ul>
                 </div>
                 <div class="col">
-                  <div class="footer_img"></div><img src="footer-leader.png" alt="" class="img-fluid footer__awards--img">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item p-0 ">
+                            <h6 class="text-success">Company</h6>
+                        </li>
+                        <li class="list-group-item p-0 "> <a href="">Why Glintix</a> </li>
+                        <li class="list-group-item p-0 "> <a href="">Pricing</a> </li>
+                        <li class="list-group-item p-0 "><a href="">Clients</a></li>
+                        <li class="list-group-item p-0 "><a href="">Contact</a></li>
+                    </ul>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item p-0 ">
+                            <h6 class="text-success">Guide</h6>
+                        </li>
+                        <li class="list-group-item p-0 "> <a href="">The Continuous Listening Guide</a> </li>
+                        <li class="list-group-item p-0 "> <a href="">HRMS Guide</a> </li>
+                        <li class="list-group-item p-0 "><a href="">Payroll Guide</a></li>
+                        <li class="list-group-item p-0 "><a href="">Recruitment Guide</a></li>
+                        <li class="list-group-item p-0 "><a href="">Performance Management Guide</a></li>
+                        <li class="list-group-item p-0 "><a href="">Appraisal Guide</a></li>
+                        <li class="list-group-item p-0 "><a href="">Engagement Guide</a></li>
+                        <li class="list-group-item p-0 "><a href="">Leave Management Guide</a></li>
+                        <li class="list-group-item p-0 "><a href="">Expense Guide</a></li>
+                    </ul>
                 </div>
-                <div class="col">
-                  <div class="footer_img"></div><img src="footer-techjockey.png" alt=""
-                    class="img-fluid footer__awards--img">
-                </div>
-              </div>
             </div>
-          </div>
+            <div class="row mt-5">
+                <div class="col-md-4 ">
+                    <a href="#" target="_blank" rel="noopener"><img src="../images/playstore.svg" class="appstore__link"
+                            alt=" Glintix Inbox App on Google Play Store"></a>
+                    <a href="#" target="_blank" rel="noopener"><img src="../images/appstore.svg" class="appstore__link"
+                            alt="Glintix Inbox App on Apple App Store"></a>
+                    <p class="mb-0 mt-2"><a href="#" target="_blank" class="social__link" rel="noopener"><img
+                                src="../images/facebook.svg" alt="Glintix Facebook" class="social__icon"></a>
+                        <a href="#" target="_blank" class="social__link" rel="noopener"><img src="../images/linkedin.svg"
+                                alt="Glintix Linkedin" class="social__icon"></a>
+                        <a href="#" target="_blank" class="social__link" rel="noopener"><img src="../images/twitter.svg"
+                                alt="Glintix Twitter" class="social__icon"></a>
+                    </p>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col">
+                            <div class="footer_img"><img src="../images/best-value-software-2022.png" alt=""
+                                    class="img-fluid footer__awards--img"></div>
+                        </div>
+                        <div class="col">
+                            <div class="footer_img"></div><img src="../images/G2-badge.png" alt=""
+                                class="img-fluid footer__awards--img">
+                        </div>
+                        <div class="col">
+                            <div class="footer_img"></div><img src="../images/footer-supreme-software.png" alt=""
+                                class="img-fluid footer__awards--img">
+                        </div>
+                        <div class="col">
+                            <div class="footer_img"></div><img src="../images/footer-customer-choice.png" alt=""
+                                class="img-fluid footer__awards--img">
+                        </div>
+                        <div class="col">
+                            <div class="footer_img"></div><img src="../images/footer-leader.png" alt=""
+                                class="img-fluid footer__awards--img">
+                        </div>
+                        <div class="col">
+                            <div class="footer_img"></div><img src="../images/footer-techjockey.png" alt=""
+                                class="img-fluid footer__awards--img">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </footer>
-      <hr>
-      <section class="bottom-note">
+    </footer>
+    <hr>
+    <section class="bottom-note">
         <div class="container">
-          <div class="row justify-content-between">
-            <div class="col-md-4">
-              <p>Copyright © 2023. Uneecops Workplace Solutions Pvt. Ltd. All Rights Reserved.</p>
-              <p><span class="text-success">Uneecops</span> Group Company</p>
-            </div>
-            <div class="col-md-4">
-              <div class="row">
-                <div class="col">
-                  <p>Terms & Services</p>
+            <div class="row justify-content-between">
+                <div class="col-md-4">
+                    <p>Copyright © 2023. Gnoin Pvt. Ltd. All Rights Reserved.</p>
+                    <p><span class="text-success">Gnoin Pvt Ltd</span> </p>
                 </div>
-                <div class="col">
-                  <p>Privacy</p>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col">
+                            <p>Terms & Services</p>
+                        </div>
+                        <div class="col">
+                            <p>Privacy</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
     <script>
         $('.owl-carousel').owlCarousel({
             loop: true,
@@ -1834,8 +2309,8 @@
 
 
 
-    <script src="assets/vendors/highlight.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="../assets/vendors/highlight.js"></script>
+    <script src="../assets/js/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
