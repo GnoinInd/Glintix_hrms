@@ -2,21 +2,20 @@
 <html lang="en">
 
 <head>
-
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/style11.css">
+        <link rel="stylesheet" href="../css/style11.css">
 
-    <title>Helpdesk</title>
+    <title>Leadership</title>
 </head>
 
 <body>
-
 <div class="container-fluid p-0 m-0 sticky-top">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <div class="container-fluid">
@@ -591,491 +590,295 @@
         </div>
     </div>
 </div>
-    
-    
-    
-      <div class="container mt-5">
-      <div class="row">
-            <div class="col-md-6 col-sm-12">
-                <div class="bg-grey ps-5 p-3 class=" font-style"">
-                    <h6>Helpdesk Management Software</h6>
-                    <h3>Give your employees a customer like experience</h3>
-                    <p>Nothing can hamper your employee productivity environment, our helpdesk ticketing system solves every
-                        issue in the shortest span possible.</p>
-                    <button class="btn btn-success btn-custom">REQUEST A DEMO</button>  
-                </div>
-               
-            </div>
-            <div class="col-md-6 col-sm-12">
-                <div class="hlpdk">
-                    <img src="../images/helpdsk1.png" alt="" class="img-fluid">
-                </div>
+
+
+    <div class="container mt-5 ">
+        <div class="row ">
+            <div class="col">
+                <h1 class="text-center">Meet the leadership</h1>
+                <p class="text-center">Together building a company that’s committed to customer success</p>
             </div>
 
-            <div class="col-md-12 mt-4">
-                <h3>Glintix helpdesk management software for simplified yet efficient ticket resolution</h3>
-                <p>Track and resolve every ticket timely with our helpdesk software, making your employees as happy as
-                    your customers!</p>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="row justify-content-center">
-                            <div class="col-md-3 col-sm-12 text-center">
-                                <div class="hlpdsk-logo">
-                                    <img src="images/ticket-creation.svg" alt="" class="img-fluid">
-                                </div>
-                                <p>Ticket Creation</p>
-                            </div>
-                            <div class="col-md-3 col-sm-12 text-center">
-                                <div class="hlpdsk-logo">
-                                    <img src="images/ticket-creation.svg" alt="" class="img-fluid">
-                                </div>
-                                <p>Ticket Creation</p>
-                            </div>
-                            <div class="col-md-3 col-sm-12 text-center">
-                                <div class="hlpdsk-logo">
-                                    <img src="images/ticket-creation.svg" alt="" class="img-fluid">
-                                </div>
-                                <p>Ticket Creation</p>
-                            </div>
-                            <div class="col-md-3 col-sm-12 text-center">
-                                <div class="hlpdsk-logo">
-                                    <img src="../images/ticket-creation.svg" alt="" class="img-fluid">
-                                </div>
-                                <p>Ticket Creation</p>
-                            </div>
-                        </div>
-                    </div>
+        </div>
+    </div>
+
+    <div class="container-fluid p-0">
+        <div class="row">
+            <img src="../images/leader-banner.png" alt="">
+        </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col">
+                <h4>Executive Team</h4>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="gallery-img">
+                    <img src="../images/karan-ls.png" alt="" class="img-fluid w-60">
                 </div>
             </div>
-
-            <div class="col-md-12 mt-5">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <h4 class="font-style">Ticket Resolution</h4>
-                        <p> No employee issue goes for a toss anymore
-                        <p>Escalation matrix</p>
-                        Entitle the employees to mark the priority as low, medium or high for every ticket they raise so
-                        that the resolver doesn’t feel overwhelmed.</p>
-
-                        <p>TAT and due date</p>
-                        <p>Mention the number of due days and TAT for every escalation matrix so that the issue is
-                            resolved in the expected time frame.</p>
-
-                        <p>Auto Escalation of the problem further</p>
-                        <p> For every policy created, a senior is mapped for the time when due date for the resolution
-                            or TAT has passed. The same is done to make sure each of your employee gets a solution.</p>
-
-                        <p>Ticket chat option</p>
-                        <p> With every ticket raised, there come an option to chat with the resolver while the agent can
-                            use canned messages to save time.</p>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="hlpdk">
-                            <img src="../images/helpdsk2.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
+            <div class="col-md-4">
+                <div class="gallery-img">
+                    <img src="../images/karan-ls.png" alt="" class="img-fluid w-60">
                 </div>
             </div>
-            <div class="col-md-12 mt-5">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <h4 class="font-style">Ticket Resolution</h4>
-                        <p> No employee issue goes for a toss anymore
-                        <p>Escalation matrix</p>
-                        Entitle the employees to mark the priority as low, medium or high for every ticket they raise so
-                        that the resolver doesn’t feel overwhelmed.</p>
-
-                        <p>TAT and due date</p>
-                        <p>Mention the number of due days and TAT for every escalation matrix so that the issue is
-                            resolved in the expected time frame.</p>
-
-                        <p>Auto Escalation of the problem further</p>
-                        <p> For every policy created, a senior is mapped for the time when due date for the resolution
-                            or TAT has passed. The same is done to make sure each of your employee gets a solution.</p>
-
-                        <p>Ticket chat option</p>
-                        <p> With every ticket raised, there come an option to chat with the resolver while the agent can
-                            use canned messages to save time.</p>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="hlpdk">
-                            <img src="../images/helpdsk3.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
+            <div class="col-md-4">
+                <div class="gallery-img">
+                    <img src="../images/karan-ls.png" alt="" class="img-fluid w-60">
                 </div>
             </div>
-            <div class="col-md-12 mt-5">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <h4 class="font-style">Ticket Resolution</h4>
-                        <p> No employee issue goes for a toss anymore
-                        <p>Escalation matrix</p>
-                        Entitle the employees to mark the priority as low, medium or high for every ticket they raise so
-                        that the resolver doesn’t feel overwhelmed.</p>
-
-                        <p>TAT and due date</p>
-                        <p>Mention the number of due days and TAT for every escalation matrix so that the issue is
-                            resolved in the expected time frame.</p>
-
-                        <p>Auto Escalation of the problem further</p>
-                        <p> For every policy created, a senior is mapped for the time when due date for the resolution
-                            or TAT has passed. The same is done to make sure each of your employee gets a solution.</p>
-
-                        <p>Ticket chat option</p>
-                        <p> With every ticket raised, there come an option to chat with the resolver while the agent can
-                            use canned messages to save time.</p>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="hlpdk">
-                            <img src="../images/helpdsk4.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
+            <div class="col-md-4">
+                <div class="gallery-img">
+                    <img src="../images/karan-ls.png" alt="" class="img-fluid w-60">
                 </div>
             </div>
-            <div class="col-md-12 mt-5">
-                <div class="row">
-                    <div class="col-md-6 col-sm-12">
-                        <h4 class="font-style">Ticket Resolution</h4>
-                        <p> No employee issue goes for a toss anymore
-                        <p>Escalation matrix</p>
-                        Entitle the employees to mark the priority as low, medium or high for every ticket they raise so
-                        that the resolver doesn’t feel overwhelmed.</p>
+            <div class="col-md-4">
+                <div class="gallery-img">
+                    <img src="../images/karan-ls.png" alt="" class="img-fluid w-60">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="gallery-img">
+                    <img src="../images/karan-ls.png" alt="" class="img-fluid w-60">
+                </div>
+            </div>
+        </div>
 
-                        <p>TAT and due date</p>
-                        <p>Mention the number of due days and TAT for every escalation matrix so that the issue is
-                            resolved in the expected time frame.</p>
 
-                        <p>Auto Escalation of the problem further</p>
-                        <p> For every policy created, a senior is mapped for the time when due date for the resolution
-                            or TAT has passed. The same is done to make sure each of your employee gets a solution.</p>
 
-                        <p>Ticket chat option</p>
-                        <p> With every ticket raised, there come an option to chat with the resolver while the agent can
-                            use canned messages to save time.</p>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="hlpdk">
-                            <img src="../images/helpdsk5.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
+        <div class="row mt-5">
+            <div class="col">
+                <div class="heading-leader11 position-relative">
+                    <h2 class="bold heading-leader11 ">About the Founder</h2>
                 </div>
             </div>
         </div>
 
 
         <div class="row mt-5">
-            <div class="col-md-6 col-sm-12">
-                <h4>Make the intelligent choice</h4>
-                <p>Switch to Glintix, an intelligent enterprise-ready HCM tool and best payroll software empowering your
-                    team to achieve 10x better results.</p>
+            <div class="col-md-5">
+                <img src="../images/karan-bio.png" alt="" class="img-fluid">
             </div>
-            <div class="col-md-6 col-sm-12">
-                <div class="modal-body">
-                    <div class="row mb-4">
-                        <div class="col-md-6 col-sm-12">
-                            <input type="text" class="form-control" id="exampleFormControlInput1"
-                                placeholder="First Name*">
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                            <input type="text" class="form-control" id="exampleFormControlInput1"
-                                placeholder="Last Name*">
-                        </div>
-                    </div>
-                    <div class="row mb-4">
-                        <div class="col-md-6 col-sm-12">
-                            <input type="text" class="form-control" id="exampleFormControlInput1"
-                                placeholder="Work Email*">
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                            <div class="row">
-                                <div class="col-md-12 col-sm-12 ">
-                                    <input type="tel" id="phone" class="form-control">
-                                </div>
-                                <!-- <div class="col-md-8 col-sm-12 ps-0">
-                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="+91">
-                          </div> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mb-4">
-                        <div class="col-md-6 col-sm-12">
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected>No. of Employees*</option>
-                                <option value="1">1-50</option>
-                                <option value="2">51-100</option>
-                                <option value="3">101-200</option>
-                                <option value="3">201-500</option>
-                                <option value="3">501-1000</option>
-                                <option value="3">1000+</option>
-                            </select>
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                            <select class="form-select" aria-label="Default select example">
-                                <option value="Andhra Pradesh">Andhra Pradesh</option>
-                                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
-                                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-                                <option value="Assam">Assam</option>
-                                <option value="Bihar">Bihar</option>
-                                <option value="Chandigarh">Chandigarh</option>
-                                <option value="Chhattisgarh">Chhattisgarh</option>
-                                <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
-                                <option value="Daman and Diu">Daman and Diu</option>
-                                <option value="Delhi">Delhi</option>
-                                <option value="Lakshadweep">Lakshadweep</option>
-                                <option value="Puducherry">Puducherry</option>
-                                <option value="Goa">Goa</option>
-                                <option value="Gujarat">Gujarat</option>
-                                <option value="Haryana">Haryana</option>
-                                <option value="Himachal Pradesh">Himachal Pradesh</option>
-                                <option value="Jammu and Kashmir">Jammu and Kashmir</option>
-                                <option value="Jharkhand">Jharkhand</option>
-                                <option value="Karnataka">Karnataka</option>
-                                <option value="Kerala">Kerala</option>
-                                <option value="Madhya Pradesh">Madhya Pradesh</option>
-                                <option value="Maharashtra">Maharashtra</option>
-                                <option value="Manipur">Manipur</option>
-                                <option value="Meghalaya">Meghalaya</option>
-                                <option value="Mizoram">Mizoram</option>
-                                <option value="Nagaland">Nagaland</option>
-                                <option value="Odisha">Odisha</option>
-                                <option value="Punjab">Punjab</option>
-                                <option value="Rajasthan">Rajasthan</option>
-                                <option value="Sikkim">Sikkim</option>
-                                <option value="Tamil Nadu">Tamil Nadu</option>
-                                <option value="Telangana">Telangana</option>
-                                <option value="Tripura">Tripura</option>
-                                <option value="Uttar Pradesh">Uttar Pradesh</option>
-                                <option value="Uttarakhand">Uttarakhand</option>
-                                <option value="West Bengal">West Bengal</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row mb-4">
-                        <div class="col-md-6 col-sm-12">
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected>Seniority*</option>
-                                <option value="1">Owner</option>
-                                <option value="2">Partner</option>
-                                <option value="3">CXO</option>
-                                <option value="3">VP</option>
-                                <option value="3">Director</option>
-                                <option value="3">Head</option>
-                                <option value="3">Manager</option>
-                                <option value="3">Senior</option>
-                                <option value="3">Entry</option>
-                            </select>
-                        </div>
-                        <div class="col-md-6 col-sm-12">
-                            <select class="form-select" aria-label="Default select example">
-                                <option selected>Function*</option>
-                                <option value="1">Owner/Founder</option>
-                                <option value="2">HR</option>
-                                <option value="3">HR Business Partner</option>
-                                <option value="3">HR Talent Management</option>
-                                <option value="3">HR Talent Acquisition</option>
-                                <option value="3">HR Compensation & Benefits</option>
-                                <option value="2">Administation</option>
-                                <option value="2">Finanace</option>
-                                <option value="2">IT</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer justify-content-center">
-                    <button type="btn btn-primary " class="btn btn-success btn-custom ">Book a Demo</button>
-                </div>
+            <div class="col-md-7">
+                <h4 class="fw-bolder">Karan Jain</h4>
+                <h5 class="text-success">Founder, Glintix</h5>
+
+                <p><span class="fw-bolder fs-5">Karan Jain is the Founder at Glintix. He is a true visionary who recognises the crucial role of HRs in
+                    the work landscape and intends to maximize productivity through automation.</span><br><br><br>
+
+                   <span class="fs-5">
+                    Under his guidance, Glintix has seen phenomenal leadership role development and revenue growth. For
+                    him, the real success lies in positively impacting the professional lives of people at his and his
+                    client’s organizations.
+                   </span></p>
+
             </div>
         </div>
-
-
-
-
-
-       
     </div>
 
+
     <footer>
-        <div class="container">
-            <div class="row  mt-5">
-                <div class="col">
-                    <div class="logoFoot">
-                        <img src="../images/glintix_logo.png" alt="" class="img-fluid">
-                    </div>
-                    <div class="foottext mt-3">
-                        An intelligent enterprise-ready HCM suite that automates HR processes, simplifies human
-                        interactions and
-                        deliver actionable insights to build better workplaces.
-                    </div>
-                    <div class="footcerti mt-3">
-                        <img src="../images/dmca_protected_sml_120af.png" alt="" class="img-fluid">
-                    </div>
-                </div>
-                <div class="col">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item p-0 ">
-                            <h6 class="text-success">Product</h6>
-                        </li>
-                        <li class="list-group-item p-0 "> <a href="">HR Software</a> </li>
-                        <li class="list-group-item p-0 "> <a href="">Payroll Software</a> </li>
-                        <li class="list-group-item p-0 "><a href="">Performance</a></li>
-                        <li class="list-group-item p-0 "><a href="">Attendance</a></li>
-                        <li class="list-group-item p-0 "><a href="">Workforce</a></li>
-                        <li class="list-group-item p-0 "><a href="">Core HR</a></li>
-                        <li class="list-group-item p-0 "><a href="">Engagement</a></li>
-                        <li class="list-group-item p-0 "><a href="">Helpdesk</a></li>
-                        <li class="list-group-item p-0 "><a href="">Expense</a></li>
-                        <li class="list-group-item p-0 "><a href="">Recruitment</a></li>
-                        <li class="list-group-item p-0 "><a href="">Asset</a></li>
-                        <li class="list-group-item p-0 "><a href="">Mobile App</a></li>
-                        <li class="list-group-item p-0 "><a href="">Inbox for HR</a></li>
-                        <li class="list-group-item p-0 "><a href="">Leave</a></li>
-                        <li class="list-group-item p-0 "><a href="">Time Tracking</a></li>
-                        <li class="list-group-item p-0 "><a href="">ProjectOne</a></li>
-                        <li class="list-group-item p-0 "><a href="">Partners</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item p-0 ">
-                            <h6 class="text-success">Solution By Role</h6>
-                        </li>
-                        <li class="list-group-item p-0 "> <a href="">HR Professionals</a> </li>
-                        <li class="list-group-item p-0 "> <a href="">Managers</a> </li>
-                        <li class="list-group-item p-0 "><a href="">Employees</a></li>
-                        <li class="list-group-item p-0 "><a href="">CXO</a></li>
-                    </ul>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item p-0 ">
-                            <h6 class="text-success">Solution By Cities</h6>
-                        </li>
-                        <li class="list-group-item p-0 "> <a href="">HR Software Mumbai</a> </li>
-                        <li class="list-group-item p-0 "> <a href="">HR Software Bangalore</a> </li>
-                        <li class="list-group-item p-0 "><a href="">HR Software Delhi</a></li>
-                        <li class="list-group-item p-0 "><a href="">HR Software Chennai</a></li>
-                        <li class="list-group-item p-0 "><a href="">HR Software Hyderabad</a></li>
-                        <li class="list-group-item p-0 "><a href="">Payroll Delhi</a></li>
-                        <li class="list-group-item p-0 "><a href="">Payroll Chennai</a></li>
-                        <li class="list-group-item p-0 "><a href="">Payroll Hyderabad</a></li>
-                        <li class="list-group-item p-0 "><a href="">Payroll Bangalore</a></li>
-                        <li class="list-group-item p-0 "><a href="">Payroll Mumbai</a></li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item p-0 ">
-                            <h6 class="text-success">Resources</h6>
-                        </li>
-                        <li class="list-group-item p-0 "> <a href="">Blog</a> </li>
-                        <li class="list-group-item p-0 "> <a href="">HR Commune</a> </li>
-                        <li class="list-group-item p-0 "><a href="">Guides</a></li>
-                        <li class="list-group-item p-0 "><a href="">HR Resources</a></li>
-                        <li class="list-group-item p-0 "><a href="">Template</a></li>
-                        <li class="list-group-item p-0 "><a href="">Policy</a></li>
-                        <li class="list-group-item p-0 "><a href="">Checklist</a></li>
-                        <li class="list-group-item p-0 "><a href="">Glossary</a></li>
-                        <li class="list-group-item p-0 "><a href="">FAQ</a></li>
-                        <li class="list-group-item p-0 "><a href="">Tips</a></li>
-                    </ul>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item p-0 ">
-                            <h6 class="text-success">More</h6>
-                        </li>
-                        <li class="list-group-item p-0 "> <a href="">Payroll Solutions</a> </li>
-                        <li class="list-group-item p-0 "> <a href="">HR Solutions</a> </li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item p-0 ">
-                            <h6 class="text-success">Company</h6>
-                        </li>
-                        <li class="list-group-item p-0 "> <a href="">Why Glintix</a> </li>
-                        <li class="list-group-item p-0 "> <a href="">Pricing</a> </li>
-                        <li class="list-group-item p-0 "><a href="">Clients</a></li>
-                        <li class="list-group-item p-0 "><a href="">Contact</a></li>
-                    </ul>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item p-0 ">
-                            <h6 class="text-success">Guide</h6>
-                        </li>
-                        <li class="list-group-item p-0 "> <a href="">The Continuous Listening Guide</a> </li>
-                        <li class="list-group-item p-0 "> <a href="">HRMS Guide</a> </li>
-                        <li class="list-group-item p-0 "><a href="">Payroll Guide</a></li>
-                        <li class="list-group-item p-0 "><a href="">Recruitment Guide</a></li>
-                        <li class="list-group-item p-0 "><a href="">Performance Management Guide</a></li>
-                        <li class="list-group-item p-0 "><a href="">Appraisal Guide</a></li>
-                        <li class="list-group-item p-0 "><a href="">Engagement Guide</a></li>
-                        <li class="list-group-item p-0 "><a href="">Leave Management Guide</a></li>
-                        <li class="list-group-item p-0 "><a href="">Expense Guide</a></li>
-                    </ul>
-                </div>
+      <div class="container">
+          <div class="row  mt-5">
+              <div class="col">
+                  <div class="logoFoot">
+                      <img src="../images/glintix_logo.png" alt="" class="img-fluid">
+                  </div>
+                  <div class="foottext mt-3">
+                      An intelligent enterprise-ready HCM suite that automates HR processes, simplifies human
+                      interactions and
+                      deliver actionable insights to build better workplaces.
+                  </div>
+                  <div class="footcerti mt-3">
+                      <img src="../images/dmca_protected_sml_120af.png" alt="" class="img-fluid">
+                  </div>
+              </div>
+              <div class="col">
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item p-0 ">
+                          <h6 class="text-success">Product</h6>
+                      </li>
+                      <li class="list-group-item p-0 "> <a href="">HR Software</a> </li>
+                      <li class="list-group-item p-0 "> <a href="">Payroll Software</a> </li>
+                      <li class="list-group-item p-0 "><a href="">Performance</a></li>
+                      <li class="list-group-item p-0 "><a href="">Attendance</a></li>
+                      <li class="list-group-item p-0 "><a href="">Workforce</a></li>
+                      <li class="list-group-item p-0 "><a href="">Core HR</a></li>
+                      <li class="list-group-item p-0 "><a href="">Engagement</a></li>
+                      <li class="list-group-item p-0 "><a href="">Helpdesk</a></li>
+                      <li class="list-group-item p-0 "><a href="">Expense</a></li>
+                      <li class="list-group-item p-0 "><a href="">Recruitment</a></li>
+                      <li class="list-group-item p-0 "><a href="">Asset</a></li>
+                      <li class="list-group-item p-0 "><a href="">Mobile App</a></li>
+                      <li class="list-group-item p-0 "><a href="">Inbox for HR</a></li>
+                      <li class="list-group-item p-0 "><a href="">Leave</a></li>
+                      <li class="list-group-item p-0 "><a href="">Time Tracking</a></li>
+                      <li class="list-group-item p-0 "><a href="">ProjectOne</a></li>
+                      <li class="list-group-item p-0 "><a href="">Partners</a></li>
+                  </ul>
+              </div>
+              <div class="col">
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item p-0 ">
+                          <h6 class="text-success">Solution By Role</h6>
+                      </li>
+                      <li class="list-group-item p-0 "> <a href="">HR Professionals</a> </li>
+                      <li class="list-group-item p-0 "> <a href="">Managers</a> </li>
+                      <li class="list-group-item p-0 "><a href="">Employees</a></li>
+                      <li class="list-group-item p-0 "><a href="">CXO</a></li>
+                  </ul>
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item p-0 ">
+                          <h6 class="text-success">Solution By Cities</h6>
+                      </li>
+                      <li class="list-group-item p-0 "> <a href="">HR Software Mumbai</a> </li>
+                      <li class="list-group-item p-0 "> <a href="">HR Software Bangalore</a> </li>
+                      <li class="list-group-item p-0 "><a href="">HR Software Delhi</a></li>
+                      <li class="list-group-item p-0 "><a href="">HR Software Chennai</a></li>
+                      <li class="list-group-item p-0 "><a href="">HR Software Hyderabad</a></li>
+                      <li class="list-group-item p-0 "><a href="">Payroll Delhi</a></li>
+                      <li class="list-group-item p-0 "><a href="">Payroll Chennai</a></li>
+                      <li class="list-group-item p-0 "><a href="">Payroll Hyderabad</a></li>
+                      <li class="list-group-item p-0 "><a href="">Payroll Bangalore</a></li>
+                      <li class="list-group-item p-0 "><a href="">Payroll Mumbai</a></li>
+                  </ul>
+              </div>
+              <div class="col">
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item p-0 ">
+                          <h6 class="text-success">Resources</h6>
+                      </li>
+                      <li class="list-group-item p-0 "> <a href="">Blog</a> </li>
+                      <li class="list-group-item p-0 "> <a href="">HR Commune</a> </li>
+                      <li class="list-group-item p-0 "><a href="">Guides</a></li>
+                      <li class="list-group-item p-0 "><a href="">HR Resources</a></li>
+                      <li class="list-group-item p-0 "><a href="">Template</a></li>
+                      <li class="list-group-item p-0 "><a href="">Policy</a></li>
+                      <li class="list-group-item p-0 "><a href="">Checklist</a></li>
+                      <li class="list-group-item p-0 "><a href="">Glossary</a></li>
+                      <li class="list-group-item p-0 "><a href="">FAQ</a></li>
+                      <li class="list-group-item p-0 "><a href="">Tips</a></li>
+                  </ul>
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item p-0 ">
+                          <h6 class="text-success">More</h6>
+                      </li>
+                      <li class="list-group-item p-0 "> <a href="">Payroll Solutions</a> </li>
+                      <li class="list-group-item p-0 "> <a href="">HR Solutions</a> </li>
+                  </ul>
+              </div>
+              <div class="col">
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item p-0 ">
+                          <h6 class="text-success">Company</h6>
+                      </li>
+                      <li class="list-group-item p-0 "> <a href="">Why Glintix</a> </li>
+                      <li class="list-group-item p-0 "> <a href="">Pricing</a> </li>
+                      <li class="list-group-item p-0 "><a href="">Clients</a></li>
+                      <li class="list-group-item p-0 "><a href="">Contact</a></li>
+                  </ul>
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item p-0 ">
+                          <h6 class="text-success">Guide</h6>
+                      </li>
+                      <li class="list-group-item p-0 "> <a href="">The Continuous Listening Guide</a> </li>
+                      <li class="list-group-item p-0 "> <a href="">HRMS Guide</a> </li>
+                      <li class="list-group-item p-0 "><a href="">Payroll Guide</a></li>
+                      <li class="list-group-item p-0 "><a href="">Recruitment Guide</a></li>
+                      <li class="list-group-item p-0 "><a href="">Performance Management Guide</a></li>
+                      <li class="list-group-item p-0 "><a href="">Appraisal Guide</a></li>
+                      <li class="list-group-item p-0 "><a href="">Engagement Guide</a></li>
+                      <li class="list-group-item p-0 "><a href="">Leave Management Guide</a></li>
+                      <li class="list-group-item p-0 "><a href="">Expense Guide</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="row mt-5">
+              <div class="col-md-4 ">
+                  <a href="#" target="_blank" rel="noopener"><img src="../images/playstore.svg" class="appstore__link"
+                          alt=" Glintix Inbox App on Google Play Store"></a>
+                  <a href="#" target="_blank" rel="noopener"><img src="../images/appstore.svg" class="appstore__link"
+                          alt="Glintix Inbox App on Apple App Store"></a>
+                  <p class="mb-0 mt-2"><a href="#" target="_blank" class="social__link" rel="noopener"><img
+                              src="../images/facebook.svg" alt="Glintix Facebook" class="social__icon"></a>
+                      <a href="#" target="_blank" class="social__link" rel="noopener"><img src="../images/linkedin.svg"
+                              alt="Glintix Linkedin" class="social__icon"></a>
+                      <a href="#" target="_blank" class="social__link" rel="noopener"><img src="../images/twitter.svg"
+                              alt="Glintix Twitter" class="social__icon"></a>
+                  </p>
+              </div>
+              <div class="col-md-8">
+                  <div class="row">
+                      <div class="col">
+                          <div class="footer_img"><img src="../images/best-value-software-2022.png" alt=""
+                                  class="img-fluid footer__awards--img"></div>
+                      </div>
+                      <div class="col">
+                          <div class="footer_img"></div><img src="../images/G2-badge.png" alt=""
+                              class="img-fluid footer__awards--img">
+                      </div>
+                      <div class="col">
+                          <div class="footer_img"></div><img src="../images/footer-supreme-software.png" alt=""
+                              class="img-fluid footer__awards--img">
+                      </div>
+                      <div class="col">
+                          <div class="footer_img"></div><img src="../images/footer-customer-choice.png" alt=""
+                              class="img-fluid footer__awards--img">
+                      </div>
+                      <div class="col">
+                          <div class="footer_img"></div><img src="../images/footer-leader.png" alt=""
+                              class="img-fluid footer__awards--img">
+                      </div>
+                      <div class="col">
+                          <div class="footer_img"></div><img src="../images/footer-techjockey.png" alt=""
+                              class="img-fluid footer__awards--img">
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <hr>
+  <section class="bottom-note">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-md-4">
+                <p>Copyright © 2023. Gnoin Pvt. Ltd. All Rights Reserved.</p>
+                <p><span class="text-success">Gnoin Pvt Ltd</span> </p>
             </div>
-            <div class="row mt-5">
-                <div class="col-md-4 ">
-                    <a href="#" target="_blank" rel="noopener"><img src="../images/playstore.svg" class="appstore__link"
-                            alt=" Glintix Inbox App on Google Play Store"></a>
-                    <a href="#" target="_blank" rel="noopener"><img src="../images/appstore.svg" class="appstore__link"
-                            alt="Glintix Inbox App on Apple App Store"></a>
-                    <p class="mb-0 mt-2"><a href="#" target="_blank" class="social__link" rel="noopener"><img
-                                src="../images/facebook.svg" alt="Glintix Facebook" class="social__icon"></a>
-                        <a href="#" target="_blank" class="social__link" rel="noopener"><img src="../images/linkedin.svg"
-                                alt="Glintix Linkedin" class="social__icon"></a>
-                        <a href="#" target="_blank" class="social__link" rel="noopener"><img src="../images/twitter.svg"
-                                alt="Glintix Twitter" class="social__icon"></a>
-                    </p>
-                </div>
-                <div class="col-md-8">
-                    <div class="row">
-                        <div class="col">
-                            <div class="footer_img"><img src="../images/best-value-software-2022.png" alt=""
-                                    class="img-fluid footer__awards--img"></div>
-                        </div>
-                        <div class="col">
-                            <div class="footer_img"></div><img src="../images/G2-badge.png" alt=""
-                                class="img-fluid footer__awards--img">
-                        </div>
-                        <div class="col">
-                            <div class="footer_img"></div><img src="../images/footer-supreme-software.png" alt=""
-                                class="img-fluid footer__awards--img">
-                        </div>
-                        <div class="col">
-                            <div class="footer_img"></div><img src="../images/footer-customer-choice.png" alt=""
-                                class="img-fluid footer__awards--img">
-                        </div>
-                        <div class="col">
-                            <div class="footer_img"></div><img src="../images/footer-leader.png" alt=""
-                                class="img-fluid footer__awards--img">
-                        </div>
-                        <div class="col">
-                            <div class="footer_img"></div><img src="../images/footer-techjockey.png" alt=""
-                                class="img-fluid footer__awards--img">
-                        </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col">
+                        <p>Terms & Services</p>
+                    </div>
+                    <div class="col">
+                        <p>Privacy</p>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
-    <hr>
-    <section class="bottom-note">
-        <div class="container">
-            <div class="row justify-content-between">
-                <div class="col-md-4">
-                    <p>Copyright © 2023. Gnoin Pvt. Ltd. All Rights Reserved.</p>
-                    <p><span class="text-success">Gnoin Pvt Ltd</span> </p>
-                </div>
-                <div class="col-md-4">
-                    <div class="row">
-                        <div class="col">
-                            <p>Terms & Services</p>
-                        </div>
-                        <div class="col">
-                            <p>Privacy</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    </div>
+</section>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1084,8 +887,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-
-
 </body>
 
 </html>

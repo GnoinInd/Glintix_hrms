@@ -2,19 +2,17 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/slidetextimg.css">
-  <link rel="stylesheet" href="../css/style.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/style11.css">
 
-
-  <title>Employees</title>
+    <title>Clients</title>
 </head>
 
 <body>
@@ -592,434 +590,205 @@
         </div>
     </div>
 </div>
-
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-md-12">
+    <div class="container mt-5">
         <div class="row">
-          <div class="col text-success">
-            HR Professionals
-          </div>
+            <div class="col-md-6 col-sm-12 mt-2">
+                <h1>Be a Part of Glintix Partner Program</h1>
+                <p>Accelerate your business growth, expand your services and revenue. Do it all without any investment
+                    or product enhancements by partnering with Glintix.
+
+                </p>
+
+                <button class="btn btn-success btn-custom">SIGN UP NOW</button>
+            </div>
+            <div class="col-md-6 col-sm-12 mt-2">
+                <div class="client-img">
+                    <img src="../images/parteners_img.png" alt="" class="img-fluid">
+                </div>
+            </div>
         </div>
-      </div>
 
-      <div class="col-md-12">
-        <div class="row mt-3">
-          <div class="col-md-6 col-sm-12">
-            <h4>The journey from HR excellence to human experience</h4>
-            <p>Glintix was incepted in 2016 with the vision to simplify and automate the HR functions
-              struggling
-              with
-              the age-old manual and cumbersome HR processes. By 2017, after successfully automating the
-              HR
-              functions in more than 250+ companies we realized we have only solved part of a puzzle and
-              focussed
-              on the digitization of HR transactions more than problem-solving.<br>
+        <div class="row mt-5">
+            <div class="col text-center">
+                <h4>Scale Your Business by Enhancing Your Services</h4>
+                <p>Glintix is on a mission to simplify the lives of HRs through our services & technology
+                    Join us in this journey to make workplaces better together.</p>
 
-              In 2018, we analyzed over 10,000+ customer queries, re-strategized and assembled a team of
-              experts
-              from IIT, ISB, ISCs, and studied consumer apps that helped solve real customer problems like
-              Ola,
-              Swiggy and Paytm. After two years of hard work, we gave birth to an all-new version of
-              Glintix
-              which
-              not only automated HR processes but also simplified human interactions and delivered
-              actionable
-              insights to build better workplaces.
-            </p>
-
-            <button type="submit" class="btn btn-success btn-custom">REQUEST A DEMO</button>
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <img src="../images/hrprofessnl.png" alt="" class="img-fluid">
-          </div>
+                <p class="fs-3 fw-bold"> <span class="text-success">900+</span> businesses <span
+                        class="text-success">25+</span> industries</p>
+            </div>
         </div>
-      </div>
 
+        <div class="row mt-5">
+            <div class="col-md-4 col-sm-12">
+                <div class="client-img">
+                    <img src="../images/expertise.png" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-md-8 col-sm-12">
+                <h3 class="text-success fw-bold">Our Expertise, Your Revenue</h3>
+                <p>We’ll assist you in conveying Glintex’s value to your clients, provide technical support, and handle
+                    the onboarding, management and everything in between.<br> <span class="fs-3 fw-bold"> You, as our
+                        partner, will make recurring revenue.</span></p>
+            </div>
+        </div>
 
-      
 
     </div>
-  </div>
-
-  <div class="container-fluid mt-5">
-    <div class="row">
-
-      <div class="col-md-12 d-flex justify-content-center">
-        <div class="nav  nav-pills  " id="v-pills-tab" role="tablist" aria-orientation="vertical">
-          <button class="nav-link active text-secondary border border-2 m-1 hr_prff_tabs " id="v-pills-home-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
-            aria-selected="true">Efficiency</button>
-          <button class="nav-link text-secondary border border-2 m-1 hr_prff_tabs " id="v-pills-profile-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
-            aria-selected="false">Analytics</button>
-          <button class="nav-link text-secondary border border-2 m-1 hr_prff_tabs " id="v-pills-messages-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
-            aria-selected="false">Strong core</button>
-          <button class="nav-link text-secondary border border-2 m-1 hr_prff_tabs " id="v-pills-settings-tab" data-bs-toggle="pill"
-            data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
-            aria-selected="false">Experience</button>
 
 
-          <button class="nav-link text-secondary border border-2 m-1 hr_prff_tabs " id="v-pills-extra-tab1" data-bs-toggle="pill"
-            data-bs-target="#v-pills-extra-tab1" type="button" role="tab" aria-controls="v-pills-extra-tab1"
-            aria-selected="false">Experience1</button>
+    <div class="container-fluid mt-5" style="background-color: #ecfcfa;">
+        <div class="row pt-3">
+            <div class="col text-center">
+                <h1>Our Clients See Value in it, Yours Will Too</h1>
 
-            <button class="nav-link text-secondary border border-2 m-1 hr_prff_tabs " id="v-pills-extra-tab2" data-bs-toggle="pill"
-            data-bs-target="#v-pills-extra-tab2" type="button" role="tab" aria-controls="v-pills-extra-tab2"
-            aria-selected="false">Experience2</button>
-
-            <button class="nav-link text-secondary border border-2 m-1 hr_prff_tabs " id="v-pills-extra-tab3" data-bs-toggle="pill"
-            data-bs-target="#v-pills-extra-tab3" type="button" role="tab" aria-controls="v-pills-extra-tab3"
-            aria-selected="false">Experience3</button>
-
+            </div>
 
         </div>
-      </div>
-      <div class="col-md-12 mt-5 mx-3">
-        <div class="tab-content" id="v-pills-tabContent">
 
-          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-            aria-labelledby="v-pills-home-tab">
-            <div class="row text-center ">
-              <div class="col-md-7">
-                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                  aria-labelledby="v-pills-home-tab">
-                  <h5 class="fw-bold">Never miss or delay a task ever again</h5>
-                  Humans work best in a continuity and limited distraction environment. Glintix is designed to
-                  optimize
-                  the
-                  flow of work for all its stakeholders.<br><br>
-
-
-                  Efficiency across the organisation and not just HR is likely to see a boost of 9x, HR- 5x,
-                  employee-2x,
-                  employer-2x<br>
-                  <button type="button" class="btn btn-success btn-custom mt-5">Know more</button>
-                </div>
-              </div>
-              <div class="col-md-5 ">
-                <img src="../images/efficiency.png" alt="">
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-            <div class="row text-center ">
-              <div class="col-md-7">
-                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                  aria-labelledby="v-pills-home-tab">
-                  <h5 class="fw-bold">Every data you need, available in real time</h5>
-                  Glintix offers in-depth insights that are action-led and support growth in the now and as well as
-                  in
-                  the
-                  long-term.<br><br>
-
-                  To say the least, you will become 3x more agile and would be able to take strategic decisions
-                  right in
-                  time.<br>
-                  <button type="button" class="btn btn-success btn-custom mt-5">Know more</button>
-                </div>
-              </div>
-              <div class="col-md-5">
-                <img src="../images/analytics.png" alt="">
-              </div>
-            </div>
-          </div>
-
-          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-
-            <div class="row text-center">
-              <div class="col-md-7">
-                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                  aria-labelledby="v-pills-home-tab">
-                  <h5 class="fw-bold">
-                    Alter the software as per your needs
-                  </h5>
-                  Unlike other rigid HR system, the strong core engine of Glintix allows organizations to virtually
-                  model
-                  them
-                  at all levels from enterprise to teams.<br><br>
-
-                  You scale, we scale! Our core engine offers immense flexibility to support your future expansion
-                  plans
-                  with easy configurations.<br>
-                  <button type="button" class="btn btn-success btn-custom mt-5">Know more</button>
-                </div>
-              </div>
-              <div class="col-md-5">
-                <img src="../images/strong-core.png" alt="">
-              </div>
-            </div>
-
-          </div>
-
-          <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-
-            <div class="row text-center">
-              <div class="col-md-7">
-                <div class="tab-pane fade show active" id="v-pills-setting" role="tabpanel"
-                  aria-labelledby="v-pills-home-tab">
-                  <h5 class="fw-bold">
-                    Build happier workplaces
-                  </h5>
-                  Glintix enhances employee journey at all 3 touchpoints – peer-to-peer, HR to employees and manager
-                  to
-                  teams
-                  to foster a culture of appreciation & gratitude.<br><br>
-
-                  The increase in appreciation and recognition levels makes your employees 7x more motivated for
-                  every
-                  task
-                  they do!<br>
-                  <button type="button" class="btn btn-success btn-custom mt-5">Know more</button>
-                </div>
-              </div>
-              <div class="col-md-5">
-                <img src="../images/experience.png" alt="">
-              </div>
-            </div>
-
-          </div>
-
-
-          <div class="tab-pane fade" id="v-pills-extra-tab1" role="tabpanel" aria-labelledby="v-pills-extra-tab1">
-
-            <div class="row text-center">
-              <div class="col-md-7">
-                <div class="tab-pane fade show active" id="v-pills-extra-tab1" role="tabpanel"
-                  aria-labelledby="v-pills-extra-tab1">
-                  <h5 class="fw-bold">
-                    Build happier workplaces
-                  </h5>
-                  Glintix enhances employee journey at all 3 touchpoints – peer-to-peer, HR to employees and manager
-                  to
-                  teams
-                  to foster a culture of appreciation & gratitude.<br><br>
-
-                  The increase in appreciation and recognition levels makes your employees 7x more motivated for
-                  every
-                  task
-                  they do!<br>
-                  <button type="button" class="btn btn-success btn-custom mt-5">Know more</button>
-                </div>
-              </div>
-              <div class="col-md-5">
-                <img src="../images/images/database_product.png" alt="">
-              </div>
-            </div>
-
-          </div>
-
-          <div class="tab-pane fade" id="v-pills-extra-tab2" role="tabpanel" aria-labelledby="v-pills-extra-tab2">
-
-            <div class="row text-center ">
-              <div class="col-md-7">
-                <div class="tab-pane fade show active" id="v-pills-extra-tab2" role="tabpanel"
-                  aria-labelledby="v-pills-extra-tab2">
-                  <h5 class="fw-bold">
-                    Build happier workplaces
-                  </h5>
-                  Glintix enhances employee journey at all 3 touchpoints – peer-to-peer, HR to employees and manager
-                  to
-                  teams
-                  to foster a culture of appreciation & gratitude.<br><br>
-
-                  The increase in appreciation and recognition levels makes your employees 7x more motivated for
-                  every
-                  task
-                  they do!<br>
-                  <button type="button" class="btn btn-success btn-custom mt-5">Know more</button>
-                </div>
-              </div>
-              <div class="col-md-5">
-                <img src="../images/experience.png" alt="">
-              </div>
-            </div>
-
-          </div>
-
-          <div class="tab-pane fade" id="v-pills-extra-tab3" role="tabpanel" aria-labelledby="v-pills-extra-tab3">
-
-            <div class="row text-center">
-              <div class="col-md-7">
-                <div class="tab-pane fade show active" id="v-pills-extra-tab3" role="tabpanel"
-                  aria-labelledby="v-pills-extra-tab3">
-                  <h5 class="fw-bold">
-                    Build happier workplaces
-                  </h5>
-                  Glintix enhances employee journey at all 3 touchpoints – peer-to-peer, HR to employees and manager
-                  to
-                  teams
-                  to foster a culture of appreciation & gratitude.<br><br>
-
-                  The increase in appreciation and recognition levels makes your employees 7x more motivated for
-                  every
-                  task
-                  they do!<br>
-                  <button type="button" class="btn btn-success btn-custom mt-5">Know more</button>
-                </div>
-              </div>
-              <div class="col-md-5">
-                <img src="../images/experience.png" alt="">
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="container mt-5">
-    <div class="row justify-content-center">
-      <div class="col-md-12">
-        <h4 class="text-center fw-bold">Ready to be the Next-Gen HR? </h4>
-        <p class="text-center">In the Bersin led Deloitte study, it was found that the companies with newly upgraded HCM
-          spend as less as 22 percent of the time per employee. Build happier workplaces by spending less time on HR
-          operations and more time on human interactions &amp; nurturing your talent with Glintix. Take the leap with
-          India’s first truly #MobileFirst Mobile First HR app, Glintix. Speak to our experts to experience this marvel
-          first-hand.</p>
-      </div>
-    </div>
-    <div class="row justify-content-center mt-3">
-      <div class="col-lg-3 col-md-4 col-12">
-        <a href="#" class="btn btn btn-success btn-custom" data-bs-toggle="modal" data-bs-target="#contactModal"
-          rel="noopener noreferrer">Get Free Demo</a>
-      </div>
-      <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
-        <div class="modal-dialog ">
-          <div class="modal-content">
-            <div class="modal-header ">
-              <h5 class="modal-title fw-bold " id="contactModallLabel">Book a Demo!</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <form action="action.php">
-                <div class="row mb-4">
-                  <div class="col-md-6 col-sm-12">
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="First Name*"
-                      required>
-                  </div>
-                  <div class="col-md-6 col-sm-12">
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Last Name*"
-                      required>
-                  </div>
-                </div>
-                <div class="row mb-4">
-                  <div class="col-md-6 col-sm-12">
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Work Email*"
-                      required>
-                  </div>
-                  <div class="col-md-6 col-sm-12">
-                    <div class="row">
-                      <div class="col-md-12 col-sm-12 ">
-                        <input type="tel" id="phone" class="form-control w-100" required>
-                      </div>
-                      <!-- <div class="col-md-8 col-sm-12 ps-0">
-                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="+91">
-                      </div> -->
+        <div class="row p-4">
+            <div class="col ">
+                <p class="h-50">“Glintex allowed us to customize and create our HR workflows. Since it covers all the HR core modules,
+                    we were able to carry out every HR operation effectively while working from home.”</p>
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="tanay.png" alt="" class="img-fluid">
                     </div>
-                  </div>
+                    <div class="col-md-10">
+                        <h3>Mr. Tanay Chothani</h3>
+                        <h5>CEO, TravelXP</h5>
+                    </div>
                 </div>
-                <div class="row mb-4">
-                  <div class="col-md-6 col-sm-12">
-                    <select class="form-select" aria-label="Default select example" required>
-                      <option selected>No. of Employees*</option>
-                      <option value="1">1-50</option>
-                      <option value="2">51-100</option>
-                      <option value="3">101-200</option>
-                      <option value="3">201-500</option>
-                      <option value="3">501-1000</option>
-                      <option value="3">1000+</option>
-                    </select>
-                  </div>
-                  <div class="col-md-6 col-sm-12">
-                    <select class="form-select" aria-label="Default select example" required>
-                      <option value="Andhra Pradesh">Andhra Pradesh</option>
-                      <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
-                      <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-                      <option value="Assam">Assam</option>
-                      <option value="Bihar">Bihar</option>
-                      <option value="Chandigarh">Chandigarh</option>
-                      <option value="Chhattisgarh">Chhattisgarh</option>
-                      <option value="Dadar and Nagar Haveli">Dadar and Nagar Haveli</option>
-                      <option value="Daman and Diu">Daman and Diu</option>
-                      <option value="Delhi">Delhi</option>
-                      <option value="Lakshadweep">Lakshadweep</option>
-                      <option value="Puducherry">Puducherry</option>
-                      <option value="Goa">Goa</option>
-                      <option value="Gujarat">Gujarat</option>
-                      <option value="Haryana">Haryana</option>
-                      <option value="Himachal Pradesh">Himachal Pradesh</option>
-                      <option value="Jammu and Kashmir">Jammu and Kashmir</option>
-                      <option value="Jharkhand">Jharkhand</option>
-                      <option value="Karnataka">Karnataka</option>
-                      <option value="Kerala">Kerala</option>
-                      <option value="Madhya Pradesh">Madhya Pradesh</option>
-                      <option value="Maharashtra">Maharashtra</option>
-                      <option value="Manipur">Manipur</option>
-                      <option value="Meghalaya">Meghalaya</option>
-                      <option value="Mizoram">Mizoram</option>
-                      <option value="Nagaland">Nagaland</option>
-                      <option value="Odisha">Odisha</option>
-                      <option value="Punjab">Punjab</option>
-                      <option value="Rajasthan">Rajasthan</option>
-                      <option value="Sikkim">Sikkim</option>
-                      <option value="Tamil Nadu">Tamil Nadu</option>
-                      <option value="Telangana">Telangana</option>
-                      <option value="Tripura">Tripura</option>
-                      <option value="Uttar Pradesh">Uttar Pradesh</option>
-                      <option value="Uttarakhand">Uttarakhand</option>
-                      <option value="West Bengal">West Bengal</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="row mb-4">
-                  <div class="col-md-6 col-sm-12">
-                    <select class="form-select" aria-label="Default select example" required>
-                      <option selected>Seniority*</option>
-                      <option value="1">Owner</option>
-                      <option value="2">Partner</option>
-                      <option value="3">CXO</option>
-                      <option value="3">VP</option>
-                      <option value="3">Director</option>
-                      <option value="3">Head</option>
-                      <option value="3">Manager</option>
-                      <option value="3">Senior</option>
-                      <option value="3">Entry</option>
-                    </select>
-                  </div>
-                  <div class="col-md-6 col-sm-12">
-                    <select class="form-select" aria-label="Default select example" required>
-                      <option selected>Function*</option>
-                      <option value="1">Owner/Founder</option>
-                      <option value="2">HR</option>
-                      <option value="3">HR Business Partner</option>
-                      <option value="3">HR Talent Management</option>
-                      <option value="3">HR Talent Acquisition</option>
-                      <option value="3">HR Compensation & Benefits</option>
-                      <option value="2">Administation</option>
-                      <option value="2">Finanace</option>
-                      <option value="2">IT</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="modal-footer justify-content-center">
-                  <button type=" submit btn btn-success btn-custom " class="btn btn-primary ">Book a Demo</button>
-                </div>
-              </form>
             </div>
-
-          </div>
+            <div class="col">
+                <p class="h-50">“We are happy we chose Glintix. From supporting remote working to improving the overall engagement
+                    levels, Glintix has been creating a positive impact on our entire workforce. Truth be told, Glintix is a
+                    small bomb making a lot of noise.”</p>
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="tanay.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-10">
+                        <h3>Mr. Tanay Chothani</h3>
+                        <h5>CEO, TravelXP</h5>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col">
+                <h1 class="fw-bold">Glintix Partner Program Benefits: Why should you choose us?</h1>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-sm-12 p-3">
+                <h5>Expand Your Business Remarkably</h5>
+                <p>Strengthen your brand. Get more exposure. Leverage the opportunities to reach newer markets,
+                    industries, and businesses of all sizes.</p>
+            </div>
+            <div class="col-md-4 col-sm-12 p-3">
+                <h5>Expand Your Business Remarkably</h5>
+                <p>Strengthen your brand. Get more exposure. Leverage the opportunities to reach newer markets,
+                    industries, and businesses of all sizes.</p>
+            </div>
+            <div class="col-md-4 col-sm-12 p-3">
+                <h5>Expand Your Business Remarkably</h5>
+                <p>Strengthen your brand. Get more exposure. Leverage the opportunities to reach newer markets,
+                    industries, and businesses of all sizes.</p>
+            </div>
+            <div class="col-md-4 col-sm-12 p-3">
+                <h5>Expand Your Business Remarkably</h5>
+                <p>Strengthen your brand. Get more exposure. Leverage the opportunities to reach newer markets,
+                    industries, and businesses of all sizes.</p>
+            </div>
+            <div class="col-md-4 col-sm-12 p-3">
+                <h5>Expand Your Business Remarkably</h5>
+                <p>Strengthen your brand. Get more exposure. Leverage the opportunities to reach newer markets,
+                    industries, and businesses of all sizes.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid" style="background-color: #ecfcfa;">
+        <div class="row mb-5 mt-5 pt-4">
+            <div class="col text-center">
+                <h3>Types of Partnership Program:<br>
+                    Select What’s Best for You</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-sm-12 text-center ">
+                <div class="bg-white">
+                    <h4 class="pt-3">
+                        Referral Partner
+                    </h4>
+                    <p>
+                        The Referral Partner Program is for anyone who wants to grow their revenue without any investment.
+                        Whether your expertise is in sales, marketing, accounting, management consulting, or banking—If you
+                        want to boost your turnover, we can help.
+                    </p>
+                    <button class="btn btn-success btn-custom mb-5">BE OUR REFERAL PARTNER</button>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 text-center ">
+                <div class="bg-white">
+                    <h4 class="pt-3">
+                        Referral Partner
+                    </h4>
+                    <p>
+                        The Referral Partner Program is for anyone who wants to grow their revenue without any investment.
+                        Whether your expertise is in sales, marketing, accounting, management consulting, or banking—If you
+                        want to boost your turnover, we can help.
+                    </p>
+                    <button class="btn btn-success btn-custom mb-5">BE OUR REFERAL PARTNER</button>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 text-center ">
+                <div class="bg-white">
+                    <h4 class="pt-3">
+                        Referral Partner
+                    </h4>
+                    <p>
+                        The Referral Partner Program is for anyone who wants to grow their revenue without any investment.
+                        Whether your expertise is in sales, marketing, accounting, management consulting, or banking—If you
+                        want to boost your turnover, we can help.
+                    </p>
+                    <button class="btn btn-success btn-custom mb-5">BE OUR REFERAL PARTNER</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid  mb-5">
+          <div class="row text-center">
+              <div class="col-md-6 col-sm-12 patner-footer1">
+                  <div class="partner_footerimg">
+                      <img src="images/existing-partner.svg" alt="" class="m-5">
+                      <h3 class="text-white fw-700 fs-2">
+                          Are you an existing partner?
+  
+                      </h3>
+                      <button type="submit" class="btn btn-success btn-custom mb-5">SUBMIT YOUR LEADS NOW</button>
+                  </div>
+              </div>
+              <div class="col-md-6 col-sm-12 patner-footer2">
+                  <div class="partner_footerimg">
+                      <img src="images/partner-program.svg" alt="" class="m-5">
+                      <h3 class="fw-700 fs-2">
+                          Keen to sign up for our Partner program?
+  
+                      </h3>
+                      <button type="submit" class="btn btn-success btn-custom mb-5">LET'S JOIN HANDS TODAY</button>
+                  </div>
+              </div>
+          </div>
       </div>
 
-
-    </div>
-  </div>
-
-  <footer>
+      <footer>
         <div class="container">
             <div class="row  mt-5">
                 <div class="col">
@@ -1202,10 +971,10 @@
         </div>
     </section>
 
-  <script src="js/slidetextimg.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
 
 </body>

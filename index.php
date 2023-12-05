@@ -119,6 +119,7 @@
 
   </script>
 
+ 
 </head>
 
 <body>
@@ -144,10 +145,10 @@
                 About <span class="logo-text-nav">Glintix</span>
               </a>
               <ul class="dropdown-menu dropdown_menu_show" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="./menu/ourStory.html">Our Story</a></li>
-                <li><a class="dropdown-item" href="./menu/leadership.html">Leadership</a></li>
-                <li><a class="dropdown-item" href="/newsroom.html">Newsroom</a></li>
-                <li><a class="dropdown-item" href="/partners.html">Partners</a></li>
+                <li><a class="dropdown-item" href="menu/ourStory.php">Our Story</a></li>
+                <li><a class="dropdown-item" href="menu/leadership.php">Leadership</a></li>
+                <li><a class="dropdown-item" href="menu/newsroom.php">Newsroom</a></li>
+                <li><a class="dropdown-item" href="menu/partners.php">Partners</a></li>
 
               </ul>
             </li>
@@ -212,21 +213,21 @@
 
 
 
-            <li class="nav-item"><a class="nav-link" href="/Pricing.html"> Pricing </a></li>
-            <li class="nav-item"><a class="nav-link" href="/clients.html"> Clients </a></li>
+            <li class="nav-item"><a class="nav-link" href="menu/Pricing.php"> Pricing </a></li>
+            <li class="nav-item"><a class="nav-link" href="menu/clients.php"> Clients </a></li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> HR Resources </a>
               <ul class="dropdown-menu dropdown_menu_show">
-                <li><a class="dropdown-item" href="/blog.html"> Blog </a></li>
-                <li><a class="dropdown-item" href="/hr-commune.html"> HR Commune </a></li>
-                <li><a class="dropdown-item" href="/guides.html"> Guides </a></li>
-                <li><a class="dropdown-item" href="hrResources.html"> HR Resources </a></li>
-                <li><a class="dropdown-item" href="/Template.html"> Template </a></li>
-                <li><a class="dropdown-item" href="/policy.html"> Policy </a></li>
-                <li><a class="dropdown-item" href="/checklist.html"> Checklist </a></li>
-                <li><a class="dropdown-item" href="/glossary.html"> Glossary </a></li>
-                <li><a class="dropdown-item" href="/faq.html"> FAQ </a></li>
-                <li><a class="dropdown-item" href="/tips.html"> Tips </a></li>
+                <li><a class="dropdown-item" href="menu/blog.php"> Blog </a></li>
+                <li><a class="dropdown-item" href="menu/hr-commune.php"> HR Commune </a></li>
+                <li><a class="dropdown-item" href="menu/guides.php"> Guides </a></li>
+                <li><a class="dropdown-item" href="menu/hrResources.php"> HR Resources </a></li>
+                <li><a class="dropdown-item" href="menu/Template.php"> Template </a></li>
+                <li><a class="dropdown-item" href="menu/policy.php"> Policy </a></li>
+                <li><a class="dropdown-item" href="menu/checklist.php"> Checklist </a></li>
+                <li><a class="dropdown-item" href="menu/glossary.php"> Glossary </a></li>
+                <li><a class="dropdown-item" href="menu/faq.php"> FAQ </a></li>
+                <li><a class="dropdown-item" href="menu/tips.php"> Tips </a></li>
 
 
 
