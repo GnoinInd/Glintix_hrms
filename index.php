@@ -218,7 +218,7 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> HR Resources </a>
               <ul class="dropdown-menu dropdown_menu_show">
-                <li><a class="dropdown-item" href="menu/blog.php"> Blog </a></li>
+                <li><a class="dropdown-item" href="./menu/blog.php"> Blog </a></li>
                 <li><a class="dropdown-item" href="menu/hr-commune.php"> HR Commune </a></li>
                 <li><a class="dropdown-item" href="menu/guides.php"> Guides </a></li>
                 <li><a class="dropdown-item" href="menu/hrResources.php"> HR Resources </a></li>

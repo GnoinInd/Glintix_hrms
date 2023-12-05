@@ -25,7 +25,8 @@
 
   <body>
   <div class="container-fluid p-0 m-0 sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <div class="container-fluid">
             <a class="navbar-brand " href="../index.php"><img src="../images/glintix_logo.png" alt="" class="img-fluid"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
@@ -149,11 +150,6 @@
             </form>
           </div> 
         </nav>
-    
-      
-    
-    
-    
       </div>
     
     
@@ -167,7 +163,7 @@
                 <h2 class="mb-4">HRIS Software that let’s you define policies as per your organizational structure.</h2>
                 <p class="mb-4">The HCM Software configured for your business, operations and people, just the way you
                     run it.</p>
-                <button class="btn btn btn-success btn-custom mb-5">REQUEST A DEMO</button>
+                <button class="btn btn-success btn-custom mb-5">REQUEST A DEMO</button>
             </div>
             <div class="col-md-6 col-sm-12">
                 <div class="hcmImg">
@@ -176,227 +172,549 @@
             </div>
         </div>
     </div>
-
-
-
-    
-  <div class="container mt-5">
-    <div class="row ">
-      <div class="col-md-6 col-sm-12 bg-grey ps-5 ">
-        <h6 class="font-style">Asset</h6>
-        <h3>Asset lifecycle management made easy</h3>
-        <p>Leave no room for assets to go missing or unaccounted for by mapping the whole asset lifecycle on a
-          well-structured and highly customised asset management system that makes inventory tracking as simple as ABC.
-        </p>
-        <div class="custmbtn p-2">
-          <button class="btn btn btn-success btn-custom ">REQUEST A DEMO</button>
-        </div>
-      </div>
-      <div class="col-md-6 col-sm-12">
-        <div class="hlpdk">
-          <img src="../images/asset_img1.png" alt="" class="img-fluid">
-        </div>
-      </div>
-
-      <div class="col-md-12 mt-5">
-        <h3>Glintix helpdesk management software for simplified yet efficient ticket resolution</h3>
-        <p>Track and resolve every ticket timely with our helpdesk software, making your employees as happy as
-          your customers!</p>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="row justify-content-center">
-              <div class="col  text-center">
-                <div class="hlpdsk-logo">
-                  <img src="../images/asset_logo_1.svg" alt="" class="img-fluid">
-                </div>
-                <p>Asset management</p>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-5">
+              <div class="attend-img">
+                <img
+                  src="../images/core_hr_product.png"
+                  alt=""
+                  class="img-fluid rounded"
+                />
               </div>
-              <div class="col  text-center">
-                <div class="hlpdsk-logo">
-                  <img src="../images/asset_logo_2.svg" alt="" class="img-fluid">
-                </div>
-                <p>Update inventory</p>
-              </div>
-              <div class="col  text-center">
-                <div class="hlpdsk-logo">
-                  <img src="../images/asset_logo_3.svg" alt="" class="img-fluid">
-                </div>
-                <p>Asset Request & Return</p>
-              </div>
-              <div class="col  text-center">
-                <div class="hlpdsk-logo">
-                  <img src="../images/asset_logo_4.svg" alt="" class="img-fluid">
-                </div>
-                <p>Asset allocation</p>
-              </div>
-
-              <div class="col  text-center">
-                <div class="hlpdsk-logo">
-                  <img src="../images/asset_logo_5.svg" alt="" class="img-fluid">
-                </div>
-                <p>Insights</p>
+            </div>
+            <div class="col-md-7">
+              <div class="bg-grey ps-5 p-3">
+                <h5 class="mb-3">Attendance Management System</h5>
+                <h3 class="lh-base mb-4">
+                  Attendance Management software with zero manual interventions
+                </h3>
+                <p class="lh-lg mb-4">
+                  Steer clear of manually updating time and maintaining excels
+                  with simplified Time and Attendance tool synced across modules
+                  like Core HR software and payroll management software
+                </p>
+                <button class="btn btn-success btn-custom mt-4" type="submit">
+                  REQUEST A DEMO
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
+    <div class="container-fluid mt-5 pb-5 bg-anim-container" id="particles-js">
+      <div class="row">
+        <div class="col-md-12 text-center mt-5">
+          <div class="bg-anim-contents position-absolute">
+            <div class="row mt-5">
+              <div class="col-md-12">
+                <div class="hr-biglogo text-center my-4">
+                  <img src="../images/logo-hr-bold.png" alt="" class="img-fluid" />
+                </div>
+              </div>
+              <div class="col-md-12">
+                <h2 class="text-dark fw-bold my-4">
+                  What is Attendance Management System?
+                </h2>
+                <p class="text-dark lh-base my-4">
+                  An attendance management system is a software tool used to
+                  track and manage the attendance of employees. The system
+                  captures data on when employees punch in and out along with
+                  their leaves. This information is used to generate reports
+                  that help managers make informed decisions about scheduling,
+                  payroll, and other functions. <br />
 
-      <div class="col-md-12 mt-5">
-        <div class="row">
-          <div class="col-md-6 col-sm-12">
-            <h4 class="font-style">Asset Management</h4>
-            <h4>Manage your assets</h4>
-            <p> No employee issue goes for a toss anymore
-            <p>Escalation matrix</p>
-            Entitle the employees to mark the priority as low, medium or high for every ticket they raise so
-            that the resolver doesn’t feel overwhelmed.</p>
+                  Glintix attendance management system is cloud-based, allowing
+                  employees to clock in and out using mobile devices or desktop.
+                  The system can also be integrated with other HR software to
+                  automate various processes and reduce administrative burdens.
+                  It offers multiple options for attendance marking,
+                  customizable leave policies, real-time attendance tracking and
+                  overall streamlines HR operations.
+                </p>
+              </div>
+              <div class="col-md-12">
+                <button class="btn btn-success btn-custom text-dark">
+                  PURCHASE
+                </button>
+              </div>
 
-            <p>TAT and due date</p>
-            <p>Mention the number of due days and TAT for every escalation matrix so that the issue is
-              resolved in the expected time frame.</p>
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h2 class="text-dark fw-bold my-4">
+                      What makes Glintix Attendance Management Software the
+                      best?
+                    </h2>
+                    <button class="btn btn-success btn-custom text-dark">
+                      KNOW MORE
+                    </button>
+                  </div>
+                </div>
+                <!-- <div class="row">
+                                <div class="col-12">
+                                    <div class="card h-100">
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"
+                                                class="random_video  ">
+                                            </iframe>
+                                        </div>
 
-            <p>Auto Escalation of the problem further</p>
-           
-
-           
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="hlpdk">
-              <img src="../images/asset_img2.png" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div> -->
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-12 mt-5 ">
-        <div class="row">
-          <div class="col-md-6 col-sm-12">
-            <h4 class="font-style">Update Inventory</h4>
-            <h4>Keep a close eye!</h4>
-            <p> No employee issue goes for a toss anymore
-            <p>Escalation matrix</p>
-            Entitle the employees to mark the priority as low, medium or high for every ticket they raise so
-            that the resolver doesn’t feel overwhelmed.</p>
+    </div>
 
-            <p>TAT and due date</p>
-            <p>Mention the number of due days and TAT for every escalation matrix so that the issue is
-              resolved in the expected time frame.</p>
+    <div class="container-fluid mt-4">
+      <div class="row bg-section_img">
+        <div class="col-md-12 m-0 p-0 text-center">
+          <h4 class="p-2 bg-secondary fs-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+            explicabo?
+          </h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi
+            ducimus enim, odit veniam minus delectus quaerat! Eaque odit alias
+            exercitationem!
+          </p>
+        </div>
 
-            <p>Auto Escalation of the problem further</p>
-           
-
-           
+        <div class="col-md-12">
+          <div class="row justify-content-center">
+            <div class="col-3 text-center p-2">
+              <div class="integratedImg">
+                <img src="../images/leaves.svg" alt="" class="img-fluid" />
+              </div>
+              <div class="heading">
+                <h6>Leaves</h6>
+              </div>
+            </div>
+            <div class="col-3 text-center p-2">
+              <div class="integratedImg">
+                <img src="../images/leaves.svg" alt="" class="img-fluid" />
+              </div>
+              <div class="heading">
+                <h6>Leaves</h6>
+              </div>
+            </div>
+            <div class="col-3 text-center p-2">
+              <div class="integratedImg">
+                <img src="../images/leaves.svg" alt="" class="img-fluid" />
+              </div>
+              <div class="heading">
+                <h6>Leaves</h6>
+              </div>
+            </div>
+            <div class="col-3 text-center p-2">
+              <div class="integratedImg">
+                <img src="../images/leaves.svg" alt="" class="img-fluid" />
+              </div>
+              <div class="heading">
+                <h6>Leaves</h6>
+              </div>
+            </div>
+            <div class="col-3 text-center p-2">
+              <div class="integratedImg">
+                <img src="../images/leaves.svg" alt="" class="img-fluid" />
+              </div>
+              <div class="heading">
+                <h6>Leaves</h6>
+              </div>
+            </div>
+            <div class="col-3 text-center p-2">
+              <div class="integratedImg">
+                <img src="../images/leaves.svg" alt="" class="img-fluid" />
+              </div>
+              <div class="heading">
+                <h6>Leaves</h6>
+              </div>
+            </div>
+            <div class="col-3 text-center p-2">
+              <div class="integratedImg">
+                <img src="../images/leaves.svg" alt="" class="img-fluid" />
+              </div>
+              <div class="heading">
+                <h6>Leaves</h6>
+              </div>
+            </div>
+            <div class="col-3 text-center p-2">
+              <div class="integratedImg">
+                <img src="../images/leaves.svg" alt="" class="img-fluid" />
+              </div>
+              <div class="heading">
+                <h6>Leaves</h6>
+              </div>
+            </div>
+            <div class="col-3 text-center p-2">
+              <div class="integratedImg">
+                <img src="../images/leaves.svg" alt="" class="img-fluid" />
+              </div>
+              <div class="heading">
+                <h6>Leaves</h6>
+              </div>
+            </div>
+            <div class="col-3 text-center p-2">
+              <div class="integratedImg">
+                <img src="../images/leaves.svg" alt="" class="img-fluid" />
+              </div>
+              <div class="heading">
+                <h6>Leaves</h6>
+              </div>
+            </div>
           </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="hlpdk">
-              <img src="../images/asset_img3.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                “Attendance management has always been our biggest challenge.
+                Thanks to Glintix for simplifying the process for us. Using the
+                software, we save a large chunk of time and money.
+              </p>
+              <a href="#" class="btn btn-success btn-custom">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                “Attendance management has always been our biggest challenge.
+                Thanks to Glintix for simplifying the process for us. Using the
+                software, we save a large chunk of time and money.
+              </p>
+              <a href="#" class="btn btn-success btn-custom">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                “Attendance management has always been our biggest challenge.
+                Thanks to Glintix for simplifying the process for us. Using the
+                software, we save a large chunk of time and money.
+              </p>
+              <a href="#" class="btn btn-success btn-custom">Go somewhere</a>
             </div>
           </div>
         </div>
       </div>
       <div class="col-md-12 mt-5">
         <div class="row">
-          <div class="col-md-6 col-sm-12">
-            <h4 class="font-style">Asset Request & Return</h4>
-            <h4>A click away!</h4>
-            <p> No employee issue goes for a toss anymore
-            <p>Escalation matrix</p>
-            Entitle the employees to mark the priority as low, medium or high for every ticket they raise so
-            that the resolver doesn’t feel overwhelmed.</p>
-
-            <p>TAT and due date</p>
-            <p>Mention the number of due days and TAT for every escalation matrix so that the issue is
-              resolved in the expected time frame.</p>
-
-            <p>Auto Escalation of the problem further</p>
-           
-
-           
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="hlpdk">
-              <img src="../images/asset_img4.png" alt="" class="img-fluid">
+          <div class="col-md-6">
+            <div class="integratedImg">
+              <img src="../images/core_hr_product.png" alt="" class="img-fluid" />
             </div>
+          </div>
+          <div class="col-md-6">
+            <h4 class="font-style">Leave the “leaves” to us.</h4>
+            Configure your leaves<br />
+            Fix the number of earned leaves, CSLs and paid leaves in the system
+            while confining it to a group of employees or one of your office
+            premise. Create different leave types while giving them a code in
+            the system. Choose the leave cycle and much more. Set your credit
+            policy<br />
+            No need to remember or strain yourself for manual update. Name and
+            add multiple leave policies. At the start of every month, new leaves
+            are also auto credited by the system.<br />
+
+            Update leave balance<br />
+            Import the leave balance once, start the leave credit scheduler and
+            forget about updating the leave balance manually forever.<br />
+
+            Encash or carry forward<br />
+            Specifty the paid leaves you want to be encashed. Enable the leave
+            carry forward policy, set the minimum leave balance and do much
+            more.<br />
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="integratedImg">
+            <img src="../images/core_hr_product.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h4 class="font-style">Leave the “leaves” to us.</h4>
+            Configure your leaves<br />
+            Fix the number of earned leaves, CSLs and paid leaves in the system
+            while confining it to a group of employees or one of your office
+            premise. Create different leave types while giving them a code in
+            the system. Choose the leave cycle and much more. Set your credit
+            policy<br />
+            No need to remember or strain yourself for manual update. Name and
+            add multiple leave policies. At the start of every month, new leaves
+            are also auto credited by the system.<br />
+
+            Update leave balance<br />
+            Import the leave balance once, start the leave credit scheduler and
+            forget about updating the leave balance manually forever.<br />
+
+            Encash or carry forward<br />
+            Specifty the paid leaves you want to be encashed. Enable the leave
+            carry forward policy, set the minimum leave balance and do much
+            more.<br />
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="integratedImg">
+            <img src="../images/core_hr_product.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h4 class="font-style">Leave the “leaves” to us.</h4>
+            Configure your leaves<br />
+            Fix the number of earned leaves, CSLs and paid leaves in the system
+            while confining it to a group of employees or one of your office
+            premise. Create different leave types while giving them a code in
+            the system. Choose the leave cycle and much more. Set your credit
+            policy<br />
+            No need to remember or strain yourself for manual update. Name and
+            add multiple leave policies. At the start of every month, new leaves
+            are also auto credited by the system.<br />
+
+            Update leave balance<br />
+            Import the leave balance once, start the leave credit scheduler and
+            forget about updating the leave balance manually forever.<br />
+
+            Encash or carry forward<br />
+            Specifty the paid leaves you want to be encashed. Enable the leave
+            carry forward policy, set the minimum leave balance and do much
+            more.<br />
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="integratedImg">
+            <img src="../images/core_hr_product.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h4 class="font-style">Leave the “leaves” to us.</h4>
+            Configure your leaves<br />
+            Fix the number of earned leaves, CSLs and paid leaves in the system
+            while confining it to a group of employees or one of your office
+            premise. Create different leave types while giving them a code in
+            the system. Choose the leave cycle and much more. Set your credit
+            policy<br />
+            No need to remember or strain yourself for manual update. Name and
+            add multiple leave policies. At the start of every month, new leaves
+            are also auto credited by the system.<br />
+
+            Update leave balance<br />
+            Import the leave balance once, start the leave credit scheduler and
+            forget about updating the leave balance manually forever.<br />
+
+            Encash or carry forward<br />
+            Specifty the paid leaves you want to be encashed. Enable the leave
+            carry forward policy, set the minimum leave balance and do much
+            more.<br />
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="integratedImg">
+            <img src="../images/core_hr_product.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h4 class="font-style">Leave the “leaves” to us.</h4>
+            Configure your leaves<br />
+            Fix the number of earned leaves, CSLs and paid leaves in the system
+            while confining it to a group of employees or one of your office
+            premise. Create different leave types while giving them a code in
+            the system. Choose the leave cycle and much more. Set your credit
+            policy<br />
+            No need to remember or strain yourself for manual update. Name and
+            add multiple leave policies. At the start of every month, new leaves
+            are also auto credited by the system.<br />
+
+            Update leave balance<br />
+            Import the leave balance once, start the leave credit scheduler and
+            forget about updating the leave balance manually forever.<br />
+
+            Encash or carry forward<br />
+            Specifty the paid leaves you want to be encashed. Enable the leave
+            carry forward policy, set the minimum leave balance and do much
+            more.<br />
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <h4 class="font-style">Leave the “leaves” to us.</h4>
+            Configure your leaves<br />
+            Fix the number of earned leaves, CSLs and paid leaves in the system
+            while confining it to a group of employees or one of your office
+            premise. Create different leave types while giving them a code in
+            the system. Choose the leave cycle and much more. Set your credit
+            policy<br />
+            No need to remember or strain yourself for manual update. Name and
+            add multiple leave policies. At the start of every month, new leaves
+            are also auto credited by the system.<br />
+
+            Update leave balance<br />
+            Import the leave balance once, start the leave credit scheduler and
+            forget about updating the leave balance manually forever.<br />
+
+            Encash or carry forward<br />
+            Specifty the paid leaves you want to be encashed. Enable the leave
+            carry forward policy, set the minimum leave balance and do much
+            more.<br />
+          </div>
+          <div class="col-md-6">
+            <div class="integratedImg">
+            <img src="../images/core_hr_product.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="integratedImg">
+            <img src="../images/core_hr_product.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h4 class="font-style">Leave the “leaves” to us.</h4>
+            Configure your leaves<br />
+            Fix the number of earned leaves, CSLs and paid leaves in the system
+            while confining it to a group of employees or one of your office
+            premise. Create different leave types while giving them a code in
+            the system. Choose the leave cycle and much more. Set your credit
+            policy<br />
+            No need to remember or strain yourself for manual update. Name and
+            add multiple leave policies. At the start of every month, new leaves
+            are also auto credited by the system.<br />
+
+            Update leave balance<br />
+            Import the leave balance once, start the leave credit scheduler and
+            forget about updating the leave balance manually forever.<br />
+
+            Encash or carry forward<br />
+            Specifty the paid leaves you want to be encashed. Enable the leave
+            carry forward policy, set the minimum leave balance and do much
+            more.<br />
           </div>
         </div>
       </div>
 
       <div class="col-md-12 mt-5">
         <div class="row">
-          <div class="col-md-6 col-sm-12">
-            <h4 class="font-style">Asset Allocation</h4>
-            <h4>Automate asset distribution</h4>
-            <p> No employee issue goes for a toss anymore
-            <p>Escalation matrix</p>
-            Entitle the employees to mark the priority as low, medium or high for every ticket they raise so
-            that the resolver doesn’t feel overwhelmed.</p>
-
-            <p>TAT and due date</p>
-            <p>Mention the number of due days and TAT for every escalation matrix so that the issue is
-              resolved in the expected time frame.</p>
-
-            <p>Auto Escalation of the problem further</p>
-           
-
-           
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="hlpdk">
-              <img src="../images/asset_img4.png" alt="" class="img-fluid">
+          <div class="col-md-6">
+            <div class="integratedImg">
+            <img src="../images/core_hr_product.png" alt="" class="img-fluid" />
             </div>
+          </div>
+          <div class="col-md-6">
+            <h4 class="font-style">Leave the “leaves” to us.</h4>
+            Configure your leaves<br />
+            Fix the number of earned leaves, CSLs and paid leaves in the system
+            while confining it to a group of employees or one of your office
+            premise. Create different leave types while giving them a code in
+            the system. Choose the leave cycle and much more. Set your credit
+            policy<br />
+            No need to remember or strain yourself for manual update. Name and
+            add multiple leave policies. At the start of every month, new leaves
+            are also auto credited by the system.<br />
+
+            Update leave balance<br />
+            Import the leave balance once, start the leave credit scheduler and
+            forget about updating the leave balance manually forever.<br />
+
+            Encash or carry forward<br />
+            Specifty the paid leaves you want to be encashed. Enable the leave
+            carry forward policy, set the minimum leave balance and do much
+            more.<br />
           </div>
         </div>
       </div>
       <div class="col-md-12 mt-5">
         <div class="row">
-          <div class="col-md-6 col-sm-12">
-            <h4 class="font-style">Insights</h4>
-            <h4>
-              Asset Visibility
-            </h4>
-            <p> No employee issue goes for a toss anymore
-            <p>Escalation matrix</p>
-            Entitle the employees to mark the priority as low, medium or high for every ticket they raise so
-            that the resolver doesn’t feel overwhelmed.</p>
-
-            <p>TAT and due date</p>
-            <p>Mention the number of due days and TAT for every escalation matrix so that the issue is
-              resolved in the expected time frame.</p>
-
-            <p>Auto Escalation of the problem further</p>
-           
-
-           
-          </div>
-          <div class="col-md-6 col-sm-12 ">
-            <div class="hlpdk">
-              <img src="../images/asset_img5.png" alt="" class="img-fluid">
+          <div class="col-md-6">
+            <div class="integratedImg">
+            <img src="../images/core_hr_product.png" alt="" class="img-fluid" />
             </div>
+          </div>
+          <div class="col-md-6">
+            <h4 class="font-style">Leave the “leaves” to us.</h4>
+            Configure your leaves<br />
+            Fix the number of earned leaves, CSLs and paid leaves in the system
+            while confining it to a group of employees or one of your office
+            premise. Create different leave types while giving them a code in
+            the system. Choose the leave cycle and much more. Set your credit
+            policy<br />
+            No need to remember or strain yourself for manual update. Name and
+            add multiple leave policies. At the start of every month, new leaves
+            are also auto credited by the system.<br />
+
+            Update leave balance<br />
+            Import the leave balance once, start the leave credit scheduler and
+            forget about updating the leave balance manually forever.<br />
+
+            Encash or carry forward<br />
+            Specifty the paid leaves you want to be encashed. Enable the leave
+            carry forward policy, set the minimum leave balance and do much
+            more.<br />
           </div>
         </div>
       </div>
       <div class="col-md-12 mt-5">
         <div class="row">
-          <div class="col-md-6 col-sm-12">
-            <h4>Ticket Resolution</h4>
-            <p> No employee issue goes for a toss anymore
-            <p>Escalation matrix</p>
-            Entitle the employees to mark the priority as low, medium or high for every ticket they raise so
-            that the resolver doesn’t feel overwhelmed.</p>
-
-            <p>TAT and due date</p>
-            <p>Mention the number of due days and TAT for every escalation matrix so that the issue is
-              resolved in the expected time frame.</p>
-
-            <p>Auto Escalation of the problem further</p>
-           
-
-           
-          </div>
-          <div class="col-md-6 col-sm-12">
-            <div class="hlpdk">
-              <img src="../images/asset_img6.png" alt="" class="img-fluid">
+          <div class="col-md-6">
+            <div class="integratedImg">
+            <img src="../images/core_hr_product.png" alt="" class="img-fluid" />
             </div>
+          </div>
+          <div class="col-md-6">
+            <h4 class="font-style">Leave the “leaves” to us.</h4>
+            Configure your leaves<br />
+            Fix the number of earned leaves, CSLs and paid leaves in the system
+            while confining it to a group of employees or one of your office
+            premise. Create different leave types while giving them a code in
+            the system. Choose the leave cycle and much more. Set your credit
+            policy<br />
+            No need to remember or strain yourself for manual update. Name and
+            add multiple leave policies. At the start of every month, new leaves
+            are also auto credited by the system.<br />
+
+            Update leave balance<br />
+            Import the leave balance once, start the leave credit scheduler and
+            forget about updating the leave balance manually forever.<br />
+
+            Encash or carry forward<br />
+            Specifty the paid leaves you want to be encashed. Enable the leave
+            carry forward policy, set the minimum leave balance and do much
+            more.<br />
           </div>
         </div>
       </div>
