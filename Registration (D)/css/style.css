@@ -2,12 +2,7 @@
   --primary: #d84e0f;
   --white: #fff;
 }
-html,
-body {
-  background-image: url("../imagebg.jpeg");
-  background-repeat: no-repeat;
-  height: 100%;
-}
+
 .container {
   height: 100%;
 }
@@ -15,7 +10,7 @@ body {
 .card {
   width: 413px;
   height: auto;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: #34a5a5 !important;
 }
 .card-header > h3 {
   color: var(--white);

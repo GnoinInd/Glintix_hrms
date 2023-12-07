@@ -2,22 +2,23 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/style11.css">
 
-    <title>Leadership</title>
+    <title>HRCommune</title>
 </head>
 
 <body>
-    <div class="container-fluid p-0 m-0 sticky-top">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+  <div class="container-fluid p-0 m-0 sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <div class="container-fluid">
             <a class="navbar-brand " href="../index.php"><img src="../images/glintix_logo.png" alt="" class="img-fluid"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
@@ -141,95 +142,180 @@
             </form>
           </div> 
         </nav>
-    </div>
-
-
-    <div class="container mt-5 ">
-        <div class="row ">
-            <div class="col">
-                <h1 class="text-center">Meet the leadership</h1>
-                <p class="text-center">Together building a company that’s committed to customer success</p>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="container-fluid p-0">
-        <div class="row">
-            <img src="../images/leader-banner.png" alt="">
-        </div>
-    </div>
-
+</div>
 
     <div class="container mt-5">
         <div class="row">
-            <div class="col">
-                <h4>Executive Team</h4>
-            </div>
-        </div>
-
-
-        <div class="row">
-            <div class="col-md-4">
-                <div class="gallery-img">
-                    <img src="../images/karan-ls.png" alt="" class="img-fluid w-60">
+            <div class="col-3 ">
+                <div class="card mb-2 " style="width: 100%;">
+                    <img src="../images/hrcommunecardimg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                        <a href="#" class="card-link btn btn-success btn-custom">Blog</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="gallery-img">
-                    <img src="../images/karan-ls.png" alt="" class="img-fluid w-60">
+            <div class="col-3 ">
+                <div class="card mb-2 " style="width: 100%;">
+                    <img src="../images/hrcommunecardimg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                        <a href="#" class="card-link btn btn-success btn-custom">Blog</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="gallery-img">
-                    <img src="../images/karan-ls.png" alt="" class="img-fluid w-60">
+            <div class="col-3 ">
+                <div class="card mb-2 " style="width: 100%;">
+                    <img src="../images/hrcommunecardimg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                        <a href="#" class="card-link btn btn-success btn-custom">Blog</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="gallery-img">
-                    <img src="../images/karan-ls.png" alt="" class="img-fluid w-60">
+            <div class="col-3 ">
+                <div class="card mb-2 " style="width: 100%;">
+                    <img src="../images/hrcommunecardimg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                        <a href="#" class="card-link btn btn-success btn-custom">Blog</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="gallery-img">
-                    <img src="../images/karan-ls.png" alt="" class="img-fluid w-60">
+            <div class="col-3 ">
+                <div class="card mb-2 " style="width: 100%;">
+                    <img src="../images/hrcommunecardimg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                        <a href="#" class="card-link btn btn-success btn-custom">Blog</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="gallery-img">
-                    <img src="../images/karan-ls.png" alt="" class="img-fluid w-60">
+            <div class="col-3 ">
+                <div class="card mb-2 " style="width: 100%;">
+                    <img src="../images/hrcommunecardimg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                        <a href="#" class="card-link btn btn-success btn-custom">Blog</a>
+                    </div>
                 </div>
             </div>
-        </div>
-
-
-
-        <div class="row mt-5">
-            <div class="col">
-                <div class="heading-leader11 position-relative">
-                    <h2 class="bold heading-leader11 ">About the Founder</h2>
+            <div class="col-3 ">
+                <div class="card mb-2 " style="width: 100%;">
+                    <img src="../images/hrcommunecardimg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                        <a href="#" class="card-link btn btn-success btn-custom">Blog</a>
+                    </div>
                 </div>
             </div>
-        </div>
-
-
-        <div class="row mt-5">
-            <div class="col-md-5">
-                <img src="../images/karan-bio.png" alt="" class="img-fluid">
+            <div class="col-3 ">
+                <div class="card mb-2 " style="width: 100%;">
+                    <img src="../images/hrcommunecardimg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                        <a href="#" class="card-link btn btn-success btn-custom">Blog</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-7">
-                <h4 class="fw-bolder">Karan Jain</h4>
-                <h5 class="text-success">Founder, Glintix</h5>
-
-                <p><span class="fw-bolder fs-5">Karan Jain is the Founder at Glintix. He is a true visionary who recognises the crucial role of HRs in
-                    the work landscape and intends to maximize productivity through automation.</span><br><br><br>
-
-                   <span class="fs-5">
-                    Under his guidance, Glintix has seen phenomenal leadership role development and revenue growth. For
-                    him, the real success lies in positively impacting the professional lives of people at his and his
-                    client’s organizations.
-                   </span></p>
-
+            <div class="col-3 ">
+                <div class="card mb-2 " style="width: 100%;">
+                    <img src="../images/hrcommunecardimg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                        <a href="#" class="card-link btn btn-success btn-custom">Blog</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -398,29 +484,25 @@
   </footer>
   <hr>
   <section class="bottom-note">
-    <div class="container">
-        <div class="row justify-content-between">
-            <div class="col-md-4">
-                <p>Copyright © 2023. Gnoin Pvt. Ltd. All Rights Reserved.</p>
-                <p><span class="text-success">Gnoin Pvt Ltd</span> </p>
-            </div>
-            <div class="col-md-4">
-                <div class="row">
-                    <div class="col">
-                        <p>Terms & Services</p>
-                    </div>
-                    <div class="col">
-                        <p>Privacy</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-      
-
-
+      <div class="container">
+          <div class="row justify-content-between">
+              <div class="col-md-4">
+                  <p>Copyright © 2023. Gnoin Pvt. Ltd. All Rights Reserved.</p>
+                  <p><span class="text-success">Gnoin Pvt Ltd</span> </p>
+              </div>
+              <div class="col-md-4">
+                  <div class="row">
+                      <div class="col">
+                          <p>Terms & Services</p>
+                      </div>
+                      <div class="col">
+                          <p>Privacy</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
 
 
 
@@ -439,6 +521,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>

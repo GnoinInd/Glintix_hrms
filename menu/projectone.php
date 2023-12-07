@@ -17,32 +17,32 @@
 
 <body>
 <div class="container-fluid p-0 m-0 sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand " href="../index.php"><img src="../images/glintix_logo.png" alt="" class="img-fluid"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="main_nav">
-
-
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                About <span class="logo-text-nav">Glintix</span>
-                            </a>
-                            <ul class="dropdown-menu dropdown_menu_show" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="../menu/ourStory.html">Our Story</a></li>
-                            <li><a class="dropdown-item" href="../menu/leadership.html">Leadership</a></li>
-                            <li><a class="dropdown-item" href="../menu/newsroom.html">Newsroom</a></li>
-                            <li><a class="dropdown-item" href="../menu/partners.html">Partners</a></li>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand " href="../index.php"><img src="../images/glintix_logo.png" alt="" class="img-fluid"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main_nav">
+    
+    
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    About <span class="logo-text-nav">Glintix</span>
+                  </a>
+                  <ul class="dropdown-menu dropdown_menu_show" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="../menu/ourStory.php">Our Story</a></li>
+                            <li><a class="dropdown-item" href="../menu/leadership.php">Leadership</a></li>
+                            <li><a class="dropdown-item" href="../menu/newsroom.php">Newsroom</a></li>
+                            <li><a class="dropdown-item" href="../menu/partners.php">Partners</a></li>
 
 
                             </ul>
-                        </li>
-                        <li class="nav-item dropdown ">
+                </li>
+                <li class="nav-item dropdown ">
                             <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown"> Product </a>
                             <ul class="dropdown-menu dropdown_menu_show ">
                                 <li><a class="dropdown-item" href="#"> HR Software &raquo; </a>
@@ -105,42 +105,41 @@
                                 </li>
                             </ul>
                         </li>
-
-
-
-                        <li class="nav-item"><a class="nav-link" href="../menu/Pricing.html"> Pricing </a></li>
-                        <li class="nav-item"><a class="nav-link" href="../menu/clients.html"> Clients </a></li>
+    
+    
+    
+                <li class="nav-item"><a class="nav-link" href="../menu/Pricing.php"> Pricing </a></li>
+                        <li class="nav-item"><a class="nav-link" href="../menu/clients.php"> Clients </a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> HR Resources </a>
                             <ul class="dropdown-menu dropdown_menu_show">
                                 <li><a class="dropdown-item" href="../menu/blog.php"> Blog </a></li>
-                                <li><a class="dropdown-item" href="../menu/hr-commune.html"> HR Commune </a></li>
-                                <li><a class="dropdown-item" href="../menu/guides.html"> Guides </a></li>
-                                <li><a class="dropdown-item" href="../menu/hrResources.html"> HR Resources </a></li>
-                                <li><a class="dropdown-item" href="../menu/Template.html"> Template </a></li>
-                                <li><a class="dropdown-item" href="../menu/policy.html"> Policy </a></li>
-                                <li><a class="dropdown-item" href="../menu/checklist.html"> Checklist </a></li>
-                                <li><a class="dropdown-item" href="../menu/glossary.html"> Glossary </a></li>
-                                <li><a class="dropdown-item" href="../menu/faq.html"> FAQ </a></li>
-                                <li><a class="dropdown-item" href="../menu/tips.html"> Tips </a></li>
+                                <li><a class="dropdown-item" href="../menu/hr-commune.php"> HR Commune </a></li>
+                                <li><a class="dropdown-item" href="../menu/guides.php"> Guides </a></li>
+                                <li><a class="dropdown-item" href="../menu/hrResources.php"> HR Resources </a></li>
+                                <li><a class="dropdown-item" href="../menu/Template.php"> Template </a></li>
+                                <li><a class="dropdown-item" href="../menu/policy.php"> Policy </a></li>
+                                <li><a class="dropdown-item" href="../menu/checklist.php"> Checklist </a></li>
+                                <li><a class="dropdown-item" href="../menu/glossary.php"> Glossary </a></li>
+                                <li><a class="dropdown-item" href="../menu/faq.php"> FAQ </a></li>
+                                <li><a class="dropdown-item" href="../menu/tips.php"> Tips </a></li>
 
 
 
 
                             </ul>
                         </li>
-                    </ul>
-
-
-
-                </div>
-
-                <form class="d-flex">
-                    <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit"><a href="/login.html"
-                            class="text-white">Login</a></button>
-                    <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit m-1">Contact</button>
-                </form>
+              </ul>
+    
+    
+    
             </div>
+            
+            <form class="d-flex">
+                <button class="btn btn btn-success btn-custom1  m-1 text-white fw-700" type="submit"><a href="http://localhost/Glintix_hrms/Registration%20(D)/signin.php" class="text-white">Login</a></button>
+              <button class="btn btn btn-success btn-custom1  m-1 text-white fw-700" type="submit m-1">Contact</button>
+            </form>
+          </div> 
         </nav>
     </div>
 
