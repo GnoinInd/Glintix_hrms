@@ -9,16 +9,17 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="../css/style11.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style11.css">
 
-    <title>Tips</title>
+    <title>Checklist</title>
 </head>
 
 <body>
 
-  <div class="container-fluid p-0 m-0 sticky-top">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid p-0 m-0 sticky-top">
+        <?php include 'menu\main\header.php'; ?>
+        <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand " href="../index.php"><img src="../images/glintix_logo.png" alt="" class="img-fluid"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
@@ -142,8 +143,8 @@
                 <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit m-1">Contact</button>
             </form>
         </div>
-    </nav>
-</div>
+    </nav> -->
+    </div>
     <div class="container mt-5">
         <div class="row text-center">
             <div class="col-md-12">
@@ -460,8 +461,8 @@
                             alt="Glintix Inbox App on Apple App Store"></a>
                     <p class="mb-0 mt-2"><a href="#" target="_blank" class="social__link" rel="noopener"><img
                                 src="../images/facebook.svg" alt="Glintix Facebook" class="social__icon"></a>
-                        <a href="#" target="_blank" class="social__link" rel="noopener"><img src="../images/linkedin.svg"
-                                alt="Glintix Linkedin" class="social__icon"></a>
+                        <a href="#" target="_blank" class="social__link" rel="noopener"><img
+                                src="../images/linkedin.svg" alt="Glintix Linkedin" class="social__icon"></a>
                         <a href="#" target="_blank" class="social__link" rel="noopener"><img src="../images/twitter.svg"
                                 alt="Glintix Twitter" class="social__icon"></a>
                     </p>

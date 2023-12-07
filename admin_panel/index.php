@@ -55,12 +55,12 @@ if (isset($_SESSION['phone_num']) && isset($_SESSION['user_id'])) {
 <body>
     <div class="bg">
         <?php
-        include "connect1.php";
+        include 'C:\xampp\htdocs\Glintix_hrms\Registration (D)\connection1.php';
         include "./sidebar.php";
 
 
 
-        include_once "./config/dbconnect.php";
+        include 'C:\xampp\htdocs\Glintix_hrms\Registration (D)\connection1.php';
         ?>
 
         <div id="main-content" class="container allContent-section py-4">
@@ -71,7 +71,7 @@ if (isset($_SESSION['phone_num']) && isset($_SESSION['user_id'])) {
                         <h4 style="color:white;">Total Users</h4>
                         <h5 style="color:white;">
                             <?php
-                            include "connect.php";
+                            include 'C:\xampp\htdocs\Glintix_hrms\Registration (D)\connection1.php';
                             $sql = "SELECT * from demo_table";
                             $result = $con->query($sql);
                             $count = 0;
@@ -97,7 +97,7 @@ if (isset($_SESSION['phone_num']) && isset($_SESSION['user_id'])) {
                                 <h4 style="color:white;">Total customer</h4>
                                 <h5 style="color:white;">
                                     <?php
-                                    include "connect1.php";
+                                    include 'C:\xampp\htdocs\Glintix_hrms\Registration (D)\connection1.php';
                                     $sql = "SELECT * from registration";
                                     $result = $con->query($sql);
                                     $count = 0;
@@ -127,7 +127,7 @@ if (isset($_SESSION['phone_num']) && isset($_SESSION['user_id'])) {
                                     <?php
 
                                     $sql = "SELECT * from category";
-                                    $result = $conn->query($sql);
+                                    $result = $con->query($sql);
                                     $count = 0;
                                     if ($result->num_rows > 0) {
                                         while ($row = $result->fetch_assoc()) {
@@ -148,7 +148,7 @@ if (isset($_SESSION['phone_num']) && isset($_SESSION['user_id'])) {
                                     <?php
 
                                     $sql = "SELECT * from product";
-                                    $result = $conn->query($sql);
+                                    $result = $con->query($sql);
                                     $count = 0;
                                     if ($result->num_rows > 0) {
                                         while ($row = $result->fetch_assoc()) {
@@ -169,7 +169,7 @@ if (isset($_SESSION['phone_num']) && isset($_SESSION['user_id'])) {
                                     <?php
 
                                     $sql = "SELECT * from orders";
-                                    $result = $conn->query($sql);
+                                    $result = $con->query($sql);
                                     $count = 0;
                                     if ($result->num_rows > 0) {
                                         while ($row = $result->fetch_assoc()) {
@@ -190,7 +190,7 @@ if (isset($_SESSION['phone_num']) && isset($_SESSION['user_id'])) {
                 <?php
                 // Assuming you have established a connection to your MySQL database
 // If not, you can use the following code to establish a connection:
-                $connection = mysqli_connect("localhost", "root", "", "signupforms");
+                include 'C:\xampp\htdocs\Glintix_hrms\Registration (D)\connection1.php';
 
                 // Check if the form is submitted
                 
@@ -204,12 +204,12 @@ if (isset($_SESSION['phone_num']) && isset($_SESSION['user_id'])) {
                     $user_id = $_POST["user_id"];
 
                     // Escape special characters to prevent SQL injection
-                    $description = mysqli_real_escape_string($connection, $description);
-                    $status = mysqli_real_escape_string($connection, $status);
-                    $user_id = mysqli_real_escape_string($connection, $user_id);
+                    $description = mysqli_real_escape_string($con, $description);
+                    $status = mysqli_real_escape_string($con, $status);
+                    $user_id = mysqli_real_escape_string($con, $user_id);
 
                     $query = "INSERT INTO notification_data ( description, status, user_id) VALUES ( '$description', '$status', '$user_id')";
-                    $result = mysqli_query($connection, $query);
+                    $result = mysqli_query($con, $query);
 
 
 
@@ -217,11 +217,11 @@ if (isset($_SESSION['phone_num']) && isset($_SESSION['user_id'])) {
                     if ($result) {
                         echo "Data inserted successfully.";
                     } else {
-                        echo "Error: " . mysqli_error($connection);
+                        echo "Error: " . mysqli_error($con);
                     }
 
                     // Close the database connection
-                    mysqli_close($connection);
+                    mysqli_close($con);
                 } else {
                     // Handle the case where one or more of the POST variables are not set.
                     // You can display an error message or take appropriate action here.
@@ -260,19 +260,20 @@ if (isset($_SESSION['phone_num']) && isset($_SESSION['user_id'])) {
                                     <select name="user_id" class="form-control form-control-sm">
                                         <option value="all">All users</option>
                                         <?php
+                                        include 'C:\xampp\htdocs\Glintix_hrms\Registration (D)\connection1.php';
                                         // Include the connection file
-                                        $hostname = "localhost";
-                                        $user = "root";
-                                        $password = "";
-                                        $db = "signupforms";
-
-                                        $con = mysqli_connect($hostname, $user, $password, $db);
-
-                                        // Check if the database connection was successful
-                                        if (!$con) {
-                                            die("Connection failed: " . mysqli_connect_error());
-                                        }
-
+                                        // $hostname = "localhost";
+                                        // $user = "root";
+                                        // $password = "";
+                                        // $db = "glintix";
+                                        
+                                        // $con = mysqli_connect($hostname, $user, $password, $db);
+                                        
+                                        // // Check if the database connection was successful
+                                        // if (!$con) {
+                                        //     die("Connection failed: " . mysqli_connect_error());
+                                        // }
+                                        
                                         // Fetch user data from the table
                                         $sql = "SELECT user_id FROM registration";
                                         $result = mysqli_query($con, $sql);
@@ -312,21 +313,22 @@ if (isset($_SESSION['phone_num']) && isset($_SESSION['user_id'])) {
                                     </tr>
                                 </thead>
                                 <?php
-                                $servername = "localhost";
-                                $username = "root";
-                                $password = "";
-                                $dbname = "signupforms";
-
-                                // Create connection
-                                $conn = new mysqli($servername, $username, $password, $dbname);
-                                // Check connection
-                                if ($conn->connect_error) {
-                                    die("Connection failed: " . $conn->connect_error);
-                                }
-
+                                include 'C:\xampp\htdocs\Glintix_hrms\Registration (D)\connection1.php';
+                                // $servername = "localhost";
+                                // $username = "root";
+                                // $password = "";
+                                // $dbname = "glintix";
+                                
+                                // // Create connection
+                                // $conn = new mysqli($servername, $username, $password, $dbname);
+                                // // Check connection
+                                // if ($conn->connect_error) {
+                                //     die("Connection failed: " . $conn->connect_error);
+                                // }
+                                
 
                                 $sql = "SELECT * from help_data";
-                                $result = $conn->query($sql);
+                                $result = $con->query($sql);
                                 $count = 1;
                                 if ($result->num_rows > 0) {
                                     while ($row = $result->fetch_assoc()) {

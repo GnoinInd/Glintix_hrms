@@ -12,10 +12,11 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/style11.css">
 
-    <title>Blog</title>
+    <title>HRCommune</title>
 </head>
 
 <body>
+
     <div class="container-fluid p-0 m-0 sticky-top">
         <?php include 'main\header.php'; ?>
         <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -123,7 +124,7 @@
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> HR Resources </a>
                             <ul class="dropdown-menu dropdown_menu_show">
                                 <li><a class="dropdown-item" href="../menu/blog.php"> Blog </a></li>
-                                <li><a class="dropdown-item" href="../menu/hr-commune.html"> HR Commune </a></li>
+                                <li><a class="dropdown-item" href="../menu/hr_commune.html"> HR Commune </a></li>
                                 <li><a class="dropdown-item" href="../menu/guides.html"> Guides </a></li>
                                 <li><a class="dropdown-item" href="../menu/hrResources.html"> HR Resources </a></li>
                                 <li><a class="dropdown-item" href="../menu/Template.html"> Template </a></li>
@@ -145,208 +146,192 @@
                 </div>
 
                 <form class="d-flex">
-                    <button class="btn btn-success btn-custom btn-custom1  m-1 text-white fw-700" type="submit"><a
+                    <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit"><a
                             href="/login.html" class="text-white">Login</a></button>
-                    <button class="btn btn-success btn-custom btn-custom1  m-1 text-white fw-700"
+                    <button class="btn btn-success btn-custom1  m-1 text-white fw-700"
                         type="submit m-1">Contact</button>
                 </form>
             </div>
         </nav> -->
     </div>
 
-
-
-
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-md-12">
-                <h4 class="fw-bold fs-1">Resources</h4>
-                <p class="text-secondary">Explore expert insights, tips, tools, and articles created to help businesses
-                    succeed.</p>
-                <form class="row g-3 justify-content-center">
-
-                    <div class="col-md-9 text-center">
-                        <label for="inputtext2" class="visually-hidden">Search Anything</label>
-                        <input type="text" class="form-control" id="inputPassword2" placeholder="Search Anything">
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-3 ">
+                <div class="card mb-2 " style="width: 100%;">
+                    <img src="../images/hrcommunecardimg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
                     </div>
-                    <div class="col-md-1">
-                        <button type="submit" class="btn btn-success btn-custom mb-3">Search</button>
-                    </div>
-                </form>
-            </div>
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-9">
-                        <div class="row ">
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card m-2" style="width: 100%;">
-                                    <img src="../images/cards_img.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Reiciendis, repudiandae. </p>
-                                        <a href="#" class="btn btn-success btn-custom">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card m-2" style="width: 100%;">
-                                    <img src="../images/cards_img.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Reiciendis, repudiandae. </p>
-                                        <a href="#" class="btn btn-success btn-custom">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card m-2" style="width: 100%;">
-                                    <img src="../images/cards_img.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Reiciendis, repudiandae. </p>
-                                        <a href="#" class="btn btn-success btn-custom">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card m-2" style="width: 100%;">
-                                    <img src="../images/cards_img.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Reiciendis, repudiandae. </p>
-                                        <a href="#" class="btn btn-success btn-custom">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card m-2" style="width: 100%;">
-                                    <img src="../images/cards_img.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Reiciendis, repudiandae. </p>
-                                        <a href="#" class="btn btn-success btn-custom">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card m-2" style="width: 100%;">
-                                    <img src="../images/cards_img.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Reiciendis, repudiandae. </p>
-                                        <a href="#" class="btn btn-success btn-custom">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card m-2" style="width: 100%;">
-                                    <img src="../images/cards_img.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Reiciendis, repudiandae. </p>
-                                        <a href="#" class="btn btn-success btn-custom">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card m-2" style="width: 100%;">
-                                    <img src="../images/cards_img.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Reiciendis, repudiandae. </p>
-                                        <a href="#" class="btn btn-success btn-custom">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card m-2" style="width: 100%;">
-                                    <img src="../images/cards_img.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Reiciendis, repudiandae. </p>
-                                        <a href="#" class="btn btn-success btn-custom">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <nav aria-label="Page navigation example ">
-                                    <ul class="pagination">
-                                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="card" style="width: 100%;">
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">An item</li>
-                                        <li class="list-group-item">A second item</li>
-                                        <li class="list-group-item">A third item</li>
-                                        <li class="list-group-item">An item</li>
-                                        <li class="list-group-item">A second item</li>
-                                        <li class="list-group-item">A third item</li>
-                                        <li class="list-group-item">An item</li>
-                                        <li class="list-group-item">A second item</li>
-                                        <li class="list-group-item">A third item</li>
-                                        <li class="list-group-item">An item</li>
-                                        <li class="list-group-item">A second item</li>
-                                        <li class="list-group-item">A third item</li>
-                                    </ul>
-                                    <div class="card-footer">
-                                        footer
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="col-md-12">
-                                <div class="card" style="width: 100%;">
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">An item</li>
-                                        <li class="list-group-item">A second item</li>
-                                        <li class="list-group-item">A third item</li>
-                                        <li class="list-group-item">An item</li>
-                                        <li class="list-group-item">A second item</li>
-                                        <li class="list-group-item">A third item</li>
-                                        <li class="list-group-item">An item</li>
-                                        <li class="list-group-item">A second item</li>
-                                        <li class="list-group-item">A third item</li>
-                                    </ul>
-                                    <div class="card-footer">
-                                        footer
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                        </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                        <a href="#" class="card-link btn btn-success btn-custom">Blog</a>
                     </div>
                 </div>
             </div>
-
-
-
+            <div class="col-3 ">
+                <div class="card mb-2 " style="width: 100%;">
+                    <img src="../images/hrcommunecardimg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                        <a href="#" class="card-link btn btn-success btn-custom">Blog</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 ">
+                <div class="card mb-2 " style="width: 100%;">
+                    <img src="../images/hrcommunecardimg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                        <a href="#" class="card-link btn btn-success btn-custom">Blog</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 ">
+                <div class="card mb-2 " style="width: 100%;">
+                    <img src="../images/hrcommunecardimg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                        <a href="#" class="card-link btn btn-success btn-custom">Blog</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 ">
+                <div class="card mb-2 " style="width: 100%;">
+                    <img src="../images/hrcommunecardimg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                        <a href="#" class="card-link btn btn-success btn-custom">Blog</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 ">
+                <div class="card mb-2 " style="width: 100%;">
+                    <img src="../images/hrcommunecardimg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                        <a href="#" class="card-link btn btn-success btn-custom">Blog</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 ">
+                <div class="card mb-2 " style="width: 100%;">
+                    <img src="../images/hrcommunecardimg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                        <a href="#" class="card-link btn btn-success btn-custom">Blog</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 ">
+                <div class="card mb-2 " style="width: 100%;">
+                    <img src="../images/hrcommunecardimg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                        <a href="#" class="card-link btn btn-success btn-custom">Blog</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 ">
+                <div class="card mb-2 " style="width: 100%;">
+                    <img src="../images/hrcommunecardimg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                        <a href="#" class="card-link btn btn-success btn-custom">Blog</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
+
     <footer>
         <div class="container">
             <div class="row  mt-5">
@@ -529,6 +514,8 @@
             </div>
         </div>
     </section>
+
+
 
 
 

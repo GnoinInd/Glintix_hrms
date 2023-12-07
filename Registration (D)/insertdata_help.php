@@ -2,7 +2,7 @@
 session_start();
 // Assuming you have established a connection to your MySQL database
 // If not, you can use the following code to establish a connection:
-$connection = mysqli_connect("localhost", "root", "", "signupforms");
+$connection = mysqli_connect("localhost", "root", "", "glintix");
 
 // Check if the form is submitted
 

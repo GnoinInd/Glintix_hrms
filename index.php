@@ -12,16 +12,16 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-   <!-- International Telephone Input CSS -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+  <!-- International Telephone Input CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
 
-<!-- International Telephone Input JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+  <!-- International Telephone Input JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
 
 
   <link rel="stylesheet" href="css/style11.css">
   <link rel="stylesheet" href="css/style.css">
-  
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
@@ -127,126 +127,7 @@
 
 
   <div class="container-fluid p-0 m-0 sticky-top">
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-scrolled">
-      <div class="container-fluid">
-        <a class="navbar-brand " href="./index.php"><img src="./images/glintix_logo.png" alt="" class="img-fluid"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="main_nav">
-
-
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                About <span class="logo-text-nav">Glintix</span>
-              </a>
-              <ul class="dropdown-menu dropdown_menu_show" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="./menu/ourStory.html">Our Story</a></li>
-                <li><a class="dropdown-item" href="./menu/leadership.html">Leadership</a></li>
-                <li><a class="dropdown-item" href="/newsroom.html">Newsroom</a></li>
-                <li><a class="dropdown-item" href="/partners.html">Partners</a></li>
-
-              </ul>
-            </li>
-            <li class="nav-item dropdown ">
-              <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown"> Product </a>
-              <ul class="dropdown-menu dropdown_menu_show ">
-                <li><a class="dropdown-item" href="#"> HR Software &raquo; </a>
-                  <ul class="submenu dropdown-menu product_menu ">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-12 p-0 text-center">
-                          <li><a class="dropdown-item" href="menu/hr-software.php">HR Software</a></li>
-                        </div>
-                        <div class="col-md-6">
-                          <li><a class="dropdown-item" href="menu/hcmSoftware.php"> <img src="images/corehricon.png"
-                                alt=""> Core HR</a></li>
-                          <li><a class="dropdown-item" href="menu/workforce.php"> <img src="images/workforceicon.png"
-                                alt=""> WorkForce</a></li>
-                          <li><a class="dropdown-item" href="menu/attendance-management-system.php"> <img
-                                src="images/attendanceicon.png" alt=""> Attendance</a></li>
-                          <li><a class="dropdown-item" href="menu/helpdesk.php"> <img src="images/helpdeskicon.png"
-                                alt="">
-                              Helpdesk</a></li>
-                          <li><a class="dropdown-item" href="menu/recruitment.php"> <img src="images/recruitmnticon.png"
-                                alt=""> Recruitment</a></li>
-                        </div>
-                        <div class="col-md-6">
-                          <li><a class="dropdown-item" href="menu/payroll.php"> <img src="images/payrollicon.png"
-                                alt="">
-                              Payroll</a></li>
-                          <li><a class="dropdown-item" href="menu/performance.php"> <img
-                                src="images/performanceicon.png" alt=""> Performance</a></li>
-                          <li><a class="dropdown-item" href="menu/engagement.php"> <img src="images/engagementicon.png"
-                                alt=""> Engagement</a></li>
-                          <li><a class="dropdown-item" href="menu/expense.php"> <img src="images/expenseicon.png"
-                                alt="">
-                              Expense</a></li>
-                          <li><a class="dropdown-item" href="menu/asset.php"> <img src="images/asseticon.png" alt="">
-                              Asset</a></li>
-                        </div>
-                      </div>
-                    </div>
-
-                  </ul>
-                </li>
-                <li><a class="dropdown-item" href="#">Solutions &raquo; </a>
-                  <ul class="submenu dropdown-menu">
-                    <li><a class="dropdown-item" href="menu/hr-professionals.php">HR Professionals</a></li>
-                    <li><a class="dropdown-item" href="menu/employees.php">Employees</a></li>
-                    <li><a class="dropdown-item" href="menu/teamManagers.php">Team Managers</a></li>
-                    <li><a class="dropdown-item" href="menu/cxo.php">CXO</a></li>
-                  </ul>
-                </li>
-                <li><a class="dropdown-item" href="menu/mobile-app.php"> Mobile App </a>
-
-                </li>
-                <li><a class="dropdown-item" href="menu/projectone.php"> ProjectOne</a>
-
-                </li>
-              </ul>
-            </li>
-
-
-
-            <li class="nav-item"><a class="nav-link" href="/Pricing.html"> Pricing </a></li>
-            <li class="nav-item"><a class="nav-link" href="/clients.html"> Clients </a></li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> HR Resources </a>
-              <ul class="dropdown-menu dropdown_menu_show">
-                <li><a class="dropdown-item" href="/blog.html"> Blog </a></li>
-                <li><a class="dropdown-item" href="/hr-commune.html"> HR Commune </a></li>
-                <li><a class="dropdown-item" href="/guides.html"> Guides </a></li>
-                <li><a class="dropdown-item" href="hrResources.html"> HR Resources </a></li>
-                <li><a class="dropdown-item" href="/Template.html"> Template </a></li>
-                <li><a class="dropdown-item" href="/policy.html"> Policy </a></li>
-                <li><a class="dropdown-item" href="/checklist.html"> Checklist </a></li>
-                <li><a class="dropdown-item" href="/glossary.html"> Glossary </a></li>
-                <li><a class="dropdown-item" href="/faq.html"> FAQ </a></li>
-                <li><a class="dropdown-item" href="/tips.html"> Tips </a></li>
-
-
-
-
-              </ul>
-            </li>
-          </ul>
-
-
-
-        </div>
-       
-
-        <form class="d-flex">
-          <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit"><a
-              href="http://localhost/Glintix_hrms/Registration%20(D)/signin.php" class="text-white">Login</a></button>
-          <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit m-1">Contact</button>
-        </form>
-      </div>
-    </nav>
+    <?php include 'menu\main\header.php'; ?>
   </div>
   <div class="container-fluid p-0">
     <section class="banner-section" id="particles-js">
@@ -263,7 +144,8 @@
                 rel="noopener noreferrer">BOOK A CALL</a>
               <a href="#videoModal_home" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
                 class="btn btn-success btn-custom  mt-5 ms-3" rel="noopener noreferrer"> WATCH DEMO <img
-                  src="./images/play-back.png" alt="Play" class="slideshow__video--icon ml-6 img-fluid" title="play back"></a>
+                  src="./images/play-back.png" alt="Play" class="slideshow__video--icon ml-6 img-fluid"
+                  title="play back"></a>
               <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
                 tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
@@ -323,7 +205,8 @@
     </div>
     <div class="row justify-content-center banner_img_grp mb-5">
       <div class="col-md-3 col-sm-6 text-center  border-top"> <img src="./images/kyocera.png" alt=""> </div>
-      <div class="col-md-3 col-sm-6 text-center  border border-bottom-0"><img src="./images/logo-bikaner.jpg" alt=""></div>
+      <div class="col-md-3 col-sm-6 text-center  border border-bottom-0"><img src="./images/logo-bikaner.jpg" alt="">
+      </div>
       <div class="col-md-3 col-sm-6 text-center  border border-bottom-0"><img src="logo-haier.jpg" alt=""></div>
       <div class="col-md-3 col-sm-6 text-center  border-top"><img src="./images/logo-harvest.jpg" alt=""></div>
     </div>
@@ -497,11 +380,13 @@
   <div class="container mt-5">
     <div class="row d-flex justify-content-center  align-items-center ">
       <div class="col-md-8 text-center">
-        <p class="p-0 m-0">Learn how we <span class="custom-color">make your HR more efficient </span>compared to any other HR
+        <p class="p-0 m-0">Learn how we <span class="custom-color">make your HR more efficient </span>compared to any
+          other HR
           automation tool out there!</p>
       </div>
       <div class="col-md-4 text-center">
-        <button type="button" class="btn btn-success btn-custom" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <button type="button" class="btn btn-success btn-custom" data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop">
           Watch Now
         </button>
         <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
@@ -870,7 +755,7 @@
         <p class="text-center">In the Bersin led Deloitte study, it was found that the companies with newly upgraded HCM
           spend as less as 22 percent of the time per employee. Build happier workplaces by spending less time on HR
           operations and more time on human interactions &amp; nurturing your talent with Glintix. Take the leap with
-          India’s first truly #MobileFirst Mobile First HR app, Glintix. Speak to our experts to experience this marvel
+          India's first truly #MobileFirst Mobile First HR app, Glintix. Speak to our experts to experience this marvel
           first-hand.</p>
       </div>
     </div>
@@ -1131,12 +1016,12 @@
               alt=" Glintix Inbox App on Google Play Store"></a>
           <a href="#" target="_blank" rel="noopener"><img src="./images/appstore.svg" class="appstore__link"
               alt="Glintix Inbox App on Apple App Store"></a>
-          <p class="mb-0 mt-2"><a href="#" target="_blank" class="social__link" rel="noopener"><img src="./images/facebook.svg"
-                alt="Glintix Facebook" class="social__icon"></a>
+          <p class="mb-0 mt-2"><a href="#" target="_blank" class="social__link" rel="noopener"><img
+                src="./images/facebook.svg" alt="Glintix Facebook" class="social__icon"></a>
             <a href="#" target="_blank" class="social__link" rel="noopener"><img src="./images/linkedin.svg"
                 alt="Glintix Linkedin" class="social__icon"></a>
-            <a href="#" target="_blank" class="social__link" rel="noopener"><img src="./images/twitter.svg" alt="Glintix Twitter"
-                class="social__icon"></a>
+            <a href="#" target="_blank" class="social__link" rel="noopener"><img src="./images/twitter.svg"
+                alt="Glintix Twitter" class="social__icon"></a>
           </p>
         </div>
         <div class="col-md-8">
@@ -1146,7 +1031,8 @@
                   class="img-fluid footer__awards--img"></div>
             </div>
             <div class="col text-center">
-              <div class="footer_img"></div><img src="./images/G2-badge.png" alt="" class="img-fluid footer__awards--img">
+              <div class="footer_img"></div><img src="./images/G2-badge.png" alt=""
+                class="img-fluid footer__awards--img">
             </div>
             <div class="col text-center">
               <div class="footer_img"></div><img src="./images/footer-supreme-software.png" alt=""
@@ -1157,7 +1043,8 @@
                 class="img-fluid footer__awards--img">
             </div>
             <div class="col text-center">
-              <div class="footer_img"></div><img src="./images/footer-leader.png" alt="" class="img-fluid footer__awards--img">
+              <div class="footer_img"></div><img src="./images/footer-leader.png" alt=""
+                class="img-fluid footer__awards--img">
             </div>
             <div class="col text-center">
               <div class="footer_img"></div><img src="./images/footer-techjockey.png" alt=""
@@ -1173,7 +1060,7 @@
     <div class="container">
       <div class="row justify-content-between">
         <div class="col-md-4">
-          <p>Copyright © 2023. Gnoin  Pvt. Ltd. All Rights Reserved.</p>
+          <p>Copyright © 2023. Gnoin Pvt. Ltd. All Rights Reserved.</p>
           <p><span class="text-success">Gnoin Pvt. Ltd.</span> </p>
         </div>
         <div class="col-md-4">
@@ -1337,7 +1224,8 @@
                     </div>
                   </div>
                   <div class="modal-footer justify-content-center bg-aliceblue">
-                    <input type="submit" class="btn btn-success btn-custom1  m-1 text-white fw-700" name="submit" value="Book" id="submitpop">
+                    <input type="submit" class="btn btn-success btn-custom1  m-1 text-white fw-700" name="submit"
+                      value="Book" id="submitpop">
                   </div>
 
 
@@ -1389,7 +1277,7 @@
         "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
     });
   </script>
-   <script>
+  <script>
     const phoneInputField1 = document.querySelector("#number1");
     const phoneInput1 = window.intlTelInput(phoneInputField1, {
       utilsScript:
@@ -1418,11 +1306,11 @@
     };
     requestAnimationFrame(update);
   </script>
- 
-  
- 
 
-  
+
+
+
+
 
   <script>
     $(document).ready(function () {
@@ -1468,7 +1356,7 @@
     });
   </script>
 
- 
+
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
@@ -1517,12 +1405,12 @@
     });
 
 
-   
+
   </script>
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-   <script src="script.js"></script>
+  <script src="script.js"></script>
 
 </body>
 

@@ -1,4 +1,4 @@
-<div >
+<div>
   <h2>All Users</h2>
   <table class="table ">
     <thead>
@@ -15,28 +15,46 @@
       </tr>
     </thead>
     <?php
-      include "connection2.php";
-      $sql="SELECT * from demo_table";
-      $result=$con-> query($sql);
-      $count=1;
-      if ($result-> num_rows > 0){
-        while ($row=$result-> fetch_assoc()) {
-       ?>    
-    <tr>
-      <td><?=$count?></td>
-      <td><?=$row["fname"]?> </td>
-      <td><?=$row["lname"]?></td>
-      <td><?=$row["email"]?></td>
-      <td><?=$row["number"]?></td>
-      <td><?=$row["no_of_emp"]?></td>
-      <td><?=$row["state"]?></td>
-      <td><?=$row["designation"]?></td>
-      <td><?=$row["function"]?></td>
-    </tr>
-    <?php
-            $count=$count+1;
-           
-        }
+    include 'C:\xampp\htdocs\Glintix_hrms\Registration (D)\connection1.php';
+    $sql = "SELECT * from demo_table";
+    $result = $con->query($sql);
+    $count = 1;
+    if ($result->num_rows > 0) {
+      while ($row = $result->fetch_assoc()) {
+        ?>
+        <tr>
+          <td>
+            <?= $count ?>
+          </td>
+          <td>
+            <?= $row["fname"] ?>
+          </td>
+          <td>
+            <?= $row["lname"] ?>
+          </td>
+          <td>
+            <?= $row["email"] ?>
+          </td>
+          <td>
+            <?= $row["number"] ?>
+          </td>
+          <td>
+            <?= $row["no_of_emp"] ?>
+          </td>
+          <td>
+            <?= $row["state"] ?>
+          </td>
+          <td>
+            <?= $row["designation"] ?>
+          </td>
+          <td>
+            <?= $row["function"] ?>
+          </td>
+        </tr>
+        <?php
+        $count = $count + 1;
+
+      }
     }
     ?>
   </table>

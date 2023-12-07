@@ -9,7 +9,7 @@
       </tr>
     </thead>
     <?php
-    include "connection2.php";
+    include 'C:\xampp\htdocs\Glintix_hrms\Registration (D)\connection1.php';
     $sql = "SELECT * from category";
     $result = $con->query($sql);
     $count = 1;

@@ -44,18 +44,18 @@ if (!empty($errors)) {
 }
 
 // Database connection
-$servername = 'localhost';
-$username = 'root';
-$password = '';
-$dbname = 'glintix';
+// $servername = 'localhost';
+// $username = 'root';
+// $password = '';
+// $dbname = 'glintix';
 
-$con = mysqli_connect("localhost", 'root', '', 'glintix');
+// $con = mysqli_connect("localhost", 'root', '', 'glintix');
 
-// Check connection
-if ($con->connect_error) {
-    die('Connection failed: ' . $con->connect_error);
-}
-
+// // Check connection
+// if ($con->connect_error) {
+//     die('Connection failed: ' . $con->connect_error);
+// }
+include
 // Prepare and execute the SQL statement
 $stmt = $con->prepare("INSERT INTO demo_table, (fname, lname, email, number, no_of_emp, state, designation, function) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
 $stmt->bind_param("ssssisss", $fname, $lname, $email, $number, $no_of_emp, $state, $designation, $function);

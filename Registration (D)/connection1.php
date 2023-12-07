@@ -2,7 +2,7 @@
 $hostname = "localhost";
 $user = "root";
 $password = "";
-$db = "signupforms";
+$db = "glintix";
 
 $con = mysqli_connect($hostname, $user, $password, $db);
 

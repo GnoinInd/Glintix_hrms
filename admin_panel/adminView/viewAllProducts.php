@@ -14,7 +14,7 @@
       </tr>
     </thead>
     <?php
-    include "connection2.php";
+    include 'C:\xampp\htdocs\Glintix_hrms\Registration (D)\connection1.php';
     $sql = "SELECT * from product, category WHERE product.category_id=category.category_id";
     $result = $con->query($sql);
     $count = 1;

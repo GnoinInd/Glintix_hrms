@@ -428,7 +428,9 @@ $phone_num = $_SESSION['phone_num'];
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <span> <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" class="rounded-circle"
-                  height="30" alt="" loading="lazy" /> <?php echo $_SESSION['username']; ?></span>
+                  height="30" alt="" loading="lazy" />
+                <?php echo $_SESSION['username']; ?>
+              </span>
 
             </a>
             <ul class="dropdown-menu">
@@ -487,7 +489,7 @@ $phone_num = $_SESSION['phone_num'];
         $servername = "localhost";
         $username = "root";
         $password = "";
-        $dbname = "signupforms";
+        $dbname = "glintix";
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
