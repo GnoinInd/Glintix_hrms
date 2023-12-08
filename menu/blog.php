@@ -15,8 +15,8 @@
     <title>Blog</title>
 </head>
 
+
 <body>
-<<<<<<< HEAD
     <div class="container-fluid p-0 m-0 sticky-top">
         <?php include 'main\header.php'; ?>
         <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -41,7 +41,6 @@
                                 <li><a class="dropdown-item" href="../menu/leadership.html">Leadership</a></li>
                                 <li><a class="dropdown-item" href="../menu/newsroom.html">Newsroom</a></li>
                                 <li><a class="dropdown-item" href="../menu/partners.html">Partners</a></li>
-=======
 <div class="container-fluid p-0 m-0 sticky-top">
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <div class="container-fluid">
@@ -64,7 +63,6 @@
                             <li><a class="dropdown-item" href="../menu/leadership.php">Leadership</a></li>
                             <li><a class="dropdown-item" href="../menu/newsroom.php">Newsroom</a></li>
                             <li><a class="dropdown-item" href="../menu/partners.php">Partners</a></li>
->>>>>>> a45879a278122ed5dedc4c1e1deafb9100499252
 
 
                             </ul>
@@ -162,8 +160,7 @@
 
 
                             </ul>
-                        </li>
-<<<<<<< HEAD
+                        </li
                     </ul>
 
 
@@ -178,8 +175,8 @@
                 </form>
             </div>
         </nav> -->
-=======
-              </ul>
+
+        <!-- </ul>
     
     
     
@@ -190,8 +187,7 @@
               <button class="btn btn btn-success btn-custom1  m-1 text-white fw-700" type="submit m-1">Contact</button>
             </form>
           </div> 
-        </nav>
->>>>>>> a45879a278122ed5dedc4c1e1deafb9100499252
+        </nav> -->
     </div>
 
 

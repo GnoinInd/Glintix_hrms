@@ -86,33 +86,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     <!-- stylesheet -->
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        html, body {
-    background-image: url(./imagebg.png);
-    background-repeat: repeat;
-    background-color: rgba(0,0,0, 1.4);
-    height: 100%;
-}
-.card {
-  width: 413px;
-  height: auto;
-  background-color: #34a5a5 !important;
-}
-
-.input-group > span {
-    background-color: #7b014c;
-    border: 1px solid #34a5a5;
-    color: #34a5a5;
-}
-.signin_btn {
-    background-color: #7b014c;
-    color: var(--white);
-}
-.singup a {
-    color: #7b014c;
-    font-weight: 700;
-}
-    </style>
 
 </head>
 
@@ -143,14 +116,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                             required="required" autocomplete="off" name="password" aria-label="password"
                             aria-describedby="basic-addon1">
                     </div>
-                    <select class="form-select w-auto" aria-label="Default select example" name="usertype">
+                    <select class="form-select" aria-label="Default select example" name="usertype">
                         <option selected>Open this select menu</option>
                         <option value="admin">admin</option>
                         <option value="user">user</option>
 
-                    </select> <!-- signin button -->
-                    
-                    <div class="form-group mt-3 ">
+                    </select <!-- signin button -->
+                    <div class="form-group ">
 
                         <input type="submit" name="login_btn" value="Sign In" class="btn signin_btn">
                     </div>

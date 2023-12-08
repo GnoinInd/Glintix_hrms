@@ -90,13 +90,14 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> HR Resources </a>
                     <ul class="dropdown-menu dropdown_menu_show">
-                        <li><a class="dropdown-item" href="menu/blog.php"> Blog </a></li>
+                        <li><a class="dropdown-item" href="menu\blog.php"> Blog </a></li>
                         <li><a class="dropdown-item" href="/hr_commune.php"> HR Commune </a></li>
                         <li><a class="dropdown-item" href="./menu/guides.php"> Guides </a></li>
                         <li><a class="dropdown-item" href="./menu/hrResources.php"> HR Resources </a></li>
                         <li><a class="dropdown-item" href="./menu/Template.php"> Template </a></li>
                         <li><a class="dropdown-item" href="./menu/policy.php"> Policy </a></li>
-                        <li><a class="dropdown-item" href="./menu/checklist.php"> Checklist </a></li>
+                        <li><a class="dropdown-item" href="C:\xampp\htdocs\Glintix_hrms\menu\checklist.php"> Checklist
+                            </a></li>
                         <li><a class="dropdown-item" href="./menu/glossary.php"> Glossary </a></li>
                         <li><a class="dropdown-item" href="./menu/faq.php"> FAQ </a></li>
                         <li><a class="dropdown-item" href="./menu/tips.php"> Tips </a></li>
