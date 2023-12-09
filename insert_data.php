@@ -50,7 +50,7 @@ if (empty($lname)) {
 /// Prepare the SQL statement
 if (empty($errors)) {
 
-  $sql = "INSERT INTO demo_table (fname, lname, email, number, no_of_emp, state, designation, function) VALUES ('$fname', '$lname', '$email', '$number', '$no_of_emp', '$state', '$designation', '$function')";
+  $sql = "INSERT INTO demo_table (fname, lname, email, `number`, no_of_emp, `state`, designation, `function`) VALUES ('$fname', '$lname', '$email', '$number', '$no_of_emp', '$state', '$designation', '$function')";
 
   if (mysqli_query($con, $sql)) {
     echo 'New record created successfully!';
