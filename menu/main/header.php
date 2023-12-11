@@ -1,6 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark navbar-scrolled">
     <div class="container-fluid">
-        <a class="navbar-brand " href="./index.php"><img src="./images/glintix_logo.png" alt="" class="img-fluid"></a>
+        <a class="navbar-brand " href="http://localhost/Glintix_hrms/index.php"><img
+                src="http://localhost/Glintix_hrms/images/glintix_logo.png" alt="" class="img-fluid"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -90,9 +91,11 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> HR Resources </a>
                     <ul class="dropdown-menu dropdown_menu_show">
-                        <li><a class="dropdown-item" href="menu\blog.php"> Blog </a></li>
-                        <li><a class="dropdown-item" href="/hr_commune.php"> HR Commune </a></li>
-                        <li><a class="dropdown-item" href="./menu/guides.php"> Guides </a></li>
+                        <li><a class="dropdown-item" href="http://localhost/Glintix_hrms/menu/blog.php"> Blog </a></li>
+                        <li><a class="dropdown-item" href="http://localhost/Glintix_hrms/menu/hr_commune.php"> HR
+                                Commune </a></li>
+                        <li><a class="dropdown-item" href="http://localhost/Glintix_hrms/menu/guides.php"> Guides </a>
+                        </li>
                         <li><a class="dropdown-item" href="./menu/hrResources.php"> HR Resources </a></li>
                         <li><a class="dropdown-item" href="./menu/Template.php"> Template </a></li>
                         <li><a class="dropdown-item" href="./menu/policy.php"> Policy </a></li>
