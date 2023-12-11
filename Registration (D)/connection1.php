@@ -1,7 +1,7 @@
 <?php
 $hostname = "localhost";
 $user = "root";
-$password = "";
+$password = "$#o2VP4yWg5pZhoG$#";
 $db = "glintix";
 
 $con = mysqli_connect($hostname, $user, $password, $db);

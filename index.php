@@ -1338,7 +1338,7 @@
           // Send AJAX request
           $.ajax({
             type: 'POST',
-            url: 'http://localhost/Glintix_hrms/insert_data.php',
+            url: 'insert_data.php',
             data: $('#demoform').serialize(),
             cache: false,
             success: function (data) {
@@ -1387,7 +1387,7 @@
           // Send AJAX request
           $.ajax({
             type: 'POST',
-            url: 'http://localhost/Glintix_hrms/insert_data.php',
+            url: 'insert_data.php',
             data: $('#popupform').serialize(),
             cache: false,
             success: function (data) {
