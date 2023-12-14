@@ -18,7 +18,7 @@
 
 <body>
     <div class="container-fluid p-0 m-0 sticky-top">
-        <?php include 'main\header.php'; ?>
+        <?php include '../menu/main/header.php'; ?>
         <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand " href="../index.php"><img src="../images/glintix_logo.png" alt=""

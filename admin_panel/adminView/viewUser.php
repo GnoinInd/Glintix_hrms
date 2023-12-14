@@ -15,7 +15,8 @@
       </tr>
     </thead>
     <?php
-    include 'C:\xampp\htdocs\Glintix_hrms\Registration (D)\connection1.php';
+    include $_SERVER['DOCUMENT_ROOT'] . '/Glintix_hrms/Registration (D)/connection1.php';
+
     $sql = "SELECT * from demo_table";
     $result = $con->query($sql);
     $count = 1;

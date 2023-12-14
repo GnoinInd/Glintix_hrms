@@ -11,7 +11,8 @@
       </tr>
     </thead>
     <?php
-    include 'C:\xampp\htdocs\Glintix_hrms\Registration (D)\connection1.php';
+    include $_SERVER['DOCUMENT_ROOT'] . '/Glintix_hrms/Registration (D)/connection1.php';
+
     $sql = "SELECT * from product_size_variation v, product p, sizes s WHERE p.product_id=v.product_id AND v.size_id=s.size_id ";
     $result = $con->query($sql);
     $count = 1;

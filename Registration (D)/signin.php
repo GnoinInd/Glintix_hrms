@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
             if ($_SESSION['usertype'] == 'admin') {
                 // Redirect to admin dashboard
-                header("Location: http://localhost/Glintix_hrms/admin_panel/index.php");
+                header("Location:../admin_panel/index.php");
                 exit();
             } elseif ($_SESSION['usertype'] == 'user') {
                 // Redirect to user dashboard
