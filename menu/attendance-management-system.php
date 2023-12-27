@@ -13,21 +13,18 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/style11.css">
-
-<<<<<<< HEAD
   <title>Attendance</title>
 </head>
 
 <body>
   <div class="container-fluid p-0 m-0">
-    <?php include 'menu\main\header.php'; ?>
+  <?php include '../menu/main/header.php'; ?>
     <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-=======
   <body>
   <div class="container-fluid p-0 m-0 sticky-top">
     
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
->>>>>>> a45879a278122ed5dedc4c1e1deafb9100499252
+
           <div class="container-fluid">
             <a class="navbar-brand " href="../index.php"><img src="../images/glintix_logo.png" alt="" class="img-fluid"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
