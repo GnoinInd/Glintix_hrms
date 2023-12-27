@@ -128,7 +128,7 @@
 
 
   <div class="container-fluid p-0 m-0 sticky-top">
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-scrolled">
+    <!-- <nav class="navbar navbar-expand-lg navbar-dark navbar-scrolled">
       <div class="container-fluid">
         <a class="navbar-brand " href="index.php"><img src="./images/glintix_logo.png" alt="" class="img-fluid"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
@@ -251,7 +251,8 @@
           <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit m-1">Contact</button>
         </form>
       </div>
-    </nav>
+    </nav> -->
+    <?php include '../menu/main/header.php'; ?>
   </div>
   <div class="container-fluid p-0">
     <section class="banner-section" id="particles-js">

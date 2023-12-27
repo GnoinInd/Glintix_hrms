@@ -118,8 +118,7 @@
 
         <form class="d-flex">
             <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit"><a
-                    href="http://localhost/Glintix_hrms/Registration%20(D)/signin.php"
-                    class="text-white">Login</a></button>
+                    href="../Registration%20(D)/signin.php" class="text-white">Login</a></button>
             <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit m-1">Contact</button>
         </form>
     </div>
