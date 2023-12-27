@@ -18,8 +18,8 @@
 <body>
 
     <div class="container-fluid p-0 m-0 sticky-top">
-        <?php include 'main\header.php'; ?>
-        <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-scrolled">
             <div class="container-fluid">
                 <a class="navbar-brand " href="../index.php"><img src="../images/glintix_logo.png" alt=""
                         class="img-fluid"></a>
@@ -42,7 +42,6 @@
                                 <li><a class="dropdown-item" href="../menu/newsroom.html">Newsroom</a></li>
                                 <li><a class="dropdown-item" href="../menu/partners.html">Partners</a></li>
 
-
                             </ul>
                         </li>
                         <li class="nav-item dropdown ">
@@ -53,43 +52,43 @@
                                         <div class="container">
                                             <div class="row">
                                                 <div class="col-md-12 p-0 text-center">
-                                                    <li><a class="dropdown-item" href="../menu/hr-software.php">HR
-                                                            Software</a></li>
+                                                    <li><a class="dropdown-item" href="menu/hr-software.php">HR
+                                                            Software</a>
+                                                    </li>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <li><a class="dropdown-item" href="../menu/hcmSoftware.php"> <img
-                                                                src="../images/corehricon.png" alt=""> Core HR</a></li>
+                                                                src="images/corehricon.png" alt=""> Core HR</a></li>
                                                     <li><a class="dropdown-item" href="../menu/workforce.php"> <img
-                                                                src="/images/workforceicon.png" alt=""> WorkForce</a>
+                                                                src="images/workforceicon.png" alt=""> WorkForce</a>
                                                     </li>
                                                     <li><a class="dropdown-item"
-                                                            href="../menu/attendance-management-system.php"> <img
-                                                                src="../images/attendanceicon.png" alt="">
-                                                            Attendance</a>
+                                                            href="../menu/attendance-management-system.php">
+                                                            <img src="images/attendanceicon.png" alt=""> Attendance</a>
                                                     </li>
-                                                    <li><a class="dropdown-item" href="../menu/helpdesk.php"> <img
-                                                                src="../images/helpdeskicon.png" alt=""> Helpdesk</a>
-                                                    </li>
+                                                    <li><a class="dropdown-item" href="menu/helpdesk.php"> <img
+                                                                src="images/helpdeskicon.png" alt="">
+                                                            Helpdesk</a></li>
                                                     <li><a class="dropdown-item" href="../menu/recruitment.php"> <img
-                                                                src="../images/recruitmnticon.png" alt="">
-                                                            Recruitment</a>
+                                                                src="images/recruitmnticon.png" alt=""> Recruitment</a>
                                                     </li>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <li><a class="dropdown-item" href="../menu/payroll.php"> <img
-                                                                src="../images/payrollicon.png" alt=""> Payroll</a></li>
+                                                                src="images/payrollicon.png" alt="">
+                                                            Payroll</a></li>
                                                     <li><a class="dropdown-item" href="../menu/performance.php"> <img
-                                                                src="../images/performanceicon.png" alt="">
-                                                            Performance</a>
+                                                                src="images/performanceicon.png" alt=""> Performance</a>
                                                     </li>
                                                     <li><a class="dropdown-item" href="../menu/engagement.php"> <img
-                                                                src="../images/engagementicon.png" alt="">
-                                                            Engagement</a>
+                                                                src="images/engagementicon.png" alt=""> Engagement</a>
                                                     </li>
                                                     <li><a class="dropdown-item" href="../menu/expense.php"> <img
-                                                                src="../images/expenseicon.png" alt=""> Expense</a></li>
+                                                                src="images/expenseicon.png" alt="">
+                                                            Expense</a></li>
                                                     <li><a class="dropdown-item" href="../menu/asset.php"> <img
-                                                                src="../images/asseticon.png" alt=""> Asset</a></li>
+                                                                src="images/asseticon.png" alt="">
+                                                            Asset</a></li>
                                                 </div>
                                             </div>
                                         </div>
@@ -99,8 +98,7 @@
                                 <li><a class="dropdown-item" href="#">Solutions &raquo; </a>
                                     <ul class="submenu dropdown-menu">
                                         <li><a class="dropdown-item" href="../menu/hr-professionals.php">HR
-                                                Professionals</a>
-                                        </li>
+                                                Professionals</a></li>
                                         <li><a class="dropdown-item" href="../menu/employees.php">Employees</a></li>
                                         <li><a class="dropdown-item" href="../menu/teamManagers.php">Team Managers</a>
                                         </li>
@@ -124,15 +122,20 @@
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> HR Resources </a>
                             <ul class="dropdown-menu dropdown_menu_show">
                                 <li><a class="dropdown-item" href="../menu/blog.php"> Blog </a></li>
-                                <li><a class="dropdown-item" href="../menu/hr_commune.html"> HR Commune </a></li>
-                                <li><a class="dropdown-item" href="../menu/guides.html"> Guides </a></li>
-                                <li><a class="dropdown-item" href="../menu/hrResources.html"> HR Resources </a></li>
-                                <li><a class="dropdown-item" href="../menu/Template.html"> Template </a></li>
-                                <li><a class="dropdown-item" href="../menu/policy.html"> Policy </a></li>
-                                <li><a class="dropdown-item" href="../menu/checklist.html"> Checklist </a></li>
-                                <li><a class="dropdown-item" href="../menu/glossary.html"> Glossary </a></li>
-                                <li><a class="dropdown-item" href="../menu/faq.html"> FAQ </a></li>
-                                <li><a class="dropdown-item" href="../menu/tips.html"> Tips </a></li>
+                                <li><a class="dropdown-item" href="../menu/hr_commune.php"> HR
+                                        Commune </a></li>
+                                <li><a class="dropdown-item" href="../menu/guides.php">
+                                        Guides </a>
+                                </li>
+                                <li><a class="dropdown-item" href="../menu/hrResources.php"> HR Resources </a></li>
+                                <li><a class="dropdown-item" href="../menu/Template.php"> Template </a></li>
+                                <li><a class="dropdown-item" href="../menu/policy.php"> Policy </a></li>
+                                <li><a class="dropdown-item" href="../menu/checklist.php">
+                                        Checklist
+                                    </a></li>
+                                <li><a class="dropdown-item" href="../menu/glossary.php"> Glossary </a></li>
+                                <li><a class="dropdown-item" href="../menu/faq.php"> FAQ </a></li>
+                                <li><a class="dropdown-item" href="../menu/tips.php"> Tips </a></li>
 
 
 
@@ -145,14 +148,15 @@
 
                 </div>
 
+
                 <form class="d-flex">
                     <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit"><a
-                            href="/login.html" class="text-white">Login</a></button>
+                            href="./Registration%20(D)/signin.php" class="text-white">Login</a></button>
                     <button class="btn btn-success btn-custom1  m-1 text-white fw-700"
                         type="submit m-1">Contact</button>
                 </form>
             </div>
-        </nav> -->
+        </nav>
     </div>
 
     <div class="container mt-5">

@@ -128,7 +128,7 @@
 
 
   <div class="container-fluid p-0 m-0 sticky-top">
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark navbar-scrolled">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-scrolled">
       <div class="container-fluid">
         <a class="navbar-brand " href="index.php"><img src="./images/glintix_logo.png" alt="" class="img-fluid"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
@@ -145,10 +145,10 @@
                 About <span class="logo-text-nav">Glintix</span>
               </a>
               <ul class="dropdown-menu dropdown_menu_show" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="./menu/ourStory.html">Our Story</a></li>
-                <li><a class="dropdown-item" href="./menu/leadership.html">Leadership</a></li>
-                <li><a class="dropdown-item" href="/newsroom.html">Newsroom</a></li>
-                <li><a class="dropdown-item" href="/partners.html">Partners</a></li>
+                <li><a class="dropdown-item" href="./menu/ourStory.php">Our Story</a></li>
+                <li><a class="dropdown-item" href="./menu/leadership.php">Leadership</a></li>
+                <li><a class="dropdown-item" href="./menu/newsroom.php">Newsroom</a></li>
+                <li><a class="dropdown-item" href="./menu/partners.php">Partners</a></li>
 
               </ul>
             </li>
@@ -247,12 +247,12 @@
 
         <form class="d-flex">
           <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit"><a
-              href="http://localhost/Glintix_hrms/Registration%20(D)/signin.php" class="text-white">Login</a></button>
+              href="./Registration%20(D)/signin.php" class="text-white">Login</a></button>
           <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit m-1">Contact</button>
         </form>
       </div>
-    </nav> -->
-    <?php include '../menu/main/header.php'; ?>
+    </nav>
+
   </div>
   <div class="container-fluid p-0">
     <section class="banner-section" id="particles-js">
