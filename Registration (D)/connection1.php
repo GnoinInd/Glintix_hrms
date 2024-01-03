@@ -3,6 +3,10 @@ $hostname = "localhost";
 $user = "root";
 $password = "$#o2VP4yWg5pZhoG$#";
 $db = "glintix";
+// $hostname = "localhost";
+// $user = "root";
+// $password = "";
+// $db = "glintix";
 
 $con = mysqli_connect($hostname, $user, $password, $db);
 
