@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
-  <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/style11.css">
 
 
@@ -21,33 +21,34 @@
 </head>
 
 <body>
-<div class="container-fluid p-0 m-0 sticky-top">
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand " href="../index.php"><img src="../images/glintix_logo.png" alt="" class="img-fluid"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
-              aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="main_nav">
-    
-    
-              <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    About <span class="logo-text-nav">Glintix</span>
-                  </a>
-                  <ul class="dropdown-menu dropdown_menu_show" aria-labelledby="navbarDropdownMenuLink">
+    <div class="container-fluid p-0 m-0 sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="../index.php"><img src="../images/glintix_logo.png" alt=""
+                        class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main_nav">
+
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                About <span class="logo-text-nav">Glintix</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown_menu_show" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="../menu/ourStory.php">Our Story</a></li>
-                            <li><a class="dropdown-item" href="../menu/leadership.php">Leadership</a></li>
-                            <li><a class="dropdown-item" href="../menu/newsroom.php">Newsroom</a></li>
-                            <li><a class="dropdown-item" href="../menu/partners.php">Partners</a></li>
+                                <li><a class="dropdown-item" href="../menu/leadership.php">Leadership</a></li>
+                                <li><a class="dropdown-item" href="../menu/newsroom.php">Newsroom</a></li>
+                                <li><a class="dropdown-item" href="../menu/partners.php">Partners</a></li>
 
 
                             </ul>
-                </li>
-                <li class="nav-item dropdown ">
+                        </li>
+                        <li class="nav-item dropdown ">
                             <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown"> Product </a>
                             <ul class="dropdown-menu dropdown_menu_show ">
                                 <li><a class="dropdown-item" href="#"> HR Software &raquo; </a>
@@ -66,22 +67,27 @@
                                                     </li>
                                                     <li><a class="dropdown-item"
                                                             href="../menu/attendance-management-system.php"> <img
-                                                                src="../images/attendanceicon.png" alt=""> Attendance</a>
+                                                                src="../images/attendanceicon.png" alt="">
+                                                            Attendance</a>
                                                     </li>
                                                     <li><a class="dropdown-item" href="../menu/helpdesk.php"> <img
-                                                                src="../images/helpdeskicon.png" alt=""> Helpdesk</a></li>
+                                                                src="../images/helpdeskicon.png" alt=""> Helpdesk</a>
+                                                    </li>
                                                     <li><a class="dropdown-item" href="../menu/recruitment.php"> <img
-                                                                src="../images/recruitmnticon.png" alt=""> Recruitment</a>
+                                                                src="../images/recruitmnticon.png" alt="">
+                                                            Recruitment</a>
                                                     </li>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <li><a class="dropdown-item" href="../menu/payroll.php"> <img
                                                                 src="../images/payrollicon.png" alt=""> Payroll</a></li>
                                                     <li><a class="dropdown-item" href="../menu/performance.php"> <img
-                                                                src="../images/performanceicon.png" alt=""> Performance</a>
+                                                                src="../images/performanceicon.png" alt="">
+                                                            Performance</a>
                                                     </li>
                                                     <li><a class="dropdown-item" href="../menu/engagement.php"> <img
-                                                                src="../images/engagementicon.png" alt=""> Engagement</a>
+                                                                src="../images/engagementicon.png" alt="">
+                                                            Engagement</a>
                                                     </li>
                                                     <li><a class="dropdown-item" href="../menu/expense.php"> <img
                                                                 src="../images/expenseicon.png" alt=""> Expense</a></li>
@@ -95,10 +101,12 @@
                                 </li>
                                 <li><a class="dropdown-item" href="#">Solutions &raquo; </a>
                                     <ul class="submenu dropdown-menu">
-                                        <li><a class="dropdown-item" href="../menu/hr-professionals.php">HR Professionals</a>
+                                        <li><a class="dropdown-item" href="../menu/hr-professionals.php">HR
+                                                Professionals</a>
                                         </li>
                                         <li><a class="dropdown-item" href="../menu/employees.php">Employees</a></li>
-                                        <li><a class="dropdown-item" href="../menu/teamManagers.php">Team Managers</a></li>
+                                        <li><a class="dropdown-item" href="../menu/teamManagers.php">Team Managers</a>
+                                        </li>
                                         <li><a class="dropdown-item" href="../menu/cxo.php">CXO</a></li>
                                     </ul>
                                 </li>
@@ -110,10 +118,10 @@
                                 </li>
                             </ul>
                         </li>
-    
-    
-    
-                <li class="nav-item"><a class="nav-link" href="../menu/Pricing.php"> Pricing </a></li>
+
+
+
+                        <li class="nav-item"><a class="nav-link" href="../menu/Pricing.php"> Pricing </a></li>
                         <li class="nav-item"><a class="nav-link" href="../menu/clients.php"> Clients </a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> HR Resources </a>
@@ -134,30 +142,32 @@
 
                             </ul>
                         </li>
-              </ul>
-    
-    
-    
+                    </ul>
+
+
+
+                </div>
+
+                <form class="d-flex">
+                    <button class="btn btn btn-success btn-custom1  m-1 text-white fw-700" type="submit"><a
+                            href="../Registration%20(D)/signin.php" class="text-white">Login</a></button>
+                    <button class="btn btn-success btn-custom1  m-1 text-white fw-700" href="contact.php"
+                        type="submit m-1"><a href="contact.php" class="text-white">Contact</a></button>
+                </form>
             </div>
-            
-            <form class="d-flex">
-                <button class="btn btn btn-success btn-custom1  m-1 text-white fw-700" type="submit"><a href="http://localhost/Glintix_hrms/Registration%20(D)/signin.php" class="text-white">Login</a></button>
-              <button class="btn btn btn-success btn-custom1  m-1 text-white fw-700" type="submit m-1">Contact</button>
-            </form>
-          </div> 
         </nav>
-    
-      
-    
-    
-    
-      </div>
-    
-    
-    
-    
-    
-      <div class="container mt-5">
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <div class="container mt-5">
         <div class="row">
             <div class="col-md-6 col-sm-12">
                 <h6 class="mb-4">Core HR</h6>
@@ -186,7 +196,7 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <h2 class="text-dark fw-bold my-4 ">What is  Attendance Management System?</h2>
+                            <h2 class="text-dark fw-bold my-4 ">What is Attendance Management System?</h2>
                             <p class="text-dark lh-base my-4">An attendance management system is a software tool used to
                                 track and manage the attendance of employees. The
                                 system captures data on when employees punch in and out along with their leaves. This
@@ -353,7 +363,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Special title treatment</h5>
                         <p class="card-text">“Attendance management has always been our biggest challenge. Thanks to
-                            Glintix for simplifying the process for us. Using the software, we save a large chunk of time
+                            Glintix for simplifying the process for us. Using the software, we save a large chunk of
+                            time
                             and money.</p>
                         <a href="#" class="btn btn-success btn-custom">About</a>
                     </div>
@@ -364,7 +375,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Special title treatment</h5>
                         <p class="card-text">“Attendance management has always been our biggest challenge. Thanks to
-                            Glintix for simplifying the process for us. Using the software, we save a large chunk of time
+                            Glintix for simplifying the process for us. Using the software, we save a large chunk of
+                            time
                             and money.</p>
                         <a href="#" class="btn btn-success btn-custom">About</a>
                     </div>
@@ -375,7 +387,8 @@
                     <div class="card-body">
                         <h5 class="card-title">Special title treatment</h5>
                         <p class="card-text">“Attendance management has always been our biggest challenge. Thanks to
-                            Glintix for simplifying the process for us. Using the software, we save a large chunk of time
+                            Glintix for simplifying the process for us. Using the software, we save a large chunk of
+                            time
                             and money.</p>
                         <a href="#" class="btn btn-success btn-custom">About</a>
                     </div>
@@ -588,202 +601,147 @@
         </div>
 
         <div class="col-md-12 mt-5">
-    <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item" role="presentation">
-            <button
-                class="nav-link active"
-                id="home-tab"
-                data-bs-toggle="tab"
-                data-bs-target="#home"
-                type="button"
-                role="tab"
-                aria-controls="home"
-                aria-selected="true"
-            >
-                Home
-            </button>
-        </li>
-        <li class="nav-item" role="presentation">
-            <button
-                class="nav-link"
-                id="profile-tab"
-                data-bs-toggle="tab"
-                data-bs-target="#profile"
-                type="button"
-                role="tab"
-                aria-controls="profile"
-                aria-selected="false"
-            >
-                Profile
-            </button>
-        </li>
-    </ul>
-    <div class="tab-content" id="myTabContent">
-        <div
-            class="tab-pane fade show active"
-            id="home"
-            role="tabpanel"
-            aria-labelledby="home-tab"
-        >
-            <div class="accordion accordion-flush" id="accordionHome">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOneHome">
-                        <button
-                            class="accordion-button"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseOneHome"
-                            aria-expanded="true"
-                            aria-controls="collapseOneHome"
-                        >
-                            Company
-                        </button>
-                    </h2>
-                    <div
-                        id="collapseOneHome"
-                        class="accordion-collapse collapse show"
-                        aria-labelledby="headingOneHome"
-                        data-bs-parent="#accordionHome"
-                    >
-                        <div class="accordion-body">
-                            <strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium consequatur ut nesciunt voluptatum vero fugit nostrum nihil odio possimus iste? Itaque fuga ipsam voluptate quisquam eius incidunt id velit, iste impedit facere amet doloribus omnis quidem assumenda dolorum eligendi? Dolorum incidunt distinctio deleniti perspiciatis dolore eligendi nobis id, libero quod!
-                            </strong>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+                        type="button" role="tab" aria-controls="home" aria-selected="true">
+                        Home
+                    </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                        type="button" role="tab" aria-controls="profile" aria-selected="false">
+                        Profile
+                    </button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="accordion accordion-flush" id="accordionHome">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOneHome">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOneHome" aria-expanded="true"
+                                    aria-controls="collapseOneHome">
+                                    Company
+                                </button>
+                            </h2>
+                            <div id="collapseOneHome" class="accordion-collapse collapse show"
+                                aria-labelledby="headingOneHome" data-bs-parent="#accordionHome">
+                                <div class="accordion-body">
+                                    <strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+                                        consequatur ut nesciunt voluptatum vero fugit nostrum nihil odio possimus iste?
+                                        Itaque fuga ipsam voluptate quisquam eius incidunt id velit, iste impedit facere
+                                        amet doloribus omnis quidem assumenda dolorum eligendi? Dolorum incidunt
+                                        distinctio deleniti perspiciatis dolore eligendi nobis id, libero quod!
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwoHome">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwoHome" aria-expanded="false"
+                                    aria-controls="collapseTwoHome">
+                                    About
+                                </button>
+                            </h2>
+                            <div id="collapseTwoHome" class="accordion-collapse collapse"
+                                aria-labelledby="headingTwoHome" data-bs-parent="#accordionHome">
+                                <div class="accordion-body">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam temporibus velit
+                                    eligendi quidem labore, voluptatibus quisquam corrupti vitae consequuntur laudantium
+                                    beatae eveniet dolores vel repellendus sint ducimus quod fugiat numquam itaque?
+                                    Consequatur aut molestiae necessitatibus quibusdam esse perspiciatis, cupiditate
+                                    minima excepturi, distinctio pariatur atque optio eligendi. Voluptatibus accusamus
+                                    cupiditate deleniti!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThreeHome">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThreeHome" aria-expanded="false"
+                                    aria-controls="collapseThreeHome">
+                                    Partner
+                                </button>
+                            </h2>
+                            <div id="collapseThreeHome" class="accordion-collapse collapse"
+                                aria-labelledby="headingThreeHome" data-bs-parent="#accordionHome">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur expedita quasi
+                                    autem quos cumque! Iure dolorem tenetur consequuntur aut quidem officiis consectetur
+                                    perferendis placeat, blanditiis quis, rerum quaerat? Veniam, iure pariatur non
+                                    temporibus voluptas illo iusto consequatur quam atque similique. Dolores doloremque,
+                                    soluta labore animi est natus recusandae velit odit!
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwoHome">
-                        <button
-                            class="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwoHome"
-                            aria-expanded="false"
-                            aria-controls="collapseTwoHome"
-                        >
-                            About
-                        </button>
-                    </h2>
-                    <div
-                        id="collapseTwoHome"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="headingTwoHome"
-                        data-bs-parent="#accordionHome"
-                    >
-                        <div class="accordion-body">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam temporibus velit eligendi quidem labore, voluptatibus quisquam corrupti vitae consequuntur laudantium beatae eveniet dolores vel repellendus sint ducimus quod fugiat numquam itaque? Consequatur aut molestiae necessitatibus quibusdam esse perspiciatis, cupiditate minima excepturi, distinctio pariatur atque optio eligendi. Voluptatibus accusamus cupiditate deleniti!
+                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="accordion accordion-flush" id="accordionProfile">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFourProfile">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFourProfile" aria-expanded="true"
+                                    aria-controls="collapseFourProfile">
+                                    Business
+                                </button>
+                            </h2>
+                            <div id="collapseFourProfile" class="accordion-collapse collapse show"
+                                aria-labelledby="headingFourProfile" data-bs-parent="#accordionProfile">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident non officiis
+                                    cumque consequuntur error atque, saepe voluptas quae sed odio nesciunt sit fugit
+                                    dolore dolores, voluptatum accusamus nisi voluptate, accusantium possimus natus?
+                                    Molestias, debitis nam beatae tempore laboriosam aut pariatur, maiores
+                                    necessitatibus vel excepturi commodi quos laborum ullam iusto! Saepe!
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThreeHome">
-                        <button
-                            class="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseThreeHome"
-                            aria-expanded="false"
-                            aria-controls="collapseThreeHome"
-                        >
-                            Partner
-                        </button>
-                    </h2>
-                    <div
-                        id="collapseThreeHome"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="headingThreeHome"
-                        data-bs-parent="#accordionHome"
-                    >
-                        <div class="accordion-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur expedita quasi autem quos cumque! Iure dolorem tenetur consequuntur aut quidem officiis consectetur perferendis placeat, blanditiis quis, rerum quaerat? Veniam, iure pariatur non temporibus voluptas illo iusto consequatur quam atque similique. Dolores doloremque, soluta labore animi est natus recusandae velit odit!
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFiveProfile">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFiveProfile" aria-expanded="false"
+                                    aria-controls="collapseFiveProfile">
+                                    Workflow
+                                </button>
+                            </h2>
+                            <div id="collapseFiveProfile" class="accordion-collapse collapse"
+                                aria-labelledby="headingFiveProfile" data-bs-parent="#accordionProfile">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolorem fugiat
+                                    laboriosam saepe dicta, dolores in neque aliquid hic blanditiis praesentium, alias
+                                    vero repudiandae recusandae doloribus. Inventore culpa, accusantium, ab commodi
+                                    reiciendis in est harum quia adipisci eveniet eligendi modi? Aspernatur perspiciatis
+                                    veniam in? Odio doloribus voluptatum veniam incidunt ducimus.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div
-            class="tab-pane fade"
-            id="profile"
-            role="tabpanel"
-            aria-labelledby="profile-tab"
-        >
-            <div class="accordion accordion-flush" id="accordionProfile">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingFourProfile">
-                        <button
-                            class="accordion-button"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseFourProfile"
-                            aria-expanded="true"
-                            aria-controls="collapseFourProfile"
-                        >
-                            Business
-                        </button>
-                    </h2>
-                    <div
-                        id="collapseFourProfile"
-                        class="accordion-collapse collapse show"
-                        aria-labelledby="headingFourProfile"
-                        data-bs-parent="#accordionProfile"
-                    >
-                        <div class="accordion-body">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident non officiis cumque consequuntur error atque, saepe voluptas quae sed odio nesciunt sit fugit dolore dolores, voluptatum accusamus nisi voluptate, accusantium possimus natus? Molestias, debitis nam beatae tempore laboriosam aut pariatur, maiores necessitatibus vel excepturi commodi quos laborum ullam iusto! Saepe!
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingFiveProfile">
-                        <button
-                            class="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseFiveProfile"
-                            aria-expanded="false"
-                            aria-controls="collapseFiveProfile"
-                        >
-                            Workflow
-                        </button>
-                    </h2>
-                    <div
-                        id="collapseFiveProfile"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="headingFiveProfile"
-                        data-bs-parent="#accordionProfile"
-                    >
-                        <div class="accordion-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolorem fugiat laboriosam saepe dicta, dolores in neque aliquid hic blanditiis praesentium, alias vero repudiandae recusandae doloribus. Inventore culpa, accusantium, ab commodi reiciendis in est harum quia adipisci eveniet eligendi modi? Aspernatur perspiciatis veniam in? Odio doloribus voluptatum veniam incidunt ducimus.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingSixProfile">
-                        <button
-                            class="accordion-button collapsed"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#collapseSixProfile"
-                            aria-expanded="false"
-                            aria-controls="collapseSixProfile"
-                        >
-                            Heading
-                        </button>
-                    </h2>
-                    <div
-                        id="collapseSixProfile"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="headingSixProfile"
-                        data-bs-parent="#accordionProfile"
-                    >
-                        <div class="accordion-body">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dignissimos eligendi mollitia fugit porro, quasi officia quisquam rerum! At, minima consequatur libero magni voluptatem, vel enim a temporibus aliquam veniam quae? Saepe esse perferendis quidem totam. Facilis itaque magni fugit nostrum officia inventore quam vero qui? Ipsa quos doloremque suscipit!
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingSixProfile">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSixProfile" aria-expanded="false"
+                                    aria-controls="collapseSixProfile">
+                                    Heading
+                                </button>
+                            </h2>
+                            <div id="collapseSixProfile" class="accordion-collapse collapse"
+                                aria-labelledby="headingSixProfile" data-bs-parent="#accordionProfile">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dignissimos eligendi
+                                    mollitia fugit porro, quasi officia quisquam rerum! At, minima consequatur libero
+                                    magni voluptatem, vel enim a temporibus aliquam veniam quae? Saepe esse perferendis
+                                    quidem totam. Facilis itaque magni fugit nostrum officia inventore quam vero qui?
+                                    Ipsa quos doloremque suscipit!
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
 
 
 
@@ -798,7 +756,8 @@
                         you use our automagical HR recruitment software, the recruiters can parse the candidate data and
                         move the candidate to the interview date effortlessly.<br>
 
-                        Not just this, after the seamless transition from candidate to new hire, Glintix payroll software
+                        Not just this, after the seamless transition from candidate to new hire, Glintix payroll
+                        software
                         meanwhile generates auto CTC as well! And for the candidates that didn’t turn into a hire, they
                         become your potential referrals & recommend your company to their acquaintances for you as the
                         stats say, 97% of the candidates who have had a positive experience refer others to apply even
@@ -928,7 +887,7 @@
             </div>
         </div>
 
-       
+
     </div>
 
     <footer>
@@ -1055,8 +1014,8 @@
                             alt="Glintix Inbox App on Apple App Store"></a>
                     <p class="mb-0 mt-2"><a href="#" target="_blank" class="social__link" rel="noopener"><img
                                 src="../images/facebook.svg" alt="Glintix Facebook" class="social__icon"></a>
-                        <a href="#" target="_blank" class="social__link" rel="noopener"><img src="../images/linkedin.svg"
-                                alt="Glintix Linkedin" class="social__icon"></a>
+                        <a href="#" target="_blank" class="social__link" rel="noopener"><img
+                                src="../images/linkedin.svg" alt="Glintix Linkedin" class="social__icon"></a>
                         <a href="#" target="_blank" class="social__link" rel="noopener"><img src="../images/twitter.svg"
                                 alt="Glintix Twitter" class="social__icon"></a>
                     </p>

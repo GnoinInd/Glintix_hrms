@@ -121,7 +121,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                         <option value="admin">admin</option>
                         <option value="user">user</option>
 
-                    </select <!-- signin button -->
+                    </select >
+                    <!-- signin button -->
                     <div class="form-group ">
 
                         <input type="submit" name="login_btn" value="Sign In" class="btn signin_btn">

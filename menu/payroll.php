@@ -27,33 +27,34 @@
 </head>
 
 <body>
-<div class="container-fluid p-0 m-0 sticky-top">
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand " href="../index.php"><img src="../images/glintix_logo.png" alt="" class="img-fluid"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
-              aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="main_nav">
-    
-    
-              <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    About <span class="logo-text-nav">Glintix</span>
-                  </a>
-                  <ul class="dropdown-menu dropdown_menu_show" aria-labelledby="navbarDropdownMenuLink">
+    <div class="container-fluid p-0 m-0 sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand " href="../index.php"><img src="../images/glintix_logo.png" alt=""
+                        class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main_nav">
+
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                About <span class="logo-text-nav">Glintix</span>
+                            </a>
+                            <ul class="dropdown-menu dropdown_menu_show" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="../menu/ourStory.php">Our Story</a></li>
-                            <li><a class="dropdown-item" href="../menu/leadership.php">Leadership</a></li>
-                            <li><a class="dropdown-item" href="../menu/newsroom.php">Newsroom</a></li>
-                            <li><a class="dropdown-item" href="../menu/partners.php">Partners</a></li>
+                                <li><a class="dropdown-item" href="../menu/leadership.php">Leadership</a></li>
+                                <li><a class="dropdown-item" href="../menu/newsroom.php">Newsroom</a></li>
+                                <li><a class="dropdown-item" href="../menu/partners.php">Partners</a></li>
 
 
                             </ul>
-                </li>
-                <li class="nav-item dropdown ">
+                        </li>
+                        <li class="nav-item dropdown ">
                             <a class="nav-link dropdown-toggle " href="#" data-bs-toggle="dropdown"> Product </a>
                             <ul class="dropdown-menu dropdown_menu_show ">
                                 <li><a class="dropdown-item" href="#"> HR Software &raquo; </a>
@@ -72,22 +73,27 @@
                                                     </li>
                                                     <li><a class="dropdown-item"
                                                             href="../menu/attendance-management-system.php"> <img
-                                                                src="../images/attendanceicon.png" alt=""> Attendance</a>
+                                                                src="../images/attendanceicon.png" alt="">
+                                                            Attendance</a>
                                                     </li>
                                                     <li><a class="dropdown-item" href="../menu/helpdesk.php"> <img
-                                                                src="../images/helpdeskicon.png" alt=""> Helpdesk</a></li>
+                                                                src="../images/helpdeskicon.png" alt=""> Helpdesk</a>
+                                                    </li>
                                                     <li><a class="dropdown-item" href="../menu/recruitment.php"> <img
-                                                                src="../images/recruitmnticon.png" alt=""> Recruitment</a>
+                                                                src="../images/recruitmnticon.png" alt="">
+                                                            Recruitment</a>
                                                     </li>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <li><a class="dropdown-item" href="../menu/payroll.php"> <img
                                                                 src="../images/payrollicon.png" alt=""> Payroll</a></li>
                                                     <li><a class="dropdown-item" href="../menu/performance.php"> <img
-                                                                src="../images/performanceicon.png" alt=""> Performance</a>
+                                                                src="../images/performanceicon.png" alt="">
+                                                            Performance</a>
                                                     </li>
                                                     <li><a class="dropdown-item" href="../menu/engagement.php"> <img
-                                                                src="../images/engagementicon.png" alt=""> Engagement</a>
+                                                                src="../images/engagementicon.png" alt="">
+                                                            Engagement</a>
                                                     </li>
                                                     <li><a class="dropdown-item" href="../menu/expense.php"> <img
                                                                 src="../images/expenseicon.png" alt=""> Expense</a></li>
@@ -101,10 +107,12 @@
                                 </li>
                                 <li><a class="dropdown-item" href="#">Solutions &raquo; </a>
                                     <ul class="submenu dropdown-menu">
-                                        <li><a class="dropdown-item" href="../menu/hr-professionals.php">HR Professionals</a>
+                                        <li><a class="dropdown-item" href="../menu/hr-professionals.php">HR
+                                                Professionals</a>
                                         </li>
                                         <li><a class="dropdown-item" href="../menu/employees.php">Employees</a></li>
-                                        <li><a class="dropdown-item" href="../menu/teamManagers.php">Team Managers</a></li>
+                                        <li><a class="dropdown-item" href="../menu/teamManagers.php">Team Managers</a>
+                                        </li>
                                         <li><a class="dropdown-item" href="../menu/cxo.php">CXO</a></li>
                                     </ul>
                                 </li>
@@ -116,10 +124,10 @@
                                 </li>
                             </ul>
                         </li>
-    
-    
-    
-                <li class="nav-item"><a class="nav-link" href="../menu/Pricing.php"> Pricing </a></li>
+
+
+
+                        <li class="nav-item"><a class="nav-link" href="../menu/Pricing.php"> Pricing </a></li>
                         <li class="nav-item"><a class="nav-link" href="../menu/clients.php"> Clients </a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> HR Resources </a>
@@ -140,30 +148,32 @@
 
                             </ul>
                         </li>
-              </ul>
-    
-    
-    
+                    </ul>
+
+
+
+                </div>
+
+                <form class="d-flex">
+                    <button class="btn btn btn-success btn-custom1  m-1 text-white fw-700" type="submit"><a
+                            href="../Registration%20(D)/signin.php" class="text-white">Login</a></button>
+                    <button class="btn btn-success btn-custom1  m-1 text-white fw-700" href="contact.php"
+                        type="submit m-1"><a href="contact.php" class="text-white">Contact</a></button>
+                </form>
             </div>
-            
-            <form class="d-flex">
-                <button class="btn btn btn-success btn-custom1  m-1 text-white fw-700" type="submit"><a href="http://localhost/Glintix_hrms/Registration%20(D)/signin.php" class="text-white">Login</a></button>
-              <button class="btn btn btn-success btn-custom1  m-1 text-white fw-700" type="submit m-1">Contact</button>
-            </form>
-          </div> 
         </nav>
-    
-      
-    
-    
-    
-      </div>
-    
-    
-    
-    
-    
-      <div class="container mt-4">
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <div class="container mt-4">
         <div class="row">
             <div class="col-md-12">
                 <div class="row">
@@ -173,11 +183,12 @@
                             <h2 class="lh-sm mt-3 fw-bold">Best Cloud-based HR Software in India for Enterprises</h2>
                             <p class="lh-lg mt-4">GLintix is the best HR software that automates all your HR operations
                                 intelligently.
-                                and simplifies your workday. In other words, our cloud HR systems work on a smart 1:7 work
+                                and simplifies your workday. In other words, our cloud HR systems work on a smart 1:7
+                                work
                                 ratio
                                 implying that it does all your routine tasks in an average of 1 hour per day through
                                 automation.
-    
+
                             </p>
                             <button class="btn btn-success btn-custom mt-4">REQUEST A DEMO</button>
                         </div>
@@ -263,7 +274,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-md-12 mt-5">
                 <div class="row">
                     <div class="col-md-6">
@@ -868,7 +879,7 @@
         </div>
     </div>
 
-    
+
 
     <div class="container mt-4">
         <div class="row">
@@ -1092,47 +1103,36 @@
                                             <div class="card-body">
                                                 <h5 class="card-title mt-0">Attendance Management</h5>
                                                 <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                                                <p class="card-text">1If time &amp; attendance data is not recorded and sent
-                                                    properly to the payroll system, salary for extra days (the whole month)
+                                                <p class="card-text">1If time &amp; attendance data is not recorded and
+                                                    sent
+                                                    properly to the payroll system, salary for extra days (the whole
+                                                    month)
                                                     may be credited to employees at times. Further, if the employee wage
                                                     report is generated late, the entire salary processing would get
                                                     delayed. With the integrated system, the attendance-related data is
-                                                    automatically provided in the form of paydays for salary calculation.
+                                                    automatically provided in the form of paydays for salary
+                                                    calculation.
                                                 </p>
                                                 <a href="#" class="card-link btn btn-success btn-custom">About</a>
                                                 <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
                                             </div>
                                         </div>
-    
+
                                     </div>
                                     <div class="item">
                                         <div class="card card_shadows" style="width: 100%;">
                                             <div class="card-body">
                                                 <h5 class="card-title mt-0">Attendance Management</h5>
                                                 <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                                                <p class="card-text">1If time &amp; attendance data is not recorded and sent
-                                                    properly to the payroll system, salary for extra days (the whole month)
+                                                <p class="card-text">1If time &amp; attendance data is not recorded and
+                                                    sent
+                                                    properly to the payroll system, salary for extra days (the whole
+                                                    month)
                                                     may be credited to employees at times. Further, if the employee wage
                                                     report is generated late, the entire salary processing would get
                                                     delayed. With the integrated system, the attendance-related data is
-                                                    automatically provided in the form of paydays for salary calculation.
-                                                </p>
-                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
-                                                <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <div class="card card_shadows" style="width: 100%;">
-                                            <div class="card-body">
-                                                <h5 class="card-title mt-0">Attendance Management</h5>
-                                                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                                                <p class="card-text">1If time &amp; attendance data is not recorded and sent
-                                                    properly to the payroll system, salary for extra days (the whole month)
-                                                    may be credited to employees at times. Further, if the employee wage
-                                                    report is generated late, the entire salary processing would get
-                                                    delayed. With the integrated system, the attendance-related data is
-                                                    automatically provided in the form of paydays for salary calculation.
+                                                    automatically provided in the form of paydays for salary
+                                                    calculation.
                                                 </p>
                                                 <a href="#" class="card-link btn btn-success btn-custom">About</a>
                                                 <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
@@ -1144,12 +1144,15 @@
                                             <div class="card-body">
                                                 <h5 class="card-title mt-0">Attendance Management</h5>
                                                 <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                                                <p class="card-text">1If time &amp; attendance data is not recorded and sent
-                                                    properly to the payroll system, salary for extra days (the whole month)
+                                                <p class="card-text">1If time &amp; attendance data is not recorded and
+                                                    sent
+                                                    properly to the payroll system, salary for extra days (the whole
+                                                    month)
                                                     may be credited to employees at times. Further, if the employee wage
                                                     report is generated late, the entire salary processing would get
                                                     delayed. With the integrated system, the attendance-related data is
-                                                    automatically provided in the form of paydays for salary calculation.
+                                                    automatically provided in the form of paydays for salary
+                                                    calculation.
                                                 </p>
                                                 <a href="#" class="card-link btn btn-success btn-custom">About</a>
                                                 <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
@@ -1161,12 +1164,15 @@
                                             <div class="card-body">
                                                 <h5 class="card-title mt-0">Attendance Management</h5>
                                                 <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                                                <p class="card-text">1If time &amp; attendance data is not recorded and sent
-                                                    properly to the payroll system, salary for extra days (the whole month)
+                                                <p class="card-text">1If time &amp; attendance data is not recorded and
+                                                    sent
+                                                    properly to the payroll system, salary for extra days (the whole
+                                                    month)
                                                     may be credited to employees at times. Further, if the employee wage
                                                     report is generated late, the entire salary processing would get
                                                     delayed. With the integrated system, the attendance-related data is
-                                                    automatically provided in the form of paydays for salary calculation.
+                                                    automatically provided in the form of paydays for salary
+                                                    calculation.
                                                 </p>
                                                 <a href="#" class="card-link btn btn-success btn-custom">About</a>
                                                 <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
@@ -1178,12 +1184,15 @@
                                             <div class="card-body">
                                                 <h5 class="card-title mt-0">Attendance Management</h5>
                                                 <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                                                <p class="card-text">1If time &amp; attendance data is not recorded and sent
-                                                    properly to the payroll system, salary for extra days (the whole month)
+                                                <p class="card-text">1If time &amp; attendance data is not recorded and
+                                                    sent
+                                                    properly to the payroll system, salary for extra days (the whole
+                                                    month)
                                                     may be credited to employees at times. Further, if the employee wage
                                                     report is generated late, the entire salary processing would get
                                                     delayed. With the integrated system, the attendance-related data is
-                                                    automatically provided in the form of paydays for salary calculation.
+                                                    automatically provided in the form of paydays for salary
+                                                    calculation.
                                                 </p>
                                                 <a href="#" class="card-link btn btn-success btn-custom">About</a>
                                                 <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
@@ -1195,12 +1204,15 @@
                                             <div class="card-body">
                                                 <h5 class="card-title mt-0">Attendance Management</h5>
                                                 <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                                                <p class="card-text">1If time &amp; attendance data is not recorded and sent
-                                                    properly to the payroll system, salary for extra days (the whole month)
+                                                <p class="card-text">1If time &amp; attendance data is not recorded and
+                                                    sent
+                                                    properly to the payroll system, salary for extra days (the whole
+                                                    month)
                                                     may be credited to employees at times. Further, if the employee wage
                                                     report is generated late, the entire salary processing would get
                                                     delayed. With the integrated system, the attendance-related data is
-                                                    automatically provided in the form of paydays for salary calculation.
+                                                    automatically provided in the form of paydays for salary
+                                                    calculation.
                                                 </p>
                                                 <a href="#" class="card-link btn btn-success btn-custom">About</a>
                                                 <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
@@ -1212,12 +1224,15 @@
                                             <div class="card-body">
                                                 <h5 class="card-title mt-0">Attendance Management</h5>
                                                 <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                                                <p class="card-text">1If time &amp; attendance data is not recorded and sent
-                                                    properly to the payroll system, salary for extra days (the whole month)
+                                                <p class="card-text">1If time &amp; attendance data is not recorded and
+                                                    sent
+                                                    properly to the payroll system, salary for extra days (the whole
+                                                    month)
                                                     may be credited to employees at times. Further, if the employee wage
                                                     report is generated late, the entire salary processing would get
                                                     delayed. With the integrated system, the attendance-related data is
-                                                    automatically provided in the form of paydays for salary calculation.
+                                                    automatically provided in the form of paydays for salary
+                                                    calculation.
                                                 </p>
                                                 <a href="#" class="card-link btn btn-success btn-custom">About</a>
                                                 <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
@@ -1229,12 +1244,15 @@
                                             <div class="card-body">
                                                 <h5 class="card-title mt-0">Attendance Management</h5>
                                                 <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                                                <p class="card-text">1If time &amp; attendance data is not recorded and sent
-                                                    properly to the payroll system, salary for extra days (the whole month)
+                                                <p class="card-text">1If time &amp; attendance data is not recorded and
+                                                    sent
+                                                    properly to the payroll system, salary for extra days (the whole
+                                                    month)
                                                     may be credited to employees at times. Further, if the employee wage
                                                     report is generated late, the entire salary processing would get
                                                     delayed. With the integrated system, the attendance-related data is
-                                                    automatically provided in the form of paydays for salary calculation.
+                                                    automatically provided in the form of paydays for salary
+                                                    calculation.
                                                 </p>
                                                 <a href="#" class="card-link btn btn-success btn-custom">About</a>
                                                 <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
@@ -1246,12 +1264,15 @@
                                             <div class="card-body">
                                                 <h5 class="card-title mt-0">Attendance Management</h5>
                                                 <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                                                <p class="card-text">1If time &amp; attendance data is not recorded and sent
-                                                    properly to the payroll system, salary for extra days (the whole month)
+                                                <p class="card-text">1If time &amp; attendance data is not recorded and
+                                                    sent
+                                                    properly to the payroll system, salary for extra days (the whole
+                                                    month)
                                                     may be credited to employees at times. Further, if the employee wage
                                                     report is generated late, the entire salary processing would get
                                                     delayed. With the integrated system, the attendance-related data is
-                                                    automatically provided in the form of paydays for salary calculation.
+                                                    automatically provided in the form of paydays for salary
+                                                    calculation.
                                                 </p>
                                                 <a href="#" class="card-link btn btn-success btn-custom">About</a>
                                                 <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
@@ -1263,12 +1284,35 @@
                                             <div class="card-body">
                                                 <h5 class="card-title mt-0">Attendance Management</h5>
                                                 <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                                                <p class="card-text">1If time &amp; attendance data is not recorded and sent
-                                                    properly to the payroll system, salary for extra days (the whole month)
+                                                <p class="card-text">1If time &amp; attendance data is not recorded and
+                                                    sent
+                                                    properly to the payroll system, salary for extra days (the whole
+                                                    month)
                                                     may be credited to employees at times. Further, if the employee wage
                                                     report is generated late, the entire salary processing would get
                                                     delayed. With the integrated system, the attendance-related data is
-                                                    automatically provided in the form of paydays for salary calculation.
+                                                    automatically provided in the form of paydays for salary
+                                                    calculation.
+                                                </p>
+                                                <a href="#" class="card-link btn btn-success btn-custom">About</a>
+                                                <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="card card_shadows" style="width: 100%;">
+                                            <div class="card-body">
+                                                <h5 class="card-title mt-0">Attendance Management</h5>
+                                                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                                <p class="card-text">1If time &amp; attendance data is not recorded and
+                                                    sent
+                                                    properly to the payroll system, salary for extra days (the whole
+                                                    month)
+                                                    may be credited to employees at times. Further, if the employee wage
+                                                    report is generated late, the entire salary processing would get
+                                                    delayed. With the integrated system, the attendance-related data is
+                                                    automatically provided in the form of paydays for salary
+                                                    calculation.
                                                 </p>
                                                 <a href="#" class="card-link btn btn-success btn-custom">About</a>
                                                 <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
@@ -1296,24 +1340,34 @@
                         <p>Trusted by the Industry leaders for managing their day-to-day HR functions</p>
                     </div>
                 </div>
-        
+
                 <div class="row justify-content-center ">
-                    <div class="col-md-3 col-sm-6 text-center   border-bottom "> <img src="../images/kyocera.png" alt=""> </div>
-                    <div class="col-md-3 col-sm-6 text-center  border border-top-0"><img src="../images/logo-bikaner.jpg" alt=""></div>
-                    <div class="col-md-3 col-sm-6 text-center  border border-top-0"><img src="../images/logo-haier.jpg" alt=""></div>
-                    <div class="col-md-3 col-sm-6 text-center  border-bottom"><img src="../images/logo-harvest.jpg" alt=""></div>
+                    <div class="col-md-3 col-sm-6 text-center   border-bottom "> <img src="../images/kyocera.png"
+                            alt=""> </div>
+                    <div class="col-md-3 col-sm-6 text-center  border border-top-0"><img
+                            src="../images/logo-bikaner.jpg" alt=""></div>
+                    <div class="col-md-3 col-sm-6 text-center  border border-top-0"><img src="../images/logo-haier.jpg"
+                            alt=""></div>
+                    <div class="col-md-3 col-sm-6 text-center  border-bottom"><img src="../images/logo-harvest.jpg"
+                            alt=""></div>
                 </div>
                 <div class="row justify-content-center ">
-                    <div class="col-md-3 col-sm-6 text-center  border border-start-0"> <img src="../images/kyocera.png" alt=""> </div>
-                    <div class="col-md-3 col-sm-6 text-center  border"><img src="../images/logo-bikaner.jpg" alt=""></div>
+                    <div class="col-md-3 col-sm-6 text-center  border border-start-0"> <img src="../images/kyocera.png"
+                            alt=""> </div>
+                    <div class="col-md-3 col-sm-6 text-center  border"><img src="../images/logo-bikaner.jpg" alt="">
+                    </div>
                     <div class="col-md-3 col-sm-6 text-center  border"><img src="../images/logo-haier.jpg" alt=""></div>
-                    <div class="col-md-3 col-sm-6 text-center  border border-end-0"><img src="../images/logo-harvest.jpg" alt=""></div>
+                    <div class="col-md-3 col-sm-6 text-center  border border-end-0"><img
+                            src="../images/logo-harvest.jpg" alt=""></div>
                 </div>
                 <div class="row justify-content-center ">
-                    <div class="col-md-3 col-sm-6 text-center  border border-start-0"> <img src="../images/kyocera.png" alt=""> </div>
-                    <div class="col-md-3 col-sm-6 text-center  border"><img src="../images/logo-bikaner.jpg" alt=""></div>
+                    <div class="col-md-3 col-sm-6 text-center  border border-start-0"> <img src="../images/kyocera.png"
+                            alt=""> </div>
+                    <div class="col-md-3 col-sm-6 text-center  border"><img src="../images/logo-bikaner.jpg" alt="">
+                    </div>
                     <div class="col-md-3 col-sm-6 text-center  border"><img src="../images/logo-haier.jpg" alt=""></div>
-                    <div class="col-md-3 col-sm-6 text-center  border border-end-0"><img src="../images/logo-harvest.jpg" alt=""></div>
+                    <div class="col-md-3 col-sm-6 text-center  border border-end-0"><img
+                            src="../images/logo-harvest.jpg" alt=""></div>
                 </div>
             </div>
 
@@ -1349,16 +1403,23 @@
                                         <div id="collapseOne" class="accordion-collapse collapse "
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                Glintix is an intelligent enterprise ready HCM suite that’s future ready with
+                                                Glintix is an intelligent enterprise ready HCM suite that’s future ready
+                                                with
                                                 the first ever Mobile app that has Employee self service, Manager self
-                                                service & HR Self Service. Our HR software commits to deliver 3X efficiency
-                                                in the existing HR processes of your organization by truly automating each
-                                                workflow, policy and HR tasks. Our innovative #InboxForHR allows the HRs to
-                                                perform all HR functions in real time and not switch to different modules
-                                                tab to view and complete tasks. Apart from 10 full fledged modules, we have
+                                                service & HR Self Service. Our HR software commits to deliver 3X
+                                                efficiency
+                                                in the existing HR processes of your organization by truly automating
+                                                each
+                                                workflow, policy and HR tasks. Our innovative #InboxForHR allows the HRs
+                                                to
+                                                perform all HR functions in real time and not switch to different
+                                                modules
+                                                tab to view and complete tasks. Apart from 10 full fledged modules, we
+                                                have
                                                 unique innovations like HR Desk to perform google like action based
                                                 searches, Template Vault (100s of free & vetted templates, checklists),
-                                                Touchless Payroll, HR Reports Scheduler etc. to take your HR functions to
+                                                Touchless Payroll, HR Reports Scheduler etc. to take your HR functions
+                                                to
                                                 the next level and craft the best experience for your employees.
                                             </div>
                                         </div>
@@ -1374,16 +1435,23 @@
                                         <div id="collapseTwo" class="accordion-collapse collapse"
                                             aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                Glintix is an intelligent enterprise ready HCM suite that’s future ready with
+                                                Glintix is an intelligent enterprise ready HCM suite that’s future ready
+                                                with
                                                 the first ever Mobile app that has Employee self service, Manager self
-                                                service & HR Self Service. Our HR software commits to deliver 3X efficiency
-                                                in the existing HR processes of your organization by truly automating each
-                                                workflow, policy and HR tasks. Our innovative #InboxForHR allows the HRs to
-                                                perform all HR functions in real time and not switch to different modules
-                                                tab to view and complete tasks. Apart from 10 full fledged modules, we have
+                                                service & HR Self Service. Our HR software commits to deliver 3X
+                                                efficiency
+                                                in the existing HR processes of your organization by truly automating
+                                                each
+                                                workflow, policy and HR tasks. Our innovative #InboxForHR allows the HRs
+                                                to
+                                                perform all HR functions in real time and not switch to different
+                                                modules
+                                                tab to view and complete tasks. Apart from 10 full fledged modules, we
+                                                have
                                                 unique innovations like HR Desk to perform google like action based
                                                 searches, Template Vault (100s of free & vetted templates, checklists),
-                                                Touchless Payroll, HR Reports Scheduler etc. to take your HR functions to
+                                                Touchless Payroll, HR Reports Scheduler etc. to take your HR functions
+                                                to
                                                 the next level and craft the best experience for your employees.
                                             </div>
                                         </div>
@@ -1399,21 +1467,28 @@
                                         <div id="collapseThree" class="accordion-collapse collapse"
                                             aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                Glintix is an intelligent enterprise ready HCM suite that’s future ready with
+                                                Glintix is an intelligent enterprise ready HCM suite that’s future ready
+                                                with
                                                 the first ever Mobile app that has Employee self service, Manager self
-                                                service & HR Self Service. Our HR software commits to deliver 3X efficiency
-                                                in the existing HR processes of your organization by truly automating each
-                                                workflow, policy and HR tasks. Our innovative #InboxForHR allows the HRs to
-                                                perform all HR functions in real time and not switch to different modules
-                                                tab to view and complete tasks. Apart from 10 full fledged modules, we have
+                                                service & HR Self Service. Our HR software commits to deliver 3X
+                                                efficiency
+                                                in the existing HR processes of your organization by truly automating
+                                                each
+                                                workflow, policy and HR tasks. Our innovative #InboxForHR allows the HRs
+                                                to
+                                                perform all HR functions in real time and not switch to different
+                                                modules
+                                                tab to view and complete tasks. Apart from 10 full fledged modules, we
+                                                have
                                                 unique innovations like HR Desk to perform google like action based
                                                 searches, Template Vault (100s of free & vetted templates, checklists),
-                                                Touchless Payroll, HR Reports Scheduler etc. to take your HR functions to
+                                                Touchless Payroll, HR Reports Scheduler etc. to take your HR functions
+                                                to
                                                 the next level and craft the best experience for your employees.
                                             </div>
                                         </div>
                                     </div>
-    
+
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingfour">
                                             <button class="accordion-button collapsed" type="button"
@@ -1425,23 +1500,31 @@
                                         <div id="collapsefour" class="accordion-collapse collapse"
                                             aria-labelledby="headingfour" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
-                                                Glintix is an intelligent enterprise ready HCM suite that’s future ready with
+                                                Glintix is an intelligent enterprise ready HCM suite that’s future ready
+                                                with
                                                 the first ever Mobile app that has Employee self service, Manager self
-                                                service & HR Self Service. Our HR software commits to deliver 3X efficiency
-                                                in the existing HR processes of your organization by truly automating each
-                                                workflow, policy and HR tasks. Our innovative #InboxForHR allows the HRs to
-                                                perform all HR functions in real time and not switch to different modules
-                                                tab to view and complete tasks. Apart from 10 full fledged modules, we have
+                                                service & HR Self Service. Our HR software commits to deliver 3X
+                                                efficiency
+                                                in the existing HR processes of your organization by truly automating
+                                                each
+                                                workflow, policy and HR tasks. Our innovative #InboxForHR allows the HRs
+                                                to
+                                                perform all HR functions in real time and not switch to different
+                                                modules
+                                                tab to view and complete tasks. Apart from 10 full fledged modules, we
+                                                have
                                                 unique innovations like HR Desk to perform google like action based
                                                 searches, Template Vault (100s of free & vetted templates, checklists),
-                                                Touchless Payroll, HR Reports Scheduler etc. to take your HR functions to
+                                                Touchless Payroll, HR Reports Scheduler etc. to take your HR functions
+                                                to
                                                 the next level and craft the best experience for your employees.
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                aria-labelledby="nav-profile-tab">
                                 <div class="accordion" id="accordionExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingOne">
@@ -1455,16 +1538,25 @@
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="accordion-body">
-                                                    Glintix is an intelligent enterprise ready HCM suite that’s future ready
-                                                    with the first ever Mobile app that has Employee self service, Manager
-                                                    self service & HR Self Service. Our HR software commits to deliver 3X
-                                                    efficiency in the existing HR processes of your organization by truly
+                                                    Glintix is an intelligent enterprise ready HCM suite that’s future
+                                                    ready
+                                                    with the first ever Mobile app that has Employee self service,
+                                                    Manager
+                                                    self service & HR Self Service. Our HR software commits to deliver
+                                                    3X
+                                                    efficiency in the existing HR processes of your organization by
+                                                    truly
                                                     automating each workflow, policy and HR tasks. Our innovative
-                                                    #InboxForHR allows the HRs to perform all HR functions in real time and
-                                                    not switch to different modules tab to view and complete tasks. Apart
-                                                    from 10 full fledged modules, we have unique innovations like HR Desk to
-                                                    perform google like action based searches, Template Vault (100s of free
-                                                    & vetted templates, checklists), Touchless Payroll, HR Reports Scheduler
+                                                    #InboxForHR allows the HRs to perform all HR functions in real time
+                                                    and
+                                                    not switch to different modules tab to view and complete tasks.
+                                                    Apart
+                                                    from 10 full fledged modules, we have unique innovations like HR
+                                                    Desk to
+                                                    perform google like action based searches, Template Vault (100s of
+                                                    free
+                                                    & vetted templates, checklists), Touchless Payroll, HR Reports
+                                                    Scheduler
                                                     etc. to take your HR functions to the next level and craft the best
                                                     experience for your employees.
                                                 </div>
@@ -1483,16 +1575,25 @@
                                             aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="accordion-body">
-                                                    Glintix is an intelligent enterprise ready HCM suite that’s future ready
-                                                    with the first ever Mobile app that has Employee self service, Manager
-                                                    self service & HR Self Service. Our HR software commits to deliver 3X
-                                                    efficiency in the existing HR processes of your organization by truly
+                                                    Glintix is an intelligent enterprise ready HCM suite that’s future
+                                                    ready
+                                                    with the first ever Mobile app that has Employee self service,
+                                                    Manager
+                                                    self service & HR Self Service. Our HR software commits to deliver
+                                                    3X
+                                                    efficiency in the existing HR processes of your organization by
+                                                    truly
                                                     automating each workflow, policy and HR tasks. Our innovative
-                                                    #InboxForHR allows the HRs to perform all HR functions in real time and
-                                                    not switch to different modules tab to view and complete tasks. Apart
-                                                    from 10 full fledged modules, we have unique innovations like HR Desk to
-                                                    perform google like action based searches, Template Vault (100s of free
-                                                    & vetted templates, checklists), Touchless Payroll, HR Reports Scheduler
+                                                    #InboxForHR allows the HRs to perform all HR functions in real time
+                                                    and
+                                                    not switch to different modules tab to view and complete tasks.
+                                                    Apart
+                                                    from 10 full fledged modules, we have unique innovations like HR
+                                                    Desk to
+                                                    perform google like action based searches, Template Vault (100s of
+                                                    free
+                                                    & vetted templates, checklists), Touchless Payroll, HR Reports
+                                                    Scheduler
                                                     etc. to take your HR functions to the next level and craft the best
                                                     experience for your employees.
                                                 </div>
@@ -1511,16 +1612,25 @@
                                             aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="accordion-body">
-                                                    Glintix is an intelligent enterprise ready HCM suite that’s future ready
-                                                    with the first ever Mobile app that has Employee self service, Manager
-                                                    self service & HR Self Service. Our HR software commits to deliver 3X
-                                                    efficiency in the existing HR processes of your organization by truly
+                                                    Glintix is an intelligent enterprise ready HCM suite that’s future
+                                                    ready
+                                                    with the first ever Mobile app that has Employee self service,
+                                                    Manager
+                                                    self service & HR Self Service. Our HR software commits to deliver
+                                                    3X
+                                                    efficiency in the existing HR processes of your organization by
+                                                    truly
                                                     automating each workflow, policy and HR tasks. Our innovative
-                                                    #InboxForHR allows the HRs to perform all HR functions in real time and
-                                                    not switch to different modules tab to view and complete tasks. Apart
-                                                    from 10 full fledged modules, we have unique innovations like HR Desk to
-                                                    perform google like action based searches, Template Vault (100s of free
-                                                    & vetted templates, checklists), Touchless Payroll, HR Reports Scheduler
+                                                    #InboxForHR allows the HRs to perform all HR functions in real time
+                                                    and
+                                                    not switch to different modules tab to view and complete tasks.
+                                                    Apart
+                                                    from 10 full fledged modules, we have unique innovations like HR
+                                                    Desk to
+                                                    perform google like action based searches, Template Vault (100s of
+                                                    free
+                                                    & vetted templates, checklists), Touchless Payroll, HR Reports
+                                                    Scheduler
                                                     etc. to take your HR functions to the next level and craft the best
                                                     experience for your employees.
                                                 </div>
@@ -1529,7 +1639,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <div class="tab-pane fade" id="nav-contact" role="tabpanel"
+                                aria-labelledby="nav-contact-tab">
                                 <div class="accordion" id="accordionExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingOne">
@@ -1543,16 +1654,25 @@
                                             aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="accordion-body">
-                                                    Glintix is an intelligent enterprise ready HCM suite that’s future ready
-                                                    with the first ever Mobile app that has Employee self service, Manager
-                                                    self service & HR Self Service. Our HR software commits to deliver 3X
-                                                    efficiency in the existing HR processes of your organization by truly
+                                                    Glintix is an intelligent enterprise ready HCM suite that’s future
+                                                    ready
+                                                    with the first ever Mobile app that has Employee self service,
+                                                    Manager
+                                                    self service & HR Self Service. Our HR software commits to deliver
+                                                    3X
+                                                    efficiency in the existing HR processes of your organization by
+                                                    truly
                                                     automating each workflow, policy and HR tasks. Our innovative
-                                                    #InboxForHR allows the HRs to perform all HR functions in real time and
-                                                    not switch to different modules tab to view and complete tasks. Apart
-                                                    from 10 full fledged modules, we have unique innovations like HR Desk to
-                                                    perform google like action based searches, Template Vault (100s of free
-                                                    & vetted templates, checklists), Touchless Payroll, HR Reports Scheduler
+                                                    #InboxForHR allows the HRs to perform all HR functions in real time
+                                                    and
+                                                    not switch to different modules tab to view and complete tasks.
+                                                    Apart
+                                                    from 10 full fledged modules, we have unique innovations like HR
+                                                    Desk to
+                                                    perform google like action based searches, Template Vault (100s of
+                                                    free
+                                                    & vetted templates, checklists), Touchless Payroll, HR Reports
+                                                    Scheduler
                                                     etc. to take your HR functions to the next level and craft the best
                                                     experience for your employees.
                                                 </div>
@@ -1571,16 +1691,25 @@
                                             aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="accordion-body">
-                                                    Glintix is an intelligent enterprise ready HCM suite that’s future ready
-                                                    with the first ever Mobile app that has Employee self service, Manager
-                                                    self service & HR Self Service. Our HR software commits to deliver 3X
-                                                    efficiency in the existing HR processes of your organization by truly
+                                                    Glintix is an intelligent enterprise ready HCM suite that’s future
+                                                    ready
+                                                    with the first ever Mobile app that has Employee self service,
+                                                    Manager
+                                                    self service & HR Self Service. Our HR software commits to deliver
+                                                    3X
+                                                    efficiency in the existing HR processes of your organization by
+                                                    truly
                                                     automating each workflow, policy and HR tasks. Our innovative
-                                                    #InboxForHR allows the HRs to perform all HR functions in real time and
-                                                    not switch to different modules tab to view and complete tasks. Apart
-                                                    from 10 full fledged modules, we have unique innovations like HR Desk to
-                                                    perform google like action based searches, Template Vault (100s of free
-                                                    & vetted templates, checklists), Touchless Payroll, HR Reports Scheduler
+                                                    #InboxForHR allows the HRs to perform all HR functions in real time
+                                                    and
+                                                    not switch to different modules tab to view and complete tasks.
+                                                    Apart
+                                                    from 10 full fledged modules, we have unique innovations like HR
+                                                    Desk to
+                                                    perform google like action based searches, Template Vault (100s of
+                                                    free
+                                                    & vetted templates, checklists), Touchless Payroll, HR Reports
+                                                    Scheduler
                                                     etc. to take your HR functions to the next level and craft the best
                                                     experience for your employees.
                                                 </div>
@@ -1599,16 +1728,25 @@
                                             aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                             <div class="accordion-body">
                                                 <div class="accordion-body">
-                                                    Glintix is an intelligent enterprise ready HCM suite that’s future ready
-                                                    with the first ever Mobile app that has Employee self service, Manager
-                                                    self service & HR Self Service. Our HR software commits to deliver 3X
-                                                    efficiency in the existing HR processes of your organization by truly
+                                                    Glintix is an intelligent enterprise ready HCM suite that’s future
+                                                    ready
+                                                    with the first ever Mobile app that has Employee self service,
+                                                    Manager
+                                                    self service & HR Self Service. Our HR software commits to deliver
+                                                    3X
+                                                    efficiency in the existing HR processes of your organization by
+                                                    truly
                                                     automating each workflow, policy and HR tasks. Our innovative
-                                                    #InboxForHR allows the HRs to perform all HR functions in real time and
-                                                    not switch to different modules tab to view and complete tasks. Apart
-                                                    from 10 full fledged modules, we have unique innovations like HR Desk to
-                                                    perform google like action based searches, Template Vault (100s of free
-                                                    & vetted templates, checklists), Touchless Payroll, HR Reports Scheduler
+                                                    #InboxForHR allows the HRs to perform all HR functions in real time
+                                                    and
+                                                    not switch to different modules tab to view and complete tasks.
+                                                    Apart
+                                                    from 10 full fledged modules, we have unique innovations like HR
+                                                    Desk to
+                                                    perform google like action based searches, Template Vault (100s of
+                                                    free
+                                                    & vetted templates, checklists), Touchless Payroll, HR Reports
+                                                    Scheduler
                                                     etc. to take your HR functions to the next level and craft the best
                                                     experience for your employees.
                                                 </div>
@@ -1624,7 +1762,8 @@
             <div class="col-md-12 mt-5">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3 class="text-success fw-bold text-center p-4">Learn more about Payroll related components</h3>
+                        <h3 class="text-success fw-bold text-center p-4">Learn more about Payroll related components
+                        </h3>
                     </div>
                     <div class="col ">
                         <div class="card m-2 card_shadows" style="width: 100%; ">
@@ -1885,7 +2024,8 @@
                                                         expedita! Eveniet ex
                                                         nisi sequi ipsum..</p>
                                                     <a href="#" class="card-link btn btn-success btn-custom">About</a>
-                                                    <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
+                                                    <a href="#" class="card-link btn btn-success btn-custom">Know
+                                                        More</a>
                                                 </div>
                                             </div>
 
@@ -1907,7 +2047,8 @@
                                                         expedita! Eveniet ex
                                                         nisi sequi ipsum..</p>
                                                     <a href="#" class="card-link btn btn-success btn-custom">About</a>
-                                                    <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
+                                                    <a href="#" class="card-link btn btn-success btn-custom">Know
+                                                        More</a>
                                                 </div>
                                             </div>
 
@@ -1929,7 +2070,8 @@
                                                         expedita! Eveniet ex
                                                         nisi sequi ipsum..</p>
                                                     <a href="#" class="card-link btn btn-success btn-custom">About</a>
-                                                    <a href="#" class="card-link btn btn-success btn-custom">Know More</a>
+                                                    <a href="#" class="card-link btn btn-success btn-custom">Know
+                                                        More</a>
                                                 </div>
                                             </div>
 
@@ -2218,8 +2360,8 @@
                             alt="Glintix Inbox App on Apple App Store"></a>
                     <p class="mb-0 mt-2"><a href="#" target="_blank" class="social__link" rel="noopener"><img
                                 src="../images/facebook.svg" alt="Glintix Facebook" class="social__icon"></a>
-                        <a href="#" target="_blank" class="social__link" rel="noopener"><img src="../images/linkedin.svg"
-                                alt="Glintix Linkedin" class="social__icon"></a>
+                        <a href="#" target="_blank" class="social__link" rel="noopener"><img
+                                src="../images/linkedin.svg" alt="Glintix Linkedin" class="social__icon"></a>
                         <a href="#" target="_blank" class="social__link" rel="noopener"><img src="../images/twitter.svg"
                                 alt="Glintix Twitter" class="social__icon"></a>
                     </p>

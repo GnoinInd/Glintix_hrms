@@ -3,6 +3,8 @@ include 'function.php';
 session_start();
 $success = 0;
 $user = 0;
+$message = "";  // Define the $message variable
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     include 'connection1.php';
     // $user_id = $_POST['user_id'];
@@ -41,8 +43,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $result = mysqli_query($con, $sql);
 
             if ($result) {
-                // echo "signup successfully";
                 $success = 1;
+                $message = "Signup successfully";
 
             } else {
                 die(mysqli_error($con));
@@ -89,6 +91,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 </div>
                 <!-- card body   -->
                 <div class="card-body ">
+                    <?php if ($success == 1): ?>
+                        <div class="alert alert-success text-center" role="alert">
+                            <?php echo $message; ?>
+                        </div>
+                    <?php endif; ?>
 
                     <form action="">
                         <!-- username -->
@@ -139,7 +146,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                             <option value="admin">admin</option>
                             <option value="user">user</option>
 
-                        </select <!-- signup button -->
+                        </select>
+                        <!-- signup button -->
                         <div class="form-group ">
 
                             <input type="submit" name="register_btn" value="Sign Up" class="btn signup_btn">

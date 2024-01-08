@@ -1,3 +1,73 @@
+<?php
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    include '../Registration (D)/connection1.php';
+
+
+
+
+    $fname = $_POST['fname'];
+    $lname = $_POST['lname'];
+    $email = $_POST['email'];
+    $number = $_POST['number'];
+    $no_of_emp = $_POST['no_of_emp'];
+    $state = $_POST['state'];
+    $designation = $_POST['designation'];
+    $function = $_POST['function'];
+
+    if (empty($fname)) {
+        $errors[] = "First name is required.";
+    }
+
+    if (empty($lname)) {
+        $errors[] = "Last name is required.";
+    }
+    if (empty($email)) {
+        $errors[] = "First name is required.";
+    }
+
+    if (empty($number)) {
+        $errors[] = "number is required.";
+    }
+    if (empty($no_of_emp)) {
+        $errors[] = "no_of_emp is required.";
+    }
+
+    if (empty($state)) {
+        $errors[] = "state is required.";
+    }
+    if (empty($designation)) {
+        $errors[] = "designation is required.";
+    }
+
+    if (empty($lname)) {
+        $errors[] = "function.";
+    }
+
+
+
+
+
+
+    /// Prepare the SQL statement
+    if (empty($errors)) {
+
+        $sql = "INSERT INTO demo_table (fname, lname, email, `number`, no_of_emp, `state`, designation, `function`) VALUES ('$fname', '$lname', '$email', '$number', '$no_of_emp', '$state', '$designation', '$function')";
+
+        if (mysqli_query($con, $sql)) {
+            echo 'New record created successfully!';
+
+        } else {
+            $error = 'Error: ' . $sql . ' ' . mysqli_error($con);
+
+        }
+
+        mysqli_close($con);
+
+    }
+}
+
+?>
 <!doctype html>
 <html lang="en">
 
@@ -11,12 +81,15 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/style11.css">
-    <title>HRresources</title>
+
+    <title>Contact</title>
 </head>
 
-<body>
 
+<body>
     <div class="container-fluid p-0 m-0 sticky-top">
+
+
         <nav class="navbar navbar-expand-lg navbar-dark navbar-scrolled">
             <div class="container-fluid">
                 <a class="navbar-brand " href="../index.php"><img src="../images/glintix_logo.png" alt=""
@@ -150,204 +223,211 @@
                 <form class="d-flex">
                     <button class="btn btn-success btn-custom1  m-1 text-white fw-700" type="submit"><a
                             href="../Registration%20(D)/signin.php" class="text-white">Login</a></button>
-                    <button class="btn btn-success btn-custom1  m-1 text-white fw-700" href="contact.php"
-                        type="submit m-1"><a href="contact.php" class="text-white">Contact</a></button>
+                    <!-- <button class="btn btn-success btn-custom1  m-1 text-white fw-700"
+                        type="submit m-1">Contact</button> -->
                 </form>
             </div>
         </nav>
     </div>
+
+
+
+
     <div class="container">
         <div class="row text-center">
             <div class="col-md-12">
-                <h4 class="fw-bold fs-1">Resources</h4>
+                <h4 class="fw-bold fs-1">Contact Us</h4>
                 <p class="text-secondary">Explore expert insights, tips, tools, and articles created to help businesses
                     succeed.</p>
-                <form class="row g-3 justify-content-center">
 
-                    <div class="col-md-9 text-center">
-                        <label for="inputtext2" class="visually-hidden">Search Anything</label>
-                        <input type="text" class="form-control" id="inputPassword2" placeholder="Search Anything">
-                    </div>
-                    <div class="col-md-1">
-                        <button type="submit" class="btn btn-success btn-custom mb-3">Search</button>
-                    </div>
-                </form>
             </div>
-            <div class="col-md-12">
+            <!-- enquary form -->
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="card" style="width: 100%;">
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">An item</li>
-                                        <li class="list-group-item">A second item</li>
-                                        <li class="list-group-item">A third item</li>
-                                        <li class="list-group-item">An item</li>
-                                        <li class="list-group-item">A second item</li>
-                                        <li class="list-group-item">A third item</li>
-                                        <li class="list-group-item">An item</li>
-                                        <li class="list-group-item">A second item</li>
-                                        <li class="list-group-item">A third item</li>
-                                        <li class="list-group-item">An item</li>
-                                        <li class="list-group-item">A second item</li>
-                                        <li class="list-group-item">A third item</li>
-                                    </ul>
-                                    <div class="card-footer">
-                                        Card footer
+                    <div class="col">
+                        <div class="enquaryform" id="" tabindex="-1" aria-labelledby="popModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg ">
+                                <div class="modal-content">
+
+                                    <div class="modal-body bg-aliceblue p-0">
+
+                                        <!-- FORM 1 -->
+                                        <form id="" action="contact.php" method="POST">
+
+                                            <div class="card ">
+                                                <div class="row g-0">
+                                                    <div class="col-md-5">
+                                                        <img src="../images/popmodalimg.jpg"
+                                                            class="img-fluid rounded-start h-100 " alt="...">
+                                                    </div>
+
+                                                    <div class="col-md-7">
+                                                        <div class="card-body">
+                                                            <div class="row mb-4">
+
+                                                                <div class="col-md-6 col-sm-12">
+                                                                    <input type="text" class="form-control" id="fname1"
+                                                                        name="fname" placeholder="First Name*">
+                                                                </div>
+                                                                <div class="col-md-6 col-sm-12">
+                                                                    <input type="text" class="form-control" id="lname1"
+                                                                        name="lname" placeholder="Last Name*">
+                                                                </div>
+                                                            </div>
+                                                            <div class="row mb-4">
+                                                                <div class="col-md-6 col-sm-12">
+                                                                    <input type="text" class="form-control" id="email1"
+                                                                        name="email" placeholder="Work Email*">
+                                                                </div>
+                                                                <div class="col-md-6 col-sm-12">
+                                                                    <div class="row">
+                                                                        <div class="col-md-12 col-sm-12 ">
+                                                                            <input type="text" maxlength="10"
+                                                                                id="number1" name="number"
+                                                                                class="form-control w-100"
+                                                                                onkeyup="if(/\D/g.test(this.value))this.value=this.value.replace(/\D/g,'')"
+                                                                                placeholder="Enter Mobile">
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row mb-4">
+                                                                <div class="col-md-6 col-sm-12">
+                                                                    <select class="form-select"
+                                                                        aria-label="Default select example"
+                                                                        name="no_of_emp" id="no_of_emp1">
+                                                                        <option selected>No. of Employees*</option>
+                                                                        <option value="1">1-50</option>
+                                                                        <option value="2">51-100</option>
+                                                                        <option value="3">101-200</option>
+                                                                        <option value="3">201-500</option>
+                                                                        <option value="3">501-1000</option>
+                                                                        <option value="3">1000+</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-md-6 col-sm-12">
+                                                                    <select class="form-select"
+                                                                        aria-label="Default select example" name="state"
+                                                                        id="state1">
+                                                                        <option value="Andhra Pradesh">Andhra Pradesh
+                                                                        </option>
+                                                                        <option value="Andaman and Nicobar Islands">
+                                                                            Andaman and Nicobar Islands</option>
+                                                                        <option value="Arunachal Pradesh">Arunachal
+                                                                            Pradesh</option>
+                                                                        <option value="Assam">Assam</option>
+                                                                        <option value="Bihar">Bihar</option>
+                                                                        <option value="Chandigarh">Chandigarh</option>
+                                                                        <option value="Chhattisgarh">Chhattisgarh
+                                                                        </option>
+                                                                        <option value="Dadar and Nagar Haveli">Dadar and
+                                                                            Nagar Haveli</option>
+                                                                        <option value="Daman and Diu">Daman and Diu
+                                                                        </option>
+                                                                        <option value="Delhi">Delhi</option>
+                                                                        <option value="Lakshadweep">Lakshadweep</option>
+                                                                        <option value="Puducherry">Puducherry</option>
+                                                                        <option value="Goa">Goa</option>
+                                                                        <option value="Gujarat">Gujarat</option>
+                                                                        <option value="Haryana">Haryana</option>
+                                                                        <option value="Himachal Pradesh">Himachal
+                                                                            Pradesh</option>
+                                                                        <option value="Jammu and Kashmir">Jammu and
+                                                                            Kashmir</option>
+                                                                        <option value="Jharkhand">Jharkhand</option>
+                                                                        <option value="Karnataka">Karnataka</option>
+                                                                        <option value="Kerala">Kerala</option>
+                                                                        <option value="Madhya Pradesh">Madhya Pradesh
+                                                                        </option>
+                                                                        <option value="Maharashtra">Maharashtra</option>
+                                                                        <option value="Manipur">Manipur</option>
+                                                                        <option value="Meghalaya">Meghalaya</option>
+                                                                        <option value="Mizoram">Mizoram</option>
+                                                                        <option value="Nagaland">Nagaland</option>
+                                                                        <option value="Odisha">Odisha</option>
+                                                                        <option value="Punjab">Punjab</option>
+                                                                        <option value="Rajasthan">Rajasthan</option>
+                                                                        <option value="Sikkim">Sikkim</option>
+                                                                        <option value="Tamil Nadu">Tamil Nadu</option>
+                                                                        <option value="Telangana">Telangana</option>
+                                                                        <option value="Tripura">Tripura</option>
+                                                                        <option value="Uttar Pradesh">Uttar Pradesh
+                                                                        </option>
+                                                                        <option value="Uttarakhand">Uttarakhand</option>
+                                                                        <option value="West Bengal">West Bengal</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row mb-4">
+                                                                <div class="col-md-6 col-sm-12">
+                                                                    <select class="form-select"
+                                                                        aria-label="Default select example"
+                                                                        name="designation" id="designation1">
+                                                                        <option value="" selected>Designation*</option>
+
+                                                                        <option value="1">Seniority</option>
+                                                                        <option value="1">Owner</option>
+                                                                        <option value="2">Partner</option>
+                                                                        <option value="3">CXO</option>
+                                                                        <option value="3">VP</option>
+                                                                        <option value="3">Director</option>
+                                                                        <option value="3">Head</option>
+                                                                        <option value="3">Manager</option>
+                                                                        <option value="3">Senior</option>
+                                                                        <option value="3">Entry</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-md-6 col-sm-12">
+                                                                    <select class="form-select"
+                                                                        aria-label="Default select example"
+                                                                        name="function" id="function1">
+                                                                        <option value="" selected>Function*</option>
+
+                                                                        <option value="1">Owner/Founder</option>
+                                                                        <option value="2">HR</option>
+                                                                        <option value="3">HR Business Partner</option>
+                                                                        <option value="3">HR Talent Management</option>
+                                                                        <option value="3">HR Talent Acquisition</option>
+                                                                        <option value="3">HR Compensation & Benefits
+                                                                        </option>
+                                                                        <option value="2">Administation</option>
+                                                                        <option value="2">Finanace</option>
+                                                                        <option value="2">IT</option>
+                                                                    </select>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer justify-content-center bg-aliceblue">
+                                                <input type="submit"
+                                                    class="btn btn-success btn-custom1  m-1 text-white fw-700"
+                                                    name="submit" value="Book">
+                                            </div>
+
+
+                                        </form>
+                                        <!-- FORM 1 CLOSE -->
+
+
                                     </div>
+
                                 </div>
                             </div>
-
-
-                            <div class="col-md-12">
-                                <div class="card" style="width: 100%;">
-                                    <ul class="list-group list-group-flush">
-                                        <li class="list-group-item">An item</li>
-                                        <li class="list-group-item">A second item</li>
-                                        <li class="list-group-item">A third item</li>
-                                        <li class="list-group-item">An item</li>
-                                        <li class="list-group-item">A second item</li>
-                                        <li class="list-group-item">A third item</li>
-                                        <li class="list-group-item">An item</li>
-                                        <li class="list-group-item">A second item</li>
-                                        <li class="list-group-item">A third item</li>
-                                    </ul>
-                                    <div class="card-footer">
-                                        Card footer
-                                    </div>
-                                </div>
-                            </div>
-
-
-
                         </div>
                     </div>
-                    <div class="col-md-9">
-                        <div class="row ">
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card m-2" style="width: 100%;">
-                                    <img src="../images/cards_img.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Reiciendis, repudiandae. </p>
-                                        <a href="#" class="btn btn-success btn-custom">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card m-2" style="width: 100%;">
-                                    <img src="../images/cards_img.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Reiciendis, repudiandae. </p>
-                                        <a href="#" class="btn btn-success btn-custom">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card m-2" style="width: 100%;">
-                                    <img src="../images/cards_img.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Reiciendis, repudiandae. </p>
-                                        <a href="#" class="btn btn-success btn-custom">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card m-2" style="width: 100%;">
-                                    <img src="../images/cards_img.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Reiciendis, repudiandae. </p>
-                                        <a href="#" class="btn btn-success btn-custom">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card m-2" style="width: 100%;">
-                                    <img src="../images/cards_img.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Reiciendis, repudiandae. </p>
-                                        <a href="#" class="btn btn-success btn-custom">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card m-2" style="width: 100%;">
-                                    <img src="../images/cards_img.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Reiciendis, repudiandae. </p>
-                                        <a href="#" class="btn btn-success btn-custom">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card m-2" style="width: 100%;">
-                                    <img src="../images/cards_img.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Reiciendis, repudiandae. </p>
-                                        <a href="#" class="btn btn-success btn-custom">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card m-2" style="width: 100%;">
-                                    <img src="../images/cards_img.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Reiciendis, repudiandae. </p>
-                                        <a href="#" class="btn btn-success btn-custom">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-12">
-                                <div class="card m-2" style="width: 100%;">
-                                    <img src="../images/cards_img.jpg" class="card-img-top" alt="...">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                            Reiciendis, repudiandae. </p>
-                                        <a href="#" class="btn btn-success btn-custom">Go somewhere</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <nav aria-label="Page navigation example ">
-                                    <ul class="pagination">
-                                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-
-                        </div>
-                    </div>
-
-
                 </div>
             </div>
+            <!-- enquary form -->
+
 
 
 
         </div>
     </div>
-
     <footer>
         <div class="container">
             <div class="row  mt-5">
@@ -530,6 +610,19 @@
             </div>
         </div>
     </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
